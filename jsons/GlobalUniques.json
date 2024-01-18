@@ -1,0 +1,108 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        // correction of the original mechanism of the unciv game
+        "[-100]% Culture cost of adopting new Policies",
+        "[-100]% to Flank Attack bonuses <before adopting [Civic.MilitaryTradition]>",
+        "[-100]% maintenance costs",
+        "[-100]% unhappiness from the number of cities",
+        "[-100]% [Gold] from Trade Routes",
+        "[-1 Gold] from every [River]",
+        "[-1 Science] per [3] population [in all cities]",
+        "[-20]% [Science] [in all cities] <during a Golden Age>",
+        "[-20]% [Culture] [in all cities] <during a Golden Age>",
+
+        "Roads connect tiles across rivers <upon entering the [Era.Classical]>",
+        "Improves movement speed on roads <upon entering the [Era.Classical]>",
+        "Improves movement speed on roads <upon entering the [Era.Industrial]>",
+
+        "Gain [0] Influence with a [military units] gift to a City-State",
+        "Gain [20] Influence with a [Unit.Envoy] gift to a City-State",
+        "When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <after adopting [Pantheon.InitiationRites]>",
+
+        "Gain a free [Building.HidePolicy] [in capital]",
+        "Gain a free [Building.HideGov] [in capital]",
+
+        // Eurekas (Some not work)
+        // "Gain [20] [Science] <upon founding a city> <before discovering [Tech.Sailing]>",
+        // "Gain [25] [Science] <upon founding a city> <before discovering [Tech.Sailing]> <for [Class.Nation.China]>",
+        // "Gain [20] [Science] <upon discovering a Natural Wonder> <before discovering [Tech.Astrology]>",
+        // "Gain [25] [Science] <upon discovering a Natural Wonder> <before discovering [Tech.Astrology]> <for [Class.Nation.China]>",
+        // "Gain [20] [Science] <when above [0] [Resource.FarmCounter]> <when below [2] [Resource.FarmCounter]> <before discovering [Tech.Irrigation]>",
+        // "Gain [25] [Science] <when above [0] [Resource.FarmCounter]> <when below [2] [Resource.FarmCounter]> <before discovering [Tech.Irrigation]> <for [Class.Nation.China]>",
+        // "Gain [32] [Science] <when above [0] [Resource.QuarryCounter]> <when below [2] [Resource.QuarryCounter]> <before discovering [Tech.Masonry]>",
+        // "Gain [40] [Science] <when above [0] [Resource.QuarryCounter]> <when below [2] [Resource.QuarryCounter]> <before discovering [Tech.Masonry]> <for [Class.Nation.China]>",
+        
+        "May buy [Building.CultureAmountCheck] buildings for [1] [Culture] [in capital]",
+        "May buy [Building.ScienceAmountCheck] buildings for [1] [Science] [in capital]",
+        "May buy [Unit.Missionary] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([10]) <in cities with a [Builing.Shrine]>",
+        "May buy [Unit.Inquisitor] units for [100] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([10]) <in cities with a [Builing.Temple]>",
+        "May buy [Unit.Apostle] units for [400] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([40]) <in cities with a [Builing.Temple]>",
+
+        // "May buy [Class.GPEra.Medieval] buildings for [1] [Faith] [in all cities]",
+        // "May buy [Class.GPEra.Medieval] buildings for [950] [Faith] [in all cities]",
+        // "May buy [Class.GPEra.Medieval] buildings for [1000] [Gold] [in all cities]",
+        // "May buy [Class.GPEra.Renaissance] buildings for [1750] [Faith] [in all cities]",
+        // "May buy [Class.GPEra.Renaissance] buildings for [1800] [Gold] [in all cities]",
+        // "May buy [Class.GPEra.Industrial] buildings for [2950] [Faith] [in all cities]",
+        // "May buy [Class.GPEra.Industrial] buildings for [3000] [Gold] [in all cities]",
+        // "May buy [Class.GPEra.Modern] buildings for [4570] [Faith] [in all cities]",
+        // "May buy [Class.GPEra.Modern] buildings for [4620] [Gold] [in all cities]",
+
+        "Class.Unit.Builder",
+
+        "Class.WonderEra.Ancient",
+        "Class.WonderEra.Classical",
+        "Class.WonderEra.Medieval",
+        "Class.WonderEra.Renaissance",
+        "Class.WonderEra.Industrial",
+        "Class.WonderEra.Modern",
+        "Class.WonderEra.Atomic",
+        "Class.WonderEra.Information",
+        "Class.WonderEra.Future",
+
+        "Class.StrategicResource",
+        "Class.ResourceOnWater",
+        
+        "Class.WonderDistrict",
+        "Class.District",
+        "Class.Building.District",
+        "Class.District.HolySite",
+        "Class.District.Campus",
+        "Class.District.Encampment",
+        "Class.District.Harbor",
+        "Class.District.CommercialHub",
+        "Class.District.TheaterSquare",
+        "Class.District.IndustrialZone",
+        "Class.District.EntertainmentComplex",
+        "Class.District.Spaceport",
+        "Class.District.Aerodrome",
+
+        "Class.DistrictBuilding.HolySite",
+        "Class.DistrictBuilding.Campus",
+        "Class.DistrictBuilding.Encampment",
+        "Class.DistrictBuilding.Harbor",
+        "Class.DistrictBuilding.CommercialHub",
+        "Class.DistrictBuilding.TheaterSquare",
+        "Class.DistrictBuilding.IndustrialZone",
+        "Class.DistrictBuilding.EntertainmentComplex",
+        "Class.DistrictBuilding.Spaceport",
+        "Class.DistrictBuilding.Aerodrome",
+
+        "Class.Building.Government",
+        "Class.Building.Tier0Government",
+        "Class.Building.Tier1Government",
+        "Class.Building.Tier2Government",
+        "Class.Building.Tier3Government",
+        "Class.Building.Tier4Government",
+        
+        "Class.Policy.Economic",
+        "Class.Policy.Military",
+        "Class.Policy.Diplomatic",
+        "Class.Policy.Wild",
+
+        "Class.Nation.China",
+        "Class.Nation.Egypt",
+        "Class.Nation.Korea"
+    ]
+}

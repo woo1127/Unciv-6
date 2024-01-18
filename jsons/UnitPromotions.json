@@ -1,0 +1,746 @@
+[
+    // Religious Unit
+    {
+        "name": "Promotion.DevoutI",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    },
+    {
+        "name": "Promotion.DevoutII",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    },
+
+    // Melee
+    {
+        "name": "Promotion.Battlecry",
+        "unitTypes": ["UnitType.Melee"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.Melee] units>",
+            "[+36]% Strength <vs [UnitType.Ranged] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Tortoise",
+        "unitTypes": ["UnitType.Melee"],
+        "uniques": [
+            "[+54]% Strength <vs [UnitType.Ranged] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Commando",
+        "unitTypes": ["UnitType.Melee"],
+        "prerequisites": ["Promotion.Battlecry", "Promotion.Tortoise"],
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name": "Promotion.Amphibious",
+        "unitTypes": ["UnitType.Melee"],
+        "prerequisites": ["Promotion.Tortoise", "Promotion.Battlecry"],
+        "uniques": [
+            "Eliminates combat penalty for attacking across a coast",
+            "Eliminates combat penalty for attacking over a river"
+        ]
+    },
+    {
+        "name": "Promotion.Zweihander",
+        "unitTypes": ["UnitType.Melee"],
+        "prerequisites": ["Promotion.Commando", "Promotion.Amphibious"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.AntiCavalry] units>"
+        ]
+    },
+    {
+        "name": "Promotion.UrbanWarfare",
+        "unitTypes": ["UnitType.Melee"],
+        "prerequisites": ["Promotion.Commando", "Promotion.Amphibious"],
+        "uniques": [
+            "[+54]% Strength <in [Class.District] tiles> <when attacking>"
+        ]
+    },
+    {
+        "name": "Promotion.EliteGuard",
+        "unitTypes": ["UnitType.Melee"],
+        "prerequisites": ["Promotion.Zweihander", "Promotion.UrbanWarfare"],
+        "uniques": [
+            "[1] additional attacks per turn",
+            "Can move after attacking"
+        ]
+    },
+
+    // Ranged
+    {
+        "name": "Promotion.Volley",
+        "unitTypes": ["UnitType.Ranged"],
+        "uniques": [
+            "[+25]% Strength <vs [{Military} {Land}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Garrison",
+        "unitTypes": ["UnitType.Ranged"],
+        "uniques": [
+            "[+54]% Strength <when attacking> <in [Class.District] tiles>"
+        ]
+    },
+    {
+        "name": "Promotion.ArrowStorm",
+        "unitTypes": ["UnitType.Ranged"],
+        "prerequisites": ["Promotion.Volley"],
+        "uniques": [
+            "[+36]% Strength <vs [{Military} {Land}] units>",
+            "[+36]% Strength <vs [{Military} {Water}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Incendiaries",
+        "unitTypes": ["UnitType.Ranged"],
+        "prerequisites": ["Promotion.Garrison"],
+        "uniques": [
+            "[+36]% Strength <vs cities> <when attacking>"
+        ]
+    },
+    {
+        "name": "Promotion.Suppression",
+        "unitTypes": ["UnitType.Ranged"],
+        "prerequisites": ["Promotion.ArrowStorm", "Promotion.Incendiaries"],
+        "uniques": [
+            "Ranged attacks may be performed over obstacles"
+        ]
+    },
+    {
+        "name": "Promotion.Emplacement",
+        "unitTypes": ["UnitType.Ranged"],
+        "prerequisites": ["Promotion.ArrowStorm", "Promotion.Incendiaries"],
+        "uniques": [
+            "[+54]% Strength <vs cities> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.ExpertMarksman",
+        "unitTypes": ["UnitType.Ranged"],
+        "prerequisites": ["Promotion.Suppression", "Promotion.Emplacement"],
+        "uniques": [
+            "[1] additional attacks per turn"
+        ]
+    },
+
+    // Anti-Cavalry
+    {
+        "name": "Promotion.Echelon",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "uniques": [
+            "[+25]% Strength <vs [UnitType.HeavyCavalry] units> <hidden from users>",
+            "[+25]% Strength <vs [UnitType.LightCavalry] units> <hidden from users>",
+            "[+25]% Strength <vs [UnitType.RangedCavalry] units> <hidden from users>",
+            "Comment [+5 Combat Strength vs. cavalry units.]"
+        ]
+    },
+    {
+        "name": "Promotion.Thrust",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "prerequisites": [],
+        "uniques": [
+            "[+25]% Strength <vs [UnitType.Melee] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Square",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "prerequisites": ["Promotion.Echelon"],
+        "uniques": [
+            "[+20]% Strength <when adjacent to a [{Military} {Land}] unit> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Schiltron",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "prerequisites": ["Promotion.Thrust"],
+        "uniques": [
+            "[+54]% Strength <vs [UnitType.Melee] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Redeploy",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "prerequisites": ["Promotion.Square", "Promotion.Schiltron"],
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name": "Promotion.ChokePoints",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "prerequisites": ["Promotion.Square", "Promotion.Schiltron"],
+        "uniques": [
+            "[+36]% Strength <in [Rough terrain] tiles> <when defending>",
+            "[+36]% Strength <in [Landform.Marsh] tiles> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.HoldTheLine",
+        "unitTypes": ["UnitType.AntiCavalry"],
+        "prerequisites": ["Promotion.Redeploy", "Promotion.ChokePoints"],
+        "uniques": [
+            "[+54]% Strength bonus for [{Military} {Land}] units within [1] tiles <vs [UnitType.HeavyCavalry] units> <hidden from users>",
+            "[+54]% Strength bonus for [{Military} {Land}] units within [1] tiles <vs [UnitType.HeavyCavalry] units> <hidden from users>",
+            "[+54]% Strength bonus for [{Military} {Land}] units within [1] tiles <vs [UnitType.HeavyCavalry] units> <hidden from users>",
+            "Comment [+54% Strength bonus for [{Military} {Land}] units within [1] tiles vs cavalry]"
+        ]
+    },
+
+    // Light Cavalry
+    {
+        "name": "Promotion.Caparison",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "uniques": [
+            "[+25]% Strength <vs [UnitType.AntiCavalry] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Coursers",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "uniques": [
+            "[+25]% Strength <vs [UnitType.Ranged] units> <when attacking>",
+            "[+25]% Strength <vs [UnitType.Siege] units> <when attacking>"
+        ]
+    },
+    {
+        "name": "Promotion.Depredation",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "prerequisites": ["Promotion.Caparison"],
+        "uniques": [
+            "No movement cost to pillage"
+        ]
+    },
+    {
+        "name": "Promotion.DoubleEnvelopment",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "prerequisites": ["Promotion.Coursers"],
+        "uniques": [
+            "[+100]% to Flank Attack bonuses"
+        ]
+    },
+    {
+        "name": "Promotion.SpikingTheGuns",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "prerequisites": ["Promotion.Depredation", "Promotion.DoubleEnvelopment"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.Siege] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Pursuit",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "prerequisites": ["Promotion.Depredation", "Promotion.DoubleEnvelopment"],
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name": "Promotion.EscortMobility",
+        "unitTypes": ["UnitType.LightCavalry"],
+        "prerequisites": ["Promotion.Depredation", "Promotion.DoubleEnvelopment"],
+        "uniques": [
+            "[1] additional attacks per turn"
+        ]
+    },
+
+    // Heavy Cavalry
+    {
+        "name": "Promotion.Charge",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "uniques": [
+            "[+54]% Strength <when attacking> <when above [99] HP>"
+        ]
+    },
+    {
+        "name": "Promotion.Barding",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "uniques": [
+            "[+36]% Strength <vs [Ranged] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Marauding",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "prerequisites": ["Promotion.Charge"],
+        "uniques": [
+            "[+36]% Strength <when fighting in [Class.District] tiles>"
+        ]
+    },
+    {
+        "name": "Promotion.Rout",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "prerequisites": ["Promotion.Barding"],
+        "uniques": [
+            "[+25]% Strength <vs [Wounded] units>"
+        ]
+    },
+    {
+        "name": "Promotion.ArmorPiercing",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "prerequisites": ["Promotion.Marauding"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.HeavyCavalry] units>"
+        ]
+    },
+    {
+        "name": "Promotion.ReactiveArmor",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "prerequisites": ["Promotion.Rout"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.HeavyCavalry] units> <when defending>",
+            "[+36]% Strength <vs [UnitType.AntiCavalry] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Breakthrough",
+        "unitTypes": ["UnitType.HeavyCavalry"],
+        "prerequisites": ["Promotion.ArmorPiercing", "Promotion.ReactiveArmor"],
+        "uniques": [
+            "[1] additional attacks per turn"
+        ]
+    },
+
+    // Siege
+    {
+        "name": "Promotion.GrapeShot",
+        "unitTypes": ["UnitType.Siege"],
+        "uniques": [
+            "[+36]% Strength <vs [{Military} {Land}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.CrewWeapons",
+        "unitTypes": ["UnitType.Siege"],
+        "uniques": [
+            "[+36]% Strength <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Shrapnel",
+        "unitTypes": ["UnitType.Siege"],
+        "prerequisites": ["Promotion.GrapeShot"],
+        "uniques": [
+            "[+54]% Strength <vs [{Military} {Land}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Shells",
+        "unitTypes": ["UnitType.Siege"],
+        "prerequisites": ["Promotion.CrewWeapons"],
+        "uniques": [
+            "[+54]% Strength <vs cities> <when attacking>"
+        ]
+    },
+    {
+        "name": "Promotion.AdvancedRangefinding",
+        "unitTypes": ["UnitType.Siege"],
+        "prerequisites": ["Promotion.Shrapnel", "Promotion.Shells"],
+        "uniques": [
+            "[+54]% Strength <vs [{Military} {Water}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.ExpertCrew",
+        "unitTypes": ["UnitType.Siege"],
+        "prerequisites": ["Promotion.Shrapnel", "Promotion.Shells"],
+        "uniques": [
+            "Can move after attacking"
+        ]
+    },
+    {
+        "name": "Promotion.ForwardObservers",
+        "unitTypes": ["UnitType.Siege"],
+        "prerequisites": ["Promotion.AdvancedRangefinding", "Promotion.ExpertCrew"],
+        "uniques": [
+            "[+1] Range"
+        ]
+    },
+
+    // Naval Melee
+    {
+        "name": "Promotion.Helmsman",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name": "Promotion.Embolon",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "uniques": [
+            "[+36]% Strength <vs [{Military} {Water}] units>" 
+        ]
+    },
+    {
+        "name": "Promotion.Rutter",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "prerequisites": ["Promotion.Helmsman"],
+        "uniques": [
+            "[+1] Sight" 
+        ]
+    },
+    {
+        "name": "Promotion.ReinforcedHull",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "prerequisites": ["Promotion.Embolon"],
+        "uniques": [
+            "[+54]% Strength <vs [Ranged] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.Convoy",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "prerequisites": ["Promotion.Rutter", "Promotion.ReinforcedHull"],
+        "uniques": [
+            "[+54]% Strength when stacked with [All]"
+        ]
+    },
+    {
+        "name": "Promotion.AuxiliaryShips",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "prerequisites": ["Promotion.Rutter", "Promotion.ReinforcedHull"],
+        "uniques": [
+            "May heal outside of friendly territory"
+        ]
+    },
+    {
+        "name": "Promotion.CreepingAttack",
+        "unitTypes": ["UnitType.NavalMelee"],
+        "prerequisites": ["Promotion.Convoy", "Promotion.AuxiliaryShips"],
+        "uniques": [
+            "[+82]% Strength <vs [UnitType.NavalRaider] units>"
+        ]
+    },
+
+    // Naval Ranged
+    {
+        "name": "Promotion.LineOfBattle",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "uniques": [
+            "[+36]% Strength <vs [{Military} {Water}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Bombardment",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "uniques": [
+            "[+36]% Strength <vs cities> <when attacking>"
+        ]
+    },
+    {
+        "name": "Promotion.PreparatoryFire",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "prerequisites": ["Promotion.LineOfBattle"],
+        "uniques": [
+            "[+36]% Strength <vs [{Military} {Land}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.RollingBarrage",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "prerequisites": ["Promotion.Bombardment"],
+        "uniques": [
+            "[+54]% Strength <vs cities> <when attacking>"
+        ]
+    },
+    {
+        "name": "Promotion.SupplyFleet",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "prerequisites": ["Promotion.PreparatoryFire", "Promotion.RollingBarrage"],
+        "uniques": [
+            "May heal outside of friendly territory"
+        ]
+    },
+    {
+        "name": "Promotion.ProximityFuses",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "prerequisites": ["Promotion.PreparatoryFire", "Promotion.RollingBarrage"],
+        "uniques": [
+            "[+36]% Strength <vs [Air] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.CoincidenceRangeFinding",
+        "unitTypes": ["UnitType.NavalRanged"],
+        "prerequisites": ["Promotion.SupplyFleet", "Promotion.ProximityFuses"],
+        "uniques": [
+            "[+1] Range"
+        ]
+    },
+
+    // Naval Raider
+    {
+        "name": "Promotion.Loot",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "uniques": [
+            "Gain [50] [Gold] (modified by game speed) <upon defeating a [{Military} {Land}] unit>"
+        ]
+    },
+    {
+        "name": "Promotion.Boarding",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "uniques": [
+            "Gain [50] [Gold] (modified by game speed) <upon defeating a [{Military} {Water}] unit>"
+        ]
+    },
+    {
+        "name": "Promotion.SwiftKeel",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "prerequisites": ["Promotion.Loot"],
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name": "Promotion.HomingTorpedoes",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "prerequisites": ["Promotion.Boarding"],
+        "uniques": [
+            "[+54]% Strength <vs [{Military} {Water}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Observation",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "prerequisites": ["Promotion.SwiftKeel"],
+        "uniques": [
+            "[+1] Sight"
+        ]
+    },
+    {
+        "name": "Promotion.SilentRunning",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "prerequisites": ["Promotion.HomingTorpedoes"],
+        "uniques": [
+            "Can move after attacking"
+        ]
+    },
+    {
+        "name": "Promotion.Wolfpack",
+        "unitTypes": ["UnitType.NavalRaider"],
+        "prerequisites": ["Promotion.Observation", "Promotion.SilentRunning"],
+        "uniques": [
+            "[1] additional attacks per turn"
+        ]
+    },
+
+    // Naval Carrier
+    {
+        "name": "Promotion.FlightDeck",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "uniques": [
+            "Can carry [1] extra [Air] units"
+        ]
+    },
+    {
+        "name": "Promotion.ScoutPlanes",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "uniques": [
+            "[+1] Sight"
+        ]
+    },
+    {
+        "name": "Promotion.HangerDeck",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "prerequisites": ["Promotion.FlightDeck"],
+        "uniques": [
+            "Can carry [1] extra [Air] units"
+        ]
+    },
+    {
+        "name": "Promotion.AdvancedEngines",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "prerequisites": ["Promotion.ScoutPlanes"],
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
+        "name": "Promotion.FoldingWings",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "prerequisites": ["Promotion.HangerDeck", "Promotion.AdvancedEngines"],
+        "uniques": [
+            "Can carry [1] extra [Air] units"
+        ]
+    },
+    {
+        "name": "Promotion.DeckCrews",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "prerequisites": ["Promotion.HangerDeck", "Promotion.AdvancedEngines"],
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action"
+        ]
+    },
+    {
+        "name": "Promotion.Supercarrier",
+        "unitTypes": ["UnitType.NavalCarrier"],
+        "prerequisites": ["Promotion.FoldingWings", "Promotion.DeckCrews"],
+        "uniques": [
+            "May heal outside of friendly territory"
+        ]
+    },
+
+    // Air Fighter
+    {
+        "name": "Promotion.Dogfighting",
+        "unitTypes": ["UnitType.AirFighter"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.AirFighter] units>"
+        ]
+    },
+    {
+        "name": "Promotion.CockpitArmor",
+        "unitTypes": ["UnitType.AirFighter"],
+        "uniques": [
+            "[+36]% Damage when intercepting"
+        ]
+    },
+    {
+        "name": "Promotion.Interceptor",
+        "unitTypes": ["UnitType.AirFighter"],
+        "prerequisites": ["Promotion.Dogfighting"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.AirBomber] units>"
+        ]
+    },
+    {
+        "name": "Promotion.Strafe",
+        "unitTypes": ["UnitType.AirFighter"],
+        "prerequisites": ["Promotion.CockpitArmor"],
+        "uniques": [
+            "[+105]% Strength <vs [UnitType.Scout] units>",
+            "[+105]% Strength <vs [UnitType.Melee] units>",
+            "[+105]% Strength <vs [UnitType.Ranged] units>",
+            "[+105]% Strength <vs [UnitType.AntiCavalry] units>",
+            "[+105]% Strength <vs [{Military} {Water}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.GroundCrews",
+        "unitTypes": ["UnitType.AirFighter"],
+        "prerequisites": ["Promotion.Interceptor"],
+        "uniques": [
+            "[+10] HP when healing"
+        ]
+    },
+    {
+        "name": "Promotion.TankBuster",
+        "unitTypes": ["UnitType.AirFighter"],
+        "prerequisites": ["Promotion.Strafe"],
+        "uniques": [
+            "[+105]% Strength <vs [UnitType.LightCavalry] units>",
+            "[+105]% Strength <vs [UnitType.HeavyCavalry] units>"
+        ]
+    },
+    {
+        "name": "Promotion.DropTanks",
+        "unitTypes": ["UnitType.AirFighter"],
+        "prerequisites": ["Promotion.GroundCrews", "Promotion.TankBuster"],
+        "uniques": [
+            "[+2] Range"
+        ]
+    },
+
+    // Air Bomber
+    {
+        "name": "Promotion.BoxFormation",
+        "unitTypes": ["UnitType.AirBomber"],
+        "uniques": [
+            "[+36]% Strength <vs [UnitType.AirFighter] units> <when defending>"
+        ]
+    },
+    {
+        "name": "Promotion.EvasiveManeuvers",
+        "unitTypes": ["UnitType.AirBomber"],
+        "uniques": [
+            "[+36]% Damage when intercepting"
+        ]
+    },
+    {
+        "name": "Promotion.TorpedoBomber",
+        "unitTypes": ["UnitType.AirBomber"],
+        "prerequisites": ["Promotion.BoxFormation", "Promotion.EvasiveManeuvers"],
+        "uniques": [
+            "[+105]% Strength <vs [{Military} {Water}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.CloseAirSupport",
+        "unitTypes": ["UnitType.AirBomber"],
+        "prerequisites": ["Promotion.BoxFormation", "Promotion.EvasiveManeuvers"],
+        "uniques": [
+            "[+68]% Strength <vs [{Military} {Land}] units>"
+        ]
+    },
+    {
+        "name": "Promotion.TacticalMaintenance",
+        "unitTypes": ["UnitType.AirBomber"],
+        "prerequisites": ["Promotion.TorpedoBomber"],
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action"
+        ]
+    },
+    {
+        "name": "Promotion.LongRange",
+        "unitTypes": ["UnitType.AirBomber"],
+        "prerequisites": ["Promotion.CloseAirSupport"],
+        "uniques": [
+            "[+2] Range"
+        ]
+    },
+    {
+        "name": "Promotion.Superfortress",
+        "unitTypes": ["UnitType.AirBomber"],
+        "prerequisites": ["Promotion.TacticalMaintenance", "Promotion.LongRange"],
+        "uniques": [
+            "Damage taken from interception reduced by [50]%"
+        ]
+    },
+
+    // Others
+    {
+        "name": "Promotion.CombatXPBoosterI",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
+        "name": "Promotion.CombatXPBoosterII",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
+        "name": "Promotion.CombatXPBoosterIII",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
+        "name": "Promotion.NavyCombatXPBoosterI",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
+        "name": "Promotion.NavyCombatXPBoosterII",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
+        "name": "Promotion.AirCombatXPBoosterI",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
+        "name": "Promotion.AirCombatXPBoosterII",
+        "uniques": [
+            "[+50]% XP gained from combat"
+        ]
+    }
+]

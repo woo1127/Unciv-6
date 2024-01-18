@@ -1,0 +1,3104 @@
+[
+    {
+        "name": "Building.CityNumberCount",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.District]",
+            "Provides [1] [Resource.District] <in cities with at least [4] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [7] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [10] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [13] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [16] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [19] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [22] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [25] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [28] [Population]>",
+
+            "[-5]% growth [in this city] <in cities with at least [1] [Population]> <when below [5] [Resource.Housing]> <when above [3] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [2] [Population]> <when below [7] [Resource.Housing]> <when above [5] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [3] [Population]> <when below [9] [Resource.Housing]> <when above [7] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [4] [Population]> <when below [11] [Resource.Housing]> <when above [9] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [5] [Population]> <when below [13] [Resource.Housing]> <when above [11] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [6] [Population]> <when below [15] [Resource.Housing]> <when above [13] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [7] [Population]> <when below [17] [Resource.Housing]> <when above [15] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [8] [Population]> <when below [19] [Resource.Housing]> <when above [17] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [9] [Population]> <when below [21] [Resource.Housing]> <when above [19] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [10] [Population]> <when below [23] [Resource.Housing]> <when above [21] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [11] [Population]> <when below [25] [Resource.Housing]> <when above [23] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [12] [Population]> <when below [27] [Resource.Housing]> <when above [25] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [13] [Population]> <when below [29] [Resource.Housing]> <when above [27] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [14] [Population]> <when below [31] [Resource.Housing]> <when above [29] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [15] [Population]> <when below [33] [Resource.Housing]> <when above [31] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [16] [Population]> <when below [35] [Resource.Housing]> <when above [33] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [17] [Population]> <when below [37] [Resource.Housing]> <when above [35] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [18] [Population]> <when below [39] [Resource.Housing]> <when above [37] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [19] [Population]> <when below [41] [Resource.Housing]> <when above [39] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [20] [Population]> <when below [43] [Resource.Housing]> <when above [41] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [21] [Population]> <when below [45] [Resource.Housing]> <when above [43] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [22] [Population]> <when below [47] [Resource.Housing]> <when above [45] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [23] [Population]> <when below [49] [Resource.Housing]> <when above [47] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [24] [Population]> <when below [51] [Resource.Housing]> <when above [49] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [25] [Population]> <when below [53] [Resource.Housing]> <when above [51] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [26] [Population]> <when below [55] [Resource.Housing]> <when above [53] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [27] [Population]> <when below [57] [Resource.Housing]> <when above [55] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [28] [Population]> <when below [59] [Resource.Housing]> <when above [57] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [29] [Population]> <when below [61] [Resource.Housing]> <when above [59] [Resource.Housing]>",
+            "[-5]% growth [in this city] <in cities with at least [30] [Population]> <when below [63] [Resource.Housing]> <when above [61] [Resource.Housing]>",
+
+            "[-7]% growth [in this city] <in cities with at least [6] [Population]> <when below [13] [Resource.Housing]> <when above [3] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [7] [Population]> <when below [15] [Resource.Housing]> <when above [5] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [8] [Population]> <when below [17] [Resource.Housing]> <when above [7] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [9] [Population]> <when below [19] [Resource.Housing]> <when above [9] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [10] [Population]> <when below [21] [Resource.Housing]> <when above [11] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [11] [Population]> <when below [23] [Resource.Housing]> <when above [13] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [12] [Population]> <when below [25] [Resource.Housing]> <when above [15] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [13] [Population]> <when below [27] [Resource.Housing]> <when above [17] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [14] [Population]> <when below [29] [Resource.Housing]> <when above [19] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [15] [Population]> <when below [31] [Resource.Housing]> <when above [21] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [16] [Population]> <when below [33] [Resource.Housing]> <when above [23] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [17] [Population]> <when below [35] [Resource.Housing]> <when above [25] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [18] [Population]> <when below [37] [Resource.Housing]> <when above [27] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [19] [Population]> <when below [39] [Resource.Housing]> <when above [29] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [20] [Population]> <when below [41] [Resource.Housing]> <when above [31] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [21] [Population]> <when below [43] [Resource.Housing]> <when above [33] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [22] [Population]> <when below [45] [Resource.Housing]> <when above [35] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [23] [Population]> <when below [47] [Resource.Housing]> <when above [37] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [24] [Population]> <when below [49] [Resource.Housing]> <when above [39] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [25] [Population]> <when below [51] [Resource.Housing]> <when above [41] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [26] [Population]> <when below [53] [Resource.Housing]> <when above [43] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [27] [Population]> <when below [55] [Resource.Housing]> <when above [45] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [28] [Population]> <when below [57] [Resource.Housing]> <when above [47] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [29] [Population]> <when below [59] [Resource.Housing]> <when above [49] [Resource.Housing]>",
+            "[-7]% growth [in this city] <in cities with at least [30] [Population]> <when below [61] [Resource.Housing]> <when above [51] [Resource.Housing]>",
+
+            "Nullifies Growth [in this city] <in cities with at least [7] [Population]> <when below [5] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [7] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [9] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [11] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [13] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [15] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [17] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [19] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [21] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [23] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [25] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [27] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [29] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [31] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [33] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [35] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [37] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [39] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [41] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [43] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [45] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [47] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [49] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [30] [Population]> <when below [51] [Resource.Housing]>",
+
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Will not be displayed in Civilopedia"
+        ],
+        "replacementTextForUniques": ""
+    },
+    {
+        "name": "Building.CultureAmountCheck",
+        "cost": 1,
+        "uniques": []
+    },
+    {
+        "name": "Building.ScienceAmountCheck",
+        "cost": 1,
+        "uniques": []
+    },
+
+    // city center
+    {
+        "name": "Palace",
+        "cost": 1,
+        "production": 2,
+        "gold": 5,
+        "happiness": 2,
+        "culture": 1,
+        "science": 2,
+        "isNationWonder": true,
+        "cityStrength": 20,
+        "cityHealth": 50,
+        "uniques": [
+            "Indicates the capital city",
+            "Provides [2] [Resource.Housing]",
+            "Can only be built [in capital]"
+        ]
+    },
+    {
+        "name": "Building.Monument",
+        "cost": 60,
+        "culture": 2,
+        "hurryCostModifier": -33,
+        "uniques": [
+		    "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Granary",
+        "cost": 65,
+        "food": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Pottery",
+        "uniques": [
+            "Provides [4] [Resource.Housing]",
+		    "Unsellable <hidden from users>" ,
+            "Never destroyed when the city is captured <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.AncientWalls",
+        "cost": 80,
+        "hurryCostModifier": -33,
+        "cityStrength": 50,
+        "cityHealth": 50,
+        "requiredTech": "Tech.Masonry",
+        "uniques": [
+            "Provides [2] [Resource.Housing] <if [Gov.Monarchy] is constructed>",
+            "Cannot be purchased",
+            "Destroyed when the city is captured",
+            "Unsellable <hidden from users>",
+            "Class.Building.Wall"
+        ]
+    },
+    {
+        "name": "Building.WaterMill",
+        "cost": 80,
+        "food": 1,
+        "production": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Wheel",
+        "uniques": [
+            "[+1 Food] from [Resource.Wheat] tiles [in this city]",
+		    "[+1 Food] from [Resource.Maize] tiles [in this city]",
+            "[+1 Food] from [Resource.Rice] tiles [in this city]",
+            "Must be on [River]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.MedievalWalls",
+        "cost": 220,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Castles",
+        "requiredBuilding": "Building.AncientWalls",
+        "cityStrength": 150,
+        "cityHealth": 50,
+        "uniques": [
+            "Provides [2] [Resource.Housing] <if [Gov.Monarchy] is constructed>",
+            "Cannot be purchased",
+            "Destroyed when the city is captured",
+            "Unsellable <hidden from users>",
+            "Class.Building.Wall"
+        ]
+    },
+    {
+        "name": "Building.RenaissanceWalls",
+        "cost": 300,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.SiegeTactics",
+        "requiredBuilding": "Building.MedievalWalls",
+        "cityStrength": 250,
+        "cityHealth": 50,
+        "uniques": [
+            "Provides [2] [Resource.Housing] <if [Gov.Monarchy] is constructed>",
+            "Cannot be purchased",
+            "Destroyed when the city is captured",
+            "Unsellable <hidden from users>",
+            "Class.Building.Wall"
+        ]
+    },
+    {
+        "name": "Building.Sewer",
+        "cost": 200,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Sanitation",
+        "uniques": [
+            "Provides [4] [Resource.Housing]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>"
+        ]
+    },
+    // {
+    //     "name": "Building.FloorBarrier",
+    //     "cost": 80,
+    //     "hurryCostModifier": -33,
+    //     "maintenance": "variable",
+    //     "requiredTech": "Tech.Computers",
+    //     "uniques": [
+
+    //     ]
+    // },
+    {
+        "name": "Building.TradingPost",
+        "cost": 0,
+        "gold": 3, // city center
+        "requiredResource": "Resource.TradeRouteCapacity",
+        "uniques": [
+            // Yields from trade routes based on districts
+            "[+1 Science] from [Class.District.Campus] tiles [in this city]",
+            "[+1 Faith] from [Class.District.HolySite] tiles [in this city]",
+            "[+1 Production] from [Class.District.Encampment] tiles [in this city]",
+            "[+3 Gold] from [Class.District.CommercialHub] tiles [in this city]",
+            "[+1 Culture] from [Class.District.TheaterSquare] tiles [in this city]",
+            "[+1 Food] from [Class.District.EntertainmentComplex] tiles [in this city]",
+            // "[+1 Food] from [Class.District.WaterPark] tiles [in this city]",
+            "[+3 Gold] from [Class.District.Harbor] tiles [in this city]",
+            "[+1 Production] from [Class.District.IndustrialZone] tiles [in this city]",
+            // "[+2 Gold] from [Class.District.GovernmentPlaze] tiles [in this city]",
+            // "[+1 Culture] from [Class.District.DiplomaticQuarter] tiles [in this city]",
+            "Can only be built [in all cities connected to capital]",
+            "Only available <after adopting [Civic.ForeignTrade]>",
+            "Only available <in cities without a [Building.Palace]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>"
+        ]
+    },
+
+    // Campus
+    {
+        "name": "Building.Library",
+        "cost": 90,
+        "science": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Writing",
+        "requiredBuilding": "Building.District.Campus",
+        "specialistSlots": {"Specialist.Scientist": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Scientist]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
+        "name": "Building.University",
+        "cost": 250,
+        "science": 4,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Education",
+        "requiredBuilding": "Building.Library",
+        "specialistSlots": {"Specialist.Scientist": 1},
+        "uniques": [
+            "Provides [2] [Resource.Housing]",
+            "Provides [1] [Resource.Unit.Scientist]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
+        "name": "Building.ResearchLab",
+        "cost": 440,
+        "science": 3,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Chemistry",
+        "requiredBuilding": "Building.University",
+        "specialistSlots": {"Specialist.Scientist": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Scientist]",
+            "[+5 Science] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
+            "[+5 Science] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
+            "[+5 Science] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "[+1 Science] from every [Specialist.Scientist] <in this city>",
+            "Provides [3] [Resource.Power] <hidden from users>",
+            "Comment [Base Load: 3 [Resource.Power]]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+
+    // Commercial Hub
+    {
+        "name": "Building.Market",
+        "cost": 120,
+        "gold": 3,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Currency",
+        "requiredBuilding": "Building.District.CommercialHub",
+        "specialistSlots": {"Specialist.Merchant": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Merchant]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.CommercialHub"
+        ]
+    },  
+    {
+        "name": "Building.Bank",
+        "cost": 290,
+        "gold": 5,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Banking",
+        "requiredBuilding": "Building.Market",
+        "specialistSlots": {"Specialist.Merchant": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Merchant]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.CommercialHub"
+        ]
+    },
+    {
+        "name": "Building.StockExchange",
+        "cost": 330,
+        "gold": 4,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Economics",
+        "requiredBuilding": "Building.Bank",
+        "specialistSlots": {"Specialist.Merchant": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Merchant]",
+            "[+7 Gold] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
+            "[+7 Gold] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
+            "[+7 Gold] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "[+2 Gold] from every [Specialist.Scientist] <in this city>",
+            "Provides [3] [Resource.Power] <hidden from users>",
+            "Comment [Base Load: 3 [Resource.Power]]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.CommercialHub"
+        ]
+    },
+
+    // Holy Site
+    {
+        "name": "Building.LaunchInquisition",
+        "cost": 1,
+        "uniques": [
+            // A helper program to act as a ability of Apostles to enable the recruitment of Inquisitors by consuming this unit
+            "Unbuildable",
+            "Unsellable",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Building.Shrine",
+        "cost": 70,
+        "faith": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Astrology",
+        "requiredBuilding": "Building.District.HolySite",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Prophet]",
+            "Provides [4] [Resource.Housing] <after adopting [Follower.FeedTheWorld]>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Temple",
+        "cost": 120,
+        "faith": 4,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Shrine",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Prophet]",
+            "Provides [4] [Resource.Housing] <after adopting [Follower.FeedTheWorld]>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Only available <after adopting [Civic.Theology]>",
+            "Hidden when religion is disabled",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Cathedral",
+        "cost": 190,
+        "faith": 3,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unbuildable",
+            "Hidden when religion is disabled",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Dar-eMehr",
+        "cost": 190,
+        "faith": 3,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Comment [+1 additional [Faith] for each era since constructed]",
+            "[+1 Faith] <upon entering the [Era.Ancient]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Classical]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Medieval]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Renaissance]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Industrial]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Modern]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Atomic]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Information]> <hidden from users>",
+            "[+1 Faith] <upon entering the [Era.Future]> <hidden from users>",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Gurdwara",
+        "cost": 190,
+        "faith": 3,
+        "food": 2,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Provides [2] [Resource.Housing]",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.MeetingHouse",
+        "cost": 190,
+        "faith": 3,
+        "production": 2,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Mosque",
+        "cost": 190,
+        "faith": 3,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "All newly-trained [Unit.Missionary] units [in this city] receive the [Promotion.DevoutII] promotion",
+            "All newly-trained [Unit.Apostle] units [in this city] receive the [Promotion.DevoutII] promotion",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Pagoda",
+        "cost": 190,
+        "faith": 3,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Stupa",
+        "cost": 190,
+        "faith": 3,
+        "happiness": 1,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Synagogue",
+        "cost": 190,
+        "faith": 5,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.Wat",
+        "cost": 190,
+        "faith": 3,
+        "science": 2,
+        "requiredBuilding": "Building.Temple",
+        "specialistSlots": {"Specialist.Priest": 1},
+        "uniques": [
+            "[+1 Faith] from every [Specialist.Priest] <in this city>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]>",
+            "Unbuildable",
+            "Unsellable",
+            "Hidden when religion is disabled",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    }
+
+    // Encampment
+    {
+        "name": "Building.Barracks",
+        "cost": 90,
+        "production": 1,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.BronzeWorking",
+        "requiredBuilding": "Building.District.Encampment",
+        "specialistSlots": {"Specialist.Commander": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.General]",
+            "Provides [2] [Resource.Housing]",
+            "Instantly provides [10] [Resource.Iron]",
+            "Only available <in cities without a [Building.Stable]>",
+            "Comment [+25% combat experience for all melee, ranged and anti-cavalry units trained in this city]",
+            "All newly-trained [UnitType.Melee] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+            "All newly-trained [UnitType.AntiCavalry] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+            "All newly-trained [UnitType.Ranged] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Encampment"
+        ]
+    },
+    {
+        "name": "Building.Stable",
+        "cost": 120,
+        "production": 1,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.HorsebackRiding",
+        "requiredBuilding": "Building.District.Encampment",
+        "specialistSlots": {"Specialist.Commander": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.General]",
+            "Provides [2] [Resource.Housing]",
+            "Instantly provides [10] [Resource.Horse]",
+            "All newly-trained [UnitType.LightCavalry] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+            "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+            "All newly-trained [UnitType.RangedCavalry] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+            "All newly-trained [UnitType.Siege] units [in this city] receive the [Promotion.CombatXPBoosterI] promotion <hidden from users>",
+            "Comment [+25% combat experience for all cavalry and siege class units trained in this city.]",
+            "Only available <in cities without a [Building.Barracks]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Encampment"
+        ]
+    },
+    {
+        "name": "Building.Armory",
+        "cost": 195,
+        "production": 3,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.MilitaryEngineering",
+        "requiredBuilding": "Building.Barracks",
+        "specialistSlots": {"Specialist.Commander": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.General]",
+            "Instantly provides [10] [Resource.Iron]",
+            "All newly-trained [UnitType.Melee] units [in this city] receive the [Promotion.CombatXPBoosterII] promotion <hidden from users>",
+            "All newly-trained [UnitType.AntiCavalry] units [in this city] receive the [Promotion.CombatXPBoosterII] promotion <hidden from users>",
+            "All newly-trained [UnitType.Ranged] units [in this city] receive the [Promotion.CombatXPBoosterII] promotion <hidden from users>",
+            "All newly-trained [UnitType.Siege] units [in this city] receive the [Promotion.CombatXPBoosterII] promotion <hidden from users>",
+            "Comment [+25% combat experience for all land units trained in this city.]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Encampment"
+        ]
+    },
+    {
+        "name": "Building.MilitaryAcademy",
+        "cost": 330,
+        "production": 4,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.MilitaryScience",
+        "requiredBuilding": "Building.Armory",
+        "specialistSlots": {"Specialist.Commander": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.General]",
+            "Provides [2] [Resource.Housing]",
+            "Instantly provides [10] [Resource.Iron]",
+            "All newly-trained [UnitType.Melee] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.AntiCavalry] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.LightCavalry] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.HeavyCavalry] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.LightCavalry] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.RangedCavalry] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.Ranged] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "All newly-trained [UnitType.Siege] units [in this city] receive the [Promotion.CombatXPBoosterIII] promotion <hidden from users>",
+            "Comment [+25% combat experience for all land units trained in this city]",
+            "[+25]% Production when constructing [military units] units [in this city]",
+            "[+1 Production] from every [Specialist.Commander] <in this city>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Encampment"
+        ]
+    },
+
+    // Theater Square
+    {
+        "name": "Building.Amphitheater",
+        "cost": 150,
+        "culture": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.TheaterSquare",
+        "specialistSlots": {"Specialist.Artist": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Writer]",
+            "Only available <after adopting [Civic.DramaAndPoetry]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.TheaterSquare"
+        ]
+    },
+    {
+        "name": "Building.ArtMuseum",
+        "cost": 290,
+        "culture": 2,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Amphitheater",
+        "specialistSlots": {"Specialist.Artist": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Artist]",
+            "Provides [2] [Resource.Unit.Writer]",
+            "Only available <after adopting [Civic.Humanism]>",
+            "Only available <in cities without a [Building.ArchaeologicalMuseum]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.TheaterSquare"
+        ]
+    },
+    {
+        "name": "Building.ArchaeologicalMuseum",
+        "cost": 290,
+        "culture": 2,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Amphitheater",
+        "specialistSlots": {"Specialist.Artist": 1},
+        "uniques": [
+            "Provides [2] [Resource.Unit.Artist]",
+            "Provides [1] [Resource.Unit.Writer]",
+            "Only available <after adopting [Civic.Humanism]>",
+            "Only available <in cities without a [Building.ArtMuseum]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.TheaterSquare"
+        ]
+    },
+    {
+        "name": "Building.BroadcastCenter",
+        "cost": 440,
+        "culture": 2,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Radio",
+        // "requiredBuilding": "Building.ArchaeologicalMuseum" or "Building.ArtMuseum",
+        "requiredBuilding": "Building.Amphitheater",
+        "specialistSlots": {"Specialist.Artist": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Artist]",
+            "Provides [2] [Resource.Unit.Musician]",
+            "[+4 Culture] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
+            "[+4 Culture] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
+            "[+4 Culture] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "[+1 Culture] from every [Specialist.Artist] <in this city>",
+            "Provides [3] [Resource.Power] <hidden from users>",
+            "Comment [Base Load: 3 [Resource.Power]]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.TheaterSquare"
+        ]
+    },
+
+    // Harbor
+    {
+        "name": "Building.Lighthouse",
+        "cost": 120,
+        "food": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.CelestialNavigation",
+        "requiredBuilding": "Building.District.Harbor",
+        "specialistSlots": {"Specialist.Captain": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Admiral]",
+            "Provides [2] [Resource.Housing]",
+            "[+1 Food] from [Coast] tiles [in this city]",
+            "[+1 Food] from [Lakes] tiles [in this city]",
+            "Connects trade routes over water",
+            "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatXPBoosterI] promotion",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Harbor"
+        ]
+    },
+    {
+        "name": "Building.Shipyard",
+        "cost": 290,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.MassProduction",
+        "requiredBuilding": "Building.Lighthouse",
+        "specialistSlots": {"Specialist.Captain": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Admiral]",
+            "[+1 Production] from [Coast] tiles [in this city]",
+            "[+1 Production] from [Lakes] tiles [in this city]",
+            "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatXPBoosterII] promotion",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Harbor"
+        ]
+    }
+
+    // Entertainment Complex
+    {
+        "name": "Building.Arena",
+        "cost": 150,
+        "happiness": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.EntertainmentComplex",
+        "uniques": [
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.Zoo",
+        "cost": 360,
+        "happiness": 4,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Arena",
+        "uniques": [
+            "Only available <after adopting [Civic.NaturalHistory]>",
+            "[+1 Science] from [Landform.Rainforest] tiles [in this city]",
+            "[+1 Science] from [Landform.Swamp] tiles [in this city]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.Stadium",
+        "cost": 480,
+        "happiness": 4,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Zoo",
+        "uniques": [
+            "Only available <after adopting [Civic.ProfessionalSports]>",
+            "[+2 Happiness] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
+            "[+2 Happiness] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
+            "[+2 Happiness] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "Provides [2] [Resource.Power] <hidden from users>",
+            "Comment [Base Load: 2 [Resource.Power]]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+
+    // Industrial Zone
+    {
+        "name": "Building.Workshop",
+        "cost": 195,
+        "production": 3,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Apprenticeship",
+        "requiredBuilding": "Building.District.IndustrialZone",
+        "specialistSlots": {"Specialist.Engineer": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Engineer]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.Factory",
+        "cost": 330,
+        "production": 3,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Industrialization",
+        "requiredBuilding": "Building.Workshop",
+        "specialistSlots": {"Specialist.Engineer": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Engineer]",
+            "[+3 Production] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
+            "[+3 Production] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
+            "[+3 Production] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "Provides [2] [Resource.Power] <hidden from users>",
+            "Comment [Base Load: 2 [Resource.Power]]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.CoalPowerPlant",
+        "cost": 300,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.Industrialization",
+        "requiredBuilding": "Building.Factory",
+        "specialistSlots": {"Specialist.Engineer": 1},
+        "uniques": [
+            "Comment [Grants bonus [Production] equal to the district's current adjacency bonus.]",
+            "Provides [1] [Resource.Unit.Engineer]",
+            "[+1 Production] from every [Specialist.Engineer] <in this city>",
+            "Gain a free [Building.CoalPowerPlant2] [in this city] <when above [4] [Resource.Power]>",
+            "Only available <in cities without a [Building.OilPowerPlant]>",
+            "Only available <in cities without a [Building.NuclearPowerPlant]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.CoalPowerPlant2",
+        "cost": 1,
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.Industrialization",
+        "requiredBuilding": "Building.CoalPowerPlant",
+        "uniques": [
+            "Gain a free [Building.CoalPowerPlant3] [in this city] <when above [8] [Resource.Power]>",
+            "Unbuildable",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.CoalPowerPlant3",
+        "cost": 1,
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.Industrialization",
+        "requiredBuilding": "Building.CoalPowerPlant2",
+        "uniques": [
+            "Gain a free [Building.CoalPowerPlant4] [in this city] <when above [12] [Resource.Power]>",
+            "Unbuildable",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.CoalPowerPlant4",
+        "cost": 1,
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.Industrialization",
+        "requiredBuilding": "Building.CoalPowerPlant3",
+        "uniques": [
+            "Gain a free [Building.CoalPowerPlant5] [in this city] <when above [16] [Resource.Power]>",
+            "Unbuildable",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.CoalPowerPlant5",
+        "cost": 1,
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.Industrialization",
+        "requiredBuilding": "Building.CoalPowerPlant4",
+        "uniques": [
+            "Unbuildable",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.OilPowerPlant",
+        "cost": 360,
+        "production": 3,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Electricity",
+        "requiredBuilding": "Building.Factory",
+        "specialistSlots": {"Specialist.Engineer": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Engineer]",
+            "[+1 Production] from every [Specialist.Engineer] <in this city>",
+            "Gain a free [Building.OilPowerPlant2] [in this city] <when above [4] [Resource.Power]>",
+            "Only available <in cities without a [Building.CoalPowerPlant]>",
+            "Only available <in cities without a [Building.NuclearPowerPlant]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.OilPowerPlant2",
+        "cost": 1,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Electricity",
+        "requiredBuilding": "Building.OilPowerPlant",
+        "uniques": [
+            "Gain a free [Building.OilPowerPlant3] [in this city] <when above [8] [Resource.Power]>",
+            "Unbuildable",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.OilPowerPlant3",
+        "cost": 1,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Electricity",
+        "requiredBuilding": "Building.OilPowerPlant2",
+        "uniques": [
+            "Gain a free [Building.OilPowerPlant4] [in this city] <when above [12] [Resource.Power]>",
+            "Unbuildable",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.OilPowerPlant4",
+        "cost": 1,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Electricity",
+        "requiredBuilding": "Building.OilPowerPlant3",
+        "uniques": [
+            "Gain a free [Building.OilPowerPlant5] [in this city] <when above [16] [Resource.Power]>",
+            "Unbuildable",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.OilPowerPlant5",
+        "cost": 1,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Electricity",
+        "requiredBuilding": "Building.OilPowerPlant4",
+        "uniques": [
+            "Unbuildable",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.NuclearPowerPlant",
+        "cost": 480,
+        "production": 4,
+        "science": 3,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Uranium",
+        "requiredTech": "Tech.NuclearFission",
+        "requiredBuilding": "Building.Factory",
+        "specialistSlots": {"Specialist.Engineer": 1},
+        "uniques": [
+            "Provides [1] [Resource.Unit.Engineer]",
+            "[+4 Production, +3 Science] from [City center] tiles [in all cities] <within [6] tiles of a [District.IndustrialZone]>",
+            "Gain a free [Building.NuclearPowerPlant2] [in this city] <when above [16] [Resource.Power]>",
+            "Only available <in cities without a [Building.CoalPowerPlant]>",
+            "Only available <in cities without a [Building.OilPowerPlant]>",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.NuclearPowerPlant2",
+        "cost": 1,
+        "requiredResource": "Resource.Uranium",
+        "requiredTech": "Tech.NuclearFission",
+        "requiredBuilding": "Building.NuclearPowerPlant",
+        "uniques": [
+            "Unbuildable",
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+
+    // Aerodrome
+    {
+        "name": "Building.Hangar",
+        "cost": 380,
+        "production": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Flight",
+        "requiredBuilding": "Building.District.Aerodrome",
+        "uniques": [
+            "All newly-trained [air units] units [in this city] receive the [Promotion.AirCombatXPBoosterI] promotion",
+            "Provides [1] [Resource.AirUnitSlot]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Aerodrome"
+        ]
+    },
+    {
+        "name": "Building.Airport",
+        "cost": 480,
+        "production": 4,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.AdvancedFlight",
+        "requiredBuilding": "Building.Hangar",
+        "uniques": [
+            "All newly-trained [air units] units [in this city] receive the [Promotion.AirCombatXPBoosterII] promotion",
+            "[+2 Production] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]> <hidden from users>",
+            "[+2 Production] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]> <hidden from users>",
+            "[+2 Production] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]> <hidden from users>",
+            "Comment [+2 [Production] additionally when Powered]",
+            "Provides [1] [Resource.AirUnitSlot]",
+            "Provides [1] [Resource.Power] <hidden from users>",
+            "Comment [Base Load: 1 [Resource.Power]]",
+            "Never destroyed when the city is captured",
+            "Unsellable",
+            "Class.DistrictBuilding.Aerodrome"
+        ]
+    },
+
+    // District Building
+    {
+        "name": "Building.District.Campus",
+        "cost": 54,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Writing",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Campus] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Science] from every [Specialist.Scientist] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
+        "name": "Building.District.HolySite",
+        "cost": 54,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Astrology",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.HolySite] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "Hidden when religion is disabled",
+            "[+2 Faith] from every [Specialist.Priest] <in this city> <hidden from users>",
+            "[+2 Gold] [in cities following this religion] <after adopting [Follower.ReligiousCommunity]> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.HolySite"
+        ]
+    },
+    {
+        "name": "Building.District.Encampment",
+        "cost": 54,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.BronzeWorking",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Encampment] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Production, +1 Gold] from every [Specialist.Commander] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Encampment"
+        ]
+    },
+    {
+        "name": "Building.District.TheaterSquare",
+        "cost": 54,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Only available <after adopting [Civic.DramaAndPoetry]>",
+            "Creates a [District.TheaterSquare] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Culture] from every [Specialist.Artist] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.TheaterSquare"
+        ]
+    },
+    {
+        "name": "Building.District.CommercialHub",
+        "cost": 54,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Currency",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.CommercialHub] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+4 Gold] from every [Specialist.Merchant] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.CommercialHub"
+        ]
+    },
+    {
+        "name": "Building.District.Harbor",
+        "cost": 54,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.CelestialNavigation",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Harbor] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Gold, +1 Food] from every [Specialist.Captain] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Harbor"
+        ]
+    },
+    {
+        "name": "Building.District.EntertainmentComplex",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            // "Only available <in cities without a [Building.District.WaterPark]>",
+            "Creates a [District.EntertainmentComplex] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.District.IndustrialZone",
+        "cost": 54,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Apprenticeship",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.IndustrialZone] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Production] from every [Specialist.Engineer] <in this city> <hidden from users>",
+            
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.District.Spaceport",
+        "cost": 1800,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Rocketry",
+        "uniques": [
+            "Creates a [District.Spaceport] improvement on a specific tile",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Spaceport"
+        ]
+    },
+    {
+        "name": "Building.District.Aerodrome",
+        "cost": 54,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "requiredTech": "Tech.Flight",
+        "uniques": [
+            "Creates a [District.Aerodrome] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Aerodrome"
+        ]
+    },
+
+    // Wonders
+    {
+        "name": "Wonder.Alhambra",
+        "isWonder": true,
+        "cost": 710,
+        "happiness": 2,
+        "requiredTech": "Tech.Castles",
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [2] [Resource.Unit.General]",
+            "Provides [1] [Resource.MilitaryPolicySlot]",
+            "Creates a [District.Alhambra] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'Everything here appears calculated to inspire kind and happy feelings, for everything is delicate and beautiful.' – Washington Irving"
+    },
+    {
+        "name": "Wonder.Amundsen-ScottResearchStation",
+        "isWonder": true,
+        "cost": 1620,
+        "requiredBuilding": "Building.ResearchLab",
+        "uniques": [
+            "Gain [567] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [5] [Resource.Unit.Scientist]",
+            "[+20]% [Science] [in all cities]",
+            "[+10]% [Production] [in all cities]",
+            "[+10]% [Science] [in this city] <with [2] to [3] neighboring [Snow] tiles>",
+            "[+20]% [Science] [in this city] <with [4] to [6] neighboring [Snow] tiles>",
+            "[+5]% [Production] [in this city] <with [2] to [3] neighboring [Snow] tiles>",
+            "[+10]% [Production] [in this city] <with [4] to [6] neighboring [Snow] tiles>",
+            "Only available <after adopting [Civic.RapidDeployment]>",
+            "Creates a [District.Amundsen-ScottResearchStation] improvement on a specific tile",
+            "Class.WonderEra.Atomic"
+        ],
+        "quote": "'For scientific leadership, give me Scott; for swift and efficient travel, Amundsen.' – Sir Raymond Priestley"
+    },
+    {
+        "name": "Wonder.AngkorWat",
+        "isWonder": true,
+        "cost": 710,
+        "faith": 2,
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+1] population [in all cities]",
+            "Comment [+2 [Resource.Housing] in all cities.]",
+            "Only available <after adopting [Civic.MedievalFaires]>",
+            "Creates a [District.AngkorWat] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'The temple is surrounded by a moat, and access is by a single bridge, protected by two stone tigers so grand and fearsome as to strike terror into the visitor.' – Diogo do Couto"
+    },
+    {
+        "name": "Wonder.Apadana",
+        "isWonder": true,
+        "cost": 400,
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[2] free [Unit.Envoy] units appear <upon constructing [Wonders] [in this city]>",
+            "[2] free [Unit.Envoy] units appear",
+            "Only available <after adopting [Civic.PoliticalPhilosophy]>",
+            "Only available <in cities with a [Palace]>",
+            "Creates a [District.Apadana] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'My ancestor Darius made this Apadana, but it was burnt down. By the grace of Ahuramazda, Anahita, and Mithra, I reconstructed this Apadana.' – Artaxerxes II"
+    },
+    {
+        "name": "Wonder.BigBen",
+        "isWonder": true,
+        "cost": 1450,
+        "gold": 6,
+        "requiredBuilding": "Building.Bank",
+        "requiredTech": "Tech.Economics",
+        "uniques": [
+            "Gain [508] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [3] [Resource.Unit.Merchant]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Creates a [District.BigBen] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+        ],
+        "quote": "'Don’t watch the big clock; do what it does. Keep going.' – Sam Levenson"
+    },
+    // {
+    //     "name": "Wonder.Bioshère",
+    //     "isWonder": true,
+    //     "cost": 1740,
+    //     "requiredTech": "Tech.SyntheticMaterials",
+    //     "uniques": [
+    //         "Creates a [District.Bioshère] improvement on a specific tile",
+    //         "Class.WonderEra.Atomic"
+    //     ],
+    //     "quote": "'Heaven is under our feet as well as over our heads.' – Henry David Thoreau"
+    // },
+    {
+        "name": "Wonder.BolshoiTheatre",
+        "isWonder": true,
+        "cost": 1240,
+        "uniques": [
+            "Gain [434] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[2] Free Social Policies",
+            "Provides [2] [Resource.Unit.Writer]",
+            "Provides [2] [Resource.Unit.Musician]",
+            "Only available <after adopting [Civic.OperaAndBallet]>",
+            "Creates a [District.BolshoiTheatre] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+       ],
+       "quote": "'Bolshoi Ballet is a universe of the imagination, a place of magic and enchantment, beauty and romance. Its many worlds vibrate with graceful dancers, glorious music, and sumptuous costumes.' – Trudy Garfunkel"
+    },
+    {
+        "name": "Wonder.Broadway",
+        "isWonder": true,
+        "cost": 1620,
+        "percentStatBonus": {"culture": 20},
+        "uniques": [
+            "Gain [567] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [3] [Resource.Unit.Writer]",  
+            "Provides [3] [Resource.Unit.Musician]",  
+            "Comment [Receive a civic boost.]",
+            "Gain [874] [Culture] (modified by game speed) <hidden from users>",
+            "Gain [1093] [Culture] (modified by game speed) <hidden from users> <for [Class.Nation.China]>",
+            "Only available <after adopting [Civic.MassMedia]>",
+            "Creates a [District.Broadway] improvement on a specific tile",
+            "Class.WonderEra.Modern"
+        ],
+        "quote": "'There's no business like show business.' – Irving Berlin, Annie Get Your Gun"
+    },
+    {
+        "name": "Wonder.ChichenItza",
+        "isWonder": true,
+        "cost": 710,
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+2 Culture, +1 Production] from [Landform.Rainforest] tiles [in this city]",
+            "Only available <after adopting [Civic.Guilds]>",
+            "Creates a [District.ChichenItza] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'The Great Ball Court is also very impressive. I would like to have seen them play a game, although it sounds like the end was pretty violent. I think it was safer to be a spectator.' – IslaDeb"
+    },
+    {
+        "name": "Wonder.Colosseum",
+        "isWonder": true,
+        "cost": 400,
+        "happiness": 3,
+        "culture": 2,
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Creates a [District.Colosseum] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'While the Colosseum stands, Rome shall stand; when the Colosseum falls, Rome shall fall; when Rome falls, the world shall fall.' – Saint Bede"
+    },
+    {
+        "name": "Wonder.Colossus",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 3,
+        "requiredTech": "Tech.Shipbuilding",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.Unit.Admiral]",
+            "Provides [1] [Resource.TradeRouteCapacity]",
+            "Free [Unit.Trader] appears",
+            "Creates a [District.Colossus] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'At Rhodes was set up a Colossus of seventy cubits high, representing the Sun … the artist expended as much bronze on it as seemed likely to create a dearth in the mines.' – Philo of Byzantium"
+    },
+    {
+        "name": "Wonder.CristoRedentor",
+        "isWonder": true,
+        "cost": 1620,
+        "culture": 4,
+        "uniques": [
+            "Gain [567] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Only available <after adopting [Civic.MassMedia]>",
+            "Creates a [District.CristoRedentor] improvement on a specific tile",
+            "Class.WonderEra.Modern"
+        ],
+        "quote": "'Thus, the sculpture serves to give people one thought - 'Everything is in God's hands.''– Sergey Semenov"
+    },
+    // {
+    //     "name": "Wonder.EiffelTower",
+    //     "isWonder": true,
+    //     "cost": 1620,
+    //     "requiredTech": "Tech.Steel",
+    //     "uniques": [
+    //         "All tiles in your civilization gain +2 Appeal.",
+    //         "Creates a [District.EiffelTower] improvement on a specific tile",
+    //         "Class.WonderEra.Modern"
+    //     ]
+    // },
+    {
+        "name": "Wonder.EstádiodoMaracanã",
+        "isWonder": true,
+        "cost": 1740,
+        "requiredBuilding": "Building.Stadium",
+        "uniques": [
+            "Gain [609] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+6 Culture] [in all cities]",
+            "[+2 Happiness] [in all cities]",
+            "Only available <after adopting [Civic.ProfessionalSports]>",
+            "Creates a [District.EstádiodoMaracanã] improvement on a specific tile",
+            "Class.WonderEra.Atomic"
+        ],
+        "quote": "'Down through its history, only three people have managed to silence the Maracana: the Pope, Frank Sinatra, and me.' – Alcides Ghiggia, Uruguayan soccer player"
+    },
+    {
+        "name": "Wonder.Etemenanki",
+        "isWonder": true,
+        "cost": 220,
+        "science": 2,
+        "requiredTech": "Tech.Writing",
+        "uniques": [
+            "Gain [77] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+1 Science, +1 Production] from [Landform.Marsh] tiles [in all cities]",
+            "[+2 Science, +1 Production] from [Landform.Floodplains] tiles [in all cities]",
+            "Creates a [District.Etemenanki] improvement on a specific tile",
+            "Class.WonderEra.Ancient"
+        ],
+        "quote": "'Come, let us build ourselves a city, with a tower that reaches to the heavens, so that we may make a name for ourselves.' – Genesis 11:4"
+    },
+    {
+        "name": "Wonder.ForbiddenCity",
+        "isWonder": true,
+        "cost": 920,
+        "culture": 5,
+        "requiredTech": "Tech.Printing",
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Creates a [District.ForbiddenCity] improvement on a specific tile",
+            "Class.WonderEra.Renaissance"
+        ],
+        "quote": "'The whole palace complex is built along a central axis, the axis of the world, everything in the four directions suspend from this central point represented by these palaces.' – Jeffrey Riegel"
+    },
+    {
+        "name": "Wonder.GoldenGateBridge",
+        "isWonder": true,
+        "cost": 1620,
+        "happiness": 3,
+        "requiredTech": "Tech.Combustion",
+        "uniques": [
+            "Gain [567] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Enables embarkation for land units",
+            "Creates a [District.GoldenGateBridge] improvement on a specific tile",
+            "Class.WonderEra.Modern"
+        ],
+        "quote": "'The Golden Gate of Sleep unbar Where Strength and Beauty, met together, Kindle their image like a star In a sea of glassy weather!' – Percy Bysshe Shelley"
+    },
+    {
+        "name": "Wonder.GreatBath",
+        "isWonder": true,
+        "cost": 180,
+        "happiness": 1,
+        "requiredTech": "Tech.Pottery",
+        "uniques": [
+            "Gain [63] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [6] [Resource.Housing]",
+            "Creates a [District.GreatBath] improvement on a specific tile",
+            "Class.WonderEra.Ancient" 
+        ],
+        "quote": "'Yet in this captious and intenible sieve I still pour in the waters of my love And lack not to lose still: thus, Indian-like, Religious in mine error, I adore The sun, that looks upon his worshipper, But knows of him no more.' – William Shakespeare"
+    },
+    {
+        "name": "Wonder.GreatLibrary",
+        "isWonder": true,
+        "cost": 400,
+        "science": 2,
+        "requiredBuilding": "Building.Library",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+40]% [Science] [in all cities] <before the [Era.Medieval]>",
+            "Provides [1] [Resource.Unit.Scientist]",
+            "Only available <after adopting [Civic.RecordedHistory]>",
+            "Creates a [District.GreatLibrary] improvement on a specific tile",
+            "Class.WonderEra.Classical" 
+        ],
+        "quote": "'We can roam the bloated stacks of the Library of Alexandria, where all imagination and knowledge are assembled; we can recognize in its destruction the warning that all we gather will be lost.' – Alberto Manguel"
+    },
+    {
+        "name": "Wonder.GreatLighthouse",
+        "isWonder": true,
+        "cost": 290,
+        "gold": 3,
+        "requiredTech": "Tech.CelestialNavigation",
+        "requiredBuilding": "Building.Lighthouse",
+        "uniques": [
+            "Gain [102] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.Unit.Admiral]",
+            "Creates a [District.GreatLighthouse] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'This Lighthouse was the cynosure of all eyes.' – Henry David Thoreau"
+    },
+    {
+        "name": "Wonder.GreatZimbabwe",
+        "isWonder": true,
+        "cost": 920,
+        "gold": 5,
+        "requiredBuilding": "Building.Market",
+        "requiredTech": "Tech.Banking",
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.TradeRouteCapacity]",
+            "Provides [2] [Resource.Unit.Merchant]",
+            "[+2 Gold] from [Bonus resource] tiles [in this city]",
+            "[+2 Gold] from every [Building.TradingPost]",
+            "Creates a [District.GreatZimbabwe] improvement on a specific tile",
+            "Class.WonderEra.Renaissance"
+        ],
+        "quote": "'King Solomon gave the Queen of Sheba all she desired and asked for; besides what he had given her out of his royal bounty. So she turned and went to her own country, she and her servants.' – 1 Kings, 10:13"
+    },
+    {
+        "name": "Wonder.HagiaSophia",
+        "isWonder": true,
+        "cost": 710,
+        "faith": 4,
+        "requiredTech": "Tech.Buttress",
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "All newly-trained [Unit.Missionary] units [in all cities] receive the [Promotion.DevoutI] promotion",
+            "All newly-trained [Unit.Apostle] units [in all cities] receive the [Promotion.DevoutI] promotion",
+            "Hidden when religion is disabled",
+            "Creates a [District.HagiaSophia] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'It is a beautiful and important monument and an international, inter-cultural treasure … Unless and until it can be shared by both religions in harmony – which would be a grand idea – it should remain a secular building honoring both religions who have made it beautiful.' – Ljubo Vujovic"
+    },
+    {
+        "name": "Wonder.HangingGardens",
+        "isWonder": true,
+        "cost": 180,
+        "requiredTech": "Tech.Irrigation",
+        "uniques": [
+            "Gain [63] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+15]% growth [in all cities]",
+            "Provides [4] [Resource.Housing]",
+            "Creates a [District.HangingGardens] improvement on a specific tile",
+            "Class.WonderEra.Ancient"
+        ],
+        "quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose, are continually employed in raising water from the Euphrates into the garden.' – Strabo"
+    },
+    {
+        "name": "Wonder.Hermitage",
+        "isWonder": true,
+        "cost": 1450,
+        "uniques": [
+            "Gain [508] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [3] [Resource.Unit.Artist]",
+            "Only available <after adopting [Civic.NaturalHistory]>",
+            "Creates a [District.Hermitage] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+        ],
+        "quote": "'Museums are on the front lines of the fight for culture, of good with evil - in any case, of the fight against platitudes and primitiveness.' – Mikhail Piotrovsky, Director of the State Hermitage"
+    },
+    {
+        "name": "Wonder.HueyTeocalli",
+        "isWonder": true,
+        "cost": 710,
+        "requiredTech": "Tech.MilitaryTactics",
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+1 Food, +1 Production] from every [Lakes]",
+            "Creates a [District.HueyTeocalli] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'But the wrath of Huitzilopochtli was great, and as the sacrifice passed each of the four rooms dedicated to the sun god, the sun disappeared or reappeared in the sky.' – Fray Diego Durán"
+    },
+    {
+        "name": "Wonder.JebelBarkal",
+        "isWonder": true,
+        "cost": 400,
+        "requiredTech": "Tech.IronWorking",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [6] [Resource.Iron]",
+            "[+4 Faith] from [City center] tiles [in all cities] <within [6] tiles of a [District.JebelBarkal]>",
+            "Creates a [District.JebelBarkal] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'At the south-west corner a large perpendicular mass of sandstone has become separated by a deep fissure from the body of the mountain … it has all the appearance of a colossal statue.' – E. A. Wallis Budge"
+    },
+    {
+        "name": "Wonder.MachuPicchu",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 4,
+        "requiredTech": "Tech.Engineering",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Comment [Mountain tiles provide a standard adjacency bonus to [District.CommercialHub], [District.TheaterSquare] and [District.IndustrialZone] in all cities.]",
+            "Creates a [District.MachuPicchu] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "...Eagles fly, The turrets round, and seem to flout the sky; They eye those walls now crumbling in decay, And scare from quiet rest their destined prey.' – Samuel Prout Hill"
+    },
+    {
+        "name": "Wonder.MahabodhiTemple",
+        "isWonder": true,
+        "cost": 400,
+        "faith": 4,
+        "requiredBuilding": "Building.Temple",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[2] free [Unit.Apostle] units appear",
+            "Only available <after adopting [Civic.Theology]>",
+            "Creates a [District.MahabodhiTemple] improvement on a specific tile",
+            "Hidden when religion is disabled",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'In a dusty, bustling corner of the Indian state of Bihar, there is a magical place that one might think of as the hub of Buddhism.' – Visitor's Guide, Bodh Gaya"
+    },
+    {
+        "name": "Wonder.MausoleumatHalicarnassus",
+        "isWonder": true,
+        "cost": 400,
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+1 Science, +1 Faith, +1 Culture] from [Coast] tiles [in this city]",
+            "Only available <after adopting [Civic.DefensiveTactics]>",
+            "Creates a [District.MausoleumatHalicarnassus] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'A vast tomb lies over me in Halicarnassus, of such dimensions, of such exquisite beauty as no other shade can boast.' – Lucian of Samosata"
+    },
+    {
+        "name": "Wonder.MeenakshiTemple",
+        "isWonder": true,
+        "cost": 710,
+        "faith": 3,
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Only available <after adopting [Civic.CivilService]>",
+            "Hidden when religion is disabled",
+            "Creates a [District.MeenakshiTemple] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'We greet you, Devi Meenakshi, she who shines like a thousand-million suns, adorned with bracelets and garlands... She who is auspicious, she who embodies existence. I always bow to you, whose compassion is an ocean.' – Adi Shankara"
+    },
+    {
+        "name": "Wonder.MontSt.Michel",
+        "isWonder": true,
+        "cost": 710,
+        "faith": 2,
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Only available <after adopting [Civic.DivineRight]>",
+            // "All Apostles you create gain the Martyr ability in addition to a second ability you choose normally.",
+            "Creates a [District.MontSt.Michel] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'Church and State, Soul and Body, God and Man, are all one at Mont Saint Michel, and the business of all is to fight, each in his own way, or to stand guard for each other.' – Henry Adams"
+    },
+    {
+        "name": "Wonder.Oracle",
+        "isWonder": true,
+        "cost": 290,
+        "culture": 1,
+        "faith": 1,
+        "uniques": [
+            "Gain [102] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+
+            // "Patronage of Great Person Great People costs 25% less Faith Faith.",
+            "Provides [2] [Resource.Unit.Scientist] <in cities with a [Building.District.Campus]>",
+            "Provides [2] [Resource.Unit.Prophet] <in cities with a [Building.District.HolySite]>",
+            "Provides [2] [Resource.Unit.General] <in cities with a [Building.District.Encampment]>",
+            "Provides [2] [Resource.Unit.Writer] <in cities with a [Building.District.TheaterSquare]>",
+            "Provides [2] [Resource.Unit.Artist] <in cities with a [Building.District.TheaterSquare]>",
+            "Provides [2] [Resource.Unit.Musician] <in cities with a [Building.District.TheaterSquare]>",
+            "Provides [2] [Resource.Unit.Merchant] <in cities with a [Building.District.CommercialHub]>",
+            "Provides [2] [Resource.Unit.Admiral] <in cities with a [Building.District.Harbor]>",
+            "Provides [2] [Resource.Unit.Engineer] <in cities with a [Building.District.IndustrialZone]>",
+
+            "Only available <after adopting [Civic.Mysticism]>",
+            "Creates a [District.Oracle] improvement on a specific tile",
+            "Class.WonderEra.Ancient"
+        ],
+        "quote": "I sprang upon the swift ship in the form of a dolphin, pray to me as Apollo Delphinius; also the altar itself shall be called Delphinius and overlooked forever.' – Homer"
+    },
+    {
+        "name": "Wonder.Országház",
+        "isWonder": true,
+        "cost": 920,
+        "culture": 4,
+        "requiredTech": "Tech.Sanitation",
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Creates a [District.Országház] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+        ],
+        "quote": "'With self-government is freedom, and with freedom is justice and patriotism.' – Lajos Kossuth"
+    },
+    {
+        "name": "Wonder.OxfordUniversity",
+        "isWonder": true,
+        "cost": 1240,
+        "requiredBuilding": "Building.University",
+        "requiredTech": "Tech.ScientificTheory",
+        "percentStatBonus": {"science": 20},
+        "uniques": [
+            "Gain [434] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [3] [Resource.Unit.Scientist]",
+            "[2] Free Technologies",
+            "Creates a [District.OxfordUniversity] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+        ],
+        "quote": "'The clever men at Oxford... Know all that there is to be knowed. But they none of them know one half as much... As intelligent Mr. Toad!' – Kenneth Grahame"
+    },
+    {
+        "name": "Wonder.PanamaCanal",
+        "isWonder": true,
+        "cost": 920,
+        "gold": 10,
+        "requiredTech": "Tech.SteamPower",
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Creates a [District.PanamaCanal] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+        ],
+        "quote": "'Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea; Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.' – Psalms 46:2-3"
+    },
+    {
+        "name": "Wonder.Petra",
+        "isWonder": true,
+        "cost": 400,
+        "requiredTech": "Tech.Mathematics",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+2 Food, +2 Gold, +1 Production] from [Desert] tiles [in this city] <in tiles without [Landform.FloodPlain]>",
+            "Creates a [District.Petra] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'Petra is a brilliant display of man's artistry in turning barren rock into majestic wonder.' – Edward Dawson"
+    },
+    {
+        "name": "Wonder.PotalaPalace",
+        "isWonder": true,
+        "cost": 1060,
+        "culture": 2,
+        "faith": 3,
+        "requiredTech": "Tech.Astronomy",
+        "uniques": [
+            "Gain [371] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Creates a [District.PotalaPalace] improvement on a specific tile",
+            "Class.WonderEra.Renaissance"
+        ],
+        "quote": "'The first time I stepped onto the rooftop of the Potala Palace, I felt, as never before or since, as if I were stepping onto the rooftop of my being: onto some dimension of consciousness that I’d never visited before.' – Pico Iyer"
+    },
+    {
+        "name": "Wonder.Pyramids",
+        "isWonder": true,
+        "cost": 220,
+        "culture": 2,
+        "requiredTech": "Tech.Masonry",
+        "uniques": [
+            "Gain [77] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Free [Worker] appears",
+            // "All Builders earn 1 extra Build charges (Civ6) build charge.",
+            "Creates a [District.Pyramids] improvement on a specific tile",
+            "Class.WonderEra.Ancient"
+        ],
+        "quote": "'From the heights of these pyramids, forty centuries look down on us.' – Napoleon Bonaparte"
+    },
+    {
+        "name": "Wonder.RuhrValley",
+        "isWonder": true,
+        "cost": 1240,
+        "requiredBuilding": "Building.Factory",
+        "requiredTech": "Tech.Industrialization",
+        "percentStatBonus": {"production": 20},
+        "uniques": [
+            "Gain [434] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+1 Production] from [Improvement.Mine] tiles [in this city]",
+            "[+1 Production] from [Improvement.Quarry] tiles [in this city]",
+            "Creates a [District.RuhrValley] improvement on a specific tile",
+            "Class.WonderEra.Industrial"
+        ],
+        "quote": "'The industrial heart of Germany practically stopped beating. Hardly anyone worked; hardly anything ran. The population of the Ruhr area … had to be supported by the rest of the country.' – Adam Fergusson"
+    },
+    {
+        "name": "Wonder.St.Basil'sCathedral",
+        "isWonder": true,
+        "cost": 920,
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[+1 Food, +1 Production, +1 Culture] from [Tundra] tiles [in this city]",
+            "Only available <after adopting [Civic.ReformedChurch]>",
+            "Creates a [District.St.Basil'sCathedral] improvement on a specific tile",
+            "Class.WonderEra.Renaissance"
+        ],
+        "quote": "'One had a twisted design, red, on a green ground; another, all prickly angles, yellow and black; a third was ornamented with scales of blue and crimson; a [fourth] was in quarters like a melon.' – Katharine Blanche Guthrie"
+    },
+    {
+        "name": "Wonder.StatueOfZeus",
+        "isWonder": true,
+        "cost": 400,
+        "gold": 3,
+        "requiredBuilding": "Building.Barracks",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "[3] free [Unit.Spearman] units appear",
+            "[3] free [Unit.Archer] units appear",
+            // "Free [Unit.BatteringRam] appears",
+            "[+50]% Production when constructing [UnitType.AntiCavalry] units [in all cities]",
+            "Only available <after adopting [Civic.MilitaryTraining]>",
+            "Creates a [District.StatueOfZeus] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'Upon the head of the god was an olive crown; in his right hand he bore a winged figure of Victory.' – Samuel Augustus Mitchell"
+    },
+    {
+        "name": "Wonder.Stonehenge",
+        "isWonder": true,
+        "cost": 180,
+        "faith": 2,
+        "requiredTech": "Tech.Astrology",
+        "uniques": [  
+            "Gain [63] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",     
+            "Free [Unit.Prophet] appears",
+            "Creates a [District.Stonehenge] improvement on a specific tile",
+            "Class.WonderEra.Ancient"
+        ],
+        "quote": "'Can you imagine trying to talk six hundred people into helping you drag a fifty-ton stone eighteen miles across the countryside and muscle it into an upright position, and then saying, ‘Right, lads! Another twenty like that … and then we can party!' – Bill Bryson"
+    },
+    {
+        "name": "Wonder.SydneyOperaHouse",
+        "isWonder": true,
+        "cost": 1850,
+        "culture": 8,
+        "uniques": [
+            "Gain [648] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [5] [Resource.Unit.Musician]",
+            "Only available <after adopting [Civic.CulturalHeritage]>",
+            "Creates a [District.SydneyOperaHouse] improvement on a specific tile",
+            "Class.WonderEra.Atomic"
+        ],
+        "quote": "'An opera begins long before the curtain goes up and ends long after it has come down. It starts in my imagination, it becomes my life, and it stays part of my life long after I've left the opera house.' – Maria Callas"
+    },
+    {
+        "name": "Wonder.TempleOfArtemis",
+        "isWonder": true,
+        "cost": 180,
+        "food": 4,
+        "requiredTech": "Tech.Archery",
+        "uniques": [
+            "Gain [63] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [6] [Resource.Housing]",
+            "Comment [Each Camp, Pasture, and Plantation improvement within 4 tiles of this wonder provides +1 [Happiness].]",
+            "[+1 Happiness] from [Improvement.Camp] tiles [in all cities] <within [4] tiles of a [District.TempleOfArtemis]> <hidden from users>",
+            "[+1 Happiness] from [Improvement.Pasture] tiles [in all cities] <within [4] tiles of a [District.TempleOfArtemis]> <hidden from users>",
+            "[+1 Happiness] from [Improvement.Plantation] tiles [in all cities] <within [4] tiles of a [District.TempleOfArtemis]> <hidden from users>",
+            "Creates a [District.TempleOfArtemis] improvement on a specific tile",
+            "Class.WonderEra.Ancient"
+        ],
+        "quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.'' – Antipater of Sidon"
+    },
+    {
+        "name": "Wonder.TerracottaArmy",
+        "isWonder": true,
+        "cost": 400,
+        "requiredTech": "Tech.Construction",
+        "uniques": [
+            "Gain [140] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.Unit.General]",
+            "New [land units] units start with [10] Experience [in all cities]",
+            "Creates a [District.TerracottaArmy] improvement on a specific tile",
+            "Class.WonderEra.Classical"
+        ],
+        "quote": "'There were seven wonders in the world, and the discovery of the Terracotta Army, we may say, is the eighth miracle of the world.' – Jacques Chirac"
+    },
+    {
+        "name": "Wonder.TorredeBelém",
+        "isWonder": true,
+        "cost": 920,
+        "gold": 5,
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [1] [Resource.Unit.Admiral]",
+            "[+2 Gold] from every [Building.TradingPost]",
+            "Only available <after adopting [Civic.Mercantilism]>",
+            "Creates a [District.TorredeBelém] improvement on a specific tile",
+            "Class.WonderEra.Renaissance"
+        ],
+        "quote": "'No vessel could pass these guns without being seriously assailed.' – Laure Junot Abrantes"
+    },
+    {
+        "name": "Wonder.UniversityOfSankore",
+        "isWonder": true,
+        "cost": 710,
+        "science": 3,
+        "faith": 1,
+        "requiredBuilding": "Building.University",
+        "requiredTech": "Tech.Education",
+        "uniques": [
+            "Gain [249] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [2] [Resource.Unit.Scientist]",
+            "[+2 Science] from every [Building.TradingPost]",
+            "Creates a [District.UniversityOfSankore] improvement on a specific tile",
+            "Class.WonderEra.Medieval"
+        ],
+        "quote": "'Scholars are the heirs of the prophets, for the prophets did not leave behind a legacy of wealth but that of knowledge.' – Musnad al-Bazzar 10/68"
+    },
+    {
+        "name": "Wonder.VenetianArsenal",
+        "isWonder": true,
+        "cost": 920,
+        "requiredTech": "Tech.MassProduction",
+        "uniques": [
+            "Gain [322] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
+            "Provides [2] [Resource.Unit.Engineer]",
+            "[+100]% Production when constructing [Water] units [in all coastal cities]",
+            "Creates a [District.VenetianArsenal] improvement on a specific tile",
+            "Class.WonderEra.Renaissance"
+        ],
+        "quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' – Robert Burton"
+    },
+
+    // Great Engineer
+    // {
+    //     "name": "Engineer.Imhotep",
+    //     // "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         // "Free [Unit.Engineer] appears",
+    //         "[+10]% Production when constructing [All] wonders [in this city]",
+    //         "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city]",
+    //         "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city]",
+    //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //         // "Only available <when above [80] [Resource.Unit.Engineer]>",
+    //         "Only available <before the [Era.Renaissance]>",
+    //         "Unbuildable",
+    //         "Class.GPEra.Medieval"
+    //     ]
+    // },
+    // {
+    //     "name": "Engineer.BiSheng",
+    //     // "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         // "Free [Unit.Engineer] appears",
+    //         // "Comment [+40% [Science] when discovering [Tech.Printing]]",
+    //         "[+80]% [Science] [in all cities] <before discovering [Tech.Construction]> <before discovering [Tech.Apprenticeship]> <after discovering [Tech.Archery]>",
+    //         // "[+40]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
+    //         // "[+50]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
+    //         "Provides [1] [Resource.District]",
+    //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //         // "Only available <when above [80] [Resource.Unit.Engineer]>",
+    //         "Unbuildable",
+    //         "Only available <before the [Era.Renaissance]>",
+    //         "Class.GPEra.Medieval"
+    //     ]
+    // },
+    // {
+    //     "name": "Engineer.IsidoreOfMiletus",
+    //     "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         "Free [Unit.Engineer] appears",
+    //         "[+12]% Production when constructing [All] wonders [in this city]",
+    //         "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //         "Only available <when above [80] [Resource.Unit.Engineer]>",
+    //         "Only available <before the [Era.Renaissance]>",
+    //         "Class.GPEra.Medieval"
+    //     ]
+    // },
+    // {
+    //     "name": "Engineer.JamesOfSt.George",
+    //     "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         "Free [Unit.Engineer] appears",
+    //         "Provides a [Building.AncientWalls] in your first [3] cities for free",
+    //         "Provides a [Building.MedievalWalls] in your first [3] cities for free",
+    //         "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //         "Only available <when above [80] [Resource.Unit.Engineer]>",
+    //         "Only available <before the [Era.Renaissance]>",
+    //         "Class.GPEra.Medieval"
+    //     ]
+    // },
+    // {
+    //     "name": "Engineer.FilippoBrunelleschi",
+    //     "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         "Free [Unit.Engineer] appears",
+    //         "[+10]% Production when constructing [All] wonders [in this city]",
+    //         "Instantly consumes [160] [Resource.Unit.Engineer]",
+    //         "Only available <when above [160] [Resource.Unit.Engineer]>",
+    //         "Only available <before the [Era.Industrial]> <starting from the [Era.Medieval]>",
+    //         "Class.GPEra.Renaissance"
+    //     ]
+    // },
+    // {
+    //     "name": "Engineer.LeonardoDaVinci",
+    //     "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         "Free [Unit.Engineer] appears",
+    //         "Instantly consumes [160] [Resource.Unit.Engineer]",
+    //         "Only available <when above [160] [Resource.Unit.Engineer]>",
+    //         "Only available <before the [Era.Industrial]> <starting from the [Era.Medieval]>",
+    //         "Class.GPEra.Renaissance"
+    //     ]
+    // },
+    // {
+    //     "name": "Engineer.FilippoBrunelleschi",
+    //     "isWonder": true,
+    //     "cost": 1,
+    //     "uniques": [
+    //         "Free [Unit.Engineer] appears",
+    //         "Instantly consumes [160] [Resource.Unit.Engineer]",
+    //         "Only available <when above [160] [Resource.Unit.Engineer]>",
+    //         "Only available <before the [Era.Industrial]> <after the [Era.Medieval]>",
+    //         "Class.GPEra.Renaissance"
+    //     ]
+    // },
+
+    // Government
+    {
+        "name": "Gov.Chiefdom",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.Influence]",
+
+            "Only available <after adopting [Civic.Code]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+            
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier0Government"
+        ]
+    },
+    {
+        "name": "Gov.Autocracy",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Provides [3] [Resource.Influence]",
+            // "Provides [1] [Resource.DiplomaticFavor]",
+
+            // "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+            "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
+
+            "Comment [Bonus to wonder [Production] (10%, plus 1% for every 15 turns until maximum 90 turns).]",
+            "[+10]% Production when constructing [All] wonders [in all cities] <hidden from users>",
+            "[+11]% Production when constructing [All] wonders [in all cities] <after [15] turns> <hidden from users>",
+            "[+12]% Production when constructing [All] wonders [in all cities] <after [30] turns> <hidden from users>",
+            "[+13]% Production when constructing [All] wonders [in all cities] <after [45] turns> <hidden from users>",
+            "[+14]% Production when constructing [All] wonders [in all cities] <after [60] turns> <hidden from users>",
+            "[+15]% Production when constructing [All] wonders [in all cities] <after [75] turns> <hidden from users>",
+            "[+16]% Production when constructing [All] wonders [in all cities] <after [90] turns> <hidden from users>",
+
+            "Only available <after adopting [Civic.PoliticalPhilosophy]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Destroyed when the city is captured <hidden from users>",
+            "Can only be built [in capital] <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier1Government"
+        ]
+    },
+    {
+        "name": "Gov.ClassicalRepublic",
+        "cost": 0,
+        "uniques": [
+            "Provides [2] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Provides [3] [Resource.Influence]",
+            // "Provides [1] [Resource.DiplomaticFavor]",
+
+            "[+1 Happiness] [in all cities] <in cities with a [Class.Building.District]>",
+            // "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+
+            "Only available <after adopting [Civic.PoliticalPhilosophy]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier1Government"
+        ]
+    },
+    {
+        "name": "Gov.Oligarchy",
+        "cost": 0,
+        "uniques": [
+            "Provides [2] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Provides [3] [Resource.Influence]",
+            // "Provides [1] [Resource.DiplomaticFavor]",
+            
+            // "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+            "Comment [Bonus combat experience for units (20%, plus 1% for every 5 turns until maximum 25 turns).]",
+            "[+20]% Strength <for [UnitType.Melee] units>",
+            "[+20]% XP gained from combat <hidden from users>",
+            "[+21]% XP gained from combat <after [5] turns> <hidden from users>",
+            "[+22]% XP gained from combat <after [10] turns> <hidden from users>",
+            "[+23]% XP gained from combat <after [15] turns> <hidden from users>",
+            "[+24]% XP gained from combat <after [20] turns> <hidden from users>",
+            "[+25]% XP gained from combat <after [25] turns> <hidden from users>",
+
+            "Only available <after adopting [Civic.PoliticalPhilosophy]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier1Government"
+        ]
+    },
+    {
+        "name": "Gov.MerchantRepublic",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.MilitaryPolicySlot]",
+            "Provides [2] [Resource.EconomicPolicySlot]",
+            "Provides [2] [Resource.DiplomacyPolicySlot]",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Provides [5] [Resource.Influence]",
+            "Provides [2] [Resource.TradeRouteCapacity]",
+            // "Provides [2] [Resource.DiplomaticFavor]",
+
+            // "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
+            "Comment [[Gold] cost of purchasing items in cities decresead by 20%, plus 1% for every 15 turns until maximum 75 turns.]",
+            "[Gold] cost of purchasing items in cities [-15]% <hidden from users>",
+            "[Gold] cost of purchasing items in cities [-16]% <after [15] turns> <hidden from users>",
+            "[Gold] cost of purchasing items in cities [-17]% <after [30] turns> <hidden from users>",
+            "[Gold] cost of purchasing items in cities [-18]% <after [45] turns> <hidden from users>",
+            "[Gold] cost of purchasing items in cities [-19]% <after [60] turns> <hidden from users>",
+            "[Gold] cost of purchasing items in cities [-20]% <after [75] turns> <hidden from users>",
+
+            "Only available <after adopting [Civic.Exploration]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier2Government"
+        ]
+    },
+    {
+        "name": "Gov.Monarchy",
+        "cost": 0,
+        "uniques": [
+            "Provides [2] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [2] [Resource.WildPolicySlot]",
+            "Provides [8] [Resource.Influence]",
+            // "Provides [2] [Resource.DiplomaticFavor]",
+
+            // "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
+            "[+50]% Production when constructing [Class.Building.Wall] buildings [in all cities]",
+            "Comment [City-State Influence degradation -20%, minus 1% for every 15 turns until maximum 75 turns.]",
+            "[-20]% City-State Influence degradation <hidden from users>",
+            "[-21]% City-State Influence degradation <after [15] turns> <hidden from users>",
+            "[-22]% City-State Influence degradation <after [30] turns> <hidden from users>",
+            "[-23]% City-State Influence degradation <after [45] turns> <hidden from users>",
+            "[-24]% City-State Influence degradation <after [60] turns> <hidden from users>",
+            "[-25]% City-State Influence degradation <after [75] turns> <hidden from users>",
+
+            "Only available <after adopting [Civic.DivineRight]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+            
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier2Government"
+        ]
+    },
+    {
+        "name": "Gov.Theocracy",
+        "cost": 0,
+        "uniques": [
+            "Provides [2] [Resource.MilitaryPolicySlot]",
+            "Provides [2] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Provides [5] [Resource.Influence]",
+            // "Provides [2] [Resource.DiplomaticFavor]",
+
+            // "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
+            "May buy [Military] units with [Faith] [in all cities]",
+            "Comment [[Faith] cost of purchasing items in cities [-15]%, minus 1% for every 15 turns until maximum 75 turns]",
+            "[Faith] cost of purchasing items in cities [-15]% <hidden from users>",
+            "[Faith] cost of purchasing items in cities [-16]% <after [15] turns> <hidden from users>",
+            "[Faith] cost of purchasing items in cities [-17]% <after [30] turns> <hidden from users>",
+            "[Faith] cost of purchasing items in cities [-18]% <after [45] turns> <hidden from users>",
+            "[Faith] cost of purchasing items in cities [-19]% <after [60] turns> <hidden from users>",
+            "[Faith] cost of purchasing items in cities [-20]% <after [75] turns> <hidden from users>",
+
+            "Only available <after adopting [Civic.ReformedChurch]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier2Government"
+        ]
+    },
+
+    // Policy Cards
+    {
+        // A helper program that used to hide and show the 
+        // policy cards whenever adopt new Civic
+        "name":"Building.HidePolicy",
+        "cost": 0,
+        "uniques":[
+            "Unbuildable",
+            "Unsellable",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        // A helper program that used to hide and show the 
+        // policy cards whenever adopt new Civic that unlock new gov
+        "name": "Building.HideGov",
+        "cost": 0,
+        "uniques": [
+            "Unbuildable",
+            "Unsellable",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    // Code of laws
+    {
+        "name": "Mil.Survey",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "[100]% XP gained from combat <for [UnitType.Scout] units>",
+            "Only available <after adopting [Civic.Code]>",
+            "Only available <before adopting [Civic.Colonialism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.GodKing",
+        "cost": 0,
+        "gold": 1,
+        "faith": 1,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "Only available <after adopting [Civic.Code]>",
+            "Only available <before adopting [Civic.Theology]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Mil.Disciplin",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "[+25]% Strength <for [Military] units> <vs [Barbarian] units>",
+            "Only available <after adopting [Civic.Code]>",
+            "Only available <before adopting [Civic.Colonialism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.UrbanPlanning",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+1 Production] [in all cities]",
+            "Only available <after adopting [Civic.Code]>",
+            "Only available <before adopting [Civic.TheEnlightenment]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Craftsmanship
+    {
+        "name": "Eco.Ilkum",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+30]% Production when constructing [Class.Unit.Builder] units [in all cities]",
+            "Only available <after adopting [Civic.Craftsmanship]>",
+            "Only available <before adopting [Civic.Feudalism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Mil.Agoge",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+50% Production Production toward Ancient and Classical era melee, ranged units and anti-cavalry units.]",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.Melee}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.Ranged}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.Melee}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.Ranged}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",
+
+            "Only available <after adopting [Civic.Craftsmanship]>",
+            "Only available <before adopting [Civic.Feudalism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    // Foreign Trade
+    {
+        "name": "Eco.Caravansaries",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+2 Gold] from every [Building.TradingPost]",
+            "Only available <after adopting [Civic.ForeignTrade]>",
+            "Only available <before adopting [Civic.Mercantilism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Mil.MaritimeIndustries",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+100% [Production] when constructing Ancient and Classical water combat units]",
+            "[+100]% Production when constructing [{Era.Ancient} {Military} {Water}] units [in all cities]",
+            "[+100]% Production when constructing [{Era.Classical} {Military} {Water}] units [in all cities]",
+
+            "Only available <after adopting [Civic.ForeignTrade]>",
+            "Only available <before adopting [Civic.Colonialism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    // Military Tradition
+    {
+        "name": "Mil.Maneuver",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+50% [Production] toward Ancient and Classical era heavy and light cavalry units.]",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.LightCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.LightCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.HeavyCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.HeavyCavalry}] units [in all cities] <hidden from users>",
+
+            "Only available <after adopting [Civic.MilitaryTradition]>",
+            "Only available <before adopting [Civic.DivineRight]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Wild.Strategos",
+        "cost": 0,
+        "requiredResource": "Resource.WildPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Unit.General]",
+            "Only available <after adopting [Civic.MilitaryTradition]>",
+            "Only available <before adopting [Civic.ScorchedEarth]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Wild"
+        ]
+    },
+    // State Workforce
+    {
+        "name": "Mil.Conscription",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [Militray unit maintenance reduced by 1 [Gold] per turn, per unit.]",
+            "Only available <after adopting [Civic.StateWorkforce]>",
+            "Only available <before adopting [Civic.Mobilization]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.Corvée",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "Comment [+15% [Production] toward Ancient and Classical wonders.]",
+            "[+15]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities] <hidden from users>",
+            "[+15]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities] <hidden from users>",
+
+            "Only available <after adopting [Civic.StateWorkforce]>",
+            "Only available <before adopting [Civic.DivineRight]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Early Empire
+    {
+        "name": "Eco.LandSurveyors",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[-20]% Gold cost of acquiring tiles [in all cities]",
+            "Only available <after adopting [Civic.EarlyEmpire]>",
+            "Only available <before adopting [Civic.ScorchedEarth]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Eco.Colonization",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+50]% Production when constructing [Settler] units [in all cities]",
+            "Only available <after adopting [Civic.EarlyEmpire]>",
+            "Only available <before adopting [Civic.ScorchedEarth]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Mysticism
+    {
+        "name": "Wild.Inspiration",
+        "cost": 0,
+        "requiredResource": "Resource.WildPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Unit.Scientist]",
+            "Only available <after adopting [Civic.Mysticism]>",
+            "Only available <before adopting [Civic.NuclearProgram]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Wild"
+        ]
+    },
+    {
+        "name": "Wild.Revelation",
+        "cost": 0,
+        "requiredResource": "Resource.WildPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Unit.Prophet]",
+            "Only available <after adopting [Civic.Mysticism]>",
+            "Only available <before adopting [Civic.Humanism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Wild"
+        ]
+    },
+    // Games and recreation
+    {
+        "name": "Eco.Insulae",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "Comment [+1 [Resource.Housing] in all cities with a District.]",
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Only available <before adopting [Civic.MedievalFaires]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Political Philosophy
+    {
+        "name": "Dip.CharismaticLeader",
+        "cost": 0,
+        "requiredResource": "Resource.DiplomacyPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Influence]",
+            "Only available <after adopting [Civic.PoliticalPhilosophy]>",
+            "Only available <before adopting [Civic.Totalitarianism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Diplomacy"
+        ]
+    },
+    {
+        "name": "Dip.DiplomaticLeague",
+        "cost": 0,
+        "requiredResource": "Resource.DiplomacyPolicySlot",
+        "uniques": [
+            "Comment [The first Envoy you send to each city-state counts as two Envoys.]",
+            "Only available <after adopting [Civic.PoliticalPhilosophy]>",
+            "Can only be built [in capital] <hidden from users>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Diplomacy"
+        ]
+    },
+    // Drama and poetry
+    {
+        "name": "Wild.LiteraryTradition",
+        "cost": 0,
+        "requiredResource": "Resource.WildPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Unit.Writer]",
+            "Only available <after adopting [Civic.DramaAndPoetry]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Wild"
+        ]
+    },
+    // Military Training
+    {
+        "name": "Mil.Raid",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Receive triple Gold from Barbarian encampments and pillaging Cities",
+            "Only available <after adopting [Civic.MilitaryTraining]>",
+            "Only available <before adopting [Civic.ScorchedEarth]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Mil.Veterancy",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+30% [Production] when constructing buildings of Encampment and Harbor districts]",
+            "[+30]% Production when constructing [Class.DistrictBuilding.Encampment] buildings [in all cities]",
+            "[+30]% Production when constructing [Class.DistrictBuilding.Harbor] buildings [in all cities]",
+
+            "Only available <after adopting [Civic.MilitaryTraining]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Mil.EquestrianOrders",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Provides [1] [Resource.Horse] <in [Improvement.Pasture] tiles> <in [Resource.Horse] tiles>",
+            "Only available <after adopting [Civic.MilitaryTraining]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    // Defensive Tactics
+    {
+        "name": "Mil.Bastions",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "[+30]% Strength for cities <when defending>",
+            "Only available <after adopting [Civic.DefensiveTactics]>",
+            "Only available <before adopting [Civic.CivilEngineering]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Mil.Limes",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+100% [Production] toward defensive buildings.]",
+            "[+100]% Production when constructing [Class.Building.Wall] buildings [in all cities] <hidden from users>",
+
+            "Only available <after adopting [Civic.DefensiveTactics]>",
+            "Only available <before adopting [Civic.Totalitarianism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    // Recorded History
+    {
+        "name": "Eco.NaturalPhilosophy",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+100]% Yield from every [Class.District.Campus]",
+            "Only available <after adopting [Civic.RecordedHistory]>",
+            "Only available <before adopting [Civic.ClassStruggle]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Theology
+    {
+        "name": "Eco.Scripture",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+100]% Yield from every [Class.District.HolySite]",
+            "Only available <after adopting [Civic.Theology]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Naval Tradition
+    {
+        "name": "Eco.NavalInfrastructure",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+100]% Yield from every [Class.District.Harbor]",
+            "Only available <after adopting [Civic.NavalTradition]>",
+            "Only available <before adopting [Civic.Suffrage]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Wild.Navigation",
+        "cost": 0,
+        "requiredResource": "Resource.WildPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Unit.Admiral]",
+            "Only available <after adopting [Civic.NavalTradition]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Wild"
+        ]
+    },
+    // Feudalism
+    {
+        "name": "Mil.FeudalContract",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+50% [Production] toward Ancient, Classical, Medieval and Renaissance era melee, ranged and anti-cavalry units.]",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.Melee}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.Ranged}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.Melee}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.Ranged}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Classical} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Medieval} {UnitType.Melee}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Medieval} {UnitType.Ranged}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Medieval} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Renaissance} {UnitType.Melee}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Renaissance} {UnitType.Ranged}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Renaissance} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",
+
+            "Only available <after adopting [Civic.Feudalism]>",
+            "Only available <before adopting [Civic.Nationalism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.Serfdom",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "Comment [Newly trained Builders gain 2 extra build charges.]",
+            "Only available <after adopting [Civic.Feudalism]>",
+            "Only available <before adopting [Civic.CivilEngineering]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Civil Service
+    // In Rise and Fall and Gathering Storm, Meritocracy is removed from the game.
+    // {
+    //     "name": "Eco.Meritocracy",
+    //     "cost": 0,
+    //     "requiredResource": "Resource.EconomicPolicySlot",
+    //     "uniques": [
+    //         "Comment [Each city receives +1 [Culture] for each specialty District District it constructs.]",
+    //         "Only available <after adopting [Civic.CivilService]>",
+    //         "Can only be built [in capital] <hidden from users>",
+    //         "Limited to [1] per Civilization <hidden from users>",
+    //         "Destroyed when the city is captured <hidden from users>",
+    //         "Class.Policy.Economy"
+    //     ]
+    // },
+    {
+        "name": "Mil.Retainers",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "[+1 Happiness] [in all cities with a garrison]",
+            "Only available <after adopting [Civic.CivilService]>",
+            "Only available <before adopting [Civic.MassMedia]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    // Mercenaries
+    {
+        "name": "Mil.ProfessionalArmy",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "[-50]% Gold cost of upgrading",
+            "Only available <after adopting [Civic.Mercenaries]>",
+            "Only available <before adopting [Civic.Urbanization]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.TradeConfederation",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+1 Science, +1 Culture] from every [Building.TradingPost]",
+            "Only available <after adopting [Civic.Mercenaries]>",
+            "Only available <before adopting [Civic.Capitalism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    // Medieval Faires
+    {
+        "name": "Eco.Aesthetics",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+100]% Yield from every [Class.District.TheaterSquare]",
+            "Only available <after adopting [Civic.MedievalFaires]>",
+            "Only available <before adopting [Civic.ProfessionalSports]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Eco.MedinaQuarter",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "Provides [4] [Resource.Housing] <in cities with at least [3] [Population]>",
+            "Only available <after adopting [Civic.MedievalFaires]>",
+            "Only available <before adopting [Civic.Suffrage]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Dip.MerchantConfederation",
+        "cost": 0,
+        "requiredResource": "Resource.DiplomacyPolicySlot",
+        "uniques": [
+            "Comment [+1 [Gold] from each of your Envoys at city-states.]",
+            "Only available <after adopting [Civic.MedievalFaires]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Diplomacy"
+        ]
+    },
+    // Guilds
+    {
+        "name": "Mil.Craftsmen",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "[+100]% Yield from every [Class.District.IndustrialZone]",
+            "Only available <after adopting [Civic.Guilds]>",
+            "Only available <before adopting [Civic.ClassStruggle]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.TownCharters",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "[+100]% Yield from every [Class.CommecialHub]",
+            "Only available <after adopting [Civic.Guilds]>",
+            "Only available <before adopting [Civic.Suffrage]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    },
+    {
+        "name": "Wild.TravelingMerchants",
+        "cost": 0,
+        "requiredResource": "Resource.WildPolicySlot",
+        "uniques": [
+            "Provides [2] [Resource.Unit.Merchant]",
+            "Only available <after adopting [Civic.Guilds]>",
+            "Only available <before adopting [Civic.Capitalism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Wild"
+        ]
+    },
+    // Divine Right
+    {
+        "name": "Mil.Chivalry",
+        "cost": 0,
+        "requiredResource": "Resource.MilitaryPolicySlot",
+        "uniques": [
+            "Comment [+50% [Production] toward Industrial era heavy and light cavalry units.]",
+            "[+50]% Production when constructing [{Era.Industrial} {UnitType.HeavyCavalry}] units [in all cities] <hidden from users>",
+            "[+50]% Production when constructing [{Era.Industrial} {UnitType.LightCavalry}] units [in all cities] <hidden from users>",
+
+            "Only available <after adopting [Civic.DivineRight]>",
+            "Only available <before adopting [Civic.Totalitarianism]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Military"
+        ]
+    },
+    {
+        "name": "Eco.GothicArchitecture",
+        "cost": 0,
+        "requiredResource": "Resource.EconomicPolicySlot",
+        "uniques": [
+            "Comment [+15% [Production] toward Ancient, Classical, Medieval, and Renaissance wonders.]",
+            "[+15]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities] <hidden from users>",            
+            "[+15]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities] <hidden from users>",            
+            "[+15]% Production when constructing [Class.WonderEra.Medieval] wonders [in all cities] <hidden from users>",            
+            "[+15]% Production when constructing [Class.WonderEra.Renaissance] wonders [in all cities] <hidden from users>",            
+
+            "Only available <after adopting [Civic.DivineRight]>",
+            "Only available <before adopting [Civic.CivilEngineering]>",
+            "Only available <in cities without a [Building.HidePolicy]> <hidden from users>",
+            
+            "Can only be built [in capital] <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Class.Policy.Economy"
+        ]
+    }
+]

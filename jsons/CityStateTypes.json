@@ -1,0 +1,89 @@
+[
+    {
+        "name": "CityStateType.Cultural",
+        "color": [139, 96, 255],
+        "friendBonusUnique": [
+            "[+2 Culture] [in capital]",
+            "[+2 Culture] from every [District.TheaterSquare]",
+        ],
+        "allyBonusUnique": [
+            "[+2 Culture] [in capital]",
+            "[+4 Culture] from every [District.TheaterSquare]",
+        ]
+    },
+    {
+        "name": "CityStateType.Industrial",
+        "color": [139, 96, 255],
+        "friendBonusUnique": [
+            "[+2 Production] [in capital]",
+            "[+2 Production] from every [District.IndustrialZone]",
+        ],
+        "allyBonusUnique": [
+            "[+2 Production] [in capital]",
+            "[+4 Production] from every [District.IndustrialZone]",
+        ]
+    },
+    {
+        "name": "CityStateType.Militaristic",
+        "color": [255, 0, 0],
+        "friendBonusUnique": [
+            "[+2 Production] [in capital]",
+            "[+2 Production] from every [District.Encampment]"
+        ],
+        "allyBonusUnique": [
+            "[+2 Production] [in capital]",
+            "[+4 Production] from every [District.Encampment]"
+        ]
+    },
+    {
+        "name": "CityStateType.Religious",
+        "color": [255, 255, 255],
+        "friendBonusUnique": [
+            "[+2 Faith] [in capital]",
+            "[+2 Faith] from every [District.HolySite]"
+        ],
+        "allyBonusUnique": [
+            "[+2 Faith] [in capital]",
+            "[+4 Faith] from every [District.HolySite]"
+        ]
+    },
+    {
+        "name": "CityStateType.Scientific",
+        "color": [0, 0, 255],
+        "friendBonusUnique": [
+            "[+2 Science] [in capital]",
+            "[+2 Science] from every [District.Campus]"
+        ],
+        "allyBonusUnique": [
+            "[+2 Science] [in capital]",
+            "[+4 Science] from every [District.Campus]"
+        ]
+    },
+    {
+        "name": "CityStateType.Trade",
+        "color": [255, 216, 0],
+        "friendBonusUnique": [
+            "[+4 Gold] [in capital]",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Market]>",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Lighthouse]>",
+            "[+4 Gold] from every [District.CommercialHub]"
+        ],
+        "allyBonusUnique": [
+            "[+4 Gold] [in capital]",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Market]>",
+            "[+2 Gold] [in all cities] <in cities with a [Building.Shipyard]>",
+            "[+8 Gold] from every [District.CommercialHub]"
+        ]
+    },
+    {
+        "name": "CityStateType.Maritime",
+        "friendBonusUnique": [
+            "[+2 Food] [in capital]",            
+            "[+2 Food] from every [District.Harbor]"
+        ],
+        "allyBonusUnique": [
+            "[+2 Food] [in capital]",
+            "[+4 Food] from every [District.Harbor]"
+        ]
+    }
+]

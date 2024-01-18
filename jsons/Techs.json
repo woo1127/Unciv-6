@@ -1,0 +1,659 @@
+[
+    {
+        "columnNumber": 0,
+        "era": "Era.Ancient",
+        "techCost": 1,
+        "buildingCost": 60,
+        "wonderCost": 180,
+        "techs": [
+            {
+                "name": "Tech.Agriculture",
+                "row": 4,
+                "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech"]
+            }
+        ]
+    },
+    {
+        "columnNumber": 1,
+        "era": "Era.Ancient",
+        "techCost": 25,
+        "buildingCost": 60,
+        "wonderCost": 180,
+        "techs": [
+            {
+                "name": "Tech.Pottery",
+                "row": 4,
+                "prerequisites": ["Tech.Agriculture"],
+                "quote": "'No man ever wetted clay and then left it, as if there would be bricks by chance and fortune.' - Plutarch"
+            },
+            {
+                "name": "Tech.AnimalHusbandry",
+                "row": 5,
+                "prerequisites": ["Tech.Agriculture"],
+                "quote": "'If there are no dogs in Heaven, then when I die I want to go where they went.' – Will Rogers"
+            },
+            {
+                "name": "Tech.Mining",
+                "row": 7,
+                "prerequisites": ["Tech.Agriculture"],
+                "quote": "'Who deserves more credit than the wife of a coal miner?' – Merle Travis"
+            }
+        ]
+    },
+    {
+        "columnNumber": 2,
+        "era": "Era.Ancient",
+        "techCost": 50,
+        "buildingCost": 60,
+        "wonderCost": 180,
+        "techs": [
+            {
+                "name": "Tech.Sailing",
+                "row": 1,
+                "quote": "'Vessels large may venture more, but little boats should keep near shore.' – Benjamin Franklin"
+            },
+            {
+                "name": "Tech.Astrology",
+                "row": 2,
+                "quote": "'I don't believe in astrology; I'm a Sagittarius and we're skeptical.' – Arthur C. Clarke"
+            },
+            {
+                "name": "Tech.Irrigation",
+                "row": 3,
+                "prerequisites": ["Tech.Pottery"],
+                "quote": "'Thousands have lived without love, not one without water.' – W. H. Auden"
+            },
+            {
+                "name": "Tech.Writing",
+                "row": 4,
+                "prerequisites": ["Tech.Pottery"],
+                "quote": "'Writing means sharing. It's part of the human condition to want to share things - thoughts, ideas, opinions.' – Paulo Coelho"
+            },
+            {
+                "name": "Tech.Archery",
+                "row": 5,
+                // "row": 6,
+                "prerequisites": ["Tech.AnimalHusbandry"],
+                "quote": "'I shot an arrow into the air. It fell to earth, I knew not where.' – Henry Wadsworth Longfellow"
+            }
+        ]
+    },
+    {
+        "columnNumber": 3,
+        "era": "Era.Ancient",
+        "techCost": 80,
+        "buildingCost": 60,
+        "wonderCost": 180,
+        "techs": [
+            {
+                "name": "Tech.Masonry",
+                "row": 6,
+                "prerequisites": ["Tech.Mining"],
+                "quote": "'Each of us is carving a stone, erecting a column, or cutting a piece of stained glass in the construction of something much bigger than ourselves.' – Adrienne Clarkson"
+            },
+            {
+                "name": "Tech.BronzeWorking",
+                "row": 7,
+                "prerequisites": ["Tech.Mining"],
+                "quote":  "'Bronze is the mirror of the form, wine of the mind.' – Aeschylus"
+            },
+            {
+                "name": "Tech.Wheel",
+                "row": 8,
+                "prerequisites": ["Tech.Mining"],
+                "quote": "'Sometimes the wheel turns slowly, but it turns.' – Lorne Michaels"
+            }
+        ]
+    },
+    {
+        "columnNumber": 4,
+        "era": "Era.Classical",
+        "techCost": 120,
+        "buildingCost": 60,
+        "wonderCost": 400,
+        "techs": [
+            {
+                "name": "Tech.CelestialNavigation",
+                "row": 2,
+                "prerequisites": ["Tech.Sailing", "Tech.Astrology"],
+                "quote": "'And all I ask is a tall ship and a star to steer her by.' – John Masefield"
+            },
+            {
+                "name": "Tech.Currency",
+                "row": 4,
+                "prerequisites": ["Tech.Writing"],
+                "quote": "'Wealth consists not in having great possessions, but in having few wants.' – Epictetus"
+            },
+            {
+                "name": "Tech.HorsebackRiding",
+                "row": 5,
+                "prerequisites": ["Tech.Archery"],
+                "quote": "'No hour of life is wasted that is spent in the saddle.' – Winston Churchill"
+            },
+            {
+                "name": "Tech.IronWorking",
+                "row": 7,
+                "prerequisites": ["Tech.BronzeWorking"],
+                "quote": "'The Lord made us all out of iron. Then he turns up the heat to forge some of us into steel.' – Marie Osmond"
+            }
+        ]
+    },
+    {
+        "columnNumber": 5,
+        "era": "Era.Classical",
+        "techCost": 200,
+        "buildingCost": 60,
+        "wonderCost": 400,
+        "techs": [
+            {
+                "name": "Tech.Shipbuilding",
+                "row": 1,
+                "prerequisites": ["Tech.Sailing"],
+                "quote": "'I cannot imagine any condition which would cause a ship to founder … Modern shipbuilding has gone beyond that.' – Capt. E.J. Smith, RMS Titanic"
+            },
+            {
+                "name": "Tech.Mathematics",
+                "row": 3,
+                "prerequisites": ["Tech.Currency"],
+                "quote": "'Without mathematics, there's nothing you can do. Everything around you is mathematics. Everything around you is numbers.' – Shakuntala Devi"
+            },
+            {
+                "name": "Tech.Construction",
+                "row": 6,
+                "prerequisites": ["Tech.Masonry", "Tech.HorsebackRiding"],
+                "quote": "'Create with the heart; build with the mind.' – Criss Jami"
+            },
+            {
+                "name": "Tech.Engineering",
+                "row": 8,
+                "prerequisites": ["Tech.Wheel"],
+                "quote": "'One man's 'magic' is another man's engineering.' – Robert Heinlein"
+            }
+        ]
+    },
+    {
+        "columnNumber": 6,
+        "era": "Era.Medieval",
+        "techCost": 300,
+        "buildingCost": 60,
+        "wonderCost": 710,
+        "techs": [
+            {
+                "name": "Tech.Buttress",
+                "row": 1,
+                "prerequisites": ["Tech.Shipbuilding", "Tech.Mathematics"],
+                "quote": "'An architect should live as little in cities as a painter. Send him to our hills, and let him study there what nature understands by a buttress, and what by a dome.' – John Ruskin"
+            }
+            {
+                "name": "Tech.MilitaryTactics",
+                "row": 2,
+                "prerequisites": ["Tech.Mathematics"],
+                "quote": "'Tactics mean doing what you can with what you have.' – Saul Alinsky"
+            },
+            {
+                "name": "Tech.Apprenticeship",
+                "row": 4,
+                "prerequisites": ["Tech.Currency", "Tech.HorsebackRiding"],
+                "quote": "'We are all apprentices in a craft where no one ever becomes a master.' – Ernest Hemingway"
+            },
+            {
+                "name": "Tech.Machinery",
+                "row": 8,
+                "prerequisites": ["Tech.Engineering", "Tech.IronWorking"],
+                "quote": "'I'd imagine the whole world as one big machine. Machines never come with any spare parts, you know. They always come with the exact amount they need.' – Hugo Cabret"
+            }
+        ]
+    },
+    {
+        "columnNumber": 7,
+        "era": "Era.Medieval",
+        "techCost": 390,   
+        "buildingCost": 60,
+        "wonderCost": 710,
+        "techs": [
+            {
+                "name": "Tech.Education",
+                "row": 3,
+                "cost": 335,
+                "prerequisites": ["Tech.Mathematics", "Tech.Apprenticeship"],
+                "quote": "'The purpose of education is to replace an empty mind with an open one.' – Malcolm Forbes"
+            },
+            {
+                "name": "Tech.Stirrups",
+                "row": 5,
+                // "prerequisites": ["Tech.HorsebackRiding", "Tech.Apprenticeship"],
+                "prerequisites": ["Tech.Apprenticeship"],
+                "quote": "'Few inventions have been so simple as the stirrup, but few have had so catalytic an influence on history.' – Lynn White Jr."
+            },
+            {
+                "name": "Tech.MilitaryEngineering",
+                "row": 6,
+                "cost": 335,
+                "prerequisites": ["Tech.Construction"],
+                "quote": "'Blast - Build - Battle' – Motto of the U.S. 16th Engineer Brigade"
+            },
+            {
+                "name": "Tech.Castles",
+                "row": 7,
+                "prerequisites":["Tech.Construction", "Tech.IronWorking"],
+                "quote": "'Rocks in my path? I keep them all. With them I shall build my castle.' – Nemo Nox"
+            }
+        ]
+    },
+    {
+        "columnNumber": 8,
+        "era": "Era.Renaissance",
+        "techCost": 600,
+        "buildingCost": 60,
+        "wonderCost": 920,
+        "techs": [
+            {
+                "name": "Tech.Cartography",
+                "row": 1,
+                "prerequisites": ["Tech.Buttress"],
+                "quote": "'If your actions inspire others to dream more, learn more, do more and become more, you are a cartographer.' – John Quincy Adams"
+            },
+            {
+                "name": "Tech.MassProduction",
+                "row": 2,
+                "prerequisites": ["Tech.MilitaryTactics", "Tech.Buttress"],
+                "quote": "'People can have the Model T in any color - so long as it's black.' – Henry Ford"
+            },
+            {
+                "name": "Tech.Banking",
+                "row": 4,
+                "prerequisites": ["Tech.Education", "Tech.Stirrups"],
+                "quote": "'If you owe the bank $100 that's your problem. If you owe the bank $100 million, that's the bank's problem.' – J. Paul Getty"
+            },
+            {
+                "name": "Tech.Gunpowder",
+                "row": 5,
+                // "prerequisites": ["Tech.MilitaryEngineering", "Tech.Stirrups", "Tech.Apprenticeship"],
+                "prerequisites": ["Tech.MilitaryEngineering", "Tech.Stirrups"],
+                "quote": "'The real use of gunpowder is to make all men tall.' – Thomas Carlyle"
+            },
+            {
+                "name": "Tech.Printing",
+                "row": 8,
+                "prerequisites": ["Tech.Machinery"],
+                "quote": "'The pen might not be mightier than the sword, but maybe the printing press is heavier than the siege weapon. Just a few words can change everything.' – Terry Pratchett"
+            }
+        ]
+    },
+    {
+        "columnNumber": 9,
+        "era": "Era.Renaissance",
+        "techCost": 730,
+        "buildingCost": 60,
+        "wonderCost": 920,
+        "techs": [
+            {
+                "name": "Tech.SquareRigging",
+                "row": 1,
+                "prerequisites": ["Tech.Cartography"],
+                "quote": "'There is little man has made that approaches anything in nature, but a sailing ship does.' – Allan Villiers"                
+            },
+            {
+                "name": "Tech.Astronomy",
+                "row": 3,
+                "prerequisites": ["Tech.Education"],
+                "quote": "'Astronomy compels the soul to look upwards and leads us from this world to another.' – Plato"
+            },
+            {
+                "name": "Tech.MetalCasting",
+                "row": 5,
+                "prerequisites": ["Tech.Gunpowder"],
+                "quote": "'At first Hephaestus makes a great and massive shield ... And he forged on the shield two noble cities.' – Homer"
+            },
+            {
+                "name": "Tech.SiegeTactics",
+                "row": 7,
+                "prerequisites": ["Tech.Castles"],
+                "quote": "'The lowest is to attack a city. Siege of a city is only done as a last resort.' – Sun Tzu"
+            }
+        ]
+    },
+    {
+        "columnNumber": 10,
+        "era": "Era.Industrial",
+        "techCost": 930,
+        "buildingCost": 60,
+        "wonderCost": 1240,
+        "techs": [
+            {
+                "name": "Tech.Industrialization",
+                "row": 2,
+                "prerequisites": ["Tech.MassProduction", "Tech.SquareRigging"],
+                "quote":  "'I think the human race made a big mistake at the beginning of the Industrial Revolution, we leaped for the mechanical things. People need the use of their hands to feel creative.' – Andre Norton"
+            },
+            {
+                "name": "Tech.ScientificTheory",
+                "row": 3,
+                "prerequisites": ["Tech.Astronomy", "Tech.Banking"],
+                "quote": "'Claims that cannot be tested, assertions immune to disproof are veridically worthless, whatever value they may have in inspiring us or exciting our sense of wonder.' – Carl Sagan"
+            },
+            {
+                "name": "Tech.Ballistics",
+                "row": 5,
+                "prerequisites": ["Tech.MetalCasting"],
+                "quote":  "'It’s one thing to surmise what happened, but we don’t speculate on that until ballistics confirms what happened …' – John Hansen"
+            },
+            {
+                "name": "Tech.MilitaryScience",
+                "row": 7,
+                "prerequisites": ["Tech.SiegeTactics", "Tech.Printing"],
+                "quote": "'However beautiful the strategy, you should occasionally look at the results.' – Winston Churchill"
+            }
+        ]
+    },
+    {
+        "columnNumber": 11,
+        "era": "Era.Industrial",
+        "techCost": 1070,
+        "buildingCost": 60,
+        "wonderCost": 1240,
+        "techs": [
+            {
+                "name": "Tech.SteamPower",
+                "row": 1,
+                "prerequisites": ["Tech.Industrialization"],
+                "quote": "'It is arguable whether the human race have been gainers by the march of science beyond the steam engine.' – Winston Churchill"
+            },
+            {
+                "name": "Tech.Sanitation",
+                "row": 3,
+                "prerequisites": ["Tech.ScientificTheory"],
+                "quote": "'No innovation in the past 200 years has done more to save lives and improve health than the sanitation revolution triggered by the invention of the toilet.' – Sylvia Burwell"
+            },
+            {
+                "name": "Tech.Economics",
+                "row": 4,
+                "prerequisites": ["Tech.MetalCasting", "Tech.ScientificTheory"],
+                "quote": "'Economics is a subject that does not greatly respect one's wishes.' – Nikita Khrushchev"
+            },
+            {
+                "name": "Tech.Rifling",
+                "row": 7,
+                "prerequisites": ["Tech.MilitaryScience", "Tech.Ballistics"],
+                "quote": "'Bolt actions speak louder than words.' – Craig Roberts"
+            }
+        ]
+    },
+    {
+        "columnNumber": 12,
+        "era": "Era.Modern",
+        "techCost": 1250,
+        "buildingCost": 60,
+        "wonderCost": 1620,
+        "techs": [
+            {
+                "name": "Tech.Flight",
+                "row": 2,
+                "prerequisites": ["Tech.Industrialization", "Tech.ScientificTheory"],
+                "quote": "'For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' – Leonardo da Vinci"
+            },
+            {
+                "name": "Tech.ReplaceableParts",
+                "row": 4,
+                "prerequisites": ["Tech.Economics"],
+                "quote": "'For a machine to run smoothly and predictably, its parts must be standard and hence replaceable.' – Charles Eisenstein"
+            },
+            {
+                "name": "Tech.Steel",
+                "row": 5,
+                "prerequisites": ["Tech.Rifling"],
+                "quote": "'The best steel doesn't always shine the brightest.' – Joe Abercrombie"
+            },
+            {
+                "name": "Tech.Refining",
+                "row": 7,
+                "prerequisites": ["Tech.Rifling"],
+                "quote": "'Engineering is the art of directing the great sources of power in nature for the use and convenience of man.' – Thomas Tredgold"
+            }
+        ]
+    },
+    {
+        "columnNumber": 13,
+        "era": "Era.Modern",
+        "techCost": 1370,
+        "buildingCost": 60,
+        "wonderCost": 1620,
+        "techs": [
+            {
+                "name": "Tech.Electricity",
+                "row": 1,
+                "prerequisites": ["Tech.SteamPower"],
+                "quote": "'If it weren't for electricity, we'd all be watching television by candlelight.' – George Gobel"
+            },
+            {
+                "name": "Tech.Radio",
+                "row": 2,
+                "prerequisites": ["Tech.Flight", "Tech.SteamPower"],
+                "quote": "'A world without radio is a deaf world.' – Ernest Yeboah"
+            },
+            {
+                "name": "Tech.Chemistry",
+                "row": 3,
+                "prerequisites": ["Tech.Sanitation", "Tech.ReplaceableParts"],
+                "quote": "'Chemistry is the dirty part of physics. – Peter Reiss"
+            },
+            {
+                "name": "Tech.Combustion",
+                "row": 6,
+                "prerequisites": ["Tech.Steel", "Tech.Refining"],
+                "quote": "'The cars haven't advanced that much since we were kids. When you boil it down, it's still a gas combustion engine.' – Dana Brunetti"
+            }
+        ]
+    },
+    {
+        "columnNumber": 14,
+        "era": "Era.Atomic",
+        "techCost": 1480,
+        "buildingCost": 60,
+        "wonderCost": 1740,
+        "techs": [
+            {
+                "name": "Tech.AdvancedFlight",
+                "row": 2,
+                "prerequisites": ["Tech.Radio"],
+                "quote": "'Sure, jets are fast and economical, but, oh my, what fun we've lost and what leisure we've sacrificed in the race for efficiency.' – Ginger Rogers"
+            },
+            {
+                "name": "Tech.Rocketry",
+                "row": 3,
+                "prerequisites": ["Tech.Radio", "Tech.Chemistry"],
+                "quote": "'Rocket science has been mythologized all out of proportion to its true difficulty.' – John Carmack"
+            },
+            {
+                "name": "Tech.AdvancedBallistics",
+                "row": 4,
+                "prerequisites": ["Tech.Steel", "Tech.ReplaceableParts"],
+                "quote":  "'Untutored courage is useless in the face of educated bullets.' – George Patton"
+            },
+            {
+                "name": "Tech.CombinedArms",
+                "row": 5,
+                // "prerequisites": ["Tech.Combustion", "Tech.Steel"],
+                "prerequisites": ["Tech.Combustion"],
+                "quote":  "'Better to fight for something than live for nothing.' – George S. Patton"
+            },
+            {
+                "name": "Tech.Plastics",
+                "row": 6,
+                "prerequisites": ["Tech.Combustion"],
+                "quote": "'In the hierarchy of the major poetic substances, plastic figures as a disgraced material, lost between the effusiveness of rubber and the flat hardness of metal.' – Roland Barthes"
+            }
+        ]
+    },
+    {
+        "columnNumber": 15,
+        "era": "Era.Atomic",
+        "techCost": 1660,
+        "buildingCost": 60,
+        "wonderCost": 1740,
+        "techs": [
+            {
+                "name": "Tech.Computers",
+                "row": 1,
+                "prerequisites": ["Tech.Electricity"],
+                "quote": "'To err is human, but to really foul things up you need a computer.' – Paul R. Ehrlich"
+            },
+            {
+                "name": "Tech.NuclearFission",
+                "row": 5,
+                "prerequisites": ["Tech.CombinedArms", "Tech.AdvancedBallistics"],
+                "quote": "'If you go on with this nuclear arms race, all you are going to do is make the rubble bounce.' – Winston Churchill"
+            },
+            {
+                "name": "Tech.SyntheticMaterials",
+                "row": 6,
+                "prerequisites": ["Tech.Plastics"],
+                "quote": "'There's so much plastic in this culture that vinyl leopard skin is becoming an endangered synthetic.' – Lily Tomlin"
+            }
+        ]
+    },
+    {
+        "columnNumber": 16,
+        "era": "Era.Information",
+        "techCost": 1850,
+        "buildingCost": 60,
+        "wonderCost": 1850,
+        "techs": [
+            {
+                "name": "Tech.Telecommunications",
+                "row": 1,
+                "prerequisites": ["Tech.Computers"],
+                "quote": "'Mr. Watson… Come here… I want to see you.' – Alexander Graham Bell"
+            },
+            {
+                "name": "Tech.Satellites",
+                "row": 3,
+                "prerequisites": ["Tech.AdvancedFlight", "Tech.Rocketry"],
+                "quote": "'A satellite has no conscience.' – Edward R. Murrow"
+            },
+            {
+                "name": "Tech.GuidanceSystems",
+                "row": 4,
+                "prerequisites": ["Tech.AdvancedBallistics", "Tech.Rocketry"],
+                "quote": "'If you do not change direction, you may end up where you were heading.' – Lao Tzu"
+            },
+            {
+                "name": "Tech.Lasers",
+                "row": 5,
+                "cost": 1340,
+                "prerequisites": ["Tech.NuclearFission"],
+                "quote": "'When God said, ‘Let there be light,’ he surely must have meant perfectly coherent light.' – Charles Townes"
+            },
+            {
+                "name": "Tech.Composites",
+                "row": 6,
+                "prerequisites": ["Tech.SyntheticMaterials"],
+                "quote": "'All material things seem to have been composed of the hard and solid particles... variously associated with the first Creation by the counsel of an Intelligent Agent.' – Isaac Newton"
+            },
+            {
+                "name": "Tech.StealthTechnology",
+                "row": 7,
+                "prerequisites": ["Tech.SyntheticMaterials"],
+                "quote": "'I would say invisibility would be sort of a fun power to have just to see what it was like to move through the world and not be looked at.' – Kevin Bacon"
+            }
+        ]
+    },
+    {
+        "columnNumber": 17,
+        "era": "Era.Information",
+        "techCost": 2155,
+        "buildingCost": 60,
+        "wonderCost": 1850,
+        "techs": [
+            {
+                "name": "Tech.Robotics",
+                "row": 2,
+                "prerequisites": ["Tech.Computers", "Tech.Satellites", "Tech.GuidanceSystems", "Tech.Lasers"],
+                "quote":  "'Robotics has been around forever, and it's been the next big thing forever, and it is so exciting and compelling that it's easy to get carried away.' – Colin Angle"
+            },
+            {
+                "name": "Tech.NuclearFusion",
+                "row": 5,
+                "cost": 1560,
+                "prerequisites": ["Tech.Lasers"],
+                "quote": "'I am a big proponent of harnessing the power of fusion - from 93 million miles away. Fusion is done by our sun really, really well and for free. Here on Earth in reactors, not so much.' – Joe Romm"
+            },
+            {
+                "name": "Tech.Nanotechnology",
+                "row": 6,
+                "cost": 1560,
+                "prerequisites": ["Tech.Composites"],
+                "quote": "'If technology is the engine of change, then nanotechnology is the fuel for humanity's future.' – Natasha Vita-More"
+            }
+        ]
+    },
+    {
+        "columnNumber": 18,
+        "era": "Era.Future",
+        "techCost": 2300,
+        "buildingCost": 60,
+        "wonderCost": 1850,
+        "techs": [
+            {
+                "name": "Tech.AdvancedAI",
+                "row": 1,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'Will no entreaties cause thee to turn a favourable eye upon thy creature, who implores thy goodness and compassion?' – Mary Shelley"
+            },
+            {
+                "name": "Tech.AdvancedPowerCells",
+                "row": 2,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'The incomplete becomes complete; the crooked becomes straight; the empty becomes full; the worn out becomes new.' – Tao Te Ching, Lao Tzu"
+            },
+            {
+                "name": "Tech.Cybernetics",
+                "row": 3,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'If there is any work in the afterlife, you must do it. Behold me whenever you are called. Be watchful at any moment to work there. Plough my fields, carry water and sand to the east and west. Behold me whenever you are called.' – Inscription on an Egyptian Ushabti"
+            },
+            {
+                "name": "Tech.OffworldMission",
+                "row": 4,
+                "cost": 2500,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'No, my friends, we have not fallen back upon the earth; no, nor are we submerged in the Gulf of Mexico. Yes! we are mounting into space. See those stars shining in the night, and that impenetrable darkness heaped up between the earth and us!' – Jules Verne"
+            },
+            {
+                "name": "Tech.PredictiveSystems",
+                "row": 5,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'If the enemy know not where he will be attacked, he must prepare in every quarter, and so be everywhere weak.' – Sun Tzu"
+            },
+            {
+                "name": "Tech.Seasteads",
+                "row": 6,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'I must go down to the seas again, to the vagrant gypsy life, To the gull’s way and the whale’s way where the wind’s like a whetted knife;' – John Masefield"
+            },
+            {
+                "name": "Tech.SmartMaterials",
+                "row": 7,
+                "prerequisites": ["Tech.Robotics", "Tech.NuclearFusion", "Tech.Nanotechnology"],
+                "quote": "'It ascends from the earth to the heaven, and it again descends to the earth and receives the force of things superior and inferior.' – Hermes Trismegistus"
+            }
+        ]
+    },
+    {
+        "columnNumber": 19,
+        "era": "Era.Future",
+        "techCost": 2600,
+        "buildingCost": 60,
+        "wonderCost": 1850,
+        "techs": [
+            {
+                "name": "Tech.FutureTech",
+                "row": 4,
+                "prerequisites": ["Tech.AdvancedAI", "Tech.AdvancedPowerCells", "Tech.Cybernetics", "Tech.OffworldMission", "Tech.PredictiveSystems", "Tech.Seasteads", "Tech.SmartMaterials"],
+                "quote":  "'There is nothing like a dream to create the future.' – Victor Hugo",
+                "uniques": ["Can be continually researched"]
+            }
+        ]
+    }
+]

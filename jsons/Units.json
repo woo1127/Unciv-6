@@ -1,0 +1,1106 @@
+[
+    // Civilian
+    {
+		"name": "Worker",
+		"unitType": "UnitType.Civilian",
+		"movement": 2,
+		"cost": 50,
+		"uniques": [
+            "Can build [Land] improvements on tiles", 
+            "Automation is a primary action",
+            "Class.Unit.Builder"
+        ]
+	},
+    {
+        "name": "Settler",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 80,
+        "uniques": [
+            "Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
+			"Requires at least [2] population",
+            "[+1] Sight",
+            "[-1] population [in this city] <in cities with at least [2] [Population]>"
+        ]
+    },
+    {
+        "name": "Unit.Trader",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 1,
+        "uniques": [
+            "Only available <after adopting [Civic.ForeignTrade]>",
+            "Can build [Road] improvements on tiles",
+            "Can build [Railroad] improvements on tiles",
+            "Class.Unit.Builder"
+        ]
+    },
+    {   
+        "name": "Unit.Envoy",
+        "unitType": "UnitType.Melee",
+        "movement": 4,
+        "strength": 50,
+        "cost": 1,
+        "uniques": [
+            "Cannot attack",
+            "Uncapturable",
+            "Unbuildable"
+        ]
+    },
+
+    // Religious units
+    {
+        "name": "Unit.Missionary",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "religiousStrength": 300, // 100
+        "uniques": [
+            "Can Spread Religion <[3] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders",
+            "Hidden when religion is disabled",
+            "Unbuildable",
+            "Religious Unit"
+        ]
+    },
+    {
+        "name": "Unit.Apostle",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "religiousStrength": 330, // 110
+        "uniques": [
+            "Can Spread Religion <[3] times> <after which this unit is consumed>",
+            "Gain a free [Building.LaunchInquisition] [in capital] <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "May enter foreign tiles without open borders",
+            "Hidden when religion is disabled",
+            "Unbuildable",
+            "Religious Unit"
+        ]
+    },
+    {
+        "name": "Unit.Inquisitor",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Only available <if [Building.LaunchInquisition] is constructed>",
+            "Can remove other religions from cities <in [Friendly] tiles> <[3] times> <after which this unit is consumed>",
+            "Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
+        ]
+    },
+
+    // Scout
+    {
+        "name": "Unit.Scout",
+        "unitType": "UnitType.Scout",
+        "strength": 71, // 10
+        "movement": 3,
+        "cost": 30,
+        "hurryCostModifier": -33,
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "This Unit gains [10] XP <upon discovering a Natural Wonder>"
+        ]
+    },
+
+    // Melee
+    {
+        "name": "Unit.Warrior",
+        "unitType": "UnitType.Melee",
+        "strength": 100, // 20
+        "movement": 2,
+        "cost": 40,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Swordsman",
+        // "obsoleteTech": "Tech.Gunpowder",
+        "obsoleteTech": "Tech.IronWorking",
+        "attackSound": "nonmetalhit",
+        "uniques": []
+    },
+    {
+        "name": "Unit.Swordsman", 
+        "unitType": "UnitType.Melee",
+        "strength": 193, // 35
+        "movement": 2,
+        "cost": 90,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.ManAtArms",
+        "requiredTech": "Tech.IronWorking",
+        "obsoleteTech": "Tech.ReplaceableParts",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Iron]",
+            "Unbuildable <when below [20] [Resource.Iron]>",
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.ManAtArms",
+        "unitType": "UnitType.Melee",
+        "strength": 288, // 45
+        "movement": 2,
+        "cost": 160,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Musketman",
+        "requiredTech": "Tech.Apprenticeship",
+        "obsoleteTech": "Tech.ReplaceableParts",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Iron]",
+            "Unbuildable <when below [20] [Resource.Iron]>",
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.Musketman",
+        "unitType": "UnitType.Melee",
+        "strength": 430, // 55
+        "movement": 2,
+        "cost": 240,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.LineInfantry",
+        "requiredTech": "Tech.Gunpowder",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "metalhit",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Niter]",
+            "Unbuildable <when below [20] [Resource.Niter]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.LineInfantry",
+        "unitType": "UnitType.Melee",
+        "strength": 641, // 65
+        "movement": 2,
+        "cost": 360,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Infantry",
+        "requiredTech": "Tech.MilitaryScience",
+        "obsoleteTech": "Tech.Satellites",
+        "attackSound": "metalhit",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Niter]",
+            "Unbuildable <when below [20] [Resource.Niter]>",
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
+        "name": "Unit.Infantry",
+        "unitType": "UnitType.Melee",
+        "strength": 957, // 75
+        "movement": 2,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "upgradesTo": "Unit.MechanizedInfantry",
+        "requiredTech": "Tech.ReplaceableParts",
+        "attackSound": "metalhit",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.MechanizedInfantry",
+        "unitType": "UnitType.Melee",
+        "strength": 1427, // 85
+        "movement": 3,
+        "cost": 650,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Satellites",
+        "attackSound": "metalhit",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Costs [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Ranged
+    {
+        "name": "Unit.Slinger",
+        "unitType": "UnitType.Ranged",
+        "strength": 58, // 5
+        "rangedStrength": 87, // 15
+        "range": 1,
+        "movement": 2,
+        "cost": 35,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Archer",
+        // "obsoleteTech": "Tech.Machinery",
+        "obsoleteTech": "Tech.Archery",
+        "attackSound": "arrow",
+        "uniques": [
+        ]
+    },
+    {
+        "name": "Unit.Archer",
+        "unitType": "UnitType.Ranged",
+        "strength": 87, // 15
+        "rangedStrength": 129, // 25
+        "range": 2,
+        "movement": 2,
+        "cost": 60,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Crossbowman",
+        "requiredTech": "Tech.Archery",
+        // "obsoleteTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.Machinery",
+        "attackSound": "arrow",
+        "uniques": [
+            "Comment [Maintenance cost of 1]"
+        ]
+    },
+    {
+        "name": "Unit.Crossbowman",
+        "unitType": "UnitType.Ranged",
+        "strength": 158, // 30
+        "rangedStrength": 236, // 40
+        "range": 2,
+        "movement": 2,
+        "cost": 180,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.FieldCannon",
+        "requiredTech": "Tech.Machinery",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "arrow",
+        "uniques": [
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.FieldCannon",
+        "unitType": "UnitType.Ranged",
+        "strength": 352, // 50
+        "rangedStrength": 525, // 60
+        "range": 2,
+        "movement": 2,
+        "cost": 330,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.MachineGun",
+        "requiredTech": "Tech.Ballistics",
+        // "obsoleteTech": "Tech.Telecommunications",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
+        "name": "Unit.MachineGun",
+        "unitType": "UnitType.Ranged",
+        "strength": 783, // 70
+        "rangedStrength": 1427, // 85
+        "range": 2,
+        "movement": 2,
+        "cost": 540,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.AdvancedBallistics",
+        "attackSound": "machinegun",
+        "uniques": [
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+
+    // Anti Cavalry
+    {
+        "name": "Unit.Spearman",
+        "unitType": "UnitType.AntiCavalry",
+        "strength": 129, // 25
+        "movement": 2,
+        "cost": 65,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Pikeman",
+        "requiredTech": "Tech.BronzeWorking",
+        // "obsoleteTech": "Tech.MetalCasting",
+        "obsoleteTech": "Tech.MilitaryTactics",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "Comment [Maintenance cost of 1]"
+        ]
+    },
+    {
+        "name": "Unit.Pikeman",
+        "unitType": "UnitType.AntiCavalry",
+        "strength": 288, // 45
+        "movement": 2,
+        "cost": 180,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.PikeAndShot",
+        "requiredTech": "Tech.MilitaryTactics",
+        "obsoleteTech": "Tech.Composites",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.PikeAndShot",
+        "unitType": "UnitType.AntiCavalry",
+        "strength": 430, // 55
+        "movement": 2,
+        "cost": 250,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.ATCrew",
+        "requiredTech": "Tech.MetalCasting",
+        // "obsoleteTech": "Tech.CombinedArms",
+        "obsoleteTech": "Tech.Chemistry",
+        "attackSound": "shot",
+        "uniques": [
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.ATCrew",
+        "unitType": "UnitType.AntiCavalry",
+        "strength": 957, // 75
+        "movement": 2,
+        "cost": 400,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.ModernAT",
+        "requiredTech": "Tech.Chemistry",
+        "attackSound": "bombing",
+        "uniques": [
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.ModernAT",
+        "unitType": "UnitType.AntiCavalry",
+        "strength": 1427, // 85
+        "movement": 3,
+        "cost": 580,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Composites",
+        "attackSound": "bombing",
+        "uniques": [
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Heavy Cavalry
+    {
+        "name": "Unit.HeavyChariot",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 146, // 28
+        "movement": 2,
+        "cost": 65,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Knight",
+        "requiredTech": "Tech.Wheel",
+        "obsoleteTech": "Tech.Combustion",
+        "attackSound": "arrow",
+        "uniques": [
+            "Comment [Maintenance cost of 1]",
+            "[+1] Movement <in [Open terrain] tiles>"
+        ]
+    },
+    {
+        "name": "Unit.Knight",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 352, // 50
+        "movement": 4,
+        "cost": 220,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Cuirassier",
+        "requiredTech": "Tech.Stirrups",
+        "obsoleteTech": "Tech.Composites",
+        "attackSound": "horse",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Iron]",
+            "Unbuildable <when below [20] [Resource.Iron]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.Cuirassier",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 616, // 64  
+        "movement": 4,
+        "cost": 330,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Tank",
+        "requiredTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.Combustion",
+        "attackSound": "horse",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Iron]",
+            "Unbuildable <when below [20] [Resource.Iron]>",
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
+        "name": "Unit.Tank",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 1427, // 85
+        "movement": 4,
+        "cost": 480,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "upgradesTo": "Unit.ModernArmor",
+        "requiredTech": "Tech.Combustion",
+        "attackSound": "tankshot",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Costs [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "[+1] Movement <in [Open terrain] tiles>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.ModernArmor",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 2129, // 95
+        "movement": 4,
+        "cost": 680,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Composites",
+        "attackSound": "tankshot",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Costs [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "[+1] Movement <in [Open terrain] tiles>",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Light Cavalry
+    {
+        "name": "Unit.Horseman",
+        "unitType": "UnitType.LightCavalry",
+        "strength": 201, // 36
+        "movement": 4,
+        "cost": 80,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Courser",
+        "requiredTech": "Tech.HorsebackRiding",
+        "obsoleteTech": "Tech.SyntheticMaterials",
+        "attackSound": "horse",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Horse]",
+            "Unbuildable <when below [20] [Resource.Horse]>",
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.Courser",
+        "unitType": "UnitType.LightCavalry",
+        "strength": 300, // 46
+        "movement": 5,
+        "cost": 260,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Cavalry",
+        "requiredTech": "Tech.Castles",
+        "obsoleteTech": "Tech.SyntheticMaterials",
+        "attackSound": "horse",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Horse]",
+            "Unbuildable <when below [20] [Resource.Horse]>",
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.Cavalry",
+        "unitType": "UnitType.LightCavalry",
+        "strength": 569, // 62
+        "movement": 5,
+        "cost": 330,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Helicopter",
+        "requiredTech": "Tech.MilitaryScience",
+        "attackSound": "horse",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Horse]",
+            "Unbuildable <when below [20] [Resource.Horse]>",
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
+        "name": "Unit.Helicopter",
+        "unitType": "UnitType.LightCavalry",
+        "strength": 1485, // 86
+        "movement": 4,
+        "cost": 600,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Aluminum",
+        "requiredTech": "Tech.SyntheticMaterials",
+        "attackSound": "machinegun",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Aluminum]",
+            "Costs [1] [Resource.Aluminum]",
+            "Unbuildable <when below [1] [Resource.Aluminum]>",
+            "Comment [Maintenance cost of 7]",
+            "[+1] Sight",
+            "All tiles cost 1 movement",
+            "Can pass through impassable tiles",
+            "Can see over obstacles"
+        ]
+    },
+
+    // siege
+    {
+        "name": "Unit.Catapult",
+        "unitType": "UnitType.Siege",
+        "strength": 129, // 25
+        "rangedStrength": 193, // 35
+        "range": 2,
+        "movement": 2,
+        "cost": 120,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Trebuchet",
+        "requiredTech": "Tech.Engineering",
+        "obsoleteTech": "Tech.Steel",
+        "attackSound": "throw",
+        "uniques": [
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.Trebuchet",
+        "unitType": "UnitType.Siege",
+        "strength": 193, // 35
+        "rangedStrength": 288, // 45
+        "range": 2,
+        "movement": 2,
+        "cost": 200,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Bombard",
+        "requiredTech": "Tech.MilitaryEngineering",
+        "obsoleteTech": "Tech.Steel",
+        "attackSound": "throw",
+        "uniques": [
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.Bombard",
+        "unitType": "UnitType.Siege",
+        "strength": 288, // 45
+        "rangedStrength": 430, // 55
+        "range": 2,
+        "movement": 2,
+        "cost": 280,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Niter",
+        "upgradesTo": "Unit.Artillery",
+        "requiredTech": "Tech.MetalCasting",
+        "obsoleteTech": "Tech.GuidanceSystems",
+        "attackSound": "artillery",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Niter]",
+            "Unbuildable <when below [20] [Resource.Niter]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.Artillery",
+        "unitType": "UnitType.Siege",
+        "strength": 525, // 60
+        "rangedStrength": 1168, // 80
+        "range": 2,
+        "movement": 2,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "upgradesTo": "Unit.RocketArtillery",
+        "requiredTech": "Tech.Steel",
+        "attackSound": "artillery",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Costs [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.RocketArtillery",
+        "unitType": "UnitType.Siege",
+        "strength": 783, // 70
+        "rangedStrength": 2600, // 100
+        "range": 3,
+        "movement": 3,
+        "cost": 680,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.GuidanceSystems",
+        "attackSound": "artillery",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Costs [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+    
+    // Naval Melee
+    {
+        "name": "Unit.Galley",
+        "unitType": "UnitType.NavalMelee",
+        "strength": 158, //30
+        "movement": 3,
+        "cost": 65,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Caravel",
+        "requiredTech": "Tech.Sailing",
+        "obsoleteTech": "Tech.SteamPower",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
+            "Comment [Maintenance cost of 1]"
+        ]
+    },
+    {
+        "name": "Unit.Caravel",
+        "unitType": "UnitType.NavalMelee",
+        "strength": 430, // 55
+        "movement": 4,
+        "cost": 240,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Ironclad",
+        "requiredTech": "Tech.Cartography",
+        // "obsoleteTech": "Tech.CombinedArms",
+        "obsoleteTech": "Tech.SteamPower",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "[+1] Sight",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.Ironclad",
+        "unitType": "UnitType.NavalMelee",
+        "strength": 783, // 70
+        "movement": 5,
+        "cost": 380,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Destroyer",
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.SteamPower",
+        "attackSound": "shipguns",
+        "uniques": [
+            "[+1] Sight",
+            "Instantly consumes [1] [Resource.Coal]",
+            "Unbuildable <when below [1] [Resource.Coal]>",
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
+        "name": "Unit.Destroyer",
+        "unitType": "UnitType.NavalMelee",
+        "strength": 1427, // 85
+        "movement": 4,
+        "interceptRange": 2,
+        "cost": 540,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.CombinedArms",
+        "attackSound": "shipguns",
+        "uniques": [
+            "[+1] Sight",
+            "Can see invisible [UnitType.NavalRaider] units",
+            "[40]% chance to intercept air attacks",
+            "[+22]% Strength <vs [Air] units>", // 90
+            "Instantly consumes [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 7]"
+        ]
+    },
+
+    // Naval Ranged
+    {
+        "name": "Unit.Quadrireme",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 106, // 20
+        "rangedStrength": 129, // 25
+        "range": 1,
+        "movement": 3,
+        "cost": 120,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Frigate",
+        "requiredTech": "Tech.Shipbuilding",
+        // "obsoleteTech": "Tech.Steel",
+        "obsoleteTech": "Tech.SquareRigging",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.Frigate",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 288, // 45
+        "rangedStrength": 430, // 55
+        "range": 2,
+        "movement": 4,
+        "cost": 280,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Battleship",
+        "requiredTech": "Tech.SquareRigging",
+        "obsoleteTech": "Tech.Lasers",
+        "attackSound": "shipCannonVolley",
+        "uniques": [
+            "Instantly consumes [20] [Resource.Niter]",
+            "Unbuildable <when below [20] [Resource.Niter]>",
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
+        "name": "Unit.Battleship",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 525, // 60
+        "rangedStrength": 783, // 70
+        "range": 3,
+        "interceptRange": 1,
+        "movement": 5,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.MissileCruiser",
+        "requiredResource": "Resource.Coal",
+        "requiredTech": "Tech.Steel",
+        "attackSound": "shipguns",
+        "uniques": [
+            "[40]% chance to intercept air attacks",
+            "[+122]% Strength <vs [Air] units>", // 90
+            "Instantly consumes [1] [Resource.Coal]",
+            "Unbuildable <when below [1] [Resource.Coal]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.MissileCruiser",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 957, // 75
+        "rangedStrength": 1743, // 90
+        "range": 3,
+        "movement": 5,
+        "cost": 680,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Lasers",
+        "attackSound": "shipguns",
+        "uniques": [
+            "[40]% chance to intercept air attacks",
+            "[+122]% Strength <vs [Air] units>", // 110
+            "Instantly consumes [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Naval Raider
+    {
+        "name": "Unit.Privateer",
+        "unitType": "UnitType.NavalRaider",
+        "strength": 236, // 40
+        "rangedStrength": 352, // 50
+        "range": 2,
+        "movement": 4,
+        "cost": 280,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Submarine",
+        // "obsoleteTech": "Tech.Lasers",
+        "obsoleteTech": "Tech.Electricity",
+        "attackSound": "cannon",
+        "uniques": [
+            "Only available <after adopting [Civic.Mercantilism]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.Submarine",
+        "unitType": "UnitType.NavalRaider",
+        "strength": 641, // 65
+        "rangedStrength": 957, // 75
+        "range": 2,
+        "movement": 3,
+        "cost": 480,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.NuclearSubmarine",
+        "requiredResource": "Resource.Oil",
+        "requiredTech": "Tech.Electricity",
+        "attackSound": "torpedo",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.NuclearSubmarine",
+        "unitType": "UnitType.NavalRaider",
+        "strength": 1168, // 80
+        "rangedStrength": 1427, // 85
+        "range": 2,
+        "movement": 4,
+        "cost": 680,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Telecommunications",
+        "attackSound": "torpedo",
+        "uniques": [
+            "Can carry [2] [UnitType.Missile] units",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Naval Carrier
+    {
+        "name": "Unit.AircraftCarrier",
+        "unitType": "UnitType.NavalCarrier",
+        "strength": 641, // 65
+        "movement": 3,
+        "cost": 540,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.CombinedArms",
+        "attackSound": "shipguns",
+        "uniques": [
+            "Instantly consumes [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Can carry [2] [air units] units",
+            "Comment [Maintenance cost of 7]"
+        ]
+    },
+
+    // Air Fighter
+    {
+        "name": "Unit.Biplane",
+        "unitType": "UnitType.AirFighter",
+        "strength": 957, // 75
+        "rangedStrength": 1168, // 80
+        "range": 4,
+        "interceptRange": 4,
+        "movement": 1,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Fighter",
+        "requiredTech": "Tech.Flight",
+        "requiredResource": "Resource.Oil",
+        "attackSound": "machinegun",
+        "uniques": [
+            "[+2] Sight",
+            "[75]% chance to intercept air attacks",
+            "Instantly consumes [1] [Resource.Oil]",
+            "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.Fighter",
+        "unitType": "UnitType.AirFighter",
+        "strength": 2600, // 100
+        "rangedStrength": 2600, // 100
+        "range": 5,
+        "interceptRange": 5,
+        "movement": 1,
+        "cost": 520,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.JetFighter",
+        "requiredResource": "Resource.Aluminum",
+        "requiredTech": "Tech.AdvancedFlight",
+        "attackSound": "machinegun",
+        "uniques": [
+            "[+2] Sight",
+            "[75]% chance to intercept air attacks",
+            "Instantly consumes [1] [Resource.Aluminum]",
+            "Unbuildable <when below [1] [Resource.Aluminum]>",
+            "Comment [Maintenance cost of 7]"
+        ]
+    },
+    {
+        "name": "Unit.JetFighter",
+        "unitType": "UnitType.AirFighter",
+        "strength": 3879, // 110
+        "rangedStrength": 3879, // 110,
+        "range": 6,
+        "interceptRange": 6,
+        "movement": 1,
+        "cost": 650,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Aluminum",  
+        "requiredTech": "Tech.Lasers",
+        "attackSound": "jetgun",
+        "uniques": [
+            "[+3] Sight",
+            "[75]% chance to intercept air attacks",
+            "Instantly consumes [1] [Resource.Aluminum]",
+            "Unbuildable <when below [1] [Resource.Aluminum]>",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Air Bomber
+    {
+        "name": "Unit.Bomber",
+        "unitType": "UnitType.AirBomber",
+        "strength": 1427, // 85
+        "rangedStrength": 3879, // 110
+        "range": 10,
+        "movement": 1,
+        "cost": 560,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.JetBomber",
+        "requiredResource": "Resource.Aluminum",
+        "requiredTech": "Tech.AdvancedFlight",
+        "attackSound": "bombing",
+        "uniques": [
+            "[+2] Sight",
+            "Instantly consumes [1] [Resource.Aluminum]",
+            "Can carry [2] [UnitType.Missile] units",
+            "Unbuildable <when below [1] [Resource.Aluminum]>",
+            "Comment [Maintenance cost of 7]"
+        ]
+    },
+    {
+        "name": "Unit.JetBomber",
+        "unitType": "UnitType.AirBomber",
+        "strength": 1743, // 90
+        "rangedStrength": 5787, // 120
+        "range": 15,
+        "movement": 1,
+        "cost": 700,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.Aluminum",
+        "requiredTech": "Tech.StealthTechnology",
+        "attackSound": "bombing",
+        "uniques": [
+            "[+3] Sight",
+            "Instantly consumes [1] [Resource.Aluminum]",
+            "Can carry [2] [UnitType.Missile] units",
+            "Unbuildable <when below [1] [Resource.Aluminum]>",
+            "Comment [Maintenance cost of 8]"
+        ]
+    },
+
+    // Great Prophet
+    {
+        "name": "Unit.Prophet",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "religiousStrength": 300,
+        "uniques": [
+            // Not working -> "May found a religion <in [Class.District.HolySite] tiles> <by consuming this unit> <if it hasn't used other actions yet>",            // Not working -> "May found a religion <in [District.Stonehenge] tiles> <by consuming this unit> <if it hasn't used other actions yet>",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "Hidden when religion is disabled",
+            "Takes your religion over the one in their birth city",
+            "Triggers a global alert upon completion",
+            "Great Person - [Faith]",
+            "Religious Unit",
+            "Unbuildable"
+        ]
+    },
+
+    // Great Engineer
+    // {
+	// 	"name": "GreatEngineer",
+	// 	"unitType": "UnitType.Civilian",
+	// 	"uniques": ["Can speed up construction of a building",
+    //         // "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+    //         "Gain a free [Building.Workshop] [in this city] <by consuming this unit>",
+    //         // "Gain a free [Forge] [in this city] <[2] times> <after which this unit is consumed>",
+    //         "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+	// 	"movement": 2
+	// },
+    // {
+    //     "name": "Unit.Engineer.Imhotep",
+    //     "unitType": "UnitType.Civilian",
+    //     "movement": 4,
+    //     "uniques": [
+    //         // "Gain a free [Engineer.Imhotep] [in this city] <by consuming this unit>",
+    //         "Gain a free [Building.Workshop] [in this city] <by consuming this unit>",
+    //         "Can speed up construction of a building",
+    //         "Great Person - [Production]", 
+    //         "Unbuildable"
+    //     ]
+    // },
+    // {
+    //     "name": "Unit.Engineer.BiSheng",
+    //     "unitType": "UnitType.Civilian",
+    //     "movement": 4,
+    //     "uniques": [
+    //         "Gain a free [Engineer.BiSheng] [in this city] <by consuming this unit>",
+    //         "Can speed up construction of a building",
+    //         "Great Person - [Production]", 
+    //         "Unbuildable"
+    //     ]
+    // },
+
+    // Space Project 
+    {
+        "name": "Unit.Project.LaunchEarthSatellite",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 900,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Rocketry",
+        "uniques": [
+            "Only available <in cities with a [Building.District.Spaceport]>",
+            "Reveals the entire map",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [Spaceship part] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "Unit.Project.LaunchMoonLanding",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 1500,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Satellites",
+        "uniques": [
+            "Comment [Provides bonus [Culture] (= 10x [Science] per turn) at completion]",
+            "Only available <in cities with a [Building.District.Spaceport]>",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [Spaceship part] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "Unit.Project.LaunchMarsColony",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 1800,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Nanotechnology",
+        "uniques": [
+            "Only available <in cities with a [Building.District.Spaceport]>",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [Spaceship part] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    },
+    {
+        "name": "Unit.Project.ExoplanetExpedition",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 2100,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.SmartMaterials",
+        "uniques": [
+            "Only available <in cities with a [Building.District.Spaceport]>",
+            "Cannot be purchased",
+            "Uncapturable",
+            "Can be added to [Spaceship part] in the Capital",
+            "Limited to [1] per Civilization"
+        ]
+    }
+]
+
+
+
+
+
+
+

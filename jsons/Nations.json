@@ -1,0 +1,378 @@
+
+
+
+[
+    {
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+    {
+        "name": "Nation.China.QinShiHuang(MandateOfHeaven)",
+        "leaderName": "Qin Shi Huang (Mandate of Heaven)",
+        "adjective": "Chinese",
+        "outerColor": [21, 108, 48],
+		"innerColor": [249, 249, 249],
+		"preferredVictoryType": "VictoryType.Conquest",
+        "declaringWar": "How dare you enrage Tian's might! I will send a great army, desecrate your ancestral shrines, eliminate your people. I swear I won't restrain them!",
+		"attacked": "Fight if you want to. Soon I will punish and kill you!",
+		"defeated": "I never thought this could happen… not like this.",
+		"introduction": "You've come today. Is it possible that you want to view the scenery of the mountains and rivers in the State of Qin? I am the ruler of Qin.",
+        "startIntroPart1": "In your people lies your greatest strength, Emperor Qin Shi Huang. From all over the world, others will come to gaze upon the great walls and towering wonders of your united China. May the hands of your men never blister as they work hard and fast to raise the most impressive structures that the world will ever know. Protect them well, and you will forever be immortalized.",
+        "tradeRequest": "Our trade delegation should be arriving soon with gifts of the finest spices, tea, and silk in the Middle Kingdom. Please, enjoy.",
+        "favoredReligion": "Taoism",
+        "uniqueName": "Civ ability - Dynastic Cycle\nLeader bonus - The First Emperor",
+        "uniques": [
+            // Civ ability
+            // amount of science get is the average of the sum of all the science 
+            // required by that Era's techs * 0.4 (0.5 for china)
+            "Gain [26] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [80] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [166] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [329] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [500] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [655] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [774] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [881] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1164] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            "Gain [24] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [66] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [167] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [293] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [506] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [804] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [1116] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [1481] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1650] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            // Leader bonus
+            "[+15]% Production when constructing [Class.WonderEra.Classical] wonders [in all cities]",
+            "[+15]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
+            "Class.Nation.China"
+        ],
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n• [+15]% [Production] when constructing Ancient and Classical wonders [in all cities]\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.",
+        "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
+    },
+    {
+        "name": "Nation.China.QinShiHuang(Unifier)",
+        "leaderName": "Qin Shi Huang (Unifier)",
+        "adjective": "Chinese",
+		"outerColor": [249, 249, 249],
+        "innerColor": [21, 108, 48],
+		"preferredVictoryType": "VictoryType.Conquest",
+        "declaringWar": "How dare you enrage Tian's might! I will send a great army, desecrate your ancestral shrines, eliminate your people. I swear I won't restrain them!",
+		"attacked": "Fight if you want to. Soon I will punish and kill you!",
+		"defeated": "I never thought this could happen… not like this.",
+		"introduction": "You've come today. Is it possible that you want to view the scenery of the mountains and rivers in the State of Qin? I am the ruler of Qin.",
+        "startIntroPart1": "In your people lies your greatest strength, Emperor Qin Shi Huang. From all over the world, others will come to gaze upon the great walls and towering wonders of your united China. May the hands of your men never blister as they work hard and fast to raise the most impressive structures that the world will ever know. Protect them well, and you will forever be immortalized.",
+        "tradeRequest": "Our trade delegation should be arriving soon with gifts of the finest spices, tea, and silk in the Middle Kingdom. Please, enjoy.",
+        "favoredReligion": "Taoism",
+        "uniqueName": "Civ ability - Dynastic Cycle\nLeader bonus - Thirty-Six Stratagems",
+        "uniques": [
+            // Civ ability
+            // amount of science get is the average of the sum of all the science 
+            // required by that Era's techs * 0.4 (0.5 for china)
+            "Gain [26] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [80] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [166] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [329] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [500] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [655] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [774] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [881] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1164] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            "Gain [24] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [66] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [167] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [293] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [506] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [804] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [1116] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [1481] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1650] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            // Leader bonus
+            "When defeating a [Barbarian] unit, earn [15] Gold and recruit it",
+            "Class.Nation.China"
+        ],
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n• When defeating a Barbarian unit, earn 15 [Gold] and recruit it\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.",
+        "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
+    },
+    {
+        "name": "Nation.China.KublaiKhan",
+        "leaderName": "Kublai Khan",
+        "adjective": "Chinese",
+		"outerColor": [234, 225, 157],
+        "innerColor": [120, 0, 1],
+		"preferredVictoryType": "VictoryType.Science",
+        "declaringWar": "The clouds of dust on the horizon are thousands of horsemen, coming with war. Prepare yourself!",
+		"attacked": "I have gathered soldiers from every corner of my realm. Be honored that I take such pains to go to war with you.",
+		"defeated": "Now go; leave me to my sorrow.",
+		"introduction": "I am Kublai. In time, the whole world shall know me as emperor and great khan.",
+        "startIntroPart1": "In your people lies your greatest strength, Emperor Qin Shi Huang. From all over the world, others will come to gaze upon the great walls and towering wonders of your united China. May the hands of your men never blister as they work hard and fast to raise the most impressive structures that the world will ever know. Protect them well, and you will forever be immortalized.",
+        "tradeRequest": " A camel train approaches your borders, bearing silks and spices, horse milk and mutton, and tales of the great Khan.",
+        "favoredReligion": "Buddhism",
+        "uniqueName": "Civ ability - Dynastic Cycle\nLeader bonus - Gerege",
+        "uniques": [
+            // Civ ability
+            // amount of science get is the average of the sum of all the science 
+            // required by that Era's techs * 0.4 (0.5 for china)
+            "Gain [26] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [80] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [166] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [329] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [500] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [655] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [774] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [881] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1164] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            "Gain [24] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [66] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [167] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [293] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [506] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [804] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [1116] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [1481] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1650] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            // Leader bonus
+            // Gains an additional Economic Policy Economic policy slot in all Governments. 
+            "Gain [26] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Ancient]>",
+            "Gain [80] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Classical]>",
+            "Gain [166] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Medieval]>",
+            "Gain [329] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Renaissance]>",
+            "Gain [500] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Industrial]>",
+            "Gain [655] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Modern]>",
+            "Gain [774] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Atomic]>",
+            "Gain [881] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Information]>",
+            "Gain [1164] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Future]>",
+
+            "Gain [24] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Ancient]>",
+            "Gain [66] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Classical]>",
+            "Gain [167] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Medieval]>",
+            "Gain [293] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Renaissance]>",
+            "Gain [506] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Industrial]>",
+            "Gain [804] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Modern]>",
+            "Gain [1116] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Atomic]>",
+            "Gain [1481] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Information]>",
+            "Gain [1650] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Future]>",
+            "Class.Nation.China"
+        ],
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n• Grant a [Science] and [Culture] when declaring friendship with other civilization\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.",
+        "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
+    },
+    {
+        "name": "Nation.China.Yongle",
+        "leaderName": "Yongle",
+        "adjective": "Chinese",
+        "outerColor": [247, 216, 1],
+		"innerColor": [1, 42, 108],
+		"preferredVictoryType": "VictoryType.Culture",
+        "declaringWar": "It is not my wish to conquer your realm by force, but there is no other way.",
+		"attacked": "You might as well conquer the heaven itself. Hahaha. We'll see how well you control the bowstrings.",
+		"defeated": "The road ahead is dark, the surrounding pines are dense like walls, the sky and earth are full dark as lacquer.",
+		"introduction": "I'm the Yongle Emperor, those who come in merchant ships are my friends. Is there any future for those who oppose my will?",
+        "startIntroPart1": " The world awaits, great Yongle Emperor of Ming China. Stretch out your hand and grasp its riches and its knowledge. Place your nation at the center of all things, and let all come to you in supplication. Let none speak ill of you.",
+        "tradeRequest": "Silk and porcelain, tea and cloth - the lifeblood of the Chinese empire.",
+        "favoredReligion": "Confucianism",
+        "uniqueName": "Civ ability - Dynastic Cycle\nLeader bonus - Lijia",
+        "uniques": [
+            // Civ ability
+            // amount of science get is the average of the sum of all the science 
+            // required by that Era's techs * 0.4 (0.5 for china)
+            "Gain [26] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [80] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [166] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [329] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [500] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [655] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [774] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [881] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1164] [Science] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            "Gain [24] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Ancient]>",
+            "Gain [66] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Classical]>",
+            "Gain [167] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Medieval]>",
+            "Gain [293] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Renaissance]>",
+            "Gain [506] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Industrial]>",
+            "Gain [804] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Modern]>",
+            "Gain [1116] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Atomic]>",
+            "Gain [1481] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Information]>",
+            "Gain [1650] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
+
+            // Leader bonus
+            // All cities gain access to three unique Lijia projects, which can either convert 50% of their Production Production into Food Food or Faith Faith, or 100% of their Production Production into Gold Gold.
+            "[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
+            "Class.Nation.China"
+        ],
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n• Cities with 10 or more Citizen Population gain +2 [Gold], +1 [Science] and +1 [Culture] for every Citizen Population.",
+        "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
+    },
+
+
+    {
+        "name": "Nation.Korea.Seondeok",
+        "leaderName": "Seondeok",
+        "adjective": "Korean",
+        "innerColor": [136, 176, 244],
+        "outerColor": [171, 17, 17],
+        "startBias": ["Landform.Hill", "Avoid [Mountain]"],
+        "preferredVictoryType": "VictoryType.Science",
+        "declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
+		"attacked": "Your defeat shall be swift â€¦ your people, forgotten. This I have foreseen.",
+		"defeated": "I foresaw my own end, but not that Korea would share my fate.",
+		"introduction": "I, Seondeok of Korea, acknowledge you. Our meeting was foreseen.",
+		"neutralHello": "How wonderful.",
+		"hateHello": "It is not to be, then.",
+		"tradeRequest": "Please accept our delicious gifts.",
+        "favoredReligion": "Confucianism",
+        "uniqueName": "Civ ability - Three Kingdoms\nLeader bonus - Hwarang",
+        "uniques": [
+            // civ ability
+            "Comment [[Improvement.Farm] receive +1 [Food] and [Improvement.Mine] receive +1 [Science] for each adjacent Seowon.]",
+
+            // leader bonus
+            "[+4]% [Science] from every [Class.Governor]",
+			"[+4]% [Culture] from every [Class.Governor]",
+            "Class.Nation.Korea"
+        ],
+        "cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"]
+    },
+    {
+        "name": "Nation.Korea.Sejong",
+        "leaderName": "Sejong",
+        "adjective": "Korean",
+        "innerColor": [171, 17, 17],
+		"outerColor": [136, 176, 244],
+        "startBias": ["Landform.Hill", "Avoid [Mountain]"],
+        "preferredVictoryType": "VictoryType.Science",
+        "declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
+		"attacked": "Your defeat shall be swift â€¦ your people, forgotten. This I have foreseen.",
+		"defeated": "I foresaw my own end, but not that Korea would share my fate.",
+		"introduction": "I, Seondeok of Korea, acknowledge you. Our meeting was foreseen.",
+		"neutralHello": "How wonderful.",
+		"hateHello": "It is not to be, then.",
+		"tradeRequest": "Please accept our delicious gifts.",
+        "favoredReligion": "Confucianism",
+        "uniqueName": "Civ ability - Three Kingdoms\nLeader bonus - Hangul",
+        "uniques": [
+            // civ ability
+            "Comment [[Improvement.Farm] receive +1 [Food] and [Improvement.Mine] receive +1 [Science] for each adjacent Seowon.]",
+
+            // leader bonus
+            "Comment [• Upon entering a new era, receive double culture for one turn.]",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Ancient]> <hidden from users>",	
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Classical]> <hidden from users>",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Medieval]> <hidden from users>",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Renaissance]> <hidden from users>",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Industrial]> <hidden from users>",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Modern]> <hidden from users>",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Atomic]> <hidden from users>",
+            "[+100]% [Culture] <for [1] turns> <starting from the [Era.Information]> <hidden from users>",
+            "Class.Nation.Korea"
+        ],
+        "cities": ["Seoul", "Pyongyang", "Busan", "Gyeongju", "Kaesong", "Jeonju", "Suwon", "Andong", "Gwangju", "Jeju", "Ulsan", "Incheon", "Changwon", "Gimhae", "Cheongju", "Daegu", "Daejeon", "Gangneung", "Wonju", "Yeongju"]
+    },
+    {
+        "name": "Nation.Egypt.Cleopatra (Ptolemaic)",
+		"leaderName": "Cleopatra (Ptolemaic)",
+		"startBias": ["Landform.FloodPlain"],
+		"adjective": ["Egyptian"],
+		"innerColor": [1, 79, 81],
+		"outerColor": [237, 227, 158],
+		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
+		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
+		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
+		"introduction": "I am Isis reborn, I am the living Nile, I am Cleopatra and an ally, if you are worthy.",
+		"neutralHello": "Very well.",
+		"hateHello": "You will regret this!",
+		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
+		"uniqueName": "Civ ability - Iteru\nLeader bonus - Arrival of Hapi",
+        "uniques": [
+            // civ ability
+            "Comment [+10% [Production] when constructing Wonders or Districts in all cities within 2 tiles of a River.]",
+            "[+10]% Production when constructing [Class.Building.District] buildings [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+            "[+10]% Production when constructing [Wonders] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+
+            // leader bonus
+            "[+1 Food, +1 Culture] from every [Landform.FloodPlain]",
+            "Class.Nation.Egypt"
+        ],
+        "cities": [
+            "Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			"Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			"Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
+			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"
+        ]
+    },
+    {
+        "name": "Nation.Egypt.Cleopatra(Egyptian)",
+		"leaderName": "Cleopatra (Egyptian)",
+		"startBias": ["Landform.FloodPlain"],
+		"adjective": ["Egyptian"],
+		"outerColor": [1, 79, 81],
+		"innerColor": [237, 227, 158],
+		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
+		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
+		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
+		"introduction": "I am Isis reborn, I am the living Nile, I am Cleopatra and an ally, if you are worthy.",
+		"neutralHello": "Very well.",
+		"hateHello": "You will regret this!",
+		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
+		"uniqueName": "Civ ability - Iteru\nLeader bonus - Mediterranean's Bride",
+        "uniques": [
+            // civ ability
+            "Comment [+10% [Production] when constructing Wonders or Districts in all cities within 2 tiles of a River.]",
+            "[+10]% Production when constructing [Class.Building.District] buildings [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+            "[+10]% Production when constructing [Wonders] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+
+            // leader bonus
+            "[+4 Gold] from every [Building.TradingPost]",
+            "Class.Nation.Egypt"
+        ],
+        "cities": [
+            "Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			"Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			"Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
+			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"
+        ]
+    },
+    {
+        "name": "Nation.Egypt.RamsesII",
+		"leaderName": "Ramses II",
+		"startBias": ["Landform.FloodPlain"],
+		"adjective": ["Egyptian"],
+		"innerColor": [112, 16, 203],
+		"outerColor": [237, 227, 158],
+		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
+		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
+		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
+		"introduction": "I am Isis reborn, I am the living Nile, I am Cleopatra and an ally, if you are worthy.",
+		"neutralHello": "Very well.",
+		"hateHello": "You will regret this!",
+		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
+		"uniqueName": "Civ ability - Iteru\nLeader bonus - Abu Simbel",
+        "uniques": [
+            // civ ability
+            "Comment [+10% [Production] when constructing Wonders or Districts in all cities within 2 tiles of a River.]",
+            "[+10]% Production when constructing [Class.Building.District] buildings [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+            "[+10]% Production when constructing [Wonders] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+
+            // leader bonus
+            "Comment [Receives [Culture] equal to 35% of the [Production] cost after completing a wonder.]",
+            "Class.Nation.Egypt"
+        ],
+        "cities": [
+            "Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			"Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			"Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
+			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"
+        ]
+    }
+]

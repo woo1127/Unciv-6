@@ -1,0 +1,1291 @@
+[
+    {
+        "name": "Civic Tree",
+        "era": "Era.Ancient",
+        "policies": [
+            {
+                "name": "Civic.Code",
+                "row": 1,
+                "column": 7,
+                "uniques": [
+                    "Comment [Consumes 20 [Culture] (modified by game speed)]",
+                    "Only available <when above [20] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-20] [Culture] (modified by game speed) <hidden from users>",
+                    
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Craftsmanship",
+                "row": 2,
+                "column": 3,
+                "requires": ["Civic.Code"],
+                "uniques": [
+                    "Comment [Consumes 40 [Culture] (modified by game speed)]",
+                    "Only available <when above [40] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-40] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.ForeignTrade",
+                "row": 2,
+                "column": 11,
+                "requires": ["Civic.Code"],
+                "uniques": [
+                    "Enables Defensive Pacts",
+                    "Provides [1] [Resource.TradeRouteCapacity]",
+                    "Comment [Consumes 40 [Culture] (modified by game speed)]",
+                    "Only available <when above [40] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-40] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.MilitaryTradition",
+                "row": 3,
+                "column": 1,
+                "requires": ["Civic.Craftsmanship"],
+                "uniques": [
+                    "Comment [Grants flanking bonuses to all military units.]",
+                    "Comment [Consumes 50 [Culture] (modified by game speed)]",
+                    "Only available <when above [50] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-50] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.StateWorkforce",
+                "row": 3,
+                "column": 7,
+                "requires": ["Civic.Craftsmanship"],
+                "uniques": [
+                    "Comment [Consumes 70 [Culture] (modified by game speed)]",
+                    "Only available <when above [70] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-70] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.EarlyEmpire",
+                "row": 3,
+                "column": 9,
+                "requires": ["Civic.ForeignTrade"],
+                "uniques": [
+                    "Enables Open Borders agreements",
+                    "Comment [Consumes 70 [Culture] (modified by game speed)]",
+                    "Only available <when above [70] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-70] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.Mysticism",
+                "row": 3,
+                "column": 13,
+                "requires": ["Civic.ForeignTrade"],
+                "uniques": [
+                    "Free [Unit.Envoy] appears",
+                    "Comment [Consumes 50 [Culture] (modified by game speed)]",
+                    "Only available <when above [50] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-50] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.GamesAndRecreation",
+                "row": 4,
+                "column": 3,
+                "requires": ["Civic.StateWorkforce"],
+                "uniques": [
+                    "Comment [Consumes 110 [Culture] (modified by game speed)]",
+                    "Only available <when above [110] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-110] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.PoliticalPhilosophy",
+                "row": 4,
+                "column": 7,
+                "requires": ["Civic.StateWorkforce", "Civic.EarlyEmpire"],
+                "uniques": [
+                    "Comment [Consumes 110 [Culture] (modified by game speed)]",
+                    "Only available <when above [110] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-110] [Culture] (modified by game speed) <hidden from users>",
+
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.DramaAndPoetry",
+                "row": 4,
+                "column": 11,
+                "requires": ["Civic.EarlyEmpire"],
+                "uniques": [
+                    "Comment [Consumes 110 [Culture] (modified by game speed)]",
+                    "Only available <when above [110] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-110] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.MilitaryTraining",
+                "row": 5,
+                "column": 1,
+                "requires": ["Civic.GamesAndRecreation", "Civic.MilitaryTradition"],
+                "uniques": [
+                    "Free [Unit.Envoy] appears",
+                    "Comment [Consumes 120 [Culture] (modified by game speed)]",
+                    "Only available <when above [120] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-120] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.DefensiveTactics",
+                "row": 5,
+                "column": 5,
+                "requires": ["Civic.GamesAndRecreation", "Civic.PoliticalPhilosophy"],
+                "uniques": [
+                    "Comment [Consumes 175 [Culture] (modified by game speed)]",
+                    "Only available <when above [175] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-175] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.RecordedHistory",
+                "row": 5,
+                "column": 9,
+                "requires": ["Civic.DramaAndPoetry", "Civic.PoliticalPhilosophy"],
+                "uniques": [
+                    "Comment [Consumes 175 [Culture] (modified by game speed)]",
+                    "Only available <when above [175] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-175] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                ]
+            },
+            {
+                "name": "Civic.Theology",
+                "row": 5,
+                "column": 13,
+                "requires": ["Civic.DramaAndPoetry", "Civic.Mysticism"],
+                "uniques": [
+                    "Free [Unit.Envoy] appears",
+                    "Comment [Consumes 120 [Culture] (modified by game speed)]",
+                    "Only available <when above [120] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-120] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.NavalTradition",
+                "row": 6,
+                "column": 3,
+                "requires": ["Civic.DefensiveTactics"],
+                "uniques": [
+                    "Free [Unit.Envoy] appears",
+                    "Comment [Consumes 220 [Culture] (modified by game speed)]",
+                    "Only available <when above [220] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-220] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Feudalism",
+                "row": 6,
+                "column": 5,
+                "requires": ["Civic.DefensiveTactics"],
+                "uniques": [
+                    "Comment [Consumes 300 [Culture] (modified by game speed)]",
+                    "Only available <when above [300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.CivilService",
+                "row": 6,
+                "column": 9,
+                "requires": ["Civic.DefensiveTactics", "Civic.RecordedHistory"],
+                "uniques": [
+                    "Comment [Consumes 300 [Culture] (modified by game speed)]",
+                    "Only available <when above [300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Mercenaries",
+                "row": 7,
+                "column": 1,
+                "requires": ["Civic.Feudalism", "Civic.MilitaryTraining"],
+                "uniques": [
+                    "Free [Unit.Envoy] appears",
+                    "Comment [Consumes 340 [Culture] (modified by game speed)]",
+                    "Only available <when above [340] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-340] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.MedievalFaires",
+                "row": 7,
+                "column": 5,
+                "requires": ["Civic.Feudalism"],
+                "uniques": [
+                    "Comment [Consumes 420 [Culture] (modified by game speed)]",
+                    "Only available <when above [420] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-420] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Guilds",
+                "row": 7,
+                "column": 9,
+                "requires": ["Civic.Feudalism", "Civic.CivilService"],
+                "uniques": [
+                    "Comment [Consumes 420 [Culture] (modified by game speed)]",
+                    "Only available <when above [420] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-420] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.DivineRight",
+                "row": 7,
+                "column": 13,
+                "requires": ["Civic.CivilService", "Civic.Theology"],
+                "uniques": [
+                    "Comment [Consumes 340 [Culture] (modified by game speed)]",
+                    "Only available <when above [340] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-340] [Culture] (modified by game speed) <hidden from users>",
+
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Exploration",
+                "row": 8,
+                "column": 1,
+                "requires": ["Civic.Mercenaries", "Civic.MedievalFaires"],
+                "uniques": [
+                    "Comment [Consumes 440 [Culture] (modified by game speed)]",
+                    "Only available <when above [440] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-440] [Culture] (modified by game speed) <hidden from users>",
+
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Humanism",
+                "row": 8,
+                "column": 5,
+                "requires": ["Civic.MedievalFaires", "Civic.Guilds"],
+                "uniques": [
+                    "Comment [Consumes 600 [Culture] (modified by game speed)]",
+                    "Only available <when above [600] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-600] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.DiplomaticService",
+                "row": 8,
+                "column": 9,
+                "requires": ["Civic.Guilds"],
+                "uniques": [
+                    "Comment [Consumes 600 [Culture] (modified by game speed)]",
+                    "Only available <when above [600] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-600] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.ReformedChurch",
+                "row": 8,
+                "column": 13,
+                "requires": ["Civic.DivineRight"],
+                "uniques": [
+                    "Comment [Consumes 440 [Culture] (modified by game speed)]",
+                    "Only available <when above [440] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-440] [Culture] (modified by game speed) <hidden from users>",
+
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Mercantilism",
+                "row": 9,
+                "column": 5,
+                "requires": ["Civic.Humanism"],
+                "uniques": [
+                    "Comment [Consumes 720 [Culture] (modified by game speed)]",
+                    "Only available <when above [720] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-720] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.TheEnlightenment",
+                "row": 9,
+                "column": 9,
+                "requires": ["Civic.DiplomaticService"],
+                "uniques": [
+                    "Comment [Consumes 720 [Culture] (modified by game speed)]",
+                    "Only available <when above [720] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-720] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Colonialism",
+                "row": 10,
+                "column": 1,
+                "requires": ["Civic.Mercantilism"],
+                "uniques": [
+                    "Comment [Consumes 800 [Culture] (modified by game speed)]",
+                    "Only available <when above [800] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-800] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.CivilEngineering",
+                "row": 10,
+                "column": 5,
+                "requires": ["Civic.Mercantilism"],
+                "uniques": [
+                    "Comment [Consumes 1010 [Culture] (modified by game speed)]",
+                    "Only available <when above [1010] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1010] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Nationalism",
+                "row": 10,
+                "column": 7,
+                "requires": ["Civic.TheEnlightenment"],
+                "uniques": [
+                    "Comment [Consumes 1010 [Culture] (modified by game speed)]",
+                    "Only available <when above [1010] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1010] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.OperaAndBallet",
+                "row": 10,
+                "column": 11,
+                "requires": ["Civic.TheEnlightenment"],
+                "uniques": [
+                    "Comment [Consumes 800 [Culture] (modified by game speed)]",
+                    "Only available <when above [800] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-800] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.NaturalHistory",
+                "row": 11,
+                "column": 1,
+                "requires": ["Civic.Colonialism"],
+                "uniques": [
+                    "Comment [Consumes 1050 [Culture] (modified by game speed)]",
+                    "Only available <when above [1050] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1050] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Urbanization",
+                "row": 11,
+                "column": 5,
+                "requires": ["Civic.CivilEngineering", "Civic.Nationalism"],
+                "uniques": [
+                    "Comment [Consumes 1210 [Culture] (modified by game speed)]",
+                    "Only available <when above [1210] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1210] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.ScorchedEarth",
+                "row": 11,
+                "column": 11,
+                "requires": ["Civic.Nationalism"],
+                "uniques": [
+                    "Comment [Consumes 1210 [Culture] (modified by game speed)]",
+                    "Only available <when above [1210] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1210] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Conservation",
+                "row": 12,
+                "column": 1,
+                "requires": ["Civic.NaturalHistory", "Civic.Urbanization"],
+                "uniques": [
+                    "Comment [Consumes 1540 [Culture] (modified by game speed)]",
+                    "Only available <when above [1540] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1540] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.MassMedia",
+                "row": 12,
+                "column": 5,
+                "requires": ["Civic.Urbanization"],
+                "uniques": [
+                    "Comment [Consumes 1540 [Culture] (modified by game speed)]",
+                    "Only available <when above [1540] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1540] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Mobilization",
+                "row": 12,
+                "column": 9,
+                "requires": ["Civic.Urbanization"],
+                "uniques": [
+                    "Comment [Consumes 1540 [Culture] (modified by game speed)]",
+                    "Only available <when above [1540] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1540] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Capitalism",
+                "row": 13,
+                "column": 3,
+                "requires": ["Civic.MassMedia"],
+                "uniques": [
+                    "Comment [Consumes 1580 [Culture] (modified by game speed)]",
+                    "Only available <when above [1580] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1580] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Ideology",
+                "row": 13,
+                "column": 5,
+                "requires": ["Civic.MassMedia", "Civic.Mobilization"],
+                "uniques": [
+                    "Comment [Consumes 1640 [Culture] (modified by game speed)]",
+                    "Only available <when above [1640] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1640] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.NuclearProgram",
+                "row": 14,
+                "column": 3,
+                "requires": ["Civic.Ideology"],
+                "uniques": [
+                    "[3] free [Unit.Envoy] units appear",
+                    "Comment [Consumes 1715 [Culture] (modified by game speed)]",
+                    "Only available <when above [1715] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1715] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Suffrage",
+                "row": 14,
+                "column": 7,
+                "requires": ["Civic.Ideology"],
+                "uniques": [
+                    "Comment [Consumes 1640 [Culture] (modified by game speed)]",
+                    "Only available <when above [1640] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1640] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Totalitarianism",
+                "row": 14,
+                "column": 11,
+                "requires": ["Civic.Ideology"],
+                "uniques": [
+                    "Comment [Consumes 1640 [Culture] (modified by game speed)]",
+                    "Only available <when above [1640] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1640] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.ClassStruggle",
+                "row": 14,
+                "column": 13,
+                "requires": ["Civic.Ideology"],
+                "uniques": [
+                    "Comment [Consumes 1640 [Culture] (modified by game speed)]",
+                    "Only available <when above [1640] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1640] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.CulturalHeritage",
+                "row": 15,
+                "column": 1,
+                "requires": ["Civic.Conservation"],
+                "uniques": [
+                    "Comment [Consumes 1955 [Culture] (modified by game speed)]",
+                    "Only available <when above [1955] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-1955] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.ColdWar",
+                "row": 15,
+                "column": 5,
+                "requires": ["Civic.Ideology"],
+                "uniques": [
+                    "Comment [Consumes 2185 [Culture] (modified by game speed)]",
+                    "Only available <when above [2185] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2185] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.ProfessionalSports",
+                "row": 15,
+                "column": 11,
+                "requires": ["Civic.Ideology"],
+                "uniques": [
+                    "Comment [Consumes 2185 [Culture] (modified by game speed)]",
+                    "Only available <when above [2185] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2185] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.RapidDeployment",
+                "row": 16,
+                "column": 5,
+                "requires": ["Civic.ColdWar"],
+                "uniques": [
+                    "Comment [Consumes 2415 [Culture] (modified by game speed)]",
+                    "Only available <when above [2415] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2415] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.SpaceRace",
+                "row": 16,
+                "column": 9,
+                "requires": ["Civic.ColdWar"],
+                "uniques": [
+                    "Comment [Consumes 2415 [Culture] (modified by game speed)]",
+                    "Only available <when above [2415] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2415] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Environmentalism",
+                "row": 17,
+                "column": 3,
+                "requires": ["Civic.RapidDeployment", "Civic.CulturalHeritage"],
+                "uniques": [
+                    "Comment [Consumes 2880 [Culture] (modified by game speed)]",
+                    "Only available <when above [2880] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2880] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Globalization",
+                "row": 17,
+                "column": 7,
+                "requires": ["Civic.RapidDeployment", "Civic.SpaceRace"],
+                "uniques": [
+                    "Comment [Consumes 2880 [Culture] (modified by game speed)]",
+                    "Only available <when above [2880] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2880] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.SocialMedia",
+                "row": 17,
+                "column": 11,
+                "requires": ["Civic.ProfessionalSports", "Civic.SpaceRace"],
+                "uniques": [
+                    "Comment [Consumes 2880 [Culture] (modified by game speed)]",
+                    "Only available <when above [2880] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-2880] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.NearFutureGovernance",
+                "row": 18,
+                "column": 5,
+                "requires": ["Civic.Environmentalism", "Civic.Globalization", "Civic.SocialMedia"],
+                "uniques": [
+                    "Comment [Consumes 3100 [Culture] (modified by game speed)]",
+                    "Only available <when above [3100] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3100] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.VenturePolitics",
+                "row": 18,
+                "column": 7,
+                "requires": ["Civic.Globalization", "Civic.SocialMedia"],
+                "uniques": [
+                    "Comment [Consumes 3000 [Culture] (modified by game speed)]",
+                    "Only available <when above [3000] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3000] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.DistributedSovereignty",
+                "row": 18,
+                "column": 9,
+                "requires": ["Civic.Globalization", "Civic.SocialMedia"],
+                "uniques": [
+                    "Comment [Consumes 3000 [Culture] (modified by game speed)]",
+                    "Only available <when above [3000] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3000] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.OptimizationImperative",
+                "row": 18,
+                "column": 11,
+                "requires": ["Civic.Globalization", "Civic.SocialMedia"],
+                "uniques": [
+                    "Comment [Consumes 3000 [Culture] (modified by game speed)]",
+                    "Only available <when above [3000] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3000] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.InformationWarfare",
+                "row": 19,
+                "column": 1,
+                "requires": ["Civic.NearFutureGovernance"],
+                "uniques": [
+                    "Comment [Consumes 3300 [Culture] (modified by game speed)]",
+                    "Only available <when above [3300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.GlobalWarningMitigation",
+                "row": 19,
+                "column": 3,
+                "requires": ["Civic.NearFutureGovernance"],
+                "uniques": [
+                    "Comment [Consumes 3300 [Culture] (modified by game speed)]",
+                    "Only available <when above [3300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.CulturalHegemony",
+                "row": 19,
+                "column": 7,
+                "requires": ["Civic.NearFutureGovernance"],
+                "uniques": [
+                    "Comment [Consumes 3300 [Culture] (modified by game speed)]",
+                    "Only available <when above [3300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.SmartPowerDoctrine",
+                "row": 19,
+                "column": 9,
+                "requires": ["Civic.NearFutureGovernance"],
+                "uniques": [
+                    "Comment [Consumes 3300 [Culture] (modified by game speed)]",
+                    "Only available <when above [3300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.ExodusImperative",
+                "row": 19,
+                "column": 11,
+                "requires": ["Civic.NearFutureGovernance"],
+                "uniques": [
+                    "Comment [Consumes 3300 [Culture] (modified by game speed)]",
+                    "Only available <when above [3300] [Culture] (modified by game speed)> <hidden from users>",
+                    "Gain [-3300] [Culture] (modified by game speed) <hidden from users>",
+                    "Remove [Building.HidePolicy] [in capital] <hidden from users>",
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                ]
+            },
+            {
+				"name": "Civic Tree Complete",
+				"uniques": ["Triggers a Cultural Victory upon completion"]
+			}
+        ]
+    },
+    {
+        "name": "Great Prophet Tree",
+        "era": "Era.Classical",
+        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "policies": [
+            // Classical
+            {
+                "name": "Civic.Prophet.Confucius",
+                "row": 1,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [40] [Resource.Unit.Prophet]",
+                    "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.JohnTheBaptist",
+                "row": 1,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [40] [Resource.Unit.Prophet]",
+                    "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]>" 
+                ]
+            },
+            {
+                "name": "Civic.Prophet.Laozi",
+                "row": 1,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [40] [Resource.Unit.Prophet]",
+                    "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.SiddharthaGautama",
+                "row": 2,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [40] [Resource.Unit.Prophet]",
+                    "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.Zoroaster",
+                "row": 2,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [40] [Resource.Unit.Prophet]",
+                    "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.SimonPeter",
+                "row": 2,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [40] [Resource.Unit.Prophet]",
+                    "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> ",
+                    "Only available <before the [Era.Medieval]>"
+                ]
+            },
+            // Medieval
+            {
+                "name": "Civic.Prophet.AdiShankara",
+                "row": 4,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [80] [Resource.Unit.Prophet]",
+                    "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.Bodhidharma",
+                "row": 4,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [80] [Resource.Unit.Prophet]",
+                    "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.Irenaeus",
+                "row": 5,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [80] [Resource.Unit.Prophet]",
+                    "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.ONoYasumaro",
+                "row": 5,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [80] [Resource.Unit.Prophet]",
+                    "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.SongtsanGampo",
+                "row": 5,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [80] [Resource.Unit.Prophet]",
+                    "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.HajiHuud",
+                "row": 7,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [160] [Resource.Unit.Prophet]",
+                    "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.MadhvaAcharya",
+                "row": 7,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [160] [Resource.Unit.Prophet]",
+                    "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.MartinLuther",
+                "row": 8,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [160] [Resource.Unit.Prophet]",
+                    "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.ThomasAquinas",
+                "row": 8,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [160] [Resource.Unit.Prophet]",
+                    "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]>"
+                ]
+            },
+            {
+                "name": "Civic.Prophet.FrancisOfAssisi",
+                "row": 8,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Prophet] appears",
+                    "Instantly consumes [160] [Resource.Unit.Prophet]",
+                    "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]>"
+                ]
+            },
+            {
+                "name": "Great Prophet Tree Complete",
+                "uniques": []
+            }
+        ]
+    },
+    // {
+    //     "name": "Great Engineer Tree",
+    //     "era": "Era.Ancient",
+    //     "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+    //     "policies": [
+    //         // Medieval
+    //         {
+    //             "name": "Civic.Engineer.Imhotep",
+    //             "row": 1,
+    //             "column": 2,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.Imhotep] appears",
+    //                 // "[+80]% [Science] [in all cities] <before discovering [Tech.Construction]> <before discovering [Tech.Apprenticeship]> <after discovering [Tech.Archery]>",
+    //                 // "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //                 // "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.BiSheng",
+    //             "row": 1,
+    //             "column": 4,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.BiSheng] appears",
+    //                 // "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //                 // "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.IsidoreOfMiletus",
+    //             "row": 2,
+    //             "column": 2,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.IsidoreOfMiletus] appears",
+    //                 "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.JamesOfSt.George",
+    //             "row": 2,
+    //             "column": 4,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.JamesOfSt.George] appears",
+    //                 "Instantly consumes [80] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         // Renaissance
+    //         {
+    //             "name": "Civic.Engineer.FilippoBrunelleschi",
+    //             "row": 4,
+    //             "column": 1,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.FilippoBrunelleschi] appears",
+    //                 "Instantly consumes [160] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Industrial]> <after the [Era.Medieval] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.LeonardoDaVinci",
+    //             "row": 4,
+    //             "column": 3,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.LeonardoDaVinci] appears",
+    //                 "Instantly consumes [160] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Industrial]> <after the [Era.Medieval] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.MimarSinan",
+    //             "row": 4,
+    //             "column": 5,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.MimarSinan] appears",
+    //                 "Instantly consumes [160] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Industrial]> <after the [Era.Medieval] <hidden from users>>"
+    //             ]
+    //         },
+    //         // Industrial
+    //         {
+    //             "name": "Civic.Engineer.AdaLovelace",
+    //             "row": 6,
+    //             "column": 1,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.AdaLovelace] appears",
+    //                 "Instantly consumes [280] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [280] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Modern]> <after the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.GustaveEiffel",
+    //             "row": 6,
+    //             "column": 3,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.GustaveEiffel] appears",
+    //                 "Instantly consumes [280] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [280] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Modern]> <after the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.JamesWatt",
+    //             "row": 6,
+    //             "column": 5,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.JamesWatt] appears",
+    //                 "Instantly consumes [280] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [280] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Modern]> <after the [Era.Renaissance] <hidden from users>>"
+    //             ]
+    //         },
+    //         // Modern
+    //         {
+    //             "name": "Civic.Engineer.ShahJahān",
+    //             "row": 8,
+    //             "column": 2,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.ShahJahān] appears",
+    //                 "Instantly consumes [442] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [442] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Atomic]> <after the [Era.Industrial] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.AlvarAalto",
+    //             "row": 8,
+    //             "column": 4,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.AlvarAalto] appears",
+    //                 "Instantly consumes [442] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [442] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Atomic]> <after the [Era.Industrial] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.NikolaTesla",
+    //             "row": 9,
+    //             "column": 2,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.NikolaTesla] appears",
+    //                 "Instantly consumes [442] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [442] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Atomic]> <after the [Era.Industrial] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.RobertGoddard",
+    //             "row": 9,
+    //             "column": 4,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.RobertGoddard] appears",
+    //                 "Instantly consumes [442] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [442] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Atomic]> <after the [Era.Industrial] <hidden from users>>"
+    //             ]
+    //         },
+    //         // Atomic
+    //         {
+    //             "name": "Civic.Engineer.JaneDrew",
+    //             "row": 11,
+    //             "column": 1,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.JaneDrew] appears",
+    //                 "Instantly consumes [643] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [643] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Information]> <after the [Era.Modern] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.JohnRoebling",
+    //             "row": 11,
+    //             "column": 3,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.JohnRoebling] appears",
+    //                 "Instantly consumes [643] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [643] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Information]> <after the [Era.Modern] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.SergeiKorolev",
+    //             "row": 11,
+    //             "column": 5,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.SergeiKorolev] appears",
+    //                 "Instantly consumes [643] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [643] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <before the [Era.Information]> <after the [Era.Modern] <hidden from users>>"
+    //             ]
+    //         },
+    //         // Information
+    //         {
+    //             "name": "Civic.Engineer.JosephPaxton",
+    //             "row": 13,
+    //             "column": 2,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.JosephPaxton] appears",
+    //                 "Instantly consumes [884] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [884] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <after the [Era.Atomic] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.CharlesCorrea",
+    //             "row": 13,
+    //             "column": 4,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.CharlesCorrea] appears",
+    //                 "Instantly consumes [884] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [884] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <after the [Era.Atomic] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.WernherVonBraun",
+    //             "row": 14,
+    //             "column": 2,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.WernherVonBraun] appears",
+    //                 "Instantly consumes [884] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [884] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <after the [Era.Atomic] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Civic.Engineer.KenzoTange",
+    //             "row": 14,
+    //             "column": 4,
+    //             "uniques": [
+    //                 "Free [Unit.Engineer.KenzoTange] appears",
+    //                 "Instantly consumes [884] [Resource.Unit.Engineer]",
+    //                 "Only available <when above [884] [Resource.Unit.Engineer]> <hidden from users>",
+    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
+    //                 "Only available <after the [Era.Atomic] <hidden from users>>"
+    //             ]
+    //         },
+    //         {
+    //             "name": "Great Engineer Tree Complete",
+    //             "uniques": []
+    //         }
+    //     ]
+    // }
+]
