@@ -104,7 +104,7 @@
         ]
     },
 
-    // Melee
+    // Melee #######################################################################
     {
         "name": "Unit.Warrior",
         "unitType": "UnitType.Melee",
@@ -221,7 +221,7 @@
         ]
     },
 
-    // Ranged
+    // Ranged #######################################################################
     {
         "name": "Unit.Slinger",
         "unitType": "UnitType.Ranged",
@@ -292,6 +292,46 @@
         ]
     },
     {
+        "name": "Unit.Hwacha1",
+        "unitType": "UnitType.Ranged",
+        "replaces": "Unit.FieldCannon",
+        "uniqueTo": "Nation.Korea.Seondeok",
+        "strength": 288, // 45
+        "rangedStrength": 525, // 60
+        "range": 2,
+        "movement": 2,
+        "cost": 250,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.MachineGun",
+        "requiredTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Must set up to ranged attack",
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.Hwacha2",
+        "unitType": "UnitType.Ranged",
+        "replaces": "Unit.FieldCannon",
+        "uniqueTo": "Nation.Korea.Sejong",
+        "strength": 288, // 45
+        "rangedStrength": 525, // 60
+        "range": 2,
+        "movement": 2,
+        "cost": 250,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.MachineGun",
+        "requiredTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Must set up to ranged attack",
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
         "name": "Unit.MachineGun",
         "unitType": "UnitType.Ranged",
         "strength": 783, // 70
@@ -306,8 +346,77 @@
             "Comment [Maintenance cost of 6]"
         ]
     },
+    {
+        "name": "Unit.CrouchingTiger1",
+        "unitType": "UnitType.Ranged",
+        "uniqueTo": "Nation.China.QinShiHuang(MandateOfHeaven)",
+        "strength": 158, // 30
+        "rangedStrength": 352, // 50
+        "range": 1,
+        "movement": 2,
+        "cost": 140,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Machinery",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.CrouchingTiger2",
+        "unitType": "UnitType.Ranged",
+        "uniqueTo": "Nation.China.QinShiHuang(Unifier)",
+        "strength": 158, // 30
+        "rangedStrength": 352, // 50
+        "range": 1,
+        "movement": 2,
+        "cost": 140,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Machinery",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.CrouchingTiger3",
+        "unitType": "UnitType.Ranged",
+        "uniqueTo": "Nation.China.KublaiKhan",
+        "strength": 158, // 30
+        "rangedStrength": 352, // 50
+        "range": 1,
+        "movement": 2,
+        "cost": 140,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Machinery",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
+    {
+        "name": "Unit.CrouchingTiger4",
+        "unitType": "UnitType.Ranged",
+        "uniqueTo": "Nation.China.Yongle",
+        "strength": 158, // 30
+        "rangedStrength": 352, // 50
+        "range": 1,
+        "movement": 2,
+        "cost": 140,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Machinery",
+        "obsoleteTech": "Tech.AdvancedBallistics",
+        "attackSound": "shot",
+        "uniques": [
+            "Comment [Maintenance cost of 3]"
+        ]
+    },
 
-    // Anti Cavalry
+
+    // Anti Cavalry #######################################################################
     {
         "name": "Unit.Spearman",
         "unitType": "UnitType.AntiCavalry",
@@ -383,7 +492,7 @@
         ]
     },
 
-    // Heavy Cavalry
+    // Heavy Cavalry #######################################################################
     {
         "name": "Unit.HeavyChariot",
         "unitType": "UnitType.HeavyCavalry",
@@ -472,7 +581,7 @@
         ]
     },
 
-    // Light Cavalry
+    // Light Cavalry #######################################################################
     {
         "name": "Unit.Horseman",
         "unitType": "UnitType.LightCavalry",
@@ -542,6 +651,77 @@
             "All tiles cost 1 movement",
             "Can pass through impassable tiles",
             "Can see over obstacles"
+        ]
+    },
+
+    // Ranged Cavalry ##############################################################################
+    {
+        "name": "Unit.MaryannuChariotArcher1",
+        "unitType": "UnitType.RangedCavalry",
+        "uniqueTo": "Nation.Egypt.Cleopatra(Ptolemaic)",
+        "replaces": "Unit.HeavyChariot",
+        "strength": 129, // 25
+        "rangedStrength": 193, // 35
+        "range": 2,
+        "movement": 2,
+        "cost": 90,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Crossbowman",
+        "requiredTech": "Tech.Wheel",
+        "obsoleteTech": "Tech.Ballistics",
+        "attackSound": "arrow",
+        "uniques": [
+            "Comment [Maintenance cost of 1]",
+            "Ignores Zone of Control",
+            "[+2] Movement <in [Open terrain] tiles>",
+            "[-54]% Strength <vs [Water] units>", // -17
+            "[-54]% Strength <vs cities>" // -17
+        ]
+    },
+    {
+        "name": "Unit.MaryannuChariotArcher2",
+        "unitType": "UnitType.RangedCavalry",
+        "uniqueTo": "Nation.Egypt.Cleopatra(Egyptian)",
+        "replaces": "Unit.HeavyChariot",
+        "strength": 129, // 25
+        "rangedStrength": 193, // 35
+        "range": 2,
+        "movement": 2,
+        "cost": 90,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Crossbowman",
+        "requiredTech": "Tech.Wheel",
+        "obsoleteTech": "Tech.Ballistics",
+        "attackSound": "arrow",
+        "uniques": [
+            "Comment [Maintenance cost of 1]",
+            "Ignores Zone of Control",
+            "[+2] Movement <in [Open terrain] tiles>",
+            "[-54]% Strength <vs [Water] units>", // -17
+            "[-54]% Strength <vs cities>" // -17
+        ]
+    },
+    {
+        "name": "Unit.MaryannuChariotArcher3",
+        "unitType": "UnitType.RangedCavalry",
+        "uniqueTo": "Nation.Egypt.RamsesII",
+        "replaces": "Unit.HeavyChariot",
+        "strength": 129, // 25
+        "rangedStrength": 193, // 35
+        "range": 2,
+        "movement": 2,
+        "cost": 90,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Crossbowman",
+        "requiredTech": "Tech.Wheel",
+        "obsoleteTech": "Tech.Ballistics",
+        "attackSound": "arrow",
+        "uniques": [
+            "Comment [Maintenance cost of 1]",
+            "Ignores Zone of Control",
+            "[+2] Movement <in [Open terrain] tiles>",
+            "[-54]% Strength <vs [Water] units>", // -17
+            "[-54]% Strength <vs cities>" // -17
         ]
     },
 
@@ -1000,22 +1180,11 @@
 
     // Great Engineer
     // {
-	// 	"name": "GreatEngineer",
-	// 	"unitType": "UnitType.Civilian",
-	// 	"uniques": ["Can speed up construction of a building",
-    //         // "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-    //         "Gain a free [Building.Workshop] [in this city] <by consuming this unit>",
-    //         // "Gain a free [Forge] [in this city] <[2] times> <after which this unit is consumed>",
-    //         "Great Person - [Production]", "Unbuildable", "Uncapturable"],
-	// 	"movement": 2
-	// },
-    // {
     //     "name": "Unit.Engineer.Imhotep",
     //     "unitType": "UnitType.Civilian",
     //     "movement": 4,
     //     "uniques": [
-    //         // "Gain a free [Engineer.Imhotep] [in this city] <by consuming this unit>",
-    //         "Gain a free [Building.Workshop] [in this city] <by consuming this unit>",
+    //         "Gain a free [Building.Engineer.Imhotep] [in this city] <by consuming this unit>",
     //         "Can speed up construction of a building",
     //         "Great Person - [Production]", 
     //         "Unbuildable"
@@ -1026,7 +1195,7 @@
     //     "unitType": "UnitType.Civilian",
     //     "movement": 4,
     //     "uniques": [
-    //         "Gain a free [Engineer.BiSheng] [in this city] <by consuming this unit>",
+    //         "Gain a free [Building.Engineer.BiSheng] [in this city] <by consuming this unit>",
     //         "Can speed up construction of a building",
     //         "Great Person - [Production]", 
     //         "Unbuildable"

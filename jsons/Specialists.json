@@ -6,34 +6,34 @@
     },
     {
         "name": "Specialist.Priest",
-        "faith": 2,
+        "faith": 0,
         "color": [255, 255, 255]
     },
     {
         "name": "Specialist.Commander",
-        "production": 1,
-        "gold": 2,
+        "production": 0,
+        "gold": 0,
         "color": [128, 128, 128]
     },
     {
         "name": "Specialist.Captain",
-        "food": 1,
-        "gold": 2,
+        "food": 0,
+        "gold": 0,
         "color": [0, 0, 128]
     },
     {
         "name": "Specialist.Merchant",
-        "gold": 4,
+        "gold": 0,
         "color": [255, 215, 0]
     },
     {
         "name": "Specialist.Engineer",
-        "production": 2,
+        "production": 0,
         "color": [139, 69, 19]
     },
     {
         "name": "Specialist.Artist",
-        "culture": 2,
+        "culture": 0,
         "color": [160, 32, 240]
     }
 ]

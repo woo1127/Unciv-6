@@ -1142,6 +1142,48 @@
         ]
     },
     {
+        "name": "Building.District.Seowon1",
+        "uniqueTo": "Nation.Korea.Seondeok",
+        "replaces": "Building.District.Campus",
+        "cost": 27,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Writing",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Seowon] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Science] from every [Specialist.Scientist] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
+        "name": "Building.District.Seowon2",
+        "uniqueTo": "Nation.Korea.Sejong",
+        "replaces": "Building.District.Campus",
+        "cost": 27,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Writing",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Seowon] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Science] from every [Specialist.Scientist] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
         "name": "Building.District.HolySite",
         "cost": 54,
         "maintenance": 1,
@@ -2029,31 +2071,28 @@
 
     // Great Engineer
     // {
-    //     "name": "Engineer.Imhotep",
-    //     // "isWonder": true,
+    //     "name": "Building.Engineer.Imhotep",
     //     "cost": 1,
     //     "uniques": [
-    //         // "Free [Unit.Engineer] appears",
     //         "[+10]% Production when constructing [All] wonders [in this city]",
     //         "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city]",
     //         "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city]",
     //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
     //         // "Only available <when above [80] [Resource.Unit.Engineer]>",
     //         "Only available <before the [Era.Renaissance]>",
+    //         "Unsellable",
     //         "Unbuildable",
     //         "Class.GPEra.Medieval"
     //     ]
     // },
     // {
-    //     "name": "Engineer.BiSheng",
-    //     // "isWonder": true,
+    //     "name": "Building.Engineer.BiSheng",
     //     "cost": 1,
     //     "uniques": [
-    //         // "Free [Unit.Engineer] appears",
     //         // "Comment [+40% [Science] when discovering [Tech.Printing]]",
-    //         "[+80]% [Science] [in all cities] <before discovering [Tech.Construction]> <before discovering [Tech.Apprenticeship]> <after discovering [Tech.Archery]>",
-    //         // "[+40]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
-    //         // "[+50]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
+    //         "[+80]% [Science] [in all cities] <before discovering [Tech.Writing]> <before discovering [Tech.Irrigation]> <after discovering [Tech.Agriculture]>",
+    //         // "[+80]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
+    //         // "[+100]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
     //         "Provides [1] [Resource.District]",
     //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
     //         // "Only available <when above [80] [Resource.Unit.Engineer]>",

@@ -13,7 +13,10 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques":["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>"]
+		"uniques":[
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>"
+		]
 	},
     {
 		"name": "Coast",
@@ -22,7 +25,9 @@
 		"gold":1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
-		"uniques": ["[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+		"uniques": [
+			"[-1 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food, -1 Gold] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
 			"[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
@@ -33,7 +38,9 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+        "uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-2 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
@@ -54,14 +61,16 @@
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
     },
-    {//平原
+    {
 		"name": "Plains",
 		"type": "Land",
 		"food": 1,
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [153, 180, 51],
-		"uniques": ["[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+		"uniques": [
+			"[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food, -1 Production] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
@@ -83,13 +92,15 @@
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
-    {//冻土
+    {
 		"name": "Tundra",
 		"type": "Land",
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [30, 113, 69],
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
             "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
@@ -102,7 +113,7 @@
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
-    {//沙漠
+    {
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
@@ -119,25 +130,29 @@
             "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
-    {//湖泊
+    {
 		"name": "Lakes",
 		"type": "Water",
 		"food": 2,
 		"gold": 1,
 		"RGB": [0, 171, 169],
-		"uniques": ["[-2 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Fresh water",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
+		"uniques": [
+			"[-2 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-2 Food, -1 Gold] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Fresh water",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
 	},
-   {//山脉
+   	{
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
 		"defenceBonus": 0.23,
 		"movementCost": 2,
 		"RGB": [102, 102, 102],
-		"uniques": ["Rough terrain",
+		"uniques": [
+			"Rough terrain",
             "Has an elevation of [3] for visibility calculations",
             "Occurs in chains at high elevations",
             "Units ending their turn on this terrain take [15] damage",
@@ -145,7 +160,7 @@
             "Considered [Undesirable] when determining start locations"
 		]
 	},
-    {//雪原
+    {
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
@@ -162,7 +177,7 @@
             "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Landform.Hill] tiles>"]
 	},
-    {//丘陵
+    {
 		"name": "Landform.Hill",
 		"type": "TerrainFeature",
 		"production": 1,
@@ -171,20 +186,23 @@
 		"defenceBonus": 0.13,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Rough terrain",
-					"[14] Strength for cities built on this terrain",
-					"Has an elevation of [1] for visibility calculations",
-					"Occurs in groups around high elevations",
-					"[+1] to Fertility for Map Generation",
-					"A Region is formed with at least [35]% [Landform.Hill] tiles, with priority [3]",
-					"Base Terrain on this tile is not counted for Region determination",
-					"Starts in regions of this type receive an extra [Resource.Sheep]",
-					"Considered [Desirable] when determining start locations",
-					"Considered [Production] when determining start locations",
-					"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+			"[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Production] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Rough terrain",
+			"[14] Strength for cities built on this terrain",
+			"Has an elevation of [1] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [35]% [Landform.Hill] tiles, with priority [3]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Starts in regions of this type receive an extra [Resource.Sheep]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
 	},
-    {//森林
+    {
 		"name": "Landform.Woods",
 		"type": "TerrainFeature",
 		"production": 1,
@@ -192,21 +210,24 @@
 		"overrideStats": false,
 		"unbuildable": true,
 		"occursOn": ["Tundra","Plains","Grassland","Landform.Hill"],
-		"uniques": ["[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Rough terrain",
-					"Vegetation",
-					"[+1] to Fertility for Map Generation",
-					"Provides a one-time Production bonus to the closest city when cut down",
-					"Blocks line-of-sight from tiles at same elevation",
-					"[50]% Chance to be destroyed by nukes",
-					"A Region is formed with at least [30]% [Landform.Woods] tiles, with priority [3]",
-					"A Region is formed with at least [35]% [Landform.Woods] tiles and [Landform.Rainforest] tiles, with priority [3]",
-					"A Region can not contain more [Landform.Rainforest] tiles than [Landform.Woods] tiles",
-					"Considered [Desirable] when determining start locations",
-					"Considered [Production] when determining start locations",
-					"Considered [Production] when determining start locations <in [Landform.Woods] Regions>",
-					"Considered [Production] when determining start locations <in [Tundra] Regions>",
-					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
+		"uniques": [
+			"[-1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Production] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Rough terrain",
+			"Vegetation",
+			"[+1] to Fertility for Map Generation",
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"A Region is formed with at least [30]% [Landform.Woods] tiles, with priority [3]",
+			"A Region is formed with at least [35]% [Landform.Woods] tiles and [Landform.Rainforest] tiles, with priority [3]",
+			"A Region can not contain more [Landform.Rainforest] tiles than [Landform.Woods] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Considered [Production] when determining start locations <in [Landform.Woods] Regions>",
+			"Considered [Production] when determining start locations <in [Tundra] Regions>",
+			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
 		"civilopediaText": [
 			{
 				"text":"A Camp can be built here without cutting it down",
@@ -218,7 +239,7 @@
 			}
 		]
 	},
-    {//雨林
+    {
 		"name": "Landform.Rainforest",
 		"type": "TerrainFeature",
 		"food": 1,
@@ -226,7 +247,9 @@
 		"overrideStats": false,
 		"unbuildable": true,
 		"occursOn": ["Plains","Grassland"],
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
 			"Rough terrain", "Vegetation",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[25]% Chance to be destroyed by nukes",
@@ -240,7 +263,7 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-    {//沼泽
+    {
 		"name": "Landform.Marsh",
 		"type": "TerrainFeature",
 		"food": 1,
@@ -248,14 +271,17 @@
 		"unbuildable": true,
 		"defenceBonus": -0.13,
 		"occursOn": ["Grassland","Plains"],
-		"uniques": ["[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Rare feature",
-					"[+1] to Fertility for Map Generation",
-					"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-					"Considered [Food] when determining start locations <in all except [Plains] Regions>",
-					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+			"[-1 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Rare feature",
+			"[+1] to Fertility for Map Generation",
+			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in all except [Plains] Regions>",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
 	},
-    {//核污染
+    {
 		"name": "Landform.NuclearFallout",
 		"type": "TerrainFeature",
 		"movementCost": 2,
@@ -264,7 +290,7 @@
 		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Landform.Woods","Landform.Rainforest","Landform.Hill","Landform.Marsh","Landform.Oasis"],
 		"defenceBonus": -0.13
 	},
-    {//绿洲
+    {
 		"name": "Landform.Oasis",
 		"type": "TerrainFeature",
 		"food": 3,
@@ -272,14 +298,17 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"occursOn": ["Desert"],
-		"uniques": ["[-3 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Fresh water", "Rare feature",
-					"Only [All Road] improvements may be built on this tile",
-					"Always Fertility [4] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
+		"uniques": [
+			"[-3 Food, -1 Gold] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-3 Food, -1 Gold] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Fresh water", "Rare feature",
+			"Only [All Road] improvements may be built on this tile",
+			"Always Fertility [4] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
 	},
-    {//泛滥平原
+    {
 		"name": "Landform.FloodPlain",
 		"type": "TerrainFeature",
 		"food": 2,
@@ -287,23 +316,28 @@
 		"defenceBonus": -0.13,
 		// "overrideStats": true,
 		"occursOn": ["Grassland","Plains"],
-		"uniques": ["[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
-					"Always Fertility [3] for Map Generation",
-					"Considered [Food] when determining start locations",
-					// "Must be adjacent to [1] to [6] [River] tiles",
-					"[-8] Strength for cities built on this terrain"]
+		"uniques": [
+			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-2 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Always Fertility [3] for Map Generation",
+			"Considered [Food] when determining start locations",
+			// "Must be adjacent to [1] to [6] [River] tiles",
+			"[-8] Strength for cities built on this terrain"
+		]
 	},
-    {//冰区
+    {
 		"name": "Landform.IceCap",
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
 		"occursOn": ["Ocean", "Coast"],
-		"uniques": ["Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
-					"[-2] to Fertility for Map Generation",
-					"Considered [Undesirable] when determining start locations"]
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+			"[-2] to Fertility for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
 	},
-    {//礁石
+    {
 		"name": "Landform.Reef",
 		"type": "TerrainFeature",
 		"movementCost": 1,
@@ -312,23 +346,29 @@
 		"defenceBonus":0.2,
 		"unbuildable": false,
 		"occursOn": ["Coast"],
-		"uniques": ["[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
-		"Rare feature",
-		"[+2] to Fertility for Map Generation"]
+		"uniques": [
+			"[-1 Food, -1 Production] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Food, -1 Production] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Rare feature",
+			"[+2] to Fertility for Map Generation"
+		]
 	},
-    {//地热裂缝
+    {
 		"name": "Landform.GeothermalFissure",
 		"type": "TerrainFeature",
 		"science": 1,
 		"movementCost": 1,
 		"unbuildable": false,
 		"occursOn": ["Plains","Tundra","Grassland","Snow"],
-		"uniques": ["[-1 Science] <in [Class.District] tiles> <in tiles without [City center]>",
-		"Rare feature",
-		"Never receives any resources",
-		"[+1] to Fertility for Map Generation"]
+		"uniques": [
+			"[-1 Science] <in [Class.District] tiles> <in tiles without [City center]>",
+			"[-1 Science] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
+			"Rare feature",
+			"Never receives any resources",
+			"[+1] to Fertility for Map Generation"
+		]
     },
-    {//火山
+    {
 		"name": "Landform.Volcano",
 		"type": "TerrainFeature",
 		"impassable": true,
@@ -336,14 +376,15 @@
 		"movementCost": 5,
 		"RGB": [255, 69, 0],
 		"occursOn": ["Grassland","Plains","Tundra","Desert","Snow","Ocean"],
-		"uniques": ["Never receives any resources","Doesn't generate naturally",
+		"uniques": [
+			"Never receives any resources","Doesn't generate naturally",
 			"Occurs in groups of [1] to [1] tiles",
             "Has an elevation of [3] for visibility calculations",
             "Occurs in chains at high elevations"
-//            "Units ending their turn on this terrain take [80] damage",
+            // "Units ending their turn on this terrain take [80] damage",
 		]
 	},
-    {//火山土
+    {
 		"name": "Landform.VolcanicSoil",
 		"type": "TerrainFeature",
 		"defenceBonus": -0.13,

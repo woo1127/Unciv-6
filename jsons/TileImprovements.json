@@ -35,7 +35,7 @@
             "Cannot be built on [Landform.Hill] tiles <in [Grassland] [Landform.Hill] tiles> <before adopting [Civic.CivilEngineering]>",
             "Cannot be built on [Landform.Hill] tiles <in [Plains] [Landform.Hill] tiles> <before adopting [Civic.CivilEngineering]>",
 
-            "[+1 Food] for each adjacent [District.Seowon] <for [Nation.Korea]>"
+            "[+1 Food] for each adjacent [District.Seowon] <for [Class.Nation.Korea]>"
         ]
     },
     {
@@ -50,7 +50,7 @@
             "[+1 Production] <after discovering [Tech.SmartMaterials]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 
-            "[+1 Science] for each adjacent [District.Seowon] <for [Nation.Korea]>"
+            "[+1 Science] for each adjacent [District.Seowon] <for [Class.Nation.Korea]>"
         ]
     },
     {
@@ -174,6 +174,127 @@
 			"Pillaging this improvement yields approximately [+30 Gold]"
         ]
     },
+
+    // Nation Uniques ########################################################################################################
+    {
+        "name": "Improvement.GreatWall1",
+        "uniqueTo": "Nation.China.QinShiHuang(MandateOfHeaven)",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Tech.Masonry",
+        "gold": 2,
+        "turnsToBuild": 7,
+        "uniques": [
+            "Gives a defensive bonus of [20]%",
+            "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+4 Gold] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+2 Culture] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall1] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement.GreatWall"
+        ]
+    },
+    {
+        "name": "Improvement.GreatWall2",
+        "uniqueTo": "Nation.China.QinShiHuang(Unifier)",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Tech.Masonry",
+        "gold": 2,
+        "turnsToBuild": 7,
+        "uniques": [
+            "Gives a defensive bonus of [20]%",
+            "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+4 Gold] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+2 Culture] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall2] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement.GreatWall"
+        ]
+    },
+    {
+        "name": "Improvement.GreatWall3",
+        "uniqueTo": "Nation.China.KublaiKhan",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Tech.Masonry",
+        "gold": 2,
+        "turnsToBuild": 7,
+        "uniques": [
+            "Gives a defensive bonus of [20]%",
+            "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+4 Gold] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+2 Culture] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall3] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement.GreatWall"
+        ]
+    },
+    {
+        "name": "Improvement.GreatWall4",
+        "uniqueTo": "Nation.China.Yongle",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Tech.Masonry",
+        "gold": 2,
+        "turnsToBuild": 7,
+        "uniques": [
+            "Gives a defensive bonus of [20]%",
+            "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+4 Gold] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
+            "[+2 Culture] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
+            "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall4] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement.GreatWall"
+        ]
+    },
+    {
+        "name": "Improvement.Sphinx1",
+        "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert", "Landform.Hill", "Landform.FloodPlain"],
+        "uniqueTo": "Nation.Egypt.Cleopatra(Ptolemaic)",
+        "culture": 1,
+        "uniques": [
+            "[+1 Culture] <after adopting [Civic.NaturalHistory]>",
+            "[+2 Faith] <with [1] to [6] neighboring [Class.WonderDistrict] tiles>",
+            "[+1 Culture] <with [1] to [6] neighboring [Landform.FloodPlain] tiles>",
+            "Only available <after adopting [Civic.Craftsmanship]>",
+            "Cannot be built on [Snow] tiles",
+            "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement.Sphinx"
+        ]
+    },
+    {
+        "name": "Improvement.Sphinx2",
+        "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert", "Landform.Hill", "Landform.FloodPlain"],
+        "uniqueTo": "Nation.Egypt.Cleopatra(Egyptian)",
+        "culture": 1,
+        "uniques": [
+            "[+1 Culture] <after adopting [Civic.NaturalHistory]>",
+            "[+2 Faith] <with [1] to [6] neighboring [Class.WonderDistrict] tiles>",
+            "[+1 Culture] <with [1] to [6] neighboring [Landform.FloodPlain] tiles>",
+            "Only available <after adopting [Civic.Craftsmanship]>",
+            "Cannot be built on [Snow] tiles",
+            "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement.Sphinx"
+        ]
+    },
+    {
+        "name": "Improvement.Sphinx3",
+        "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert", "Landform.Hill", "Landform.FloodPlain"],
+        "uniqueTo": "Nation.Egypt.RamsesII",
+        "culture": 1,
+        "uniques": [
+            "[+1 Culture] <after adopting [Civic.NaturalHistory]>",
+            "[+2 Faith] <with [1] to [6] neighboring [Class.WonderDistrict] tiles>",
+            "[+1 Culture] <with [1] to [6] neighboring [Landform.FloodPlain] tiles>",
+            "Only available <after adopting [Civic.Craftsmanship]>",
+            "Cannot be built on [Snow] tiles",
+            "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement.Sphinx"
+        ]
+    },
+
+    // Road and removal #################################################################################################################
     {
         "name": "Road",
         "terrainsCanBeBuiltOn": ["Land"],
@@ -983,6 +1104,30 @@
             {"text": "+1 [Science] from every 2 adjacent Rainforest and district tiles."},
             {"text": "+2 [Science] from each adjacent Reef tile."},
             {"text": "+2 [Science] for each Scientist specialists"}
+        ]
+    },
+    {
+        "name": "District.Seowon",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "science": 4,
+        "uniques": [
+            "Provides [1] [Resource.Unit.Scientist] <hidden from users>",
+            "[-1 Science] for each adjacent [Class.District] <hidden from users>",
+
+            "Pillaging this improvement yields approximately [+20 Science] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.Campus"
+        ],
+        "civilopediaText": [
+            {"text": "+1 [Resource.Unit.Scientist] per turn"},
+            {"text": "-1 [Science] from each adjacent district tile."}
         ]
     },
     {
