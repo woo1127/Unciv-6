@@ -229,7 +229,7 @@
         "uniqueName": "Civ ability - Three Kingdoms\nLeader bonus - Hwarang",
         "uniques": [
             // civ ability
-            "Comment [[Improvement.Farm] receive +1 [Food] and [Improvement.Mine] receive +1 [Science] for each adjacent Seowon.",
+            "Comment [[Improvement.Farm] receive +1 [Food] and [Improvement.Mine] receive +1 [Science] for each adjacent Seowon.]",
 
             // leader bonus
             "[+4]% [Science] from every [Class.Governor]",

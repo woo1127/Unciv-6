@@ -12,6 +12,7 @@
                     "Only available <when above [20] [Culture] (modified by game speed)> <hidden from users>",
                     "Gain [-20] [Culture] (modified by game speed) <hidden from users>",
                     
+                    "Triggers the following global alert: [You can change your government in this turn]",
                     "Remove [Building.HidePolicy] [in capital] <hidden from users>",
                     "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
                     "Remove [Building.HideGov] [in capital] <hidden from users>",

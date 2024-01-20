@@ -668,7 +668,8 @@
         "hurryCostModifier": -33,
         "upgradesTo": "Unit.Crossbowman",
         "requiredTech": "Tech.Wheel",
-        "obsoleteTech": "Tech.Ballistics",
+        // "obsoleteTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.Printing",
         "attackSound": "arrow",
         "uniques": [
             "Comment [Maintenance cost of 1]",
@@ -691,7 +692,8 @@
         "hurryCostModifier": -33,
         "upgradesTo": "Unit.Crossbowman",
         "requiredTech": "Tech.Wheel",
-        "obsoleteTech": "Tech.Ballistics",
+        // "obsoleteTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.Printing",
         "attackSound": "arrow",
         "uniques": [
             "Comment [Maintenance cost of 1]",
@@ -714,7 +716,8 @@
         "hurryCostModifier": -33,
         "upgradesTo": "Unit.Crossbowman",
         "requiredTech": "Tech.Wheel",
-        "obsoleteTech": "Tech.Ballistics",
+        // "obsoleteTech": "Tech.Ballistics",
+        "obsoleteTech": "Tech.Printing",
         "attackSound": "arrow",
         "uniques": [
             "Comment [Maintenance cost of 1]",
