@@ -2505,6 +2505,26 @@
             "Class.Governor.ReynaIII"
         ]
     },
+    {
+        "name": "Governor.Victor",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Victor"
+        ]
+    },
     // {
     //     "name": "Governor.",
     //     "cost": 0,
