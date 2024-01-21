@@ -9,10 +9,8 @@
                 "column": 7,
                 "uniques": [
                     "Comment [Consumes 20 [Culture] (modified by game speed)]",
-                    "Only available <when above [20] [Culture] (modified by game speed)> <hidden from users>",
-                    "Gain [-20] [Culture] (modified by game speed) <hidden from users>",
-                    
-                    "Triggers the following global alert: [You can change your government in this turn]",
+                    // "Only available <when above [20] [Culture] (modified by game speed)> <hidden from users>",
+                    // "Gain [-20] [Culture] (modified by game speed) <hidden from users>",
                     "Remove [Building.HidePolicy] [in capital] <hidden from users>",
                     "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
                     "Remove [Building.HideGov] [in capital] <hidden from users>",
@@ -1025,31 +1023,30 @@
         "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
         "policies": [
             // Medieval
-            // {
-            //     "name": "Civic.Engineer.Imhotep",
-            //     "row": 1,
-            //     "column": 2,
-            //     "uniques": [
-            //         "Free [Unit.Engineer.Imhotep] appears",
-            //         // "[+80]% [Science] [in all cities] <before discovering [Tech.Construction]> <before discovering [Tech.Apprenticeship]> <after discovering [Tech.Archery]>",
-            //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
-            //         // "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
-            //         "Only available <if no other Civilization has adopted this> <hidden from users>",
-            //         "Only available <before the [Era.Renaissance]> <hidden from users>"
-            //     ]
-            // },
-            // {
-            //     "name": "Civic.Engineer.BiSheng",
-            //     "row": 1,
-            //     "column": 4,
-            //     "uniques": [
-            //         "Free [Unit.Engineer.BiSheng] appears",
-            //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
-            //         // "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
-            //         "Only available <if no other Civilization has adopted this> <hidden from users>",
-            //         "Only available <before the [Era.Renaissance]> <hidden from users>"
-            //     ]
-            // },
+            {
+                "name": "Civic.Engineer.Imhotep",
+                "row": 1,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.Imhotep] appears",
+                    "Instantly consumes [80] [Resource.Unit.Engineer]",
+                    "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Engineer.BiSheng",
+                "row": 1,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.BiSheng] appears",
+                    "Instantly consumes [80] [Resource.Unit.Engineer]",
+                    "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
     //         {
     //             "name": "Civic.Engineer.IsidoreOfMiletus",
     //             "row": 2,

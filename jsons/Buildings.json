@@ -2070,37 +2070,32 @@
     },
 
     // Great Engineer
-    // {
-    //     "name": "Building.Engineer.Imhotep",
-    //     "cost": 1,
-    //     "uniques": [
-    //         "[+10]% Production when constructing [All] wonders [in this city]",
-    //         "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city]",
-    //         "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city]",
-    //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
-    //         // "Only available <when above [80] [Resource.Unit.Engineer]>",
-    //         "Only available <before the [Era.Renaissance]>",
-    //         "Unsellable",
-    //         "Unbuildable",
-    //         "Class.GPEra.Medieval"
-    //     ]
-    // },
-    // {
-    //     "name": "Building.Engineer.BiSheng",
-    //     "cost": 1,
-    //     "uniques": [
-    //         // "Comment [+40% [Science] when discovering [Tech.Printing]]",
-    //         "[+80]% [Science] [in all cities] <before discovering [Tech.Writing]> <before discovering [Tech.Irrigation]> <after discovering [Tech.Agriculture]>",
-    //         // "[+80]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
-    //         // "[+100]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
-    //         "Provides [1] [Resource.District]",
-    //         // "Instantly consumes [80] [Resource.Unit.Engineer]",
-    //         // "Only available <when above [80] [Resource.Unit.Engineer]>",
-    //         "Unbuildable",
-    //         "Only available <before the [Era.Renaissance]>",
-    //         "Class.GPEra.Medieval"
-    //     ]
-    // },
+    {
+        "name": "Building.Engineer.Imhotep",
+        "cost": 1,
+        "uniques": [
+            "[+10]% Production when constructing [All] wonders [in this city]",
+            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city]",
+            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city]",
+            "Only available <before the [Era.Renaissance]>",
+            "Unsellable",
+            "Unbuildable",
+            "Class.GPEra.Medieval"
+        ]
+    },
+    {
+        "name": "Building.Engineer.BiSheng",
+        "cost": 1,
+        "uniques": [
+            "Comment [+80% [Science] when discovering [Tech.Printing]]", // Eureka for Printing tech
+            "[+80]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
+            "Provides [1] [Resource.District]",
+            "Unbuildable",
+            "Only available <before the [Era.Renaissance]>",
+            "Class.GPEra.Medieval"
+        ]
+    },
     // {
     //     "name": "Engineer.IsidoreOfMiletus",
     //     "isWonder": true,
@@ -2178,6 +2173,7 @@
             "Only available <after adopting [Civic.Code]>",
             "Only available <in cities without a [Class.Building.Government]>",
             "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+            // "Only available <in cities with a [Building.ShowGov]> <hidden from users>",
             
             "Can only be built [in capital] <hidden from users>",
             "Destroyed when the city is captured <hidden from users>",
@@ -2541,8 +2537,6 @@
 
     // Policy Cards ##########################################################################################################################
     {
-        // A helper program that used to hide and show the 
-        // policy cards whenever adopt new Civic
         "name":"Building.HidePolicy",
         "cost": 0,
         "uniques":[
@@ -2552,8 +2546,6 @@
         ]
     },
     {
-        // A helper program that used to hide and show the 
-        // policy cards whenever adopt new Civic that unlock new gov
         "name": "Building.HideGov",
         "cost": 0,
         "uniques": [
@@ -2562,6 +2554,7 @@
             "Will not be displayed in Civilopedia"
         ]
     },
+
     // Code of laws
     {
         "name": "Mil.Survey",

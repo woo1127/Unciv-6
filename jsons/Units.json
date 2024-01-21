@@ -1182,28 +1182,28 @@
     },
 
     // Great Engineer
-    // {
-    //     "name": "Unit.Engineer.Imhotep",
-    //     "unitType": "UnitType.Civilian",
-    //     "movement": 4,
-    //     "uniques": [
-    //         "Gain a free [Building.Engineer.Imhotep] [in this city] <by consuming this unit>",
-    //         "Can speed up construction of a building",
-    //         "Great Person - [Production]", 
-    //         "Unbuildable"
-    //     ]
-    // },
-    // {
-    //     "name": "Unit.Engineer.BiSheng",
-    //     "unitType": "UnitType.Civilian",
-    //     "movement": 4,
-    //     "uniques": [
-    //         "Gain a free [Building.Engineer.BiSheng] [in this city] <by consuming this unit>",
-    //         "Can speed up construction of a building",
-    //         "Great Person - [Production]", 
-    //         "Unbuildable"
-    //     ]
-    // },
+    {
+        "name": "Unit.Engineer.Imhotep",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.Imhotep] [in this city] <by consuming this unit>",
+            "Can speed up construction of a building",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.BiSheng",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.BiSheng] [in this city] <by consuming this unit>",
+            "Can speed up construction of a building",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
 
     // Space Project 
     {

@@ -20,9 +20,6 @@
         "Gain [20] Influence with a [Unit.Envoy] gift to a City-State",
         "When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <after adopting [Pantheon.InitiationRites]>",
 
-        "Gain a free [Building.HidePolicy] [in capital]",
-        "Gain a free [Building.HideGov] [in capital]",
-
         // Eurekas (Some not work)
         // "Gain [20] [Science] <upon founding a city> <before discovering [Tech.Sailing]>",
         // "Gain [25] [Science] <upon founding a city> <before discovering [Tech.Sailing]> <for [Class.Nation.China]>",
