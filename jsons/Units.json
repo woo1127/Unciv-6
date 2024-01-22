@@ -1187,7 +1187,7 @@
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.Imhotep] [in this city] <by consuming this unit>",
+            "Gain a free [Building.Engineer.Imhotep] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Can speed up construction of a building",
             "Great Person - [Production]", 
             "Unbuildable"
@@ -1198,7 +1198,7 @@
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.BiSheng] [in this city] <by consuming this unit>",
+            "Gain a free [Building.Engineer.BiSheng] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Can speed up construction of a building",
             "Great Person - [Production]", 
             "Unbuildable"

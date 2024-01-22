@@ -356,6 +356,16 @@
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
+    {
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [
+			{
+				"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"
+			}
+		]
+	},
 
     // Wonders 
     {
