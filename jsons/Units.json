@@ -5,6 +5,7 @@
 		"unitType": "UnitType.Civilian",
 		"movement": 2,
 		"cost": 50,
+        "hurryCostModifier": -15,
 		"uniques": [
             "Can build [Land] improvements on tiles", 
             "Automation is a primary action",
@@ -17,10 +18,12 @@
         "movement": 2,
         "cost": 80,
         "uniques": [
+            // Not working for unit
+            // "Cost increases by [30] per owned city",
             "Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
 			"Requires at least [2] population",
             "[+1] Sight",
-            "[-1] population [in this city] <in cities with at least [2] [Population]>"
+            "[-1] population [in this city] <in cities with at least [2] [Population]> <in cities without a [Governor.MagnusIB]>"
         ]
     },
     {

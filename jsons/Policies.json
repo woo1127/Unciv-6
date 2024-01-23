@@ -827,7 +827,8 @@
                     "Instantly consumes [40] [Resource.Unit.Prophet]",
                     "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Medieval]>"
+                    "Only available <before the [Era.Medieval]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -839,7 +840,8 @@
                     "Instantly consumes [40] [Resource.Unit.Prophet]",
                     "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Medieval]>" 
+                    "Only available <before the [Era.Medieval]>" ,
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -851,7 +853,8 @@
                     "Instantly consumes [40] [Resource.Unit.Prophet]",
                     "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Medieval]>"
+                    "Only available <before the [Era.Medieval]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -863,7 +866,8 @@
                     "Instantly consumes [40] [Resource.Unit.Prophet]",
                     "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Medieval]>"
+                    "Only available <before the [Era.Medieval]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -875,7 +879,8 @@
                     "Instantly consumes [40] [Resource.Unit.Prophet]",
                     "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Medieval]>"
+                    "Only available <before the [Era.Medieval]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -887,7 +892,8 @@
                     "Instantly consumes [40] [Resource.Unit.Prophet]",
                     "Only available <when above [40] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this> ",
-                    "Only available <before the [Era.Medieval]>"
+                    "Only available <before the [Era.Medieval]>",
+                    "Class.Civic.GP"
                 ]
             },
             // Medieval
@@ -900,7 +906,8 @@
                     "Instantly consumes [80] [Resource.Unit.Prophet]",
                     "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Renaissance]>"
+                    "Only available <before the [Era.Renaissance]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -912,7 +919,8 @@
                     "Instantly consumes [80] [Resource.Unit.Prophet]",
                     "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Renaissance]>"
+                    "Only available <before the [Era.Renaissance]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -924,7 +932,8 @@
                     "Instantly consumes [80] [Resource.Unit.Prophet]",
                     "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Renaissance]>"
+                    "Only available <before the [Era.Renaissance]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -936,7 +945,8 @@
                     "Instantly consumes [80] [Resource.Unit.Prophet]",
                     "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Renaissance]>"
+                    "Only available <before the [Era.Renaissance]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -948,7 +958,8 @@
                     "Instantly consumes [80] [Resource.Unit.Prophet]",
                     "Only available <when above [80] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Renaissance]>"
+                    "Only available <before the [Era.Renaissance]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -960,7 +971,8 @@
                     "Instantly consumes [160] [Resource.Unit.Prophet]",
                     "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Industrial]>"
+                    "Only available <before the [Era.Industrial]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -972,7 +984,8 @@
                     "Instantly consumes [160] [Resource.Unit.Prophet]",
                     "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Industrial]>"
+                    "Only available <before the [Era.Industrial]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -984,7 +997,8 @@
                     "Instantly consumes [160] [Resource.Unit.Prophet]",
                     "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Industrial]>"
+                    "Only available <before the [Era.Industrial]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -996,7 +1010,8 @@
                     "Instantly consumes [160] [Resource.Unit.Prophet]",
                     "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Industrial]>"
+                    "Only available <before the [Era.Industrial]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -1008,7 +1023,8 @@
                     "Instantly consumes [160] [Resource.Unit.Prophet]",
                     "Only available <when above [160] [Resource.Unit.Prophet]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
-                    "Only available <before the [Era.Industrial]>"
+                    "Only available <before the [Era.Industrial]>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -1032,7 +1048,8 @@
                     "Instantly consumes [80] [Resource.Unit.Engineer]",
                     "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this> <hidden from users>",
-                    "Only available <before the [Era.Renaissance]> <hidden from users>"
+                    "Only available <before the [Era.Renaissance]> <hidden from users>",
+                    "Class.Civic.GP"
                 ]
             },
             {
@@ -1044,7 +1061,8 @@
                     "Instantly consumes [80] [Resource.Unit.Engineer]",
                     "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this> <hidden from users>",
-                    "Only available <before the [Era.Renaissance]> <hidden from users>"
+                    "Only available <before the [Era.Renaissance]> <hidden from users>",
+                    "Class.Civic.GP"
                 ]
             },
     //         {

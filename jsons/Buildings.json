@@ -1,150 +1,4 @@
 [
-    {
-        "name": "Building.CityNumberCount",
-        "cost": 0,
-        "uniques": [
-            "Provides [1] [Resource.District]",
-            "Provides [1] [Resource.District] <in cities with at least [4] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [7] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [10] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [13] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [16] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [19] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [22] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [25] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [28] [Population]>",
-            "Provides [1] [Resource.District] <in cities with at least [31] [Population]>",
-
-            "[-50]% growth [in this city] <in cities with at least [1] [Population]> <when below [5] [Resource.Housing]> <when above [3] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.Housing]> <when above [4] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [2] [Population]> <when below [7] [Resource.Housing]> <when above [5] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [3] [Population]> <when below [8] [Resource.Housing]> <when above [6] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [3] [Population]> <when below [9] [Resource.Housing]> <when above [7] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [4] [Population]> <when below [10] [Resource.Housing]> <when above [8] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [4] [Population]> <when below [11] [Resource.Housing]> <when above [9] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [5] [Population]> <when below [12] [Resource.Housing]> <when above [10] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [5] [Population]> <when below [13] [Resource.Housing]> <when above [11] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [6] [Population]> <when below [14] [Resource.Housing]> <when above [12] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [6] [Population]> <when below [15] [Resource.Housing]> <when above [13] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [7] [Population]> <when below [16] [Resource.Housing]> <when above [14] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [7] [Population]> <when below [17] [Resource.Housing]> <when above [15] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [8] [Population]> <when below [18] [Resource.Housing]> <when above [16] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [8] [Population]> <when below [19] [Resource.Housing]> <when above [17] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [9] [Population]> <when below [20] [Resource.Housing]> <when above [18] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [9] [Population]> <when below [21] [Resource.Housing]> <when above [19] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [10] [Population]> <when below [22] [Resource.Housing]> <when above [20] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [10] [Population]> <when below [23] [Resource.Housing]> <when above [21] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [11] [Population]> <when below [24] [Resource.Housing]> <when above [22] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [11] [Population]> <when below [25] [Resource.Housing]> <when above [23] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [12] [Population]> <when below [26] [Resource.Housing]> <when above [24] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [12] [Population]> <when below [27] [Resource.Housing]> <when above [25] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [13] [Population]> <when below [28] [Resource.Housing]> <when above [26] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [13] [Population]> <when below [29] [Resource.Housing]> <when above [27] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [14] [Population]> <when below [30] [Resource.Housing]> <when above [28] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [14] [Population]> <when below [31] [Resource.Housing]> <when above [29] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [15] [Population]> <when below [32] [Resource.Housing]> <when above [30] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [15] [Population]> <when below [33] [Resource.Housing]> <when above [31] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [16] [Population]> <when below [34] [Resource.Housing]> <when above [32] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [16] [Population]> <when below [35] [Resource.Housing]> <when above [33] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [17] [Population]> <when below [36] [Resource.Housing]> <when above [34] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [17] [Population]> <when below [37] [Resource.Housing]> <when above [35] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [18] [Population]> <when below [38] [Resource.Housing]> <when above [36] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [18] [Population]> <when below [39] [Resource.Housing]> <when above [37] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [19] [Population]> <when below [40] [Resource.Housing]> <when above [38] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [19] [Population]> <when below [41] [Resource.Housing]> <when above [39] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [20] [Population]> <when below [42] [Resource.Housing]> <when above [40] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [20] [Population]> <when below [43] [Resource.Housing]> <when above [41] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [21] [Population]> <when below [44] [Resource.Housing]> <when above [42] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [21] [Population]> <when below [45] [Resource.Housing]> <when above [43] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [22] [Population]> <when below [46] [Resource.Housing]> <when above [44] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [22] [Population]> <when below [47] [Resource.Housing]> <when above [45] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [23] [Population]> <when below [48] [Resource.Housing]> <when above [46] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [23] [Population]> <when below [49] [Resource.Housing]> <when above [47] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [24] [Population]> <when below [50] [Resource.Housing]> <when above [48] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [24] [Population]> <when below [51] [Resource.Housing]> <when above [49] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [25] [Population]> <when below [52] [Resource.Housing]> <when above [50] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [25] [Population]> <when below [53] [Resource.Housing]> <when above [51] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [26] [Population]> <when below [54] [Resource.Housing]> <when above [52] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [26] [Population]> <when below [55] [Resource.Housing]> <when above [53] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [27] [Population]> <when below [56] [Resource.Housing]> <when above [54] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [27] [Population]> <when below [57] [Resource.Housing]> <when above [55] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [28] [Population]> <when below [58] [Resource.Housing]> <when above [56] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [28] [Population]> <when below [59] [Resource.Housing]> <when above [57] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [29] [Population]> <when below [60] [Resource.Housing]> <when above [58] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [29] [Population]> <when below [61] [Resource.Housing]> <when above [59] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [30] [Population]> <when below [62] [Resource.Housing]> <when above [60] [Resource.Housing]>",
-            "[-50]% growth [in this city] <in cities with at least [30] [Population]> <when below [63] [Resource.Housing]> <when above [61] [Resource.Housing]>",
-
-            // Missing the uniques to handle number of housing that are odd number
-            "[-75]% growth [in this city] <in cities with at least [6] [Population]> <when below [13] [Resource.Housing]> <when above [3] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [7] [Population]> <when below [15] [Resource.Housing]> <when above [5] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [8] [Population]> <when below [17] [Resource.Housing]> <when above [7] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [9] [Population]> <when below [19] [Resource.Housing]> <when above [9] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [10] [Population]> <when below [21] [Resource.Housing]> <when above [11] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [11] [Population]> <when below [23] [Resource.Housing]> <when above [13] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [12] [Population]> <when below [25] [Resource.Housing]> <when above [15] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [13] [Population]> <when below [27] [Resource.Housing]> <when above [17] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [14] [Population]> <when below [29] [Resource.Housing]> <when above [19] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [15] [Population]> <when below [31] [Resource.Housing]> <when above [21] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [16] [Population]> <when below [33] [Resource.Housing]> <when above [23] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [17] [Population]> <when below [35] [Resource.Housing]> <when above [25] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [18] [Population]> <when below [37] [Resource.Housing]> <when above [27] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [19] [Population]> <when below [39] [Resource.Housing]> <when above [29] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [20] [Population]> <when below [41] [Resource.Housing]> <when above [31] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [21] [Population]> <when below [43] [Resource.Housing]> <when above [33] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [22] [Population]> <when below [45] [Resource.Housing]> <when above [35] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [23] [Population]> <when below [47] [Resource.Housing]> <when above [37] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [24] [Population]> <when below [49] [Resource.Housing]> <when above [39] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [25] [Population]> <when below [51] [Resource.Housing]> <when above [41] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [26] [Population]> <when below [53] [Resource.Housing]> <when above [43] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [27] [Population]> <when below [55] [Resource.Housing]> <when above [45] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [28] [Population]> <when below [57] [Resource.Housing]> <when above [47] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [29] [Population]> <when below [59] [Resource.Housing]> <when above [49] [Resource.Housing]>",
-            "[-75]% growth [in this city] <in cities with at least [30] [Population]> <when below [61] [Resource.Housing]> <when above [51] [Resource.Housing]>",
-
-            "Nullifies Growth [in this city] <in cities with at least [7] [Population]> <when below [5] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [7] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [9] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [11] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [13] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [15] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [17] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [19] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [21] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [23] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [25] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [27] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [29] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [31] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [33] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [35] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [37] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [39] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [41] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [43] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [45] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [47] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [49] [Resource.Housing]>",
-            "Nullifies Growth [in this city] <in cities with at least [30] [Population]> <when below [51] [Resource.Housing]>",
-
-            "Unsellable <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>",
-            "Never destroyed when the city is captured <hidden from users>",
-            "Will not be displayed in Civilopedia"
-        ],
-        "replacementTextForUniques": ""
-    },
-    {
-        "name": "Building.CultureAmountCheck",
-        "cost": 1,
-        "uniques": []
-    },
-    {
-        "name": "Building.ScienceAmountCheck",
-        "cost": 1,
-        "uniques": []
-    },
-
     // city center
     {
         "name": "Palace",
@@ -175,10 +29,11 @@
     },
     {
         "name": "Building.Granary",
-        "cost": 65,
+        // "cost": 65,
+        "cost": 0,
         "food": 1,
         "hurryCostModifier": -33,
-        "requiredTech": "Tech.Pottery",
+        // "requiredTech": "Tech.Pottery",
         "uniques": [
             "Provides [4] [Resource.Housing]",
 		    "Unsellable <hidden from users>" ,
@@ -342,12 +197,10 @@
         "specialistSlots": {"Specialist.Scientist": 1},
         "uniques": [
             "Provides [1] [Resource.Unit.Scientist]",
-            "[+5 Science] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
-            "[+5 Science] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
-            "[+5 Science] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "Consumes [3] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+5 Science] <when above [0] [Resource.Power]>",
             "[+1 Science] from every [Specialist.Scientist] <in this city>",
-            "Provides [3] [Resource.Power] <hidden from users>",
-            "Comment [Base Load: 3 [Resource.Power]]",
+
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.Campus"
@@ -395,12 +248,10 @@
         "specialistSlots": {"Specialist.Merchant": 1},
         "uniques": [
             "Provides [1] [Resource.Unit.Merchant]",
-            "[+7 Gold] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
-            "[+7 Gold] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
-            "[+7 Gold] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "Consumes [3] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+7 Gold] <when above [0] [Resource.Power]>",
             "[+2 Gold] from every [Specialist.Scientist] <in this city>",
-            "Provides [3] [Resource.Power] <hidden from users>",
-            "Comment [Base Load: 3 [Resource.Power]]",
+            
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.CommercialHub"
@@ -785,12 +636,10 @@
         "uniques": [
             "Provides [1] [Resource.Unit.Artist]",
             "Provides [2] [Resource.Unit.Musician]",
-            "[+4 Culture] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
-            "[+4 Culture] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
-            "[+4 Culture] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
+            "Consumes [3] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+4 Culture] <when above [0] [Resource.Power]>",
             "[+1 Culture] from every [Specialist.Artist] <in this city>",
-            "Provides [3] [Resource.Power] <hidden from users>",
-            "Comment [Base Load: 3 [Resource.Power]]",
+
             "Never destroyed when the city is captured",
             "Unsellable",
             "Class.DistrictBuilding.TheaterSquare"
@@ -834,7 +683,27 @@
             "Unsellable",
             "Class.DistrictBuilding.Harbor"
         ]
-    }
+    },
+    {
+        "name": "Building.Seaport",
+        "cost": 440,
+        "food": 2,
+        "gold": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Electricity",
+        "requiredBuilding": "Building.Shipyard",
+        "specialistSlots": {"Specialist.Captain": 1},
+        "uniques": [
+            "Provides [1] [Resource.Housing]",
+            "Provides [1] [Resource.Unit.Admiral]",
+            "[+2 Production] from [Coast] tiles [in this city]",
+            "[+2 Gold] from [Lakes] tiles [in this city]",
+            "All newly-trained [{Military} {Water}] units [in this city] receive the [Promotion.NavyCombatXPBoosterIII] promotion",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Class.DistrictBuilding.Harbor"
+        ]
+    },
 
     // Entertainment Complex
     {
@@ -875,14 +744,12 @@
         "hurryCostModifier": -33,
         "requiredBuilding": "Building.Zoo",
         "uniques": [
+            "[+2 Happiness] <when above [0] [Resource.Power]>",
+            "Consumes [2] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
             "Only available <after adopting [Civic.ProfessionalSports]>",
-            "[+2 Happiness] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
-            "[+2 Happiness] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
-            "[+2 Happiness] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
-            "Provides [2] [Resource.Power] <hidden from users>",
-            "Comment [Base Load: 2 [Resource.Power]]",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.EntertainmentComplex"
         ]
     },
@@ -915,13 +782,11 @@
         "specialistSlots": {"Specialist.Engineer": 1},
         "uniques": [
             "Provides [1] [Resource.Unit.Engineer]",
-            "[+3 Production] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]>",
-            "[+3 Production] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]>",
-            "[+3 Production] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]>",
-            "Provides [2] [Resource.Power] <hidden from users>",
-            "Comment [Base Load: 2 [Resource.Power]]",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            "Consumes [2] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+3 Production] <when above [0] [Resource.Power]>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -937,26 +802,36 @@
         "uniques": [
             "Comment [Grants bonus [Production] equal to the district's current adjacency bonus.]",
             "Provides [1] [Resource.Unit.Engineer]",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
             "[+1 Production] from every [Specialist.Engineer] <in this city>",
-            "Gain a free [Building.CoalPowerPlant2] [in this city] <when above [4] [Resource.Power]>",
             "Only available <in cities without a [Building.OilPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
     {
         "name": "Building.CoalPowerPlant2",
-        "cost": 1,
+        "cost": 0,
         "requiredResource": "Resource.Coal",
         "requiredTech": "Tech.Industrialization",
         "requiredBuilding": "Building.CoalPowerPlant",
         "uniques": [
-            "Gain a free [Building.CoalPowerPlant3] [in this city] <when above [8] [Resource.Power]>",
-            "Unbuildable",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
+            "Only available <in cities with a [Building.CoalPowerPlant]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -967,10 +842,15 @@
         "requiredTech": "Tech.Industrialization",
         "requiredBuilding": "Building.CoalPowerPlant2",
         "uniques": [
-            "Gain a free [Building.CoalPowerPlant4] [in this city] <when above [12] [Resource.Power]>",
-            "Unbuildable",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
+            "Only available <in cities with a [Building.CoalPowerPlant2]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -981,10 +861,15 @@
         "requiredTech": "Tech.Industrialization",
         "requiredBuilding": "Building.CoalPowerPlant3",
         "uniques": [
-            "Gain a free [Building.CoalPowerPlant5] [in this city] <when above [16] [Resource.Power]>",
-            "Unbuildable",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
+            "Only available <in cities with a [Building.CoalPowerPlant3]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -995,9 +880,15 @@
         "requiredTech": "Tech.Industrialization",
         "requiredBuilding": "Building.CoalPowerPlant4",
         "uniques": [
-            "Unbuildable",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
+            "Only available <in cities with a [Building.CoalPowerPlant4]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -1012,68 +903,94 @@
         "requiredBuilding": "Building.Factory",
         "specialistSlots": {"Specialist.Engineer": 1},
         "uniques": [
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
             "Provides [1] [Resource.Unit.Engineer]",
             "[+1 Production] from every [Specialist.Engineer] <in this city>",
-            "Gain a free [Building.OilPowerPlant2] [in this city] <when above [4] [Resource.Power]>",
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
     {
         "name": "Building.OilPowerPlant2",
-        "cost": 1,
+        "cost": 0,
         "requiredResource": "Resource.Oil",
         "requiredTech": "Tech.Electricity",
         "requiredBuilding": "Building.OilPowerPlant",
         "uniques": [
-            "Gain a free [Building.OilPowerPlant3] [in this city] <when above [8] [Resource.Power]>",
-            "Unbuildable",
-            "Unsellable",
-            "Never destroyed when the city is captured",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
+            "Only available <in cities with a [Building.OilPowerPlant]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
     {
         "name": "Building.OilPowerPlant3",
-        "cost": 1,
+        "cost": 0,
         "requiredResource": "Resource.Oil",
         "requiredTech": "Tech.Electricity",
         "requiredBuilding": "Building.OilPowerPlant2",
         "uniques": [
-            "Gain a free [Building.OilPowerPlant4] [in this city] <when above [12] [Resource.Power]>",
-            "Unbuildable",
-            "Unsellable",
-            "Never destroyed when the city is captured",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
+            "Only available <in cities with a [Building.OilPowerPlant2]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
     {
         "name": "Building.OilPowerPlant4",
-        "cost": 1,
+        "cost": 0,
         "requiredResource": "Resource.Oil",
         "requiredTech": "Tech.Electricity",
         "requiredBuilding": "Building.OilPowerPlant3",
         "uniques": [
-            "Gain a free [Building.OilPowerPlant5] [in this city] <when above [16] [Resource.Power]>",
-            "Unbuildable",
-            "Unsellable",
-            "Never destroyed when the city is captured",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
+            "Only available <in cities with a [Building.OilPowerPlant3]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
     {
         "name": "Building.OilPowerPlant5",
-        "cost": 1,
+        "cost": 0,
         "requiredResource": "Resource.Oil",
         "requiredTech": "Tech.Electricity",
         "requiredBuilding": "Building.OilPowerPlant4",
         "uniques": [
-            "Unbuildable",
-            "Unsellable",
-            "Never destroyed when the city is captured",
+            "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
+            "Only available <in cities with a [Building.OilPowerPlant4]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -1089,26 +1006,37 @@
         "requiredBuilding": "Building.Factory",
         "specialistSlots": {"Specialist.Engineer": 1},
         "uniques": [
+            "Provides [16] [Resource.Power] <when above [0] [Resource.Uranium]>",
             "Provides [1] [Resource.Unit.Engineer]",
-            "[+4 Production, +3 Science] from [City center] tiles [in all cities] <within [6] tiles of a [District.IndustrialZone]>",
-            "Gain a free [Building.NuclearPowerPlant2] [in this city] <when above [16] [Resource.Power]>",
+            
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.OilPowerPlant]>",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
     {
         "name": "Building.NuclearPowerPlant2",
-        "cost": 1,
+        "cost": 0,
         "requiredResource": "Resource.Uranium",
         "requiredTech": "Tech.NuclearFission",
         "requiredBuilding": "Building.NuclearPowerPlant",
         "uniques": [
-            "Unbuildable",
-            "Unsellable",
-            "Never destroyed when the city is captured",
+            "Provides [16] [Resource.Power] <when above [0] [Resource.Uranium]>",
+            "Only available <in cities with a [Building.NuclearPowerPlant]>",
+
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.PowerPlant",
             "Class.DistrictBuilding.IndustrialZone"
         ]
     },
@@ -1139,16 +1067,13 @@
         "requiredTech": "Tech.AdvancedFlight",
         "requiredBuilding": "Building.Hangar",
         "uniques": [
-            "All newly-trained [air units] units [in this city] receive the [Promotion.AirCombatXPBoosterII] promotion",
-            "[+2 Production] <upon constructing [Building.CoalPowerPlant] [in this city]> <when above [0] [Resource.Coal]> <hidden from users>",
-            "[+2 Production] <upon constructing [Building.OilPowerPlant] [in this city]> <when above [0] [Resource.Oil]> <hidden from users>",
-            "[+2 Production] <upon constructing [Building.NuclearPowerPlant] [in this city]> <when above [0] [Resource.Uranium]> <hidden from users>",
-            "Comment [+2 [Production] additionally when Powered]",
             "Provides [1] [Resource.AirUnitSlot]",
-            "Provides [1] [Resource.Power] <hidden from users>",
-            "Comment [Base Load: 1 [Resource.Power]]",
-            "Never destroyed when the city is captured",
-            "Unsellable",
+            "Consumes [1] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+2 Production] <when above [0] [Resource.Power]>",
+            "All newly-trained [air units] units [in this city] receive the [Promotion.AirCombatXPBoosterII] promotion",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.Aerodrome"
         ]
     },
@@ -2119,7 +2044,8 @@
         "name": "Building.Engineer.BiSheng",
         "cost": 1,
         "uniques": [
-            "Comment [+80% [Science] when discovering [Tech.Printing]]", // Eureka for Printing tech
+            // Eureka for Printing tech
+            "Comment [+80% [Science] when discovering [Tech.Printing]]", 
             "[+80]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
             "[+100]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
             "Provides [1] [Resource.District]",
@@ -2205,7 +2131,6 @@
             "Only available <after adopting [Civic.Code]>",
             "Only available <in cities without a [Class.Building.Government]>",
             "Only available <in cities without a [Building.HideGov]> <hidden from users>",
-            // "Only available <in cities with a [Building.ShowGov]> <hidden from users>",
             
             "Can only be built [in capital] <hidden from users>",
             "Destroyed when the city is captured <hidden from users>",
@@ -2225,7 +2150,7 @@
             "Provides [3] [Resource.Influence]",
             // "Provides [1] [Resource.DiplomaticFavor]",
 
-            // "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+            "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
 
             "Comment [Bonus to wonder [Production] (10%, plus 1% for every 15 turns until maximum 90 turns).]",
@@ -2259,7 +2184,7 @@
             // "Provides [1] [Resource.DiplomaticFavor]",
 
             "[+1 Happiness] [in all cities] <in cities with a [Class.Building.District]>",
-            // "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+            "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
 
             "Only available <after adopting [Civic.PoliticalPhilosophy]>",
             "Only available <in cities without a [Class.Building.Government]>",
@@ -2282,7 +2207,7 @@
             "Provides [3] [Resource.Influence]",
             // "Provides [1] [Resource.DiplomaticFavor]",
             
-            // "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+            "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
             "Comment [Bonus combat experience for units (20%, plus 1% for every 5 turns until maximum 25 turns).]",
             "[+20]% Strength <for [UnitType.Melee] units>",
             "[+20]% XP gained from combat <hidden from users>",
@@ -2315,7 +2240,7 @@
             "Provides [2] [Resource.TradeRouteCapacity]",
             // "Provides [2] [Resource.DiplomaticFavor]",
 
-            // "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
+            "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
             "Comment [[Gold] cost of purchasing items in cities decresead by 20%, plus 1% for every 15 turns until maximum 75 turns.]",
             "[Gold] cost of purchasing items in cities [-15]% <hidden from users>",
             "[Gold] cost of purchasing items in cities [-16]% <after [15] turns> <hidden from users>",
@@ -2343,18 +2268,11 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomacyPolicySlot]",
             "Provides [2] [Resource.WildPolicySlot]",
-            "Provides [8] [Resource.Influence]",
+            "Provides [9] [Resource.Influence]",
             // "Provides [2] [Resource.DiplomaticFavor]",
 
-            // "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
+            "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
             "[+50]% Production when constructing [Class.Building.Wall] buildings [in all cities]",
-            "Comment [City-State Influence degradation -20%, minus 1% for every 15 turns until maximum 75 turns.]",
-            "[-20]% City-State Influence degradation <hidden from users>",
-            "[-21]% City-State Influence degradation <after [15] turns> <hidden from users>",
-            "[-22]% City-State Influence degradation <after [30] turns> <hidden from users>",
-            "[-23]% City-State Influence degradation <after [45] turns> <hidden from users>",
-            "[-24]% City-State Influence degradation <after [60] turns> <hidden from users>",
-            "[-25]% City-State Influence degradation <after [75] turns> <hidden from users>",
 
             "Only available <after adopting [Civic.DivineRight]>",
             "Only available <in cities without a [Class.Building.Government]>",
@@ -2538,7 +2456,7 @@
         "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
-
+            "[+25]% Strength for cities <after [3] turns>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
             "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
@@ -2553,40 +2471,214 @@
             "Class.Governor.Victor"
         ]
     },
-    // {
-    //     "name": "Governor.",
-    //     "cost": 0,
-    //     "requiredResource": "Resource.GovernorTitle",
-    //     "uniques": [
-    //         "Unsellable <hidden from users>",
-    //         "Destroyed when the city is captured <hidden from users>",
-    //         "Only available <when above [0] [Resource.GovernorTitle]>",
-    //         "Only available <in cities without a [Class.Governor]> <hidden from users>",
-    //         "Limited to [1] per Civilization <hidden from users>",
-    //         "Class.Governor"
-    //     ]
-    // },
+    {
+        "name": "Governor.VictorIA",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "[+25]% Strength <for [Military] units> <when defending> <in this city>",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Governor.Victor]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Victor",
+            "Class.Governor.VictorI"
+        ]
+    },
+    {
+        "name": "Governor.VictorIB",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "Comment [Accumulating Strategic resources gain an additional +1 per turn.]",
+            "Provides [1] [Resource.Horse] <when above [0] [Resource.Horse]> <hidden from users>",
+            "Provides [1] [Resource.Iron] <when above [0] [Resource.Iron]> <hidden from users>",
+            "Provides [1] [Resource.Coal] <when above [0] [Resource.Coal]> <hidden from users>",
+            "Provides [1] [Resource.Oil] <when above [0] [Resource.Oil]> <hidden from users>",
+            "Provides [1] [Resource.Niter] <when above [0] [Resource.Niter]> <hidden from users>",
+            "Provides [1] [Resource.Aluminum] <when above [0] [Resource.Aluminum]> <hidden from users>",
+            "Provides [1] [Resource.Uranium] <when above [0] [Resource.Uranium]> <hidden from users>",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Governor.Victor]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Victor",
+            "Class.Governor.VictorI"
+        ]
+    },
+    {
+        "name": "Governor.VictorII",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "New [Military] units start with [10] Experience [in this city]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.VictorI]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Victor",
+            "Class.Governor.VictorII"
+        ]
+    },
+    {
+        "name": "Governor.VictorIIIA",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "Comment [+25 Strength Combat Strength to anti-air support units within the city's territory when defending against aircraft and ICBMs.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.VictorII]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Victor",
+            "Class.Governor.VictorIII"
+        ]
+    },
+    {
+        "name": "Governor.VictorIIIB",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "Comment [30% [Production] increase to all nuclear armament projects in the city.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.VictorII]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Victor",
+            "Class.Governor.VictorIII"
+        ]
+    },
+    {
+        "name": "Governor.Magnus",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "[+1 Production] from [Vegetation] tiles [in this city] <in tiles without [Class.District]>",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Magnus"
+        ]
+    },
+    {
+        "name": "Governor.MagnusIA",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "[+20]% growth [in this city]",
+            "[+2 Food] [in this city] <in cities with a [Building.TradingPost] building>",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Governor.Magnus]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Magnus",
+            "Class.Governor.MagnusI"
+        ]
+    },
+    {
+        "name": "Governor.MagnusIB",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            // uniques located in settler unit
+            "Comment [Settlers trained in the city do not consume a Citizen Population.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Governor.Magnus]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Magnus",
+            "Class.Governor.MagnusI"
+        ]
+    },
+    {
+        "name": "Governor.MagnusII",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            // Uniques wrote in corresponding buildings
+            "Comment [Increase the [Resource.Power] provided by each resource of the Coal Power Plant, Oil Power Plant and Nuclear Power Plant by 1 and the [Production] by 2.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.MagnusI]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Magnus",
+            "Class.Governor.MagnusII"
+        ]
+    },
 
     // Policy Cards ##########################################################################################################################
-    {
-        "name":"Building.HidePolicy",
-        "cost": 0,
-        "uniques":[
-            "Unbuildable",
-            "Unsellable",
-            "Will not be displayed in Civilopedia"
-        ]
-    },
-    {
-        "name": "Building.HideGov",
-        "cost": 0,
-        "uniques": [
-            "Unbuildable",
-            "Unsellable",
-            "Will not be displayed in Civilopedia"
-        ]
-    },
-
     // Code of laws
     {
         "name": "Mil.Survey",
@@ -3330,6 +3422,207 @@
             "Limited to [1] per Civilization <hidden from users>",
             "Destroyed when the city is captured <hidden from users>",
             "Class.Policy.Economy"
+        ]
+    },
+
+
+    // Other & helper programs
+    {
+        "name": "Building.CityNumberCount",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.District]",
+            "Provides [1] [Resource.District] <in cities with at least [4] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [7] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [10] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [13] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [16] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [19] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [22] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [25] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [28] [Population]>",
+            "Provides [1] [Resource.District] <in cities with at least [31] [Population]>",
+
+            // "[-50]% growth [in this city] <in cities with at least [1] [Population]> <when below [5] [Resource.Housing]> <when above [3] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.Housing]> <when above [4] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [2] [Population]> <when below [7] [Resource.Housing]> <when above [5] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [3] [Population]> <when below [8] [Resource.Housing]> <when above [6] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [3] [Population]> <when below [9] [Resource.Housing]> <when above [7] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [4] [Population]> <when below [10] [Resource.Housing]> <when above [8] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [4] [Population]> <when below [11] [Resource.Housing]> <when above [9] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [5] [Population]> <when below [12] [Resource.Housing]> <when above [10] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [5] [Population]> <when below [13] [Resource.Housing]> <when above [11] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [6] [Population]> <when below [14] [Resource.Housing]> <when above [12] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [6] [Population]> <when below [15] [Resource.Housing]> <when above [13] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [7] [Population]> <when below [16] [Resource.Housing]> <when above [14] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [7] [Population]> <when below [17] [Resource.Housing]> <when above [15] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [8] [Population]> <when below [18] [Resource.Housing]> <when above [16] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [8] [Population]> <when below [19] [Resource.Housing]> <when above [17] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [9] [Population]> <when below [20] [Resource.Housing]> <when above [18] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [9] [Population]> <when below [21] [Resource.Housing]> <when above [19] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [10] [Population]> <when below [22] [Resource.Housing]> <when above [20] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [10] [Population]> <when below [23] [Resource.Housing]> <when above [21] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [11] [Population]> <when below [24] [Resource.Housing]> <when above [22] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [11] [Population]> <when below [25] [Resource.Housing]> <when above [23] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [12] [Population]> <when below [26] [Resource.Housing]> <when above [24] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [12] [Population]> <when below [27] [Resource.Housing]> <when above [25] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [13] [Population]> <when below [28] [Resource.Housing]> <when above [26] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [13] [Population]> <when below [29] [Resource.Housing]> <when above [27] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [14] [Population]> <when below [30] [Resource.Housing]> <when above [28] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [14] [Population]> <when below [31] [Resource.Housing]> <when above [29] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [15] [Population]> <when below [32] [Resource.Housing]> <when above [30] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [15] [Population]> <when below [33] [Resource.Housing]> <when above [31] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [16] [Population]> <when below [34] [Resource.Housing]> <when above [32] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [16] [Population]> <when below [35] [Resource.Housing]> <when above [33] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [17] [Population]> <when below [36] [Resource.Housing]> <when above [34] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [17] [Population]> <when below [37] [Resource.Housing]> <when above [35] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [18] [Population]> <when below [38] [Resource.Housing]> <when above [36] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [18] [Population]> <when below [39] [Resource.Housing]> <when above [37] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [19] [Population]> <when below [40] [Resource.Housing]> <when above [38] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [19] [Population]> <when below [41] [Resource.Housing]> <when above [39] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [20] [Population]> <when below [42] [Resource.Housing]> <when above [40] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [20] [Population]> <when below [43] [Resource.Housing]> <when above [41] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [21] [Population]> <when below [44] [Resource.Housing]> <when above [42] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [21] [Population]> <when below [45] [Resource.Housing]> <when above [43] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [22] [Population]> <when below [46] [Resource.Housing]> <when above [44] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [22] [Population]> <when below [47] [Resource.Housing]> <when above [45] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [23] [Population]> <when below [48] [Resource.Housing]> <when above [46] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [23] [Population]> <when below [49] [Resource.Housing]> <when above [47] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [24] [Population]> <when below [50] [Resource.Housing]> <when above [48] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [24] [Population]> <when below [51] [Resource.Housing]> <when above [49] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [25] [Population]> <when below [52] [Resource.Housing]> <when above [50] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [25] [Population]> <when below [53] [Resource.Housing]> <when above [51] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [26] [Population]> <when below [54] [Resource.Housing]> <when above [52] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [26] [Population]> <when below [55] [Resource.Housing]> <when above [53] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [27] [Population]> <when below [56] [Resource.Housing]> <when above [54] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [27] [Population]> <when below [57] [Resource.Housing]> <when above [55] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [28] [Population]> <when below [58] [Resource.Housing]> <when above [56] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [28] [Population]> <when below [59] [Resource.Housing]> <when above [57] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [29] [Population]> <when below [60] [Resource.Housing]> <when above [58] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [29] [Population]> <when below [61] [Resource.Housing]> <when above [59] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [30] [Population]> <when below [62] [Resource.Housing]> <when above [60] [Resource.Housing]>",
+            // "[-50]% growth [in this city] <in cities with at least [30] [Population]> <when below [63] [Resource.Housing]> <when above [61] [Resource.Housing]>",
+
+            // // Missing the uniques to handle number of housing that are odd number
+            // "[-75]% growth [in this city] <in cities with at least [6] [Population]> <when below [13] [Resource.Housing]> <when above [3] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [7] [Population]> <when below [15] [Resource.Housing]> <when above [5] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [8] [Population]> <when below [17] [Resource.Housing]> <when above [7] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [9] [Population]> <when below [19] [Resource.Housing]> <when above [9] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [10] [Population]> <when below [21] [Resource.Housing]> <when above [11] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [11] [Population]> <when below [23] [Resource.Housing]> <when above [13] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [12] [Population]> <when below [25] [Resource.Housing]> <when above [15] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [13] [Population]> <when below [27] [Resource.Housing]> <when above [17] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [14] [Population]> <when below [29] [Resource.Housing]> <when above [19] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [15] [Population]> <when below [31] [Resource.Housing]> <when above [21] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [16] [Population]> <when below [33] [Resource.Housing]> <when above [23] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [17] [Population]> <when below [35] [Resource.Housing]> <when above [25] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [18] [Population]> <when below [37] [Resource.Housing]> <when above [27] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [19] [Population]> <when below [39] [Resource.Housing]> <when above [29] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [20] [Population]> <when below [41] [Resource.Housing]> <when above [31] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [21] [Population]> <when below [43] [Resource.Housing]> <when above [33] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [22] [Population]> <when below [45] [Resource.Housing]> <when above [35] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [23] [Population]> <when below [47] [Resource.Housing]> <when above [37] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [24] [Population]> <when below [49] [Resource.Housing]> <when above [39] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [25] [Population]> <when below [51] [Resource.Housing]> <when above [41] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [26] [Population]> <when below [53] [Resource.Housing]> <when above [43] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [27] [Population]> <when below [55] [Resource.Housing]> <when above [45] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [28] [Population]> <when below [57] [Resource.Housing]> <when above [47] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [29] [Population]> <when below [59] [Resource.Housing]> <when above [49] [Resource.Housing]>",
+            // "[-75]% growth [in this city] <in cities with at least [30] [Population]> <when below [61] [Resource.Housing]> <when above [51] [Resource.Housing]>",
+
+            "Nullifies Growth [in this city] <in cities with at least [7] [Population]> <when below [5] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [6] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [8] [Population]> <when below [7] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [8] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [9] [Population]> <when below [9] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [10] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [10] [Population]> <when below [11] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [12] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [11] [Population]> <when below [13] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [14] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [12] [Population]> <when below [15] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [16] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [13] [Population]> <when below [17] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [18] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [14] [Population]> <when below [19] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [20] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [15] [Population]> <when below [21] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [22] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [16] [Population]> <when below [23] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [24] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [17] [Population]> <when below [25] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [26] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [18] [Population]> <when below [27] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [28] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [19] [Population]> <when below [29] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [30] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [20] [Population]> <when below [31] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [32] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [21] [Population]> <when below [33] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [34] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [22] [Population]> <when below [35] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [36] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [23] [Population]> <when below [37] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [38] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [24] [Population]> <when below [39] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [40] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [25] [Population]> <when below [41] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [42] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [26] [Population]> <when below [43] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [44] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [27] [Population]> <when below [45] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [46] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [28] [Population]> <when below [47] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [48] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [29] [Population]> <when below [49] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [30] [Population]> <when below [50] [Resource.Housing]>",
+            "Nullifies Growth [in this city] <in cities with at least [30] [Population]> <when below [51] [Resource.Housing]>",
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Will not be displayed in Civilopedia"
+        ],
+        "replacementTextForUniques": " "
+    },
+    {
+        "name": "Building.CultureAmountCheck",
+        "cost": 0,
+        "uniques": ["Will not be displayed in Civilopedia"],
+        "replacementTextForUniques": "A helper program to check the amount of [Culture] currently your civilization has."
+    },
+    {
+        "name": "Building.ScienceAmountCheck",
+        "cost": 0,
+        "uniques": ["Will not be displayed in Civilopedia"],
+        "replacementTextForUniques": "A helper program to check the amount of [Science] currently your civilization has."
+    },
+    {
+        "name":"Building.HidePolicy",
+        "cost": 0,
+        "uniques":[
+            "Unbuildable",
+            "Unsellable",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Building.HideGov",
+        "cost": 0,
+        "uniques": [
+            "Unbuildable",
+            "Unsellable",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        // Bonus given by the Mohenjo-Daro CS 
+        "name": "Building.HousingBonus",
+        "cost": 0,
+        "uniques": [
+            "Provides [10] [Resource.Housing] <hidden from users>",
+            "Unbuildable",
+            "Unsellable",
+            "Will not be displayed in Civilopedia"
         ]
     }
 ]

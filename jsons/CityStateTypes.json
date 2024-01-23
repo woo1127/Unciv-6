@@ -1,4 +1,239 @@
 [
+    // Cultural City States
+    // {
+    //     "name": "Antananarivo",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+    //         "[+2]% [Culture] [in all cities] <upon adopting [Class.Civic.GP]>"
+    //     ]
+    // },
+    // {
+    //     "name": "Ayutthaya",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+    //         "[+10]% Production when constructing [Culture] buildings [in all cities]"
+    //     ]
+    // },
+    // {
+    //     "name": "Caguana",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+    //         "Comment [Your Builders can build Batey improvements.]"
+    //     ]
+    // },
+    // {
+    //     "name": "Kumasi",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+    //         "[+2 Culture, +1 Gold] from every [Building.TradingPost]"
+    //     ]
+    // },
+    // {
+    //     "name": "Mohenjo-Daro",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+    //         "Gain a free [Building.HousingBonus] [in all cities] <in [River] tiles> <hidden from users>",
+    //         "Comment [Provides 10 [Resource.Housing] to all cities as if they were next to a river.]"
+    //     ]
+    // },
+    // {
+    //     "name": "Nan Madol",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+    //         "[+2 Culture] from every [Class.District] <with [1] to [6] neighboring [Coast] [Lakes] tiles>"
+    //     ]
+    // },
+    // {
+    //     "name": "Rapa Nui",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Building.Amphitheater]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+2 Culture] from every [Building.ArtMuseum]",
+    //         "[+2 Culture] from every [Building.ArchaeologicalMuseum]",
+    //         "Comment [Your Builders can build Moai improvements.]"
+    //     ]
+    // },
+    // {
+    //     "name": "Vilnius",
+    //     "color": [139, 96, 255],
+    //     "friendBonusUnique": [
+    //         "[+2 Culture] [in capital]",
+    //         "[+2 Culture] from every [Class.District.TheaterSquare]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Culture] from every [Class.District.TheaterSquare]",
+
+    //         "Comment [Grants [Culture] bonus when enter a new era]",
+    //         "Gain [19] [Culture] (modified by game speed) <upon entering the [Era.Ancient]> <hidden from users>",
+    //         "Gain [53] [Culture] (modified by game speed) <upon entering the [Era.Classical]> <hidden from users>",
+    //         "Gain [134] [Culture] (modified by game speed) <upon entering the [Era.Medieval]> <hidden from users>",
+    //         "Gain [234] [Culture] (modified by game speed) <upon entering the [Era.Renaissance]> <hidden from users>",
+    //         "Gain [405] [Culture] (modified by game speed) <upon entering the [Era.Industrial]> <hidden from users>",
+    //         "Gain [643] [Culture] (modified by game speed) <upon entering the [Era.Modern]> <hidden from users>",
+    //         "Gain [893] [Culture] (modified by game speed) <upon entering the [Era.Atomic]> <hidden from users>",
+    //         "Gain [1185] [Culture] (modified by game speed) <upon entering the [Era.Information]> <hidden from users>",
+    //         "Gain [1320] [Culture] (modified by game speed) <upon entering the [Era.Future]> <hidden from users>",
+
+    //         "Gain [24] [Culture] (modified by game speed) <upon entering the [Era.Ancient]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [66] [Culture] (modified by game speed) <upon entering the [Era.Classical]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [167] [Culture] (modified by game speed) <upon entering the [Era.Medieval]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [293] [Culture] (modified by game speed) <upon entering the [Era.Renaissance]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [506] [Culture] (modified by game speed) <upon entering the [Era.Industrial]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [804] [Culture] (modified by game speed) <upon entering the [Era.Modern]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [1116] [Culture] (modified by game speed) <upon entering the [Era.Atomic]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [1481] [Culture] (modified by game speed) <upon entering the [Era.Information]> <hidden from users> <for [Class.Nation.China]>",
+    //         "Gain [1650] [Culture] (modified by game speed) <upon entering the [Era.Future]> <hidden from users> <for [Class.Nation.China]>"
+    //     ]
+    // },
+
+    // // Industrial City States
+    // {
+    //     "name": "Auckland",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "[+1 Production] from every [Coast]",
+    //         "[+1 Production] from every [Coast] <upon entering the [Era.Industrial]>"
+    //     ]
+    // },
+    // {
+    //     "name": "Brussels",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "[+15]% Production when constructing [All] wonders [in all cities]"
+    //     ]
+    // },
+    // {
+    //     "name": "Buenos Aires",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "[+1 Happiness] from every [Bonus resource]"
+    //     ]
+    // },
+    // {
+    //     "name": "Cardiff",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Building.Workshop]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+2 Production] from every [Building.Factory]",
+    //         "Provides [2] [Resource.Power] <in all cities with a [Building.LightHouse]",
+    //         "Provides [2] [Resource.Power] <in all cities with a [Building.Shipyard]",
+    //         "Provides [2] [Resource.Power] <in all cities with a [Building.Seaport]"
+    //     ]
+    // },
+    // {
+    //     "name": "Hong Kong",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "Comment [Your Cities get +20% bonus [Production] towards city projects.]"
+    //     ]
+    // },
+    // {
+    //     "name": "Johannesburg",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "[+1 Production] from every [Strategic resource]",
+    //         "[+1 Production] from every [Strategic resource] <upon entering the [Era.Industrial]>"
+    //     ]
+    // },
+    // {
+    //     "name": "Mexico City",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Building.Workshop]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+2 Production] from every [Building.Factory]",
+    //         "Comment [Regional effects from your Industrial Zone, Water Park, and Entertainment Complex districts reach 3 tiles farther.]"
+    //     ]
+    // },
+    // {
+    //     "name": "Singapore",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "[+2 Production] from every [Building.TradingPost]"
+    //     ]
+    // },
+    // {
+    //     "name": "Toronto",
+    //     "color": [255, 129, 18],
+    //     "friendBonusUnique": [
+    //         "[+2 Production] [in capital]",
+    //         "[+2 Production] from every [Class.District.IndustrialZone]"
+    //     ],
+    //     "allyBonusUnique": [
+    //         "[+4 Production] from every [Class.District.IndustrialZone]",
+    //         "Comment [Regional effects from your Industrial Zone, Water Park, and Entertainment Complex districts reach 3 tiles farther.]"
+    //     ]
+    // },
+
+
     {
         "name": "CityStateType.Cultural",
         "color": [139, 96, 255],

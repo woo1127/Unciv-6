@@ -732,6 +732,12 @@
         ]
     },
     {
+        "name": "Promotion.NavyCombatXPBoosterIII",
+        "uniques": [
+            "[+25]% XP gained from combat"
+        ]
+    },
+    {
         "name": "Promotion.AirCombatXPBoosterI",
         "uniques": [
             "[+25]% XP gained from combat"

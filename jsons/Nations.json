@@ -47,7 +47,7 @@
             "[+15]% Production when constructing [Class.WonderEra.Ancient] wonders [in all cities]",
             "Class.Nation.China"
         ],
-        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• [+15]% [Production] when constructing Ancient and Classical wonders [in all cities]\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.",
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grants 10% more [Science] and [Culture] bonus than usual\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• [+15]% [Production] when constructing Ancient and Classical wonders [in all cities]",
         "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
     },
     {
@@ -93,7 +93,7 @@
             "When defeating a [Barbarian] unit, earn [15] Gold and recruit it",
             "Class.Nation.China"
         ],
-        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• When defeating a Barbarian unit, earn 15 [Gold] and recruit it\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.",
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grants 10% more [Science] and [Culture] bonus than usual\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• When defeating a Barbarian unit, earn 15 [Gold] and recruit it",
         "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
     },
     {
@@ -158,7 +158,7 @@
             "Gain [1650] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Future]>",
             "Class.Nation.China"
         ],
-        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grant a [Science] and [Culture] when declaring friendship with other civilization\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.",
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grants 10% more [Science] and [Culture] bonus than usual\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• Grant a [Science] and [Culture] when declaring friendship with other civilization",
         "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
     },
     {
@@ -205,7 +205,7 @@
             "[+1 Science, +1 Culture, +2 Gold] per [1] population [in all cities] <in cities with at least [10] [Population]>",
             "Class.Nation.China"
         ],
-        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• Cities with 10 or more Citizen Population gain +2 [Gold], +1 [Science] and +1 [Culture] for every Citizen Population.",
+        "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grants 10% more [Science] and [Culture] bonus than usual\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• Cities with 10 or more Citizen Population gain +2 [Gold], +1 [Science] and +1 [Culture] for every Citizen Population.",
         "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
     },
 
@@ -292,7 +292,7 @@
             // civ ability
             "Comment [+10% [Production] when constructing Wonders or Districts in all cities within 2 tiles of a River.]",
             "[+10]% Production when constructing [Class.Building.District] buildings [in all cities] <within [2] tiles of a [River]> <hidden from users>",
-            "[+10]% Production when constructing [Wonders] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+            "[+10]% Production when constructing [All] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
 
             // leader bonus
             "[+1 Food, +1 Culture] from every [Landform.FloodPlain]",
@@ -325,7 +325,7 @@
             // civ ability
             "Comment [+10% [Production] when constructing Wonders or Districts in all cities within 2 tiles of a River.]",
             "[+10]% Production when constructing [Class.Building.District] buildings [in all cities] <within [2] tiles of a [River]> <hidden from users>",
-            "[+10]% Production when constructing [Wonders] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+            "[+10]% Production when constructing [All] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
 
             // leader bonus
             "[+4 Gold] from every [Building.TradingPost]",
@@ -358,7 +358,7 @@
             // civ ability
             "Comment [+10% [Production] when constructing Wonders or Districts in all cities within 2 tiles of a River.]",
             "[+10]% Production when constructing [Class.Building.District] buildings [in all cities] <within [2] tiles of a [River]> <hidden from users>",
-            "[+10]% Production when constructing [Wonders] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
+            "[+10]% Production when constructing [All] wonders [in all cities] <within [2] tiles of a [River]> <hidden from users>",
 
             // leader bonus
             "Comment [Receives [Culture] equal to 35% of the [Production] cost after completing a wonder.]",
