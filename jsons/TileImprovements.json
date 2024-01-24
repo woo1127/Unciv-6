@@ -294,6 +294,36 @@
         ]
     },
 
+    // Governor tile improvement ########################################################################################################
+    {
+        "name": "Improvement.Fishery",
+        "terrainsCanBeBuiltOn": ["Coast", "Lakes"],
+        "techRequired": "Tech.Sailing",
+        "food": 1,
+        "production": 1,
+        "turnsToBuild": 7,
+        "uniques": [
+            "Provides [1] [Resource.Housing]",
+            "[+1 Food] for each adjacent [Water resource]",
+            "Only available <in cities with a [Governor.LiangIB]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
+    },
+    {
+        "name": "Improvement.CityPark",
+        "terrainsCanBeBuiltOn": ["Grassland", "Desert", "Plains", "Tundra", "Snow", "Landform.Hill"],
+        "culture": 4,
+        "turnsToBuild": 7,
+        "uniques": [
+            // not working
+            // "Must not be next to [Improvement.CityPark]", 
+            "[+1 Happiness] <with [1] to [6] neighboring [Water] tiles>",
+            "Only available <in cities with a [Governor.LiangIII]>",
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
+    }
+
     // Road and removal #################################################################################################################
     {
         "name": "Road",

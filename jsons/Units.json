@@ -1230,7 +1230,8 @@
             "Cannot be purchased",
             "Uncapturable",
             "Can be added to [Spaceship part] in the Capital",
-            "Limited to [1] per Civilization"
+            "Limited to [1] per Civilization",
+            "Class.Unit.SpaceProject"
         ]
     },
     {
@@ -1241,12 +1242,13 @@
         "hurryCostModifier": -33,
         "requiredTech": "Tech.Satellites",
         "uniques": [
-            "Comment [Provides bonus [Culture] (= 10x [Science] per turn) at completion]",
+            "Can generate a large amount of culture",
             "Only available <in cities with a [Building.District.Spaceport]>",
             "Cannot be purchased",
             "Uncapturable",
             "Can be added to [Spaceship part] in the Capital",
-            "Limited to [1] per Civilization"
+            "Limited to [1] per Civilization",
+            "Class.Unit.SpaceProject"
         ]
     },
     {
@@ -1261,7 +1263,8 @@
             "Cannot be purchased",
             "Uncapturable",
             "Can be added to [Spaceship part] in the Capital",
-            "Limited to [1] per Civilization"
+            "Limited to [1] per Civilization",
+            "Class.Unit.SpaceProject"
         ]
     },
     {
@@ -1276,7 +1279,8 @@
             "Cannot be purchased",
             "Uncapturable",
             "Can be added to [Spaceship part] in the Capital",
-            "Limited to [1] per Civilization"
+            "Limited to [1] per Civilization",
+            "Class.Unit.SpaceProject"
         ]
     }
 ]
