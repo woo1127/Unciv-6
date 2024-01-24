@@ -2769,7 +2769,7 @@
         "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
-            "[+10]% Spread Religion Strength",
+            "[Wounded] Units adjacent to this city heal [+10] HP per turn when healing",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Only available <in cities with a [Governor.Moksha]>",
             "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
