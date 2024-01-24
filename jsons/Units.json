@@ -1198,8 +1198,7 @@
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.Imhotep] [in this city] <in [City center] tiles> <by consuming this unit>",
-            "Can speed up construction of a building",
+            "Gain a free [Building.Engineer.Imhotep] [in this city] <in [City center] tiles> <[2] times> <after which this unit is consumed>",
             "Great Person - [Production]", 
             "Unbuildable"
         ]
@@ -1210,11 +1209,61 @@
         "movement": 4,
         "uniques": [
             "Gain a free [Building.Engineer.BiSheng] [in this city] <in [City center] tiles> <by consuming this unit>",
-            "Can speed up construction of a building",
             "Great Person - [Production]", 
             "Unbuildable"
         ]
     },
+    {
+        "name": "Unit.Engineer.IsidoreOfMiletus",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.IsidoreOfMiletus] [in this city] <in [City center] tiles> <[2] times> <after which this unit is consumed>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.JamesOfSt.George",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.JamesOfSt.George] [in this city] <in [City center] tiles> <[3] times> <after which this unit is consumed>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.FilippoBrunelleschi",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.FilippoBrunelleschi] [in this city] <in [City center] tiles> <[2] times> <after which this unit is consumed>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.LeonardoDaVinci",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.LeonardoDaVinci] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.MimarSinan",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.MimarSinan] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    
 
     // Space Project 
     {

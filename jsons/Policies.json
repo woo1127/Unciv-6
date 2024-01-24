@@ -1065,67 +1065,67 @@
                     "Class.Civic.GP"
                 ]
             },
-    //         {
-    //             "name": "Civic.Engineer.IsidoreOfMiletus",
-    //             "row": 2,
-    //             "column": 2,
-    //             "uniques": [
-    //                 "Free [Unit.Engineer.IsidoreOfMiletus] appears",
-    //                 "Instantly consumes [80] [Resource.Unit.Engineer]",
-    //                 "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
-    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
-    //                 "Only available <before the [Era.Renaissance] <hidden from users>>"
-    //             ]
-    //         },
-    //         {
-    //             "name": "Civic.Engineer.JamesOfSt.George",
-    //             "row": 2,
-    //             "column": 4,
-    //             "uniques": [
-    //                 "Free [Unit.Engineer.JamesOfSt.George] appears",
-    //                 "Instantly consumes [80] [Resource.Unit.Engineer]",
-    //                 "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
-    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
-    //                 "Only available <before the [Era.Renaissance] <hidden from users>>"
-    //             ]
-    //         },
-    //         // Renaissance
-    //         {
-    //             "name": "Civic.Engineer.FilippoBrunelleschi",
-    //             "row": 4,
-    //             "column": 1,
-    //             "uniques": [
-    //                 "Free [Unit.Engineer.FilippoBrunelleschi] appears",
-    //                 "Instantly consumes [160] [Resource.Unit.Engineer]",
-    //                 "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
-    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
-    //                 "Only available <before the [Era.Industrial]> <after the [Era.Medieval] <hidden from users>>"
-    //             ]
-    //         },
-    //         {
-    //             "name": "Civic.Engineer.LeonardoDaVinci",
-    //             "row": 4,
-    //             "column": 3,
-    //             "uniques": [
-    //                 "Free [Unit.Engineer.LeonardoDaVinci] appears",
-    //                 "Instantly consumes [160] [Resource.Unit.Engineer]",
-    //                 "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
-    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
-    //                 "Only available <before the [Era.Industrial]> <after the [Era.Medieval] <hidden from users>>"
-    //             ]
-    //         },
-    //         {
-    //             "name": "Civic.Engineer.MimarSinan",
-    //             "row": 4,
-    //             "column": 5,
-    //             "uniques": [
-    //                 "Free [Unit.Engineer.MimarSinan] appears",
-    //                 "Instantly consumes [160] [Resource.Unit.Engineer]",
-    //                 "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
-    //                 "Only available <if no other Civilization has adopted this> <hidden from users>",
-    //                 "Only available <before the [Era.Industrial]> <after the [Era.Medieval] <hidden from users>>"
-    //             ]
-    //         },
+            {
+                "name": "Civic.Engineer.IsidoreOfMiletus",
+                "row": 2,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.IsidoreOfMiletus] appears",
+                    "Instantly consumes [80] [Resource.Unit.Engineer]",
+                    "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Engineer.JamesOfSt.George",
+                "row": 2,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.JamesOfSt.George] appears",
+                    "Instantly consumes [80] [Resource.Unit.Engineer]",
+                    "Only available <when above [80] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
+            // Renaissance
+            {
+                "name": "Civic.Engineer.FilippoBrunelleschi",
+                "row": 4,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Engineer.FilippoBrunelleschi] appears",
+                    "Instantly consumes [160] [Resource.Unit.Engineer]",
+                    "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Industrial]> <during the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Engineer.LeonardoDaVinci",
+                "row": 4,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Engineer.LeonardoDaVinci] appears",
+                    "Instantly consumes [160] [Resource.Unit.Engineer]",
+                    "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Industrial]> <during the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
+            {
+                "name": "Civic.Engineer.MimarSinan",
+                "row": 4,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Engineer.MimarSinan] appears",
+                    "Instantly consumes [160] [Resource.Unit.Engineer]",
+                    "Only available <when above [160] [Resource.Unit.Engineer]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this> <hidden from users>",
+                    "Only available <before the [Era.Industrial]> <during the [Era.Renaissance]> <hidden from users>"
+                ]
+            },
     //         // Industrial
     //         {
     //             "name": "Civic.Engineer.AdaLovelace",

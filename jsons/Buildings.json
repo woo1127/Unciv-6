@@ -29,11 +29,9 @@
     },
     {
         "name": "Building.Granary",
-        // "cost": 65,
-        "cost": 0,
+        "cost": 65,
         "food": 1,
         "hurryCostModifier": -33,
-        // "requiredTech": "Tech.Pottery",
         "uniques": [
             "Provides [4] [Resource.Housing]",
 		    "Unsellable <hidden from users>" ,
@@ -2029,95 +2027,77 @@
     // Great Engineer
     {
         "name": "Building.Engineer.Imhotep",
-        "cost": 1,
+        "cost": 0,
         "uniques": [
-            "[+10]% Production when constructing [All] wonders [in this city]",
-            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city]",
-            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city]",
-            "Only available <before the [Era.Renaissance]>",
-            "Unsellable",
-            "Unbuildable",
-            "Class.GPEra.Medieval"
+            "[+10]% Production when constructing [All] wonders [in this city] <before the [Era.Renaissance]>",
+            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <during the [Era.Medieval]>",
+            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <during the [Era.Medieval]>",
+            "Unsellable <hidden from users>",
+            "Unbuildable <hidden from users>"
         ]
     },
     {
         "name": "Building.Engineer.BiSheng",
-        "cost": 1,
+        "cost": 0,
         "uniques": [
-            // Eureka for Printing tech
-            "Comment [+80% [Science] when discovering [Tech.Printing]]", 
+            "Comment [Triggers the Eureka for [Tech.Printing] technology.]", 
             "[+80]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <hidden from users>",
             "[+100]% [Science] [in all cities] <before discovering [Tech.MilitaryScience]> <after discovering [Tech.Machinery]> <for [Class.Nation.China]> <hidden from users> ",
             "Provides [1] [Resource.District]",
-            "Unbuildable",
-            "Only available <before the [Era.Renaissance]>",
-            "Class.GPEra.Medieval"
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
         ]
     },
-    // {
-    //     "name": "Engineer.IsidoreOfMiletus",
-    //     "isWonder": true,
-    //     "cost": 1,
-    //     "uniques": [
-    //         "Free [Unit.Engineer] appears",
-    //         "[+12]% Production when constructing [All] wonders [in this city]",
-    //         "Instantly consumes [80] [Resource.Unit.Engineer]",
-    //         "Only available <when above [80] [Resource.Unit.Engineer]>",
-    //         "Only available <before the [Era.Renaissance]>",
-    //         "Class.GPEra.Medieval"
-    //     ]
-    // },
-    // {
-    //     "name": "Engineer.JamesOfSt.George",
-    //     "isWonder": true,
-    //     "cost": 1,
-    //     "uniques": [
-    //         "Free [Unit.Engineer] appears",
-    //         "Provides a [Building.AncientWalls] in your first [3] cities for free",
-    //         "Provides a [Building.MedievalWalls] in your first [3] cities for free",
-    //         "Instantly consumes [80] [Resource.Unit.Engineer]",
-    //         "Only available <when above [80] [Resource.Unit.Engineer]>",
-    //         "Only available <before the [Era.Renaissance]>",
-    //         "Class.GPEra.Medieval"
-    //     ]
-    // },
-    // {
-    //     "name": "Engineer.FilippoBrunelleschi",
-    //     "isWonder": true,
-    //     "cost": 1,
-    //     "uniques": [
-    //         "Free [Unit.Engineer] appears",
-    //         "[+10]% Production when constructing [All] wonders [in this city]",
-    //         "Instantly consumes [160] [Resource.Unit.Engineer]",
-    //         "Only available <when above [160] [Resource.Unit.Engineer]>",
-    //         "Only available <before the [Era.Industrial]> <starting from the [Era.Medieval]>",
-    //         "Class.GPEra.Renaissance"
-    //     ]
-    // },
-    // {
-    //     "name": "Engineer.LeonardoDaVinci",
-    //     "isWonder": true,
-    //     "cost": 1,
-    //     "uniques": [
-    //         "Free [Unit.Engineer] appears",
-    //         "Instantly consumes [160] [Resource.Unit.Engineer]",
-    //         "Only available <when above [160] [Resource.Unit.Engineer]>",
-    //         "Only available <before the [Era.Industrial]> <starting from the [Era.Medieval]>",
-    //         "Class.GPEra.Renaissance"
-    //     ]
-    // },
-    // {
-    //     "name": "Engineer.FilippoBrunelleschi",
-    //     "isWonder": true,
-    //     "cost": 1,
-    //     "uniques": [
-    //         "Free [Unit.Engineer] appears",
-    //         "Instantly consumes [160] [Resource.Unit.Engineer]",
-    //         "Only available <when above [160] [Resource.Unit.Engineer]>",
-    //         "Only available <before the [Era.Industrial]> <after the [Era.Medieval]>",
-    //         "Class.GPEra.Renaissance"
-    //     ]
-    // },
+    {
+        "name": "Building.Engineer.IsidoreOfMiletus",
+        "cost": 0,
+        "uniques": [
+            "[+12]% Production when constructing [All] wonders [in this city] <before the [Era.Renaissance]>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.JamesOfSt.George",
+        "cost": 0,
+        "uniques": [
+            "Gain a free [Building.AncientWalls] [in this city]",
+            "Gain a free [Building.MedievalWalls] [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.FilippoBrunelleschi",
+        "cost": 0,
+        "uniques": [
+            "[+10]% Production when constructing [All] wonders [in this city] <before the [Era.Industrial]>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.LeonardoDaVinci",
+        "cost": 0,
+        "uniques": [
+            "[+3 Culture] <in cities with a [Building.Workshop]>",
+            "Comment [Grants [Science] bonus upon entering Modern Era]", 
+            "Gain [524] [Science] (modified by game speed) <upon entering the [Era.Modern]>",
+            "Gain [655] [Science] (modified by game speed) <upon entering the [Era.Modern]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.MimarSinan",
+        "cost": 0,
+        "happiness": 1,
+        "uniques": [
+            "Provides [2] [Resource.Housing]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
 
     // Government
     {
