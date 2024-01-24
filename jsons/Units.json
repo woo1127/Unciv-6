@@ -54,10 +54,12 @@
     // Religious units
     {
         "name": "Unit.Missionary",
-        "unitType": "UnitType.Civilian",
+        "unitType": "UnitType.Religious",
         "movement": 4,
+        "strength": 100, // 100
         "religiousStrength": 300, // 100
         "uniques": [
+            "Cannot attack",
             "Can Spread Religion <[3] times> <after which this unit is consumed>",
             "May enter foreign tiles without open borders",
             "Hidden when religion is disabled",
@@ -67,13 +69,16 @@
     },
     {
         "name": "Unit.Apostle",
-        "unitType": "UnitType.Civilian",
+        "unitType": "UnitType.Religious",
         "movement": 4,
+        "strength": 154, // 110
         "religiousStrength": 330, // 110
         "uniques": [
+            "Can only attack [UnitType.Religious] units",
+            "Can only attack [UnitType.Religious] units <when not at war>",
             "Can Spread Religion <[3] times> <after which this unit is consumed>",
             "Gain a free [Building.LaunchInquisition] [in capital] <by consuming this unit> <if it hasn't used other actions yet>",
-            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enter foreign tiles without open borders",
             "Hidden when religion is disabled",
             "Unbuildable",
@@ -82,9 +87,12 @@
     },
     {
         "name": "Unit.Inquisitor",
-        "unitType": "UnitType.Civilian",
+        "unitType": "UnitType.Religious",
         "movement": 4,
+        "strength": 100, // 100
         "uniques": [
+            "Can only attack [UnitType.Religious] units",
+            "Can only attack [UnitType.Religious] units <when not at war>",
             "Only available <if [Building.LaunchInquisition] is constructed>",
             "Can remove other religions from cities <in [Friendly] tiles> <[3] times> <after which this unit is consumed>",
             "Hidden when religion is disabled",

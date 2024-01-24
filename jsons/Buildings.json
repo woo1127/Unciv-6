@@ -807,8 +807,8 @@
             "Only available <in cities without a [Building.OilPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -826,8 +826,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
             "Only available <in cities with a [Building.CoalPowerPlant]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
             
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -845,8 +845,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
             "Only available <in cities with a [Building.CoalPowerPlant2]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -864,8 +864,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
             "Only available <in cities with a [Building.CoalPowerPlant3]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -883,8 +883,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Coal]>",
             "Only available <in cities with a [Building.CoalPowerPlant4]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -909,8 +909,8 @@
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.NuclearPowerPlant]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -928,8 +928,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
             "Only available <in cities with a [Building.OilPowerPlant]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -947,8 +947,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
             "Only available <in cities with a [Building.OilPowerPlant2]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
             
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -966,8 +966,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
             "Only available <in cities with a [Building.OilPowerPlant3]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -985,8 +985,8 @@
             "Provides [4] [Resource.Power] <when above [0] [Resource.Oil]>",
             "Only available <in cities with a [Building.OilPowerPlant4]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1012,8 +1012,8 @@
             "Only available <in cities without a [Building.CoalPowerPlant]>",
             "Only available <in cities without a [Building.OilPowerPlant]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1031,8 +1031,8 @@
             "Provides [16] [Resource.Power] <when above [0] [Resource.Uranium]>",
             "Only available <in cities with a [Building.NuclearPowerPlant]>",
 
-            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII> <hidden from users>",
-            "[+2 Production] <in cities with a [Governor.MagnusII> <hidden from users>",
+            "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -2614,7 +2614,7 @@
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
             "[+20]% growth [in this city]",
-            "[+2 Food] [in this city] <in cities with a [Building.TradingPost] building>",
+            "[+2 Food] [in this city] <in cities with a [Building.TradingPost]>",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Only available <in cities with a [Governor.Magnus]>",
             "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
@@ -2655,7 +2655,7 @@
         ]
     },
     {
-        "name": "Governor.MagnusII",
+        "name": "Governor.MagnusIIA",
         "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
@@ -2675,6 +2675,181 @@
             "Limited to [1] per Civilization <hidden from users>",
             "Class.Governor.Magnus",
             "Class.Governor.MagnusII"
+        ]
+    },
+    {
+        "name": "Governor.MagnusIIB",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "Comment [Strategic resources for units are discounted 80%.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.MagnusI]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Magnus",
+            "Class.Governor.MagnusII"
+        ]
+    },
+    {
+        "name": "Governor.MagnusIII",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "Comment [This city receives Production Production from any number of Industrial Zones within 6 tiles, not just the first.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.MagnusII]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Moksha]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Magnus",
+            "Class.Governor.MagnusIII"
+        ]
+    },
+    {
+        "name": "Governor.MokSha",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "[+100]% Natural religion spread [in this city]",
+            "[+2 Faith] from [Class.District] tiles [in this city]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Moksha"
+        ]
+    },
+    {
+        "name": "Governor.MokShaIA",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "All newly-trained [Religious Unit] units [in this city] receive the [Promotion.EnhanceReligionStrengthI] promotion",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Governor.Moksha]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Moksha",
+            "Class.Governor.MokshaI"
+        ]
+    },
+    {
+        "name": "Governor.MokShaIB",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "[+10]% Spread Religion Strength",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Governor.Moksha]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Moksha",
+            "Class.Governor.MokshaI"
+        ]
+    },
+    {
+        "name": "Governor.MokShaII",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "[Faith] cost of purchasing [Faith] buildings [-25]%",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.MokshaI]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Moksha",
+            "Class.Governor.MokshaII"
+        ]
+    },
+    {
+        "name": "Governor.MokShaIIIA",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "Comment [Apostles and Warrior Monks trained in the city receive 1 extra Promotion Promotion when receiving their first promotion.]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.MokshaII]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Moksha",
+            "Class.Governor.MokshaIII"
+        ]
+    },
+    {
+        "name": "Governor.MokShaIIIB",
+        "cost": 0,
+        "requiredResource": "Resource.GovernorTitle",
+        "uniques": [
+            "May buy [Class.Building.District] buildings with [Faith] [in this city]",
+            "Only available <when above [0] [Resource.GovernorTitle]>",
+            "Only available <in cities with a [Class.Governor.MokshaII]>",
+            "Only available <in cities without a [Class.Governor.Reyna]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Victor]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Amani]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Magnus]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Liang]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Pingala]> <hidden from users>",
+            "Only available <in cities without a [Class.Governor.Ibrahim]> <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Limited to [1] per Civilization <hidden from users>",
+            "Class.Governor.Moksha",
+            "Class.Governor.MokshaIII"
         ]
     },
 

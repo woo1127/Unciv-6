@@ -5,6 +5,14 @@
         "uniques": []
     },
     {
+        "name": "UnitType.Religious",
+        "movementType": "Land",
+        "uniques": [
+            "No defensive terrain bonus",
+            "No defensive terrain penalty"
+        ]
+    },
+    {
         "name": "UnitType.Scout",
         "movementType": "Land",
         "uniques": [

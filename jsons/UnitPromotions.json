@@ -748,5 +748,12 @@
         "uniques": [
             "[+50]% XP gained from combat"
         ]
+    },
+    {
+        "name": "Promotion.EnhanceReligionStrengthI",
+        "uniques": [
+            "[+54]% Strength",
+            "[+10]% Spread Religion Strength"
+        ]
     }
 ]
