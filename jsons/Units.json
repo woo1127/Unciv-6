@@ -12,6 +12,18 @@
             "Class.Unit.Builder"
         ]
 	},
+    // {
+    //     "name": "Builder",
+    //     "unitType": "UnitType.Civilian",
+    //     "movement": 2,
+    //     "cost": 0,
+    //     "hurryCostModifier": -15,
+    //     "uniques": [
+    //         "Can build [Land] improvements on tiles",
+    //         "Can instantly construct a [Class.Improvement] improvement <[3] times> <after which this unit is consumed>",
+    //         "Class.Unit.Builder"
+    //     ]
+    // },
     {
         "name": "Settler",
         "unitType": "UnitType.Civilian",
@@ -1263,8 +1275,137 @@
             "Unbuildable"
         ]
     },
+    {
+        "name": "Unit.Engineer.AdaLovelace",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.AdaLovelace] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.GustaveEiffel",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.GustaveEiffel] [in this city] <in [City center] tiles> <[2] times> <after which this unit is consumed>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.JamesWatt",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.JamesWatt] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.ShahJahān",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.ShahJahān] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.AlvarAalto",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.AlvarAalto] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.NikolaTesla",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.NikolaTesla] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.RobertGoddard",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.RobertGoddard] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.JaneDrew",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.JaneDrew] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.JohnRoebling",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.JohnRoebling] [in this city] <in [City center] tiles> <[2] times> <after which this unit is consumed>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.SergeiKorolev",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.SergeiKorolev] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.JosephPaxton",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.JosephPaxton] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.CharlesCorrea",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.CharlesCorrea] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
+    {
+        "name": "Unit.Engineer.WernherVonBraun",
+        "unitType": "UnitType.Civilian",
+        "movement": 4,
+        "uniques": [
+            "Gain a free [Building.Engineer.WernherVonBraun] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Great Person - [Production]", 
+            "Unbuildable"
+        ]
+    },
     
-
     // Space Project 
     {
         "name": "Unit.Project.LaunchEarthSatellite",

@@ -729,6 +729,9 @@
             "Only available <after adopting [Civic.NaturalHistory]>",
             "[+1 Science] from [Landform.Rainforest] tiles [in this city]",
             "[+1 Science] from [Landform.Swamp] tiles [in this city]",
+
+            "[+1 Happiness] <in cities with a [Building.Engineer.JosephPaxton]> <hidden from users>",
+
             "Never destroyed when the city is captured",
             "Unsellable",
             "Class.DistrictBuilding.EntertainmentComplex"
@@ -745,6 +748,8 @@
             "[+2 Happiness] <when above [0] [Resource.Power]>",
             "Consumes [2] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
             "Only available <after adopting [Civic.ProfessionalSports]>",
+
+            "[+1 Happiness] <in cities with a [Building.Engineer.JosephPaxton]> <hidden from users>",
             
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -783,6 +788,8 @@
             "Consumes [2] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
             "[+3 Production] <when above [0] [Resource.Power]>",
 
+            "[+2 Production] <in cities with a [Building.Engineer.NikolaTesla]> <hidden from users>",
+
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.IndustrialZone"
@@ -807,6 +814,7 @@
 
             "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
             "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Building.Engineer.NikolaTesla]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -909,6 +917,7 @@
 
             "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
             "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Building.Engineer.NikolaTesla]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1012,6 +1021,7 @@
 
             "Provides [1] [Resource.Power] <in cities with a [Governor.MagnusII]> <hidden from users>",
             "[+2 Production] <in cities with a [Governor.MagnusII]> <hidden from users>",
+            "[+2 Production] <in cities with a [Building.Engineer.NikolaTesla]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -2029,9 +2039,10 @@
         "name": "Building.Engineer.Imhotep",
         "cost": 0,
         "uniques": [
-            "[+10]% Production when constructing [All] wonders [in this city] <before the [Era.Renaissance]>",
-            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <during the [Era.Medieval]>",
-            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <during the [Era.Medieval]>",
+            "Comment [+10% [Production] when constructing Medieval era Wonders in this city,  doubled if the wonder is from the Ancient or Classical era.]",
+            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <hidden from users>",
+            "[+20]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <hidden from users>",
+            "[+20]% Production when constructing [Class.WonderEra.Medieval] wonders [in this city] <hidden from users>",
             "Unsellable <hidden from users>",
             "Unbuildable <hidden from users>"
         ]
@@ -2052,7 +2063,10 @@
         "name": "Building.Engineer.IsidoreOfMiletus",
         "cost": 0,
         "uniques": [
-            "[+12]% Production when constructing [All] wonders [in this city] <before the [Era.Renaissance]>",
+            "Comment [+12% [Production] when constructing Ancient to Medieval era Wonders in this city]",
+            "[+12]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <hidden from users>",
+            "[+12]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <hidden from users>",
+            "[+12]% Production when constructing [Class.WonderEra.Medieval] wonders [in this city] <hidden from users>",
             "Unbuildable <hidden from users>",
             "Unsellable <hidden from users>"
         ]
@@ -2071,7 +2085,11 @@
         "name": "Building.Engineer.FilippoBrunelleschi",
         "cost": 0,
         "uniques": [
-            "[+10]% Production when constructing [All] wonders [in this city] <before the [Era.Industrial]>",
+            "Comment [+10% [Production] when constructing Ancient to Renaissance era Wonders in this city]",
+            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Medieval] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Renaissance] wonders [in this city] <hidden from users>",
             "Unbuildable <hidden from users>",
             "Unsellable <hidden from users>"
         ]
@@ -2094,6 +2112,147 @@
         "happiness": 1,
         "uniques": [
             "Provides [2] [Resource.Housing]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.AdaLovelace",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.District]",
+            "Comment [Triggers the Eureka for [Tech.Computers] technology.]", 
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Telecommunications]> <before discovering [Tech.Robotics]> <after discovering [Tech.Electricity]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Telecommunications]> <before discovering [Tech.Robotics]> <after discovering [Tech.Electricity]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.GustaveEiffel",
+        "cost": 0,
+        "uniques": [
+            "Comment [+10% [Production] when constructing Ancient to Industrial era Wonders in this city]",
+            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Medieval] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Renaissance] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Industrial] wonders [in this city] <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.JamesWatt",
+        "cost": 0,
+        "uniques": [
+            "Gain a free [Building.Workshop] [in this city]",
+            "Gain a free [Building.Factory] [in this city]",
+            "[+2 Production] <in cities with a [Building.Factory]>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.ShahJahān",
+        "cost": 0,
+        "uniques": [
+            "May buy [Wonders] buildings with [Gold] [in this city]",
+            "Comment [+10% [Production] when constructing Ancient to Modern era Wonders in this city]",
+            "[+10]% Production when constructing [Class.WonderEra.Ancient] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Classical] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Medieval] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Renaissance] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Industrial] wonders [in this city] <hidden from users>",
+            "[+10]% Production when constructing [Class.WonderEra.Modern] wonders [in this city] <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.AlvarAalto",
+        "cost": 0,
+        "uniques": [
+            "[+1 Production] from [improved] tiles [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.NikolaTesla",
+        "cost": 0,
+        "uniques": [
+            // uniques wrote in respective buildings
+            "Comment [+2 [Production] from [Building.Factory] and Power Plant buildings in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.RobertGoddard",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Rocketry] technology.]", 
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Satellites]> <before discovering [Tech.GuidanceSystems]> <after discovering [Tech.Chemistry]> <after discovering [Tech.Radio]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Satellites]> <before discovering [Tech.GuidanceSystems]> <after discovering [Tech.Chemistry]> <after discovering [Tech.Radio]> <for [Class.Nation.China]> <hidden from users>",
+            "[+20]% Production when constructing [Class.Unit.SpaceProject] units [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.JaneDrew",
+        "cost": 0,
+        "happiness": 3,
+        "uniques": [
+            "Provides [8] [Resource.Housing]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.JohnRoebling",
+        "cost": 0,
+        "happiness": 1,
+        "uniques": [
+            "Provides [4] [Resource.Housing]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.SergeiKorolev",
+        "cost": 0,
+        "uniques": [
+            "Free [Unit.Project.LaunchMoonLanding] appears",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.JosephPaxton",
+        "cost": 0,
+        "uniques": [
+            // uniques wrote in respective buildings
+            "Comment [+1 [Happiness] from [Building.Zoo] and [Building.Stadium] building in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.CharlesCorrea",
+        "cost": 0,
+        "uniques": [
+            "[+2 Production] from [improved] tiles [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Engineer.WernherVonBraun",
+        "cost": 0,
+        "uniques": [
+            "[+100]% Production when constructing [Class.Unit.SpaceProject] units [in this city]",
             "Unbuildable <hidden from users>",
             "Unsellable <hidden from users>"
         ]

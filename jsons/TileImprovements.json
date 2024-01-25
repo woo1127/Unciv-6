@@ -34,6 +34,7 @@
             "Pillaging this improvement yields approximately [+18 Gold]",
             "Cannot be built on [Landform.Hill] tiles <in [Grassland] [Landform.Hill] tiles> <before adopting [Civic.CivilEngineering]>",
             "Cannot be built on [Landform.Hill] tiles <in [Plains] [Landform.Hill] tiles> <before adopting [Civic.CivilEngineering]>",
+            // "Class.Improvement",
 
             "[+1 Food] for each adjacent [District.Seowon] <for [Class.Nation.Korea]>"
         ]
@@ -49,6 +50,7 @@
             "[+1 Production] <after discovering [Tech.Industrialization]>",
             "[+1 Production] <after discovering [Tech.SmartMaterials]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
+            // "Class.Improvement",
 
             "[+1 Science] for each adjacent [District.Seowon] <for [Class.Nation.Korea]>"
         ]
@@ -63,7 +65,8 @@
             "[+1 Production] <after discovering [Tech.Gunpowder]>",
             "[+1 Production] <after discovering [Tech.Rocketry]>",
             "Pillaging this improvement yields approximately [+20 Faith]",
-            "Can only be built to improve a resource"
+            "Can only be built to improve a resource",
+            // "Class.Improvement"
         ]
     },
     {
@@ -80,7 +83,8 @@
             "Can only be built to improve a resource",
             "Does not need removal of [Landform.Swamp]",
 			"Does not need removal of [Landform.Rainforest]",
-			"Does not need removal of [Landform.Woods]"
+			"Does not need removal of [Landform.Woods]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -96,7 +100,8 @@
 			"Pillaging this improvement yields approximately [+25 Faith]",
             "Does not need removal of [Landform.Woods]",
 			"Does not need removal of [Landform.Rainforest]",
-			"Does not need removal of [Landform.Swamp]"
+			"Does not need removal of [Landform.Swamp]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -110,7 +115,8 @@
             "[+1 Food] <after discovering [Tech.Robotics]>",
             "[+1 Production] <after discovering [Tech.ReplaceableParts]>",
             "Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Faith]"
+			"Pillaging this improvement yields approximately [+10 Faith]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -125,7 +131,8 @@
             "[+1 Food] <after discovering [Tech.Plastics]>",
             "[+1 Production] for each adjacent [Improvement.Seastead]",
             "Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -137,7 +144,8 @@
         "uniques": [
             "[+1 Production] <after discovering [Tech.Steel]>",
             "[+1 Production] <after discovering [Tech.Cybernetics]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"
+            "Pillaging this improvement yields approximately [+18 Gold]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -147,7 +155,8 @@
         "turnsToBuild": 7,
         "uniques": [
             "Can be built outside your borders",
-		    "Gives a defensive bonus of [20]%"
+		    "Gives a defensive bonus of [20]%",
+            // "Class.Improvement"
         ]
     },
     {
@@ -160,7 +169,8 @@
             "Provides [4] [Resource.Housing]",
             "[+1 Production] for each adjacent [Improvement.FishingBoat]",
             "[+1 Culture] for each adjacent [Landform.Reef]",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -171,7 +181,8 @@
         "uniques": [
             "Can only be built to improve a resource",
 			"[+1 Production] <after discovering [Tech.PredictiveSystems]>",
-			"Pillaging this improvement yields approximately [+30 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]",
+            // "Class.Improvement"
         ]
     },
 
@@ -306,7 +317,8 @@
             "Provides [1] [Resource.Housing]",
             "[+1 Food] for each adjacent [Water resource]",
             "Only available <in cities with a [Governor.LiangIB]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            // "Class.Improvement"
         ]
     },
     {
@@ -320,7 +332,8 @@
             "[+1 Happiness] <with [1] to [6] neighboring [Water] tiles>",
             "Only available <in cities with a [Governor.LiangIII]>",
             "Only available <after adopting [Civic.GamesAndRecreation]>",
-            "Pillaging this improvement yields approximately [+20 Gold]"
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            // "Class.Improvement"
         ]
     }
 
