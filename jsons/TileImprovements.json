@@ -23,7 +23,6 @@
         "terrainsCanBeBuiltOn": ["Plains", "Grassland", "Landform.FloodPlain", "Landform.VolcanicSoil"],
         "techRequired": "Tech.Agriculture",
         "food": 1,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.FarmCounter] <hidden from users>",
             "Provides [1] [Resource.Housing]",
@@ -34,7 +33,7 @@
             "Pillaging this improvement yields approximately [+18 Gold]",
             "Cannot be built on [Landform.Hill] tiles <in [Grassland] [Landform.Hill] tiles> <before adopting [Civic.CivilEngineering]>",
             "Cannot be built on [Landform.Hill] tiles <in [Plains] [Landform.Hill] tiles> <before adopting [Civic.CivilEngineering]>",
-            // "Class.Improvement",
+            "Class.Improvement",
 
             "[+1 Food] for each adjacent [District.Seowon] <for [Class.Nation.Korea]>"
         ]
@@ -44,13 +43,12 @@
         "terrainsCanBeBuiltOn": ["Landform.Hill", "Landform.VolcanicSoil"],
         "techRequired": "Tech.Mining",
         "production": 1,
-        "turnsToBuild": 7,
         "uniques": [
             "[+1 Production] <after discovering [Tech.Apprenticeship]>",
             "[+1 Production] <after discovering [Tech.Industrialization]>",
             "[+1 Production] <after discovering [Tech.SmartMaterials]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
-            // "Class.Improvement",
+            "Class.Improvement",
 
             "[+1 Science] for each adjacent [District.Seowon] <for [Class.Nation.Korea]>"
         ]
@@ -59,21 +57,19 @@
         "name": "Improvement.Quarry",
         "techRequired": "Tech.Mining",
         "production": 1,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.QuarryCounter] <hidden from users>",
             "[+1 Production] <after discovering [Tech.Gunpowder]>",
             "[+1 Production] <after discovering [Tech.Rocketry]>",
             "Pillaging this improvement yields approximately [+20 Faith]",
             "Can only be built to improve a resource",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvement.Plantation",
         "techRequired": "Tech.Irrigation",
         "gold": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.Housing]",
             "[+1 Food] <after discovering [Tech.ScientificTheory]>",
@@ -84,14 +80,13 @@
             "Does not need removal of [Landform.Swamp]",
 			"Does not need removal of [Landform.Rainforest]",
 			"Does not need removal of [Landform.Woods]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvement.Camp",
         "techRequired": "Tech.AnimalHusbandry",
         "gold": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.Housing]",
             "[+1 Food, +1 Production] <after adopting [Civic.Mercantilism]>",
@@ -101,14 +96,13 @@
             "Does not need removal of [Landform.Woods]",
 			"Does not need removal of [Landform.Rainforest]",
 			"Does not need removal of [Landform.Swamp]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvement.Pasture",
         "techRequired": "Tech.AnimalHusbandry",
         "production": 1,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.Housing]",
             "[+1 Food] <after discovering [Tech.Stirrups]>",
@@ -116,14 +110,13 @@
             "[+1 Production] <after discovering [Tech.ReplaceableParts]>",
             "Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Faith]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvement.FishingBoats",
         "techRequired": "Tech.Sailing",
         "food": 1,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.Housing]",
             "[+1 Production] <after adopting [Civic.Colonialism]>",
@@ -132,7 +125,7 @@
             "[+1 Production] for each adjacent [Improvement.Seastead]",
             "Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
@@ -140,23 +133,21 @@
         "terrainsCanBeBuiltOn": ["Landform.Woods", "Landform.Rainforest"],
         "techRequired": "Tech.Machinery",
         "production": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "[+1 Production] <after discovering [Tech.Steel]>",
             "[+1 Production] <after discovering [Tech.Cybernetics]>",
             "Pillaging this improvement yields approximately [+18 Gold]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvemet.Fort",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Landform.Hill","Tundra","Snow","Landform.Woods","Landform.Rainforest"],
         "techRequired": "Tech.SiegeTactics",
-        "turnsToBuild": 7,
         "uniques": [
             "Can be built outside your borders",
 		    "Gives a defensive bonus of [20]%",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
@@ -164,25 +155,23 @@
         "terrainsCanBeBuiltOn": ["Coast", "Ocean", "Lakes"],
         "techRequired": "Tech.Seasteads",
         "food": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [4] [Resource.Housing]",
             "[+1 Production] for each adjacent [Improvement.FishingBoat]",
             "[+1 Culture] for each adjacent [Landform.Reef]",
             "Pillaging this improvement yields approximately [+20 Gold]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvement.OilWell",
         "techRequired": "Tech.Steel",
         "production": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Can only be built to improve a resource",
 			"[+1 Production] <after discovering [Tech.PredictiveSystems]>",
 			"Pillaging this improvement yields approximately [+30 Gold]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
 
@@ -193,7 +182,6 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "techRequired": "Tech.Masonry",
         "gold": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Gives a defensive bonus of [20]%",
             "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
@@ -202,6 +190,7 @@
             "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
             "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall1] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.GreatWall"
         ]
     },
@@ -211,7 +200,6 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "techRequired": "Tech.Masonry",
         "gold": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Gives a defensive bonus of [20]%",
             "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
@@ -220,6 +208,7 @@
             "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
             "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall2] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.GreatWall"
         ]
     },
@@ -229,7 +218,6 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "techRequired": "Tech.Masonry",
         "gold": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Gives a defensive bonus of [20]%",
             "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
@@ -238,6 +226,7 @@
             "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
             "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall3] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.GreatWall"
         ]
     },
@@ -247,7 +236,6 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "techRequired": "Tech.Masonry",
         "gold": 2,
-        "turnsToBuild": 7,
         "uniques": [
             "Gives a defensive bonus of [20]%",
             "[+2 Gold] <with [1] to [1] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles>",
@@ -256,6 +244,7 @@
             "[+4 Culture] <with [2] to [2] neighboring [Class.Improvement.GreatWall] tiles> <with [1] to [6] neighboring [Foreign Land] tiles> <after discovering [Tech.Castles]>",
             "Cannot be built on [Land] tiles <with [3] to [6] neighboring [Improvement.GreatWall4] tiles>",
             "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.GreatWall"
         ]
     },
@@ -271,6 +260,7 @@
             "Only available <after adopting [Civic.Craftsmanship]>",
             "Cannot be built on [Snow] tiles",
             "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.Sphinx"
         ]
     },
@@ -286,6 +276,7 @@
             "Only available <after adopting [Civic.Craftsmanship]>",
             "Cannot be built on [Snow] tiles",
             "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.Sphinx"
         ]
     },
@@ -301,6 +292,7 @@
             "Only available <after adopting [Civic.Craftsmanship]>",
             "Cannot be built on [Snow] tiles",
             "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement", 
             "Class.Improvement.Sphinx"
         ]
     },
@@ -312,28 +304,25 @@
         "techRequired": "Tech.Sailing",
         "food": 1,
         "production": 1,
-        "turnsToBuild": 7,
         "uniques": [
             "Provides [1] [Resource.Housing]",
             "[+1 Food] for each adjacent [Water resource]",
             "Only available <in cities with a [Governor.LiangIB]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     },
     {
         "name": "Improvement.CityPark",
         "terrainsCanBeBuiltOn": ["Grassland", "Desert", "Plains", "Tundra", "Snow", "Landform.Hill"],
         "culture": 4,
-        "turnsToBuild": 7,
         "uniques": [
-            // not working
-            // "Must not be next to [Improvement.CityPark]", 
             "[+1 Happiness] <with [1] to [6] neighboring [Water] tiles>",
+            "Only available <in tiles not adjacent to [Improvement.CityPark]>",
             "Only available <in cities with a [Governor.LiangIII]>",
             "Only available <after adopting [Civic.GamesAndRecreation]>",
             "Pillaging this improvement yields approximately [+20 Gold]",
-            // "Class.Improvement"
+            "Class.Improvement"
         ]
     }
 
@@ -1242,7 +1231,7 @@
         "name": "District.Encampment",
         "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
         "uniques": [
-            // "Must not be next to [City center]",
+            "Only available <in tiles not adjacent to [City center]>",
             "Provides [1] [Resource.Unit.General] <hidden from users>",
 
             "Pillaging this improvement yields approximately [+0 Gold] <hidden from users>",
@@ -1340,7 +1329,7 @@
             "Provides [1] [Resource.TradeRouteCapacity] <in cities without a [Building.District.CommercialHub]> <hidden from users>",
             "Provides [1] [Resource.Unit.Admiral] <hidden from users>",
             "[+2 Gold] for each adjacent [City center] <hidden from users>",
-            "[+2 Gold] for each adjacent [Class.ResourceOnWater] <hidden from users>",
+            "[+1 Gold] for each adjacent [Class.ResourceOnWater] <hidden from users>",
             "[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
 			"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
 			"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
@@ -1358,8 +1347,39 @@
         ],
         "civilopediaText": [
             {"text": "+1 [Resource.TradeRouteCapacity] if this city doesn't already have a Commercial Hub."},
+            {"text": "+1 [Gold] from each adjacent Sea Resource"},
             {"text": "+2 [Gold] from each adjacent City Center"},
-            {"text": "+2 [Gold] from each adjacent Sea Resource"},
+            {"text": "+2 [Gold] from every 2 adjacent district tiles."},
+            {"text": "+2 [Gold] and +1 [Food] for each Captain specialists"}
+        ]
+    },
+    {
+        "name": "District.RoyalNavyDockyard",
+        "terrainsCanBeBuiltOn": ["Coast","Lakes"],
+        "uniques": [
+            "Provides [1] [Resource.TradeRouteCapacity] <in cities without a [Building.District.CommercialHub]> <hidden from users>",
+            "Provides [1] [Resource.Unit.Admiral] <hidden from users>",
+            "[+2 Gold] for each adjacent [City center] <hidden from users>",
+            "[+1 Gold] for each adjacent [Class.ResourceOnWater] <hidden from users>",
+            "[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
+			"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
+			"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.Harbor"
+        ],
+        "civilopediaText": [
+            {"text": "+1 [Resource.TradeRouteCapacity] if this city doesn't already have a Commercial Hub."},
+            {"text": "+1 [Gold] from each adjacent Sea Resource"},
+            {"text": "+2 [Gold] from each adjacent City Center"},
             {"text": "+2 [Gold] from every 2 adjacent district tiles."},
             {"text": "+2 [Gold] and +1 [Food] for each Captain specialists"}
         ]
@@ -1431,6 +1451,74 @@
             {"text": "+1 [Production] from each Strategic resource and [Improvement.Quarry]"},
             {"text": "+1 [Production] from every 2 adjacent district tile, [Improvement.Mine] or [Improvement.LumberMill]"},
             {"text": "+2 [Production] for each Engineer specialists"}
+        ]
+    },
+    {
+        "name": "District.Neighborhood",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Provides [8] [Resource.Housing]",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.Neighborhood"
+        ]
+    },
+    {
+        "name": "District.Neighborhood2",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Provides [8] [Resource.Housing]",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.Neighborhood"
+        ]
+    },
+    {
+        "name": "District.Neighborhood3",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Provides [8] [Resource.Housing]",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.Neighborhood"
+        ]
+    },
+    {
+        "name": "District.Neighborhood4",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Provides [8] [Resource.Housing]",
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.Neighborhood"
         ]
     },
     {

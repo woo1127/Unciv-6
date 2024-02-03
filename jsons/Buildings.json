@@ -113,16 +113,6 @@
             "Never destroyed when the city is captured <hidden from users>"
         ]
     },
-    // {
-    //     "name": "Building.FloorBarrier",
-    //     "cost": 80,
-    //     "hurryCostModifier": -33,
-    //     "maintenance": "variable",
-    //     "requiredTech": "Tech.Computers",
-    //     "uniques": [
-
-    //     ]
-    // },
     {
         "name": "Building.TradingPost",
         "cost": 0,
@@ -1049,6 +1039,44 @@
         ]
     },
 
+    // Neighborhood
+    {
+        "name": "Building.FoodMarket",
+        "cost": 380,
+        "food": 4,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.ReplaceableParts",
+        "requiredBuilding": "Building.District.Neighborhood",
+        "uniques": [
+            "Consumes [1] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+2 Food] <when above [0] [Resource.Power]>",
+            "Only available <in cities without a [Building.ShoppingMall]>",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Neighborhood"
+        ]
+    },
+    {
+        "name": "Building.ShoppingMall",
+        "cost": 440,
+        "gold": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "happiness": 1,
+        "requiredBuilding": "Building.District.Neighborhood",
+        "uniques": [
+            "Consumes [1] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "[+2 Gold] <when above [0] [Resource.Power]>",
+            "[+1 Happiness] <when above [0] [Resource.Power]>",
+            "Only available <in cities without a [Building.ShoppingMall]>",
+            "Only available <after adopting [Civic.Capitalism]>",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Neighborhood"
+        ]
+    },
+
     // Aerodrome
     {
         "name": "Building.Hangar",
@@ -1086,7 +1114,7 @@
         ]
     },
 
-    // District Building
+    // District Building ####################################################################################################################
     {
         "name": "Building.District.Campus",
         "cost": 54,
@@ -1244,6 +1272,27 @@
         ]
     },
     {
+        "name": "Building.District.RoyalNavyDockyard",
+        "uniqueTo": "Nation.England.Victoria(AgeOfSteam)",
+        "cost": 27,
+        "gold": 2,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.CelestialNavigation",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "All newly-trained [water units] units [in this city] receive the [Promotion.MovementBoosterI] promotion",
+            "Creates a [District.RoyalNavyDockyard] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Gold, +1 Food] from every [Specialist.Captain] <in this city> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Harbor"
+        ]
+    },
+    {
         "name": "Building.District.EntertainmentComplex",
         "cost": 54,
         "happiness": 1,
@@ -1280,6 +1329,77 @@
             "Never destroyed when the city is captured <hidden from users>",
             "Class.Building.District",
             "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.District.Neighborhood",
+        "cost": 54,
+        "hurryCostModifier": -33,
+        "uniques": [
+            "Creates a [District.Neighborhood] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            
+            "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Neighborhood"
+        ]
+    },
+    {
+        "name": "Building.District.Neighborhood2",
+        "cost": 54,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.Neighborhood",
+        "uniques": [
+            "Creates a [District.Neighborhood2] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            
+            "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Neighborhood"
+        ]
+    },
+    {
+        "name": "Building.District.Neighborhood3",
+        "cost": 54,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.Neighborhood2",
+        "uniques": [
+            "Creates a [District.Neighborhood3] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            
+            "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Neighborhood"
+        ]
+    },
+    {
+        "name": "Building.District.Neighborhood4",
+        "cost": 54,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.Neighborhood3",
+        "uniques": [
+            "Creates a [District.Neighborhood4] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            
+            "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.Neighborhood"
         ]
     },
     {
@@ -1873,8 +1993,9 @@
         "requiredTech": "Tech.Masonry",
         "uniques": [
             "Gain [77] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
-            "Free [Worker] appears",
-            // "All Builders earn 1 extra Build charges (Civ6) build charge.",
+            "Free [Builder] appears",
+            "Comment [All Builders earn 1 extra Build charges.]",
+            "Provides [1] [Resource] [Resource.BuilderChargeAuxiliary] <hidden from users>",
             "Creates a [District.Pyramids] improvement on a specific tile",
             "Class.WonderEra.Ancient"
         ],
@@ -2838,7 +2959,7 @@
         "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
-            "Comment [Apostles and Warrior Monks trained in the city receive 1 extra Promotion Promotion when receiving their first promotion.]",
+            "Comment [Apostles and Warrior Monks trained in the city receive 1 extra Promotion when receiving their first promotion.]",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Only available <in cities with a [Class.Governor.MokshaII]>",
             "Unsellable <hidden from users>",
@@ -2884,7 +3005,8 @@
         "cost": 0,
         "requiredResource": "Resource.GovernorTitle",
         "uniques": [
-            "Comment [All Builders trained in city get +1 build charge after 5 turns.]",
+            "All newly-trained [Builder] units [in this city] receive the [Promotion.MovementBoosterI] promotion <hidden from users>",
+            "Comment [All Builders trained in this city +1 Movement.]",
             "Only available <when above [0] [Resource.GovernorTitle]>",
             "Only available <in cities without a [Class.Governor.DefaultTier]>",
             "Unsellable <hidden from users>",
@@ -3623,6 +3745,7 @@
         "cost": 0,
         "requiredResource": "Resource.EconomicPolicySlot",
         "uniques": [
+            "Provides [2] [Resource.BuilderChargeAuxiliary] <hidden from users>",
             "Comment [Newly trained Builders gain 2 extra build charges.]",
             "Only available <after adopting [Civic.Feudalism]>",
             "Only available <before adopting [Civic.CivilEngineering]>",

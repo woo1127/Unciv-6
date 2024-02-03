@@ -508,6 +508,12 @@
     },
 
     {
+        "name": "Resource.BuilderChargeAuxiliary",
+        "resourceType": "Strategic",
+        "terrainsCanBeFoundOn": [],
+        "uniques": ["Cannot be traded", "Not shown on world screen"]
+    },
+    {
         "name": "Resource.FarmCounter",
         "resourceType": "Strategic",
         "terrainsCanBeFoundOn": [],

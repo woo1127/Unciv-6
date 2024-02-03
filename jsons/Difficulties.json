@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Difficulty.Online",
+		"name": "Online",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -29,7 +29,7 @@
 		"clearBarbarianCampReward": 30
 	},
 	{
-		"name": "Difficulty.Settler",
+		"name": "Settler",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.9,
@@ -58,7 +58,7 @@
 		"clearBarbarianCampReward": 50
 	},
 	{
-		"name": "Difficulty.Chief",
+		"name": "Chief",
 		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 1,
 		"researchCostModifier": 0.95,
@@ -87,7 +87,7 @@
 		"clearBarbarianCampReward": 40
 	},
 	{
-		"name": "Difficulty.Warlord",
+		"name": "Warlord",
 		"baseHappiness": 12,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -116,7 +116,7 @@
 		"clearBarbarianCampReward": 30
 	},
 	{
-		"name": "Difficulty.Prince",
+		"name": "Prince",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -145,7 +145,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty.King",
+		"name": "King",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -174,7 +174,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty.Emperor",
+		"name": "Emperor",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -203,7 +203,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty.Immortal",
+		"name": "Immortal",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -232,7 +232,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty.Deity",
+		"name": "Deity",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
@@ -261,7 +261,7 @@
 		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Difficulty.Gods",
+		"name": "Gods",
 		"baseHappiness": 8,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,

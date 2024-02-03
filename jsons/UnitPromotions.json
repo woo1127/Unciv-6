@@ -738,6 +738,12 @@
         ]
     },
     {
+        "name": "Promotion.MovementBoosterI",
+        "uniques": [
+            "[+1] Movement"
+        ]
+    },
+    {
         "name": "Promotion.AirCombatXPBoosterI",
         "uniques": [
             "[+25]% XP gained from combat"

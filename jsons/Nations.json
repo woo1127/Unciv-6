@@ -9,7 +9,7 @@
         "adjective": "Chinese",
         "outerColor": [21, 108, 48],
 		"innerColor": [249, 249, 249],
-		"preferredVictoryType": "VictoryType.Conquest",
+		"preferredVictoryType": "Domination",
         "declaringWar": "How dare you enrage Tian's might! I will send a great army, desecrate your ancestral shrines, eliminate your people. I swear I won't restrain them!",
 		"attacked": "Fight if you want to. Soon I will punish and kill you!",
 		"defeated": "I never thought this could happen… not like this.",
@@ -56,7 +56,7 @@
         "adjective": "Chinese",
 		"outerColor": [249, 249, 249],
         "innerColor": [21, 108, 48],
-		"preferredVictoryType": "VictoryType.Conquest",
+		"preferredVictoryType": "Domination",
         "declaringWar": "How dare you enrage Tian's might! I will send a great army, desecrate your ancestral shrines, eliminate your people. I swear I won't restrain them!",
 		"attacked": "Fight if you want to. Soon I will punish and kill you!",
 		"defeated": "I never thought this could happen… not like this.",
@@ -102,7 +102,7 @@
         "adjective": "Chinese",
 		"outerColor": [234, 225, 157],
         "innerColor": [120, 0, 1],
-		"preferredVictoryType": "VictoryType.Science",
+		"preferredVictoryType": "Scientific",
         "declaringWar": "The clouds of dust on the horizon are thousands of horsemen, coming with war. Prepare yourself!",
 		"attacked": "I have gathered soldiers from every corner of my realm. Be honored that I take such pains to go to war with you.",
 		"defeated": "Now go; leave me to my sorrow.",
@@ -157,6 +157,8 @@
             "Gain [1481] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Information]>",
             "Gain [1650] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Future]>",
             "Class.Nation.China"
+
+            // all governments have 1 more economic policy slot
         ],
         "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grants 10% more [Science] and [Culture] bonus than usual\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• Grant a [Science] and [Culture] when declaring friendship with other civilization",
         "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
@@ -167,7 +169,7 @@
         "adjective": "Chinese",
         "outerColor": [247, 216, 1],
 		"innerColor": [1, 42, 108],
-		"preferredVictoryType": "VictoryType.Culture",
+		"preferredVictoryType": "Cultural",
         "declaringWar": "It is not my wish to conquer your realm by force, but there is no other way.",
 		"attacked": "You might as well conquer the heaven itself. Hahaha. We'll see how well you control the bowstrings.",
 		"defeated": "The road ahead is dark, the surrounding pines are dense like walls, the sky and earth are full dark as lacquer.",
@@ -217,7 +219,7 @@
         "innerColor": [136, 176, 244],
         "outerColor": [171, 17, 17],
         "startBias": ["Landform.Hill", "Avoid [Mountain]"],
-        "preferredVictoryType": "VictoryType.Science",
+        "preferredVictoryType": "Scientific",
         "declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
 		"attacked": "Your defeat shall be swift â€¦ your people, forgotten. This I have foreseen.",
 		"defeated": "I foresaw my own end, but not that Korea would share my fate.",
@@ -245,7 +247,7 @@
         "innerColor": [171, 17, 17],
 		"outerColor": [136, 176, 244],
         "startBias": ["Landform.Hill", "Avoid [Mountain]"],
-        "preferredVictoryType": "VictoryType.Science",
+        "preferredVictoryType": "Scientific",
         "declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
 		"attacked": "Your defeat shall be swift â€¦ your people, forgotten. This I have foreseen.",
 		"defeated": "I foresaw my own end, but not that Korea would share my fate.",
@@ -276,10 +278,11 @@
     {
         "name": "Nation.Egypt.Cleopatra(Ptolemaic)",
 		"leaderName": "Cleopatra (Ptolemaic)",
-		"startBias": ["Landform.FloodPlain"],
 		"adjective": ["Egyptian"],
 		"innerColor": [1, 79, 81],
 		"outerColor": [237, 227, 158],
+		"startBias": ["Landform.FloodPlain"],
+        "preferredVictoryType": "Cultural",
 		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
 		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
 		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
@@ -287,6 +290,7 @@
 		"neutralHello": "Very well.",
 		"hateHello": "You will regret this!",
 		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
+        // "favoredReligion": "Confucianism",
 		"uniqueName": "Civ ability - Iteru\nLeader bonus - Arrival of Hapi",
         "uniques": [
             // civ ability
@@ -309,10 +313,11 @@
     {
         "name": "Nation.Egypt.Cleopatra(Egyptian)",
 		"leaderName": "Cleopatra (Egyptian)",
-		"startBias": ["Landform.FloodPlain"],
 		"adjective": ["Egyptian"],
 		"outerColor": [1, 79, 81],
 		"innerColor": [237, 227, 158],
+		"startBias": ["Landform.FloodPlain"],
+        "preferredVictoryType": "Scientific",
 		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
 		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
 		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
@@ -320,6 +325,7 @@
 		"neutralHello": "Very well.",
 		"hateHello": "You will regret this!",
 		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
+        // "favoredReligion": "Confucianism",
 		"uniqueName": "Civ ability - Iteru\nLeader bonus - Mediterranean's Bride",
         "uniques": [
             // civ ability
@@ -342,10 +348,11 @@
     {
         "name": "Nation.Egypt.RamsesII",
 		"leaderName": "Ramses II",
-		"startBias": ["Landform.FloodPlain"],
 		"adjective": ["Egyptian"],
 		"innerColor": [112, 16, 203],
 		"outerColor": [237, 227, 158],
+		"startBias": ["Landform.FloodPlain"],
+        "preferredVictoryType": "Scientific",
 		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
 		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
 		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
@@ -353,6 +360,7 @@
 		"neutralHello": "Very well.",
 		"hateHello": "You will regret this!",
 		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
+        // "favoredReligion": "Confucianism",
 		"uniqueName": "Civ ability - Iteru\nLeader bonus - Abu Simbel",
         "uniques": [
             // civ ability
@@ -371,5 +379,65 @@
 			"Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
 			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"
         ]
+    },
+    {
+        "name": "Nation.England.Victoria(AgeOfSteam)",
+        "leaderName": "Victoria (Age of Steam)",
+        "adjective": ["English"],
+        "innerColor": [209, 55, 56],
+        "outerColor": [0, 35, 91],
+        "startBias": ["Coast"],
+        "declaringWar": "As our protests are in vain, we hereby declare war.",
+        "attacked": "War? We are not amused.",
+        "defeated": "This severe and afflicting loss will not be sustained, and England, thank providence, will ascend again.",
+        "introduction": "Greetings. We are by the Grace of God, Victoria, Queen of the United Kingdom of Great Britain and Ireland. And soon, dare I say, the empire.",
+        "startIntroPart1": " Your Majesty the Queen Victoria of England, extend your reach beyond your borders and across the face of the globe. Worry not over the possibility of defeat for your loyal redcoats and overwhelming navy will surely carry the day. With your calm and steady touch you can bring all lands under England's sway, establishing a true Pax Britannica.",  
+        "tradeRequest": "Greetings. We have sent a Royal envoy on behalf of the United Kingdom. We hope they are well received.",
+        "favoredReligion": "Protestantism",
+        "uniqueName": "Civ ability - Workshop of the World\nLeader bonus - Age of Steam",
+        "uniques": [
+            // civ ability
+            "Double quantity of [Resource.Iron] produced",
+            "Double quantity of [Resource.Coal] produced",
+            // "Provides [2] [Resource.Coal] <in [{Improvement.Mine} {Resource.Coal}] tiles>",
+            // "Provides [2] [Resource.Iron] <in [{Improvement.Mine} {Resource.Coal}] tiles>",
+            "Instantly provides [10] [Resource.Iron] <upon constructing [Class.DistrictBuilding.Harbor]>",
+            "[+20]% Production when constructing [Class.DistrictBuilding.IndustrialZone] buildings [in all cities]",
+
+            // leader bonus
+            "[+2 Production] from every [Strategic resource]",
+            "[+10]% [Production] [in all cities] <upon constructing [Class.DistrictBuilding.IndustrialZone]>",
+            "Class.Nation.England"
+        ],
+        "cities": [
+            "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"
+        ]
     }
+    // {
+    //     "name": ,
+    //     "leaderName": ,
+    //     "adjective": ,
+    //     "innerColor": ,
+    //     "outerColor": ,
+    //     "startBias": ,
+    //     "preferredVictoryType": ,
+    //     "declaringWar": ,
+    //     "attacked": ,
+    //     "defeated": ,
+    //     "introduction": ,
+    //     "neutralHello": ,
+    //     "hateHello": ,
+    //     "tradeRequest": ,
+    //     "uniqueName": ,
+    //     "uniques": [
+    //         // civ ability
+    //         // leader bonus    
+    //     ],
+    //     "cities": [
+
+    //     ]
+    // }
 ]

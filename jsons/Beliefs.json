@@ -11,21 +11,21 @@
         "name": "Pantheon.DanceOfTheAurora",
         "type": "Pantheon",
         "uniques": [
-            "[District.HolySite] get +1 [Faith] from adjacent Tundra tiles."
+            "Comment [[District.HolySite] get +1 [Faith] from adjacent Tundra tiles.]"
         ]
     },
     {
         "name": "Pantheon.DesertFolklore",
         "type": "Pantheon",
         "uniques": [
-            "[District.HolySite] get +1 [Faith] from adjacent Desert tiles."
+            "Comment [[District.HolySite] get +1 [Faith] from adjacent Desert tiles.]"
         ]
     },
     {
         "name": "Pantheon.DivineSpark",
         "type": "Pantheon",
         "uniques": [
-            "+1 Great Person Points from Holy Sites (Prophet), Campuses with a Library (Scientist), and Theater Squares with an Amphitheater (Writer)."
+            "Comment [+1 Great Person Points from Holy Sites (Prophet), Campuses with a Library (Scientist), and Theater Squares with an Amphitheater (Writer).]"
         ]
     },
     {
@@ -40,7 +40,7 @@
         "name": "Pantheon.FertilityRites",
         "type": "Pantheon",
         "uniques": [
-            "Free [Worker] appears",
+            "Free [Builder] appears",
             "[+10]% growth [in all cities]"
         ]
     },
@@ -114,7 +114,7 @@
         "name": "Pantheon.InitiationRites",
         "type": "Pantheon",
         "uniques": [
-            "+50 [Gold] for each Barbarian Outpost cleared."
+            "Comment [+50 [Gold] for each Barbarian Outpost cleared.]"
         ]
     },
     {
@@ -162,7 +162,7 @@
         "name": "Pantheon.SacredPath",
         "type": "Pantheon",
         "uniques": [
-            "[District.HolySite] get +1 [Faith] from adjacent Rainforest tiles."
+            "Comment [[District.HolySite] get +1 [Faith] from adjacent Rainforest tiles.]"
         ]
     },
     {
@@ -195,7 +195,7 @@
         "uniques": [
             "[+3 Food] from every [Building.Shrine] <hidden from users>",
             "[+3 Food] from every [Building.Temple] <hidden from users>",
-            "Shrines and Temples provide +3 [Food] and +2 [Housing]"
+            "Comment [Shrines and Temples provide +3 [Food] and +2 [Housing]]"
         ]
     },
     {
@@ -210,14 +210,14 @@
         "name": "Follower.ReligiousCommunity",
         "type": "Follower",
         "uniques": [
-            "+2 [Gold] to cities with Holy Sites and an additional + 2 [Gold] for every building in the Holy Site."
+            "Comment [+2 [Gold] to cities with Holy Sites and an additional + 2 [Gold] for every building in the Holy Site.]"
         ]
     },
     {
         "name": "Follower.Reliquaries",
         "type": "Follower",
         "uniques": [
-            "Triple Faith and Tourism yields from Relic Relics."
+            "Comment [Triple Faith and Tourism yields from Relic Relics.]"
         ]
     },
     {
@@ -232,7 +232,7 @@
         "name": "Follower.WorkEthic",
         "type": "Follower",
         "uniques": [
-            "Holy Sites provide [Production] equal to their [Faith] adjacency bonus."
+            "Comment [Holy Sites provide [Production] equal to their [Faith] adjacency bonus.]"
         ]
     },
     {
@@ -271,7 +271,7 @@
         "name": "Founder.PapalPrimacy",
         "type": "Founder",
         "uniques": [
-            "Resting point for Influence with City-States following this religion [+15]"   
+            "Resting point for Influence with City-States following this religion [+15]"
         ]
     },
     {

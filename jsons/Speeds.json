@@ -1,6 +1,6 @@
 [
     {
-        "name": "Speed.Online",
+        "name": "Online",
         "modifier":0.5,
         "productionCostModifier": 0.5,
         "goldCostModifier": 0.5,
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "name": "Speed.Quick",
+        "name": "Quick",
         "productionCostModifier": 0.67,
         "goldCostModifier": 0.44,
         "scienceCostModifier": 0.67,
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "name": "Speed.Standard",
+        "name": "Standard",
         "productionCostModifier": 1.0,
         "goldCostModifier": 0.67,
         "scienceCostModifier": 1.0,
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "name": "Speed.Epic",
+        "name": "Epic",
         "productionCostModifier": 1.5,
         "goldCostModifier": 1.0,
         "scienceCostModifier": 1.5,
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "name": "Speed.Marathon",
+        "name": "Marathon",
         "productionCostModifier": 3.0,
         "goldCostModifier": 2.0,
         "scienceCostModifier": 3.0,

@@ -12,18 +12,21 @@
             "Class.Unit.Builder"
         ]
 	},
-    // {
-    //     "name": "Builder",
-    //     "unitType": "UnitType.Civilian",
-    //     "movement": 2,
-    //     "cost": 0,
-    //     "hurryCostModifier": -15,
-    //     "uniques": [
-    //         "Can build [Land] improvements on tiles",
-    //         "Can instantly construct a [Class.Improvement] improvement <[3] times> <after which this unit is consumed>",
-    //         "Class.Unit.Builder"
-    //     ]
-    // },
+    {
+        "name": "Builder",
+        "unitType": "UnitType.Civilian",
+        "movement": 2,
+        "cost": 50,
+        "hurryCostModifier": -15,
+        "uniques": [
+            "Can build [Land] improvements on tiles",
+            "Can instantly construct a [Class.Improvement] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.BuilderChargeAuxiliary]>",
+            "Can instantly construct a [Class.Improvement] improvement <[4] times> <after which this unit is consumed> <when above [0] [Resource.BuilderChargeAuxiliary]> <when below [2] [Resource.BuilderChargeAuxiliary]> <hidden from users>",
+            "Can instantly construct a [Class.Improvement] improvement <[5] times> <after which this unit is consumed> <when above [1] [Resource.BuilderChargeAuxiliary]> <when below [3] [Resource.BuilderChargeAuxiliary]> <hidden from users>",
+            "Can instantly construct a [Class.Improvement] improvement <[6] times> <after which this unit is consumed> <when above [2] [Resource.BuilderChargeAuxiliary]> <when below [4] [Resource.BuilderChargeAuxiliary]> <hidden from users>",
+            "Class.Unit.Builder"
+        ]
+    },
     {
         "name": "Settler",
         "unitType": "UnitType.Civilian",
@@ -1017,6 +1020,25 @@
         "obsoleteTech": "Tech.Electricity",
         "attackSound": "cannon",
         "uniques": [
+            "Only available <after adopting [Civic.Mercantilism]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.SeaDog",
+        "uniqueTo": "Nation.England.Victoria(AgeOfSteam)",
+        "unitType": "UnitType.NavalRaider",
+        "strength": 236, // 40
+        "rangedStrength": 430, // 55
+        "range": 2,
+        "movement": 4,
+        "cost": 280,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Submarine",
+        "obsoleteTech": "Tech.Telecommunications",
+        "attackSound": "cannon",
+        "uniques": [
+            "May capture killed [Water] units",
             "Only available <after adopting [Civic.Mercantilism]>",
             "Comment [Maintenance cost of 4]"
         ]
