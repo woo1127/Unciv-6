@@ -1077,6 +1077,93 @@
         ]
     },
 
+    // Government Plaza
+    {
+        "name": "Building.AncestralHall",
+        "cost": 150,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.GovernmentPlaza",
+        "uniques": [
+            "Provides [1] [Resource.GovernorTitle]",
+            "Free [Builder] appears <upon founding a city>", 
+            "[+50]% Production when constructing [Settler] units [in this city]",
+            "Only available <in cities without a [Building.AudienceChamber]>",
+            "Only available <in cities without a [Building.Warload'sThrone]>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.GovernmentPlaza"    
+        ]
+    },
+    {
+        "name": "Building.AudienceChamber",
+        "cost": 150,
+        "happiness": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.GovernmentPlaza",
+        "uniques": [
+            "Provides [1] [Resource.GovernorTitle]",
+            "Provides [8] [Resource.Housing]",
+            "Only available <in cities without a [Building.AncestralHall]>",
+            "Only available <in cities without a [Building.Warload'sThrone]>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.GovernmentPlaza" 
+        ]
+    },
+    {
+        "name": "Building.Warload'sThrone",
+        "cost": 150,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.GovernmentPlaza",
+        "uniques": [
+            "Provides [1] [Resource.GovernorTitle]",
+            "[+20]% [Production] [in all cities] <upon conquering a city> <for [5] turns>",
+            "Only available <in cities without a [Building.AncestralHall]>",
+            "Only available <in cities without a [Building.AudienceChamber]>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.GovernmentPlaza" 
+        ]
+    },
+    {
+        "name": "Building.GrandMaster'sChapel",
+        "cost": 290,
+        "faith": 5,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.GovernmentPlaza",
+        "uniques": [
+            "May buy [{Military} {Land}] units with [Faith] [in all cities]",
+            "Receive triple Gold from Barbarian encampments and pillaging Cities",
+            // "Only available <in cities without a [Building.Queen'sBibliotheque]>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.GovernmentPlaza" 
+        ]
+    },
+    {
+        "name": "Building.WarDepartment",
+        "cost": 440,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.GovernmentPlaza",
+        "uniques": [
+            "Provides [1] [Resource.GovernorTitle]",
+            "Heals [20] damage if it kills a unit",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.GovernmentPlaza" 
+        ]
+    },
+
     // Aerodrome
     {
         "name": "Building.Hangar",
@@ -1400,6 +1487,22 @@
             "Never destroyed when the city is captured <hidden from users>",
             "Class.Building.District",
             "Class.DistrictBuilding.Neighborhood"
+        ]
+    },
+    {
+        "name": "Building.District.GovernmentPlaza",
+        "cost": 30,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.GovernmentPlaza] improvement on a specific tile",
+            "Limited to [1] per Civilization",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.GovernmentPlaza"
         ]
     },
     {
@@ -1995,7 +2098,7 @@
             "Gain [77] [Culture] (modified by game speed) <for [Nation.Egypt.RamsesII]> <hidden from users>",
             "Free [Builder] appears",
             "Comment [All Builders earn 1 extra Build charges.]",
-            "Provides [1] [Resource] [Resource.BuilderChargeAuxiliary] <hidden from users>",
+            "Provides [1] [Resource.BuilderChargeAuxiliary] <hidden from users>",
             "Creates a [District.Pyramids] improvement on a specific tile",
             "Class.WonderEra.Ancient"
         ],

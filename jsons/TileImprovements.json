@@ -1522,6 +1522,24 @@
         ]
     },
     {
+        "name": "District.GovernmentPlaza",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Provides [1] [Resource.GovernorTitle]",
+
+            "Pillaging this improvement yields approximately [+20 Culture] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.GovernmentPlaza"
+        ]
+    },
+    {
         "name": "District.Spaceport",
         "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
         "uniques": [
