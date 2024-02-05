@@ -1430,243 +1430,243 @@
 
     // Great Scientist
     {
-        "name": "Unit.Engineer.ZhangHeng",
+        "name": "Unit.Scientist.ZhangHeng",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.ZhangHeng] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.ZhangHeng] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.Aryabhata",
+        "name": "Unit.Scientist.Aryabhata",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.Aryabhata] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.Aryabhata] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.Euclid",
+        "name": "Unit.Scientist.Euclid",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.Euclid] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.Euclid] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.Hypatia",
+        "name": "Unit.Scientist.Hypatia",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.Hypatia] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.Hypatia] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.AbuAl-QasimAl-Zahrawi",
+        "name": "Unit.Scientist.AbuAl-QasimAl-Zahrawi",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
             "[+5] HP when healing",
             "All adjacent units heal [+20] HP when healing",
-            "Gain a free [Building.Engineer.AbuAl-QasimAl-Zahrawi] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.AbuAl-QasimAl-Zahrawi] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.HildegardOfBingen",
+        "name": "Unit.Scientist.HildegardOfBingen",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.HildegardOfBingen] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.HildegardOfBingen] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.OmarKhayyam",
+        "name": "Unit.Scientist.OmarKhayyam",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.OmarKhayyam] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.OmarKhayyam] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.IbnKhaldun",
+        "name": "Unit.Scientist.IbnKhaldun",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.IbnKhaldun] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.IbnKhaldun] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.EmilieDuChatelet",
+        "name": "Unit.Scientist.EmilieDuChatelet",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.EmilieDuChatelet] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.EmilieDuChatelet] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.GalileoGalilei",
+        "name": "Unit.Scientist.GalileoGalilei",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.GalileoGalilei] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.GalileoGalilei] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.IsaacNewton",
+        "name": "Unit.Scientist.IsaacNewton",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.IsaacNewton] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.IsaacNewton] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.CharlesDarwin",
+        "name": "Unit.Scientist.CharlesDarwin",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.CharlesDarwin] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.CharlesDarwin] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.DmitriMendeleev",
+        "name": "Unit.Scientist.DmitriMendeleev",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.DmitriMendeleev] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.DmitriMendeleev] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.JamesYoung",
+        "name": "Unit.Scientist.JamesYoung",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.JamesYoung] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.JamesYoung] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.AlanTuring",
+        "name": "Unit.Scientist.AlanTuring",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.AlanTuring] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.AlanTuring] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.AlbertEinstein",
+        "name": "Unit.Scientist.AlbertEinstein",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.AlbertEinstein] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.AlbertEinstein] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.AlfredNobel",
+        "name": "Unit.Scientist.AlfredNobel",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.AlfredNobel] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.AlfredNobel] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.ErwinSchrödinger",
+        "name": "Unit.Scientist.ErwinSchrödinger",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.ErwinSchrödinger] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.ErwinSchrödinger] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.JanakiAmmal",
+        "name": "Unit.Scientist.JanakiAmmal",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.JanakiAmmal] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.JanakiAmmal] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.MaryLeakey",
+        "name": "Unit.Scientist.MaryLeakey",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.MaryLeakey] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.MaryLeakey] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.MargaretMead",
+        "name": "Unit.Scientist.MargaretMead",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.MargaretMead] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.MargaretMead] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.CarlSagan",
+        "name": "Unit.Scientist.CarlSagan",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.CarlSagan] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.CarlSagan] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.StephanieKwolek",
+        "name": "Unit.Scientist.StephanieKwolek",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.StephanieKwolek] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.StephanieKwolek] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]
     },
     {
-        "name": "Unit.Engineer.AbdusSalam",
+        "name": "Unit.Scientist.AbdusSalam",
         "unitType": "UnitType.Civilian",
         "movement": 4,
         "uniques": [
-            "Gain a free [Building.Engineer.AbdusSalam] [in this city] <in [City center] tiles> <by consuming this unit>",
+            "Gain a free [Building.Scientist.AbdusSalam] [in this city] <in [City center] tiles> <by consuming this unit>",
             "Great Person - [Science]", 
             "Unbuildable"
         ]

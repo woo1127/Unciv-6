@@ -1328,7 +1328,7 @@
                 "row": 1,
                 "column": 2,
                 "uniques": [
-                    "Free [Unit.Engineer.ZhangHeng] appears",
+                    "Free [Unit.Scientist.ZhangHeng] appears",
                     "Instantly consumes [40] [Resource.Unit.Scientist]",
                     "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1341,7 +1341,7 @@
                 "row": 1,
                 "column": 4,
                 "uniques": [
-                    "Free [Unit.Engineer.Aryabhata] appears",
+                    "Free [Unit.Scientist.Aryabhata] appears",
                     "Instantly consumes [40] [Resource.Unit.Scientist]",
                     "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1354,7 +1354,7 @@
                 "row": 2,
                 "column": 2,
                 "uniques": [
-                    "Free [Unit.Engineer.Euclid] appears",
+                    "Free [Unit.Scientist.Euclid] appears",
                     "Instantly consumes [40] [Resource.Unit.Scientist]",
                     "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1367,7 +1367,7 @@
                 "row": 2,
                 "column": 4,
                 "uniques": [
-                    "Free [Unit.Engineer.Hypatia] appears",
+                    "Free [Unit.Scientist.Hypatia] appears",
                     "Instantly consumes [40] [Resource.Unit.Scientist]",
                     "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1381,7 +1381,7 @@
                 "row": 4,
                 "column": 1,
                 "uniques": [
-                    "Free [Unit.Engineer.AbuAl-QasimAl-Zahrawi] appears",
+                    "Free [Unit.Scientist.AbuAl-QasimAl-Zahrawi] appears",
                     "Instantly consumes [80] [Resource.Unit.Scientist]",
                     "Only available <when above [80] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1394,7 +1394,7 @@
                 "row": 4,
                 "column": 3,
                 "uniques": [
-                    "Free [Unit.Engineer.HildegardOfBingen] appears",
+                    "Free [Unit.Scientist.HildegardOfBingen] appears",
                     "Instantly consumes [80] [Resource.Unit.Scientist]",
                     "Only available <when above [80] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1407,7 +1407,7 @@
                 "row": 4,
                 "column": 5,
                 "uniques": [
-                    "Free [Unit.Engineer.OmarKhayyam] appears",
+                    "Free [Unit.Scientist.OmarKhayyam] appears",
                     "Instantly consumes [80] [Resource.Unit.Scientist]",
                     "Only available <when above [80] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1421,7 +1421,7 @@
                 "row": 6,
                 "column": 2,
                 "uniques": [
-                    "Free [Unit.Engineer.IbnKhaldun] appears",
+                    "Free [Unit.Scientist.IbnKhaldun] appears",
                     "Instantly consumes [160] [Resource.Unit.Scientist]",
                     "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1434,7 +1434,7 @@
                 "row": 6,
                 "column": 4,
                 "uniques": [
-                    "Free [Unit.Engineer.EmilieDuChatelet] appears",
+                    "Free [Unit.Scientist.EmilieDuChatelet] appears",
                     "Instantly consumes [160] [Resource.Unit.Scientist]",
                     "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1447,7 +1447,7 @@
                 "row": 7,
                 "column": 2,
                 "uniques": [
-                    "Free [Unit.Engineer.GalileoGalilei] appears",
+                    "Free [Unit.Scientist.GalileoGalilei] appears",
                     "Instantly consumes [160] [Resource.Unit.Scientist]",
                     "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1460,7 +1460,7 @@
                 "row": 7,
                 "column": 4,
                 "uniques": [
-                    "Free [Unit.Engineer.IsaacNewton] appears",
+                    "Free [Unit.Scientist.IsaacNewton] appears",
                     "Instantly consumes [160] [Resource.Unit.Scientist]",
                     "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1474,7 +1474,7 @@
                 "row": 9,
                 "column": 1,
                 "uniques": [
-                    "Free [Unit.Engineer.CharlesDarwin] appears",
+                    "Free [Unit.Scientist.CharlesDarwin] appears",
                     "Instantly consumes [281] [Resource.Unit.Scientist]",
                     "Only available <when above [281] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1487,7 +1487,7 @@
                 "row": 9,
                 "column": 3,
                 "uniques": [
-                    "Free [Unit.Engineer.DmitriMendeleev] appears",
+                    "Free [Unit.Scientist.DmitriMendeleev] appears",
                     "Instantly consumes [281] [Resource.Unit.Scientist]",
                     "Only available <when above [281] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1500,7 +1500,7 @@
                 "row": 9,
                 "column": 5,
                 "uniques": [
-                    "Free [Unit.Engineer.JamesYoung] appears",
+                    "Free [Unit.Scientist.JamesYoung] appears",
                     "Instantly consumes [281] [Resource.Unit.Scientist]",
                     "Only available <when above [281] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1514,7 +1514,7 @@
                 "row": 11,
                 "column": 1,
                 "uniques": [
-                    "Free [Unit.Engineer.AlanTuring] appears",
+                    "Free [Unit.Scientist.AlanTuring] appears",
                     "Instantly consumes [442] [Resource.Unit.Scientist]",
                     "Only available <when above [442] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1527,7 +1527,7 @@
                 "row": 11,
                 "column": 3,
                 "uniques": [
-                    "Free [Unit.Engineer.AlbertEinstein] appears",
+                    "Free [Unit.Scientist.AlbertEinstein] appears",
                     "Instantly consumes [442] [Resource.Unit.Scientist]",
                     "Only available <when above [442] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1540,7 +1540,7 @@
                 "row": 11,
                 "column": 5,
                 "uniques": [
-                    "Free [Unit.Engineer.AlfredNobel] appears",
+                    "Free [Unit.Scientist.AlfredNobel] appears",
                     "Instantly consumes [442] [Resource.Unit.Scientist]",
                     "Only available <when above [442] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1554,7 +1554,7 @@
                 "row": 13,
                 "column": 2,
                 "uniques": [
-                    "Free [Unit.Engineer.ErwinSchrödinger] appears",
+                    "Free [Unit.Scientist.ErwinSchrödinger] appears",
                     "Instantly consumes [643] [Resource.Unit.Scientist]",
                     "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1567,7 +1567,7 @@
                 "row": 13,
                 "column": 4,
                 "uniques": [
-                    "Free [Unit.Engineer.JanakiAmmal] appears",
+                    "Free [Unit.Scientist.JanakiAmmal] appears",
                     "Instantly consumes [643] [Resource.Unit.Scientist]",
                     "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1580,7 +1580,7 @@
                 "row": 14,
                 "column": 2,
                 "uniques": [
-                    "Free [Unit.Engineer.MaryLeakey] appears",
+                    "Free [Unit.Scientist.MaryLeakey] appears",
                     "Instantly consumes [643] [Resource.Unit.Scientist]",
                     "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1593,7 +1593,7 @@
                 "row": 14,
                 "column": 4,
                 "uniques": [
-                    "Free [Unit.Engineer.MargaretMead] appears",
+                    "Free [Unit.Scientist.MargaretMead] appears",
                     "Instantly consumes [643] [Resource.Unit.Scientist]",
                     "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1607,7 +1607,7 @@
                 "row": 16,
                 "column": 1,
                 "uniques": [
-                    "Free [Unit.Engineer.CarlSagan] appears",
+                    "Free [Unit.Scientist.CarlSagan] appears",
                     "Instantly consumes [884] [Resource.Unit.Scientist]",
                     "Only available <when above [884] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1620,7 +1620,7 @@
                 "row": 16,
                 "column": 3,
                 "uniques": [
-                    "Free [Unit.Engineer.StephanieKwolek] appears",
+                    "Free [Unit.Scientist.StephanieKwolek] appears",
                     "Instantly consumes [884] [Resource.Unit.Scientist]",
                     "Only available <when above [884] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",
@@ -1633,7 +1633,7 @@
                 "row": 16,
                 "column": 5,
                 "uniques": [
-                    "Free [Unit.Engineer.AbdusSalam] appears",
+                    "Free [Unit.Scientist.AbdusSalam] appears",
                     "Instantly consumes [884] [Resource.Unit.Scientist]",
                     "Only available <when above [884] [Resource.Unit.Scientist]> <hidden from users>",
                     "Only available <if no other Civilization has adopted this>",

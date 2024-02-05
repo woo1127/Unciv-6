@@ -406,7 +406,8 @@
 
             // leader bonus
             "[+2 Production] from every [Strategic resource]",
-            "[+10]% [Production] [in all cities] <upon constructing [Class.DistrictBuilding.IndustrialZone]>",
+            // This doesn't work correctly in game --> "[+10]% [Production] [in all cities] <upon constructing [Class.DistrictBuilding.IndustrialZone]>",
+            "[+10]% [Production] from every [Class.DistrictBuilding.IndustrialZone]",
             "Class.Nation.England"
         ],
         "cities": [
