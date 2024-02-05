@@ -1128,6 +1128,27 @@
             // "[+2 Science] for each adjacent [NaturalWonder.GreatBarrierReef]",
 
             "Provides [1] [Resource.Unit.Scientist] <in cities with a [Building.Library]> <after adopting [Pantheon.DivineSpark]> <hidden from users>",
+
+            // Effect of Galileo Galilei
+            "Gain [250] [Science] (modified by game speed) <with [1] to [1] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
+            "Gain [500] [Science] (modified by game speed) <with [2] to [2] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
+            "Gain [750] [Science] (modified by game speed) <with [3] to [3] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
+            "Gain [100] [Science] (modified by game speed) <with [4] to [4] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
+            "Gain [1250] [Science] (modified by game speed) <with [5] to [5] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
+
+            // Effect of Charless Darwin
+            "Gain [500] [Science] (modified by game speed) <with [1] to [1] neighboring [Natural Wonder] tiles> <upon constructing [Building.Scientist.CharlesDarwin]> <hidden from users>",
+            "Gain [1000] [Science] (modified by game speed) <with [2] to [2] neighboring [Natural Wonder] tiles> <upon constructing [Building.Scientist.CharlesDarwin]> <hidden from users>",
+            "Gain [1500] [Science] (modified by game speed) <with [3] to [3] neighboring [Natural Wonder] tiles> <upon constructing [Building.Scientist.CharlesDarwin]> <hidden from users>",
+            "Gain [2000] [Science] (modified by game speed) <with [4] to [4] neighboring [Natural Wonder] tiles> <upon constructing [Building.Scientist.CharlesDarwin]> <hidden from users>",
+            "Gain [2500] [Science] (modified by game speed) <with [5] to [5] neighboring [Natural Wonder] tiles> <upon constructing [Building.Scientist.CharlesDarwin]> <hidden from users>",
+
+            // Effect of Janaki Ammal
+            "Gain [400] [Science] (modified by game speed) <with [1] to [1] neighboring [Landform.Rainforest] tiles> <upon constructing [Building.Scientist.JanakiAmmal]> <hidden from users>",
+            "Gain [800] [Science] (modified by game speed) <with [2] to [2] neighboring [Landform.Rainforest] tiles> <upon constructing [Building.Scientist.JanakiAmmal]> <hidden from users>",
+            "Gain [1200] [Science] (modified by game speed) <with [3] to [3] neighboring [Landform.Rainforest] tiles> <upon constructing [Building.Scientist.JanakiAmmal]> <hidden from users>",
+            "Gain [1600] [Science] (modified by game speed) <with [4] to [4] neighboring [Landform.Rainforest] tiles> <upon constructing [Building.Scientist.JanakiAmmal]> <hidden from users>",
+            "Gain [2000] [Science] (modified by game speed) <with [5] to [5] neighboring [Landform.Rainforest] tiles> <upon constructing [Building.Scientist.JanakiAmmal]> <hidden from users>",
             
             "Pillaging this improvement yields approximately [+20 Science] <hidden from users>",
             "Irremovable <hidden from users>",
@@ -1207,7 +1228,17 @@
             "[+1 Production] for each adjacent [Desert] <after adopting [Pantheon.DesertFolklore]> <after adopting [Follower.WorkEthic]> <hidden from users>",
             "[+1 Production] for each adjacent [Landform.Rainforest] <after adopting [Pantheon.SacredPath]> <after adopting [Follower.WorkEthic]> <hidden from users>",
 
-            
+            // Effect of Great Scientist Hildegard of Bingen
+            "[+2 Science] for each adjacent [Natural Wonder] <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+1 Science] for each adjacent [Landform.Mountain] <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+1 Science] <with [2] to [3] neighboring [Class.District] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+2 Science] <with [4] to [5] neighboring [Class.District] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+3 Science] <with [6] to [7] neighboring [Class.District] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+1 Science] <with [2] to [3] neighboring [Landform.Woods] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+2 Science] <with [4] to [5] neighboring [Landform.Woods] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+3 Science] <with [6] to [7] neighboring [Landform.Woods] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            // "[+1 Science] for each adjacent [NaturalWonder.Pamukkale] <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+
             "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
             "Irremovable <hidden from users>",
             "Great Improvement <hidden from users>",

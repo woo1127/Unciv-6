@@ -1316,5 +1316,335 @@
                 "uniques": []
             }
         ]
+    },
+    {
+        "name": "Great Scientist Tree",
+        "era": "Era.Ancient",
+        "priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+        "policies": [
+            // classical
+            {
+                "name": "Civic.Scientist.ZhangHeng",
+                "row": 1,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.ZhangHeng] appears",
+                    "Instantly consumes [40] [Resource.Unit.Scientist]",
+                    "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            }, 
+            {
+                "name": "Civic.Scientist.Aryabhata",
+                "row": 1,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.Aryabhata] appears",
+                    "Instantly consumes [40] [Resource.Unit.Scientist]",
+                    "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },      
+            {
+                "name": "Civic.Scientist.Euclid",
+                "row": 2,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.Euclid] appears",
+                    "Instantly consumes [40] [Resource.Unit.Scientist]",
+                    "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            }, 
+            {
+                "name": "Civic.Scientist.Hypatia",
+                "row": 2,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.Hypatia] appears",
+                    "Instantly consumes [40] [Resource.Unit.Scientist]",
+                    "Only available <when above [40] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            }, 
+            // Medieval
+            {
+                "name": "Civic.Scientist.AbuAl-QasimAl-Zahrawi",
+                "row": 4,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Engineer.AbuAl-QasimAl-Zahrawi] appears",
+                    "Instantly consumes [80] [Resource.Unit.Scientist]",
+                    "Only available <when above [80] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]> <starting from the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },     
+            {
+                "name": "Civic.Scientist.HildegardOfBingen",
+                "row": 4,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Engineer.HildegardOfBingen] appears",
+                    "Instantly consumes [80] [Resource.Unit.Scientist]",
+                    "Only available <when above [80] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]> <starting from the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },     
+            {
+                "name": "Civic.Scientist.OmarKhayyam",
+                "row": 4,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Engineer.OmarKhayyam] appears",
+                    "Instantly consumes [80] [Resource.Unit.Scientist]",
+                    "Only available <when above [80] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Renaissance]> <starting from the [Era.Medieval]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },            
+            // Renaissance
+            {
+                "name": "Civic.Scientist.IbnKhaldun",
+                "row": 6,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.IbnKhaldun] appears",
+                    "Instantly consumes [160] [Resource.Unit.Scientist]",
+                    "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]> <starting from the [Era.Renaissance]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },   
+            {
+                "name": "Civic.Scientist.EmilieDuChatelet",
+                "row": 6,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.EmilieDuChatelet] appears",
+                    "Instantly consumes [160] [Resource.Unit.Scientist]",
+                    "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]> <starting from the [Era.Renaissance]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.GalileoGalilei",
+                "row": 7,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.GalileoGalilei] appears",
+                    "Instantly consumes [160] [Resource.Unit.Scientist]",
+                    "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]> <starting from the [Era.Renaissance]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.IsaacNewton",
+                "row": 7,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.IsaacNewton] appears",
+                    "Instantly consumes [160] [Resource.Unit.Scientist]",
+                    "Only available <when above [160] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Industrial]> <starting from the [Era.Renaissance]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            // Industrial
+            {
+                "name": "Civic.Scientist.CharlesDarwin",
+                "row": 9,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Engineer.CharlesDarwin] appears",
+                    "Instantly consumes [281] [Resource.Unit.Scientist]",
+                    "Only available <when above [281] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Modern]> <starting from the [Era.Industrial]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.DmitriMendeleev",
+                "row": 9,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Engineer.DmitriMendeleev] appears",
+                    "Instantly consumes [281] [Resource.Unit.Scientist]",
+                    "Only available <when above [281] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Modern]> <starting from the [Era.Industrial]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.JamesYoung",
+                "row": 9,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Engineer.JamesYoung] appears",
+                    "Instantly consumes [281] [Resource.Unit.Scientist]",
+                    "Only available <when above [281] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Modern]> <starting from the [Era.Industrial]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            // Modern
+            {
+                "name": "Civic.Scientist.AlanTuring",
+                "row": 11,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Engineer.AlanTuring] appears",
+                    "Instantly consumes [442] [Resource.Unit.Scientist]",
+                    "Only available <when above [442] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Atomic]> <starting from the [Era.Modern]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.AlbertEinstein",
+                "row": 11,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Engineer.AlbertEinstein] appears",
+                    "Instantly consumes [442] [Resource.Unit.Scientist]",
+                    "Only available <when above [442] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Atomic]> <starting from the [Era.Modern]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.AlfredNobel",
+                "row": 11,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Engineer.AlfredNobel] appears",
+                    "Instantly consumes [442] [Resource.Unit.Scientist]",
+                    "Only available <when above [442] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Atomic]> <starting from the [Era.Modern]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            // Atomic
+            {
+                "name": "Civic.Scientist.ErwinSchrödinger",
+                "row": 13,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.ErwinSchrödinger] appears",
+                    "Instantly consumes [643] [Resource.Unit.Scientist]",
+                    "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Information]> <starting from the [Era.Atomic]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.JanakiAmmal",
+                "row": 13,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.JanakiAmmal] appears",
+                    "Instantly consumes [643] [Resource.Unit.Scientist]",
+                    "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Information]> <starting from the [Era.Atomic]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.MaryLeakey",
+                "row": 14,
+                "column": 2,
+                "uniques": [
+                    "Free [Unit.Engineer.MaryLeakey] appears",
+                    "Instantly consumes [643] [Resource.Unit.Scientist]",
+                    "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Information]> <starting from the [Era.Atomic]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.MargaretMead",
+                "row": 14,
+                "column": 4,
+                "uniques": [
+                    "Free [Unit.Engineer.MargaretMead] appears",
+                    "Instantly consumes [643] [Resource.Unit.Scientist]",
+                    "Only available <when above [643] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <before the [Era.Information]> <starting from the [Era.Atomic]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            // Information
+            {
+                "name": "Civic.Scientist.CarlSagan",
+                "row": 16,
+                "column": 1,
+                "uniques": [
+                    "Free [Unit.Engineer.CarlSagan] appears",
+                    "Instantly consumes [884] [Resource.Unit.Scientist]",
+                    "Only available <when above [884] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <starting from the [Era.Information]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.StephanieKwolek",
+                "row": 16,
+                "column": 3,
+                "uniques": [
+                    "Free [Unit.Engineer.StephanieKwolek] appears",
+                    "Instantly consumes [884] [Resource.Unit.Scientist]",
+                    "Only available <when above [884] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <starting from the [Era.Information]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Civic.Scientist.AbdusSalam",
+                "row": 16,
+                "column": 5,
+                "uniques": [
+                    "Free [Unit.Engineer.AbdusSalam] appears",
+                    "Instantly consumes [884] [Resource.Unit.Scientist]",
+                    "Only available <when above [884] [Resource.Unit.Scientist]> <hidden from users>",
+                    "Only available <if no other Civilization has adopted this>",
+                    "Only available <starting from the [Era.Information]> <hidden from users>",
+                    "Class.Civic.GP"
+                ]
+            },  
+            {
+                "name": "Great Scientist Tree Complete",
+                "uniques": []
+            }
+        ]
     }
 ]

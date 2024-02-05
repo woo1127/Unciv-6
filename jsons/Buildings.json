@@ -1214,6 +1214,9 @@
             "Cost increases by [27] per owned city",
             "[+2 Science] from every [Specialist.Scientist] <in this city> <hidden from users>",
 
+            "Provides [4] [Resource.Housing] <in cities with a [Building.Scientist.IbnKhaldun]> <hidden from users>",
+            "[+1 Happiness] <in cities with a [Building.Scientist.IbnKhaldun]> <hidden from users>",
+
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1497,6 +1500,8 @@
         "uniques": [
             "Creates a [District.GovernmentPlaza] improvement on a specific tile",
             "Limited to [1] per Civilization",
+
+            "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
@@ -2482,6 +2487,300 @@
         ]
     },
 
+    // Great Scientist
+    {
+        "name": "Building.Scientist.ZhangHeng",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Shipbuilding], [Tech.Mathematics] and [Tech.Engineering].]", 
+            // Shipbuilding
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Buttress]> <after discovering [Tech.Sailing]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Buttress]> <after discovering [Tech.Sailing]> <for [Class.Nation.China]> <hidden from users>",
+            // Mathematics
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Buttress]> <before discovering [Tech.MilitaryTactics]> <before discovering [Tech.Education]> <after discovering [Tech.Currency]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Buttress]> <before discovering [Tech.MilitaryTactics]> <before discovering [Tech.Education]> <after discovering [Tech.Currency]> <for [Class.Nation.China]> <hidden from users>",
+            // Engineering
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Machinery]> <after discovering [Tech.Wheel]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Machinery]> <after discovering [Tech.Wheel]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.Aryabhata",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Mathematics], [Tech.Education] and [Tech.Astronomy].]", 
+            // Mathematics
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Buttress]> <before discovering [Tech.MilitaryTactics]> <before discovering [Tech.Education]> <after discovering [Tech.Currency]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Buttress]> <before discovering [Tech.MilitaryTactics]> <before discovering [Tech.Education]> <after discovering [Tech.Currency]> <for [Class.Nation.China]> <hidden from users>",
+            // Education
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Astronomy]> <before discovering [Tech.Banking]> <after discovering [Tech.Apprenticeship]> <after discovering [Tech.Mathematics]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Astronomy]> <before discovering [Tech.Banking]> <after discovering [Tech.Apprenticeship]> <after discovering [Tech.Mathematics]> <for [Class.Nation.China]> <hidden from users>",
+            // Astronomy
+            "[+80]% [Science] [in all cities] <before discovering [Tech.ScientificTheory]> <after discovering [Tech.Education]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.ScientificTheory]> <after discovering [Tech.Education]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.Euclid",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Mathematics] and [Tech.Cartography].]", 
+            // Mathematics
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Buttress]> <before discovering [Tech.MilitaryTactics]> <before discovering [Tech.Education]> <after discovering [Tech.Currency]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Buttress]> <before discovering [Tech.MilitaryTactics]> <before discovering [Tech.Education]> <after discovering [Tech.Currency]> <for [Class.Nation.China]> <hidden from users>",
+            // Cartography
+            "[+80]% [Science] [in all cities] <before discovering [Tech.SquareRigging]> <after discovering [Tech.Buttress]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.SquareRigging]> <after discovering [Tech.Buttress]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.Hypatia",
+        "cost": 0,
+        "uniques": [
+            "[+1 Science] from every [Building.Library]",
+            "Gain a free [Building.Library] [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.AbuAl-QasimAl-Zahrawi",
+        "cost": 0,
+        "uniques": [
+            "Gain [134] [Science] (modified by game speed)",
+            "Gain [167] [Culture] (modified by game speed) <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.HildegardOfBingen",
+        "cost": 0,
+        "uniques": [
+            "Comment [ Holy Site's adjacency bonuses in this city gain an additional [Science] bonus.]",
+            "Gain [100] [Faith] (modified by game speed)",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.OmarKhayyam",
+        "cost": 0,
+        "uniques": [
+            "Gain [134] [Culture] (modified by game speed)",
+            "Gain [167] [Culture] (modified by game speed) <for [Class.Nation.China]> <hidden from users>",
+            "Comment [Triggers the Eureka for [Tech.Banking] and [Tech.Astronomy].]", 
+            // Banking
+            "[+80]% [Science] [in all cities] <before discovering [Tech.ScientificTheory]> <after discovering [Tech.Education]> <after discovering [Tech.Stirrups]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.ScientificTheory]> <after discovering [Tech.Education]> <after discovering [Tech.Stirrups]> <for [Class.Nation.China]> <hidden from users>",
+            // Astronomy
+            "[+80]% [Science] [in all cities] <before discovering [Tech.ScientificTheory]> <after discovering [Tech.Education]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.ScientificTheory]> <after discovering [Tech.Education]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.IbnKhaldun",
+        "cost": 0,
+        "uniques": [
+            // unique wrote in respective buildings
+            "Comment [Chosen Campus gains 4 [Resource.Housing] and 1 [Happiness]]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.EmilieDuChatelet",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Cartography], [Tech.ScientificTheory] and [Tech.Industrialization].]",
+            // Cartography
+            "[+80]% [Science] [in all cities] <before discovering [Tech.SquareRigging]> <after discovering [Tech.Buttress]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.SquareRigging]> <after discovering [Tech.Buttress]> <for [Class.Nation.China]> <hidden from users>",
+            // Scientific theory
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Sanitation]> <before discovering [Tech.Economics]> <before discovering [Tech.Flight]> <after discovering [Tech.Astronomy]> <after discovering [Tech.Banking]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Sanitation]> <before discovering [Tech.Economics]> <before discovering [Tech.Flight]> <after discovering [Tech.Astronomy]> <after discovering [Tech.Banking]> <for [Class.Nation.China]> <hidden from users>",
+            // Industrialization
+            "[+80]% [Science] [in all cities] <before discovering [Tech.SteamPower]> <before discovering [Tech.Flight]> <after discovering [Tech.SquareRigging]> <after discovering [Tech.MassProduction]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.SteamPower]> <before discovering [Tech.Flight]> <after discovering [Tech.SquareRigging]> <after discovering [Tech.MassProduction]> <for [Class.Nation.China]> <hidden from users>" ,
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.GalileoGalilei",
+        "cost": 0,
+        "uniques": [
+            // unique wrote in campus district
+            "Comment [Gain 250 [Science] (on Standard speed) for each adjacent Mountain tile.]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.IsaacNewton",
+        "cost": 0,
+        "uniques": [
+            "[+2 Science] from every [Building.University]",
+            "Gain a free [Building.Library] [in this city]",
+            "Gain a free [Building.University] [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.CharlesDarwin",
+        "cost": 0,
+        "uniques": [
+            "Comment [Gain 500 [Science] (on Standard speed) for each adjacent Natural Wonder.]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.DmitriMendeleev",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Chemistry] and [Tech.Industrialization].]",
+            // Chemistry
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Rocketry]> <after discovering [Tech.ReplaceableParts]> <after discovering [Tech.Sanitation]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Rocketry]> <after discovering [Tech.ReplaceableParts]> <after discovering [Tech.Sanitation]> <for [Class.Nation.China]> <hidden from users>",
+            // Industrialization
+            "[+80]% [Science] [in all cities] <before discovering [Tech.SteamPower]> <before discovering [Tech.Flight]> <after discovering [Tech.SquareRigging]> <after discovering [Tech.MassProduction]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.SteamPower]> <before discovering [Tech.Flight]> <after discovering [Tech.SquareRigging]> <after discovering [Tech.MassProduction]> <for [Class.Nation.China]> <hidden from users>" ,
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.JamesYoung",
+        "cost": 0,
+        "uniques": [
+            "Reveal up to [5] [Resource.Oil] within a [36] tile radius",
+            "Comment [Triggers the Eureka for [Tech.Chemistry] and [Tech.Steel].]",
+            // Chemistry
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Rocketry]> <after discovering [Tech.ReplaceableParts]> <after discovering [Tech.Sanitation]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Rocketry]> <after discovering [Tech.ReplaceableParts]> <after discovering [Tech.Sanitation]> <for [Class.Nation.China]> <hidden from users>",
+            // Steel
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Combustion]> <before discovering [Tech.AdvancedBallistics]> <after discovering [Tech.Rifling]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Combustion]> <before discovering [Tech.AdvancedBallistics]> <after discovering [Tech.Rifling]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.AlanTuring",
+        "cost": 0,
+        "uniques": [
+            "Gain [524] [Science] (modified by game speed)",
+            "Gain [655] [Science] (modified by game speed) <for [Class.Nation.China]> <hidden from users>",
+            "Comment [Triggers the Eureka for [Tech.Computers]]",
+            // Computers
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Telecommunications]> <before discovering [Tech.Robotics]> <after discovering [Tech.Electricity]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Telecommunications]> <before discovering [Tech.Robotics]> <after discovering [Tech.Electricity]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.AlbertEinstein",
+        "cost": 0,
+        "uniques": [
+            "[+4 Science] from every [Building.ResearchLab]",
+            "Gain [524] [Science] (modified by game speed)",
+            "Gain [655] [Science] (modified by game speed) <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.AlfredNobel",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Combustion]]",
+            // Combustion
+            "[+80]% [Science] [in all cities] <before discovering [Tech.CombinedArms]> <before discovering [Tech.Plastics]> <after discovering [Tech.Refining]> <after discovering [Tech.Steel]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.CombinedArms]> <before discovering [Tech.Plastics]> <after discovering [Tech.Refining]> <after discovering [Tech.Steel]> <for [Class.Nation.China]> <hidden from users>",
+            "Provides [100] [Resource.Unit.Scientist]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.ErwinSchrödinger",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for [Tech.Satellites], [Tech.Lasers] and [Tech.GuidanceSystems].]",
+            // Satellites
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Robotics]> <after discovering [Tech.AdvancedFlight]> <after discovering [Tech.Rocketry]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Robotics]> <after discovering [Tech.AdvancedFlight]> <after discovering [Tech.Rocketry]> <for [Class.Nation.China]> <hidden from users>",
+            // Guidance system
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Robotics]> <after discovering [Tech.AdvancedBallistics]> <after discovering [Tech.Rocketry]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Robotics]> <after discovering [Tech.AdvancedBallistics]> <after discovering [Tech.Rocketry]> <for [Class.Nation.China]> <hidden from users>",
+            // Lasers
+            "[+80]% [Science] [in all cities] <before discovering [Tech.Robotics]> <before discovering [Tech.NuclearFusion]> <after discovering [Tech.NuclearFission]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <before discovering [Tech.Robotics]> <before discovering [Tech.NuclearFusion]> <after discovering [Tech.NuclearFission]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.JanakiAmmal",
+        "cost": 0,
+        "uniques": [
+            // unique wrote in campus district
+            "Comment [Gain 400 [Science] (on Standard speed) for each rainforest tile here or adjacent.]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.MargaretMead",
+        "cost": 0,
+        "uniques": [
+            "Gain [1000] [Science] (modified by game speed)",
+            "Gain [1000] [Culture] (modified by game speed)",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.CarlSagan",
+        "cost": 0,
+        "uniques": [
+            "Free [Unit.Project.LaunchMoonLanding] appears",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.StephanieKwolek",
+        "cost": 0,
+        "uniques": [
+            "[+100]% Production when constructing [Class.Unit.SpaceProject] units [in this city]",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    {
+        "name": "Building.Scientist.AbdusSalam",
+        "cost": 0,
+        "uniques": [
+            "Comment [Triggers the Eureka for all technologies from the Information era.]",
+            "[+80]% [Science] [in all cities] <starting from the [Era.Information]> <before the [Era.Future]> <hidden from users>",
+            "[+100]% [Science] [in all cities] <starting from the [Era.Information]> <before the [Era.Future]> <for [Class.Nation.China]> <hidden from users>",
+            "Unbuildable <hidden from users>",
+            "Unsellable <hidden from users>"
+        ]
+    },
+    
     // Government
     {
         "name": "Gov.Chiefdom",

@@ -225,7 +225,7 @@
         "type": "Follower",
         "uniques": [
             // "May buy [Unit.WarriorMonk] units for [200] [Faith] [in cities following this religion]",
-            "Building a Holy Site will claiming surrounding tiles and assign them to your closest city."
+            // "Building a Holy Site will claiming surrounding tiles and assign them to your closest city."
         ]
     },
     {
