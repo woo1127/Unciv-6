@@ -985,6 +985,30 @@
         ]
     },
     {
+        "name": "Unit.MinasGeraes",
+        "unitType": "UnitType.NavalRanged",
+        "replaces": "Unit.Battleship",
+        "uniqueTo": "Nation.Brazil.PedroII",
+        "strength": 783, // 70
+        "rangedStrength": 1168, // 80
+        "range": 3,
+        "interceptRange": 1,
+        "movement": 5,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.MissileCruiser",
+        "requiredResource": "Resource.Coal",
+        "attackSound": "shipguns",
+        "uniques": [
+            "Only available <after adopting [Civic.Nationalism]>",
+            "[40]% chance to intercept air attacks",
+            "[+82]% Strength <vs [Air] units>", // 95
+            "Instantly consumes [1] [Resource.Coal]",
+            "Unbuildable <when below [1] [Resource.Coal]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
         "name": "Unit.MissileCruiser",
         "unitType": "UnitType.NavalRanged",
         "strength": 957, // 75

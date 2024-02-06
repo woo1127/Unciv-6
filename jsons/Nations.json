@@ -416,29 +416,37 @@
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"
         ]
-    }
-    // {
-    //     "name": ,
-    //     "leaderName": ,
-    //     "adjective": ,
-    //     "innerColor": ,
-    //     "outerColor": ,
-    //     "startBias": ,
-    //     "preferredVictoryType": ,
-    //     "declaringWar": ,
-    //     "attacked": ,
-    //     "defeated": ,
-    //     "introduction": ,
-    //     "neutralHello": ,
-    //     "hateHello": ,
-    //     "tradeRequest": ,
-    //     "uniqueName": ,
-    //     "uniques": [
-    //         // civ ability
-    //         // leader bonus    
-    //     ],
-    //     "cities": [
+    },
+    {
+        "name": "Nation.Brazil.PedroII",
+        "leaderName": "Pedro II",
+        "adjective": ["Brazillian"],
+        "innerColor": [249, 225, 64],
+        "outerColor": [72, 143, 25],
+        "startBias": ["Landform.Rainforest"],
+        "preferredVictoryType": "Cultural",
+        "declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed.",
+        "attacked": "You can see how fruitless this will be for you, no?",
+        "defeated": "May God grant me these last wishes—peace and prosperity for Brazil.",
+        "introduction": "Good day. It is an honor to meet you in person. It seems great minds do attract each other, after all.",
+        "startIntroPart1": "Your people look to you, Emperor Pedro II, to lead Brazil onto the world stage. Use your reputation as a patron of artists, scientists, and engineers to draw the greatest minds to our fertile home. For it is in the lush rainforests, teeming with life, that your people thrive. Watch them in the Carnival as they dance the samba in celebration of your great feats, Pedro the Magnanimous.",
+        "tradeRequest": "ill you receive our diplomatic delegation in your capital?",
+        "favoredReligion": "Catholicism",
+        "uniqueName": "Civ ability - Amazon\nLeader bonus - Patron of the Arts",
+        "uniques": [
+            // civ ability
+            // uniques wrote in respective district
+            "Comment [Rainforest tiles provide a +1 adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts.]",
 
-    //     ]
-    // }
+            // leader bonus    
+            "Provides a sum of gold each time you spend a Great Person",
+            "Class.Nation.Brazil"
+        ],
+        "cities": [
+            "Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
+			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
+			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"
+        ]
+    }
 ]

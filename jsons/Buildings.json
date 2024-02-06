@@ -126,10 +126,10 @@
             "[+3 Gold] from [Class.District.CommercialHub] tiles [in this city]",
             "[+1 Culture] from [Class.District.TheaterSquare] tiles [in this city]",
             "[+1 Food] from [Class.District.EntertainmentComplex] tiles [in this city]",
-            // "[+1 Food] from [Class.District.WaterPark] tiles [in this city]",
+            "[+1 Food] from [Class.District.WaterPark] tiles [in this city]",
             "[+3 Gold] from [Class.District.Harbor] tiles [in this city]",
             "[+1 Production] from [Class.District.IndustrialZone] tiles [in this city]",
-            // "[+2 Gold] from [Class.District.GovernmentPlaze] tiles [in this city]",
+            "[+2 Gold] from [Class.District.GovernmentPlaze] tiles [in this city]",
             // "[+1 Culture] from [Class.District.DiplomaticQuarter] tiles [in this city]",
 
             "Only available <after adopting [Civic.ForeignTrade]>",
@@ -744,6 +744,61 @@
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+
+    // Water Park
+    {
+        "name": "Building.FerrisWheel",
+        "cost": 290,
+        "happiness": 2,
+        "culture": 3,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.District.WaterPark",
+        "uniques": [
+            "Only available <after adopting [Civic.NaturalHistory]>",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.WaterPark"
+        ]
+    },
+    {
+        "name": "Building.Aquarium",
+        "cost": 360,
+        "happiness": 4,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.FerrisWheel",
+        "uniques": [
+            "[+1 Science] from [Water resource] tiles [in this city]",
+            "[+1 Science] from [Reef] tiles [in this city]",
+            "Only available <after adopting [Civic.NaturalHistory]>",
+
+            "[+1 Happiness] <in cities with a [Building.Engineer.JosephPaxton]> <hidden from users>",
+
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.WaterPark"
+        ]
+    },
+    {
+        "name": "Building.AquaticsCenter",
+        "cost": 660,
+        "happiness": 4,
+        "maintenance": 3,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Aquarium",
+        "uniques": [
+            "[+2 Happiness] <when above [0] [Resource.Power]>",
+            "Consumes [2] [Resource.Power] <upon constructing [Class.Building.PowerPlant] [in this city]>",
+            "Only available <after adopting [Civic.ProfessionalSports]>",
+
+            "[+1 Happiness] <in cities with a [Building.Engineer.JosephPaxton]> <hidden from users>",
+            
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.WaterPark"
         ]
     },
 
@@ -1363,6 +1418,7 @@
     },
     {
         "name": "Building.District.RoyalNavyDockyard",
+        "replaces": "Building.District.Harbor",
         "uniqueTo": "Nation.England.Victoria(AgeOfSteam)",
         "cost": 27,
         "gold": 2,
@@ -1391,7 +1447,7 @@
         "requiredResource": "Resource.District",
         "uniques": [
             "Only available <after adopting [Civic.GamesAndRecreation]>",
-            // "Only available <in cities without a [Building.District.WaterPark]>",
+            "Only available <in cities without a [Building.District.WaterPark]>",
             "Creates a [District.EntertainmentComplex] improvement on a specific tile",
             "Cost increases by [27] per owned city",
 
@@ -1400,6 +1456,70 @@
             "Never destroyed when the city is captured <hidden from users>",
             "Class.Building.District",
             "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.District.StreetCarnival",
+        "replaces": "Building.District.EntertainmentComplex",
+        "uniqueTo": "Nation.Brazil.PedroII",
+        "cost": 27,
+        "happiness": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Only available <in cities without a [Building.District.Copacabana]>",
+            "Creates a [District.StreetCarnival] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.District.WaterPark",
+        "cost": 54,
+        "happiness": 1,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Only available <after adopting [Civic.NaturalHistory]>",
+            "Only available <in cities without a [Building.District.EntertainmentComplex]>",
+            "Creates a [District.WaterPark] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.WaterPark"
+        ]
+    },
+    {
+        "name": "Building.District.Copacabana",
+        "replaces": "Building.District.WaterPark",
+        "uniqueTo": "Nation.Brazil.PedroII",
+        "cost": 27,
+        "happiness": 2,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Only available <after adopting [Civic.NaturalHistory]>",
+            "Only available <in cities without a [Building.District.StreetCarnival]>",
+            "Creates a [District.Copacabana] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.WaterPark"
         ]
     },
     {
@@ -2464,6 +2584,7 @@
         "uniques": [
             // uniques wrote in respective buildings
             "Comment [+1 [Happiness] from [Building.Zoo] and [Building.Stadium] building in this city]",
+            "Comment [+1 [Happiness] from [Building.Aquarium] and [Building.AquaticsCenter] building in this city]",
             "Unbuildable <hidden from users>",
             "Unsellable <hidden from users>"
         ]

@@ -1129,6 +1129,9 @@
 
             "Provides [1] [Resource.Unit.Scientist] <in cities with a [Building.Library]> <after adopting [Pantheon.DivineSpark]> <hidden from users>",
 
+            // UU of Brazil
+            "[+1 Science] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
+
             // Effect of Galileo Galilei
             "Gain [250] [Science] (modified by game speed) <with [1] to [1] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
             "Gain [500] [Science] (modified by game speed) <with [2] to [2] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
@@ -1214,6 +1217,9 @@
             "[+1 Faith] for each adjacent [Desert] <after adopting [Pantheon.DesertFolklore]> <hidden from users>",
             "[+1 Faith] for each adjacent [Landform.Rainforest] <after adopting [Pantheon.SacredPath]> <hidden from users>",
 
+            // UU of Brazil
+            "[+1 Faith] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
+
             // Effect of Follower.WorkEthic
             "[+2 Production] for each adjacent [Natural Wonder] <after adopting [Follower.WorkEthic]> <hidden from users>",
             "[+1 Production] for each adjacent [Landform.Mountain] <after adopting [Follower.WorkEthic]> <hidden from users>",
@@ -1294,6 +1300,9 @@
             "[+1 Culture] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
 			"[+2 Culture] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
 			"[+3 Culture] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+
+            // UU of Brazil
+            "[+1 Culture] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
             
             "Provides [1] [Resource.Unit.Writer] <in cities with a [Building.Amphitheater]> <after adopting [Pantheon.DivineSpark]> <hidden from users>",
             "[+1 Culture] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
@@ -1330,6 +1339,9 @@
             "[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
 			"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
 			"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+
+            // UU of Brazil
+            "[+1 Gold] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
 
             "Provides [1] [Resource.TradeRouteCapacity] <in cities without a [Building.District.Harbor]> <hidden from users>",
             "[+1 Gold] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
@@ -1429,6 +1441,54 @@
 			"Only available <in tiles without [Luxury resource]> <hidden from users>",
             "Class.District",
             "Class.District.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "District.StreetCarnival",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "District.WaterPark",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.WaterPark"
+        ]
+    },
+    {
+        "name": "District.Copacabana",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.WaterPark"
         ]
     },
     {
