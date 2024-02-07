@@ -1132,6 +1132,19 @@
             // UU of Brazil
             "[+1 Science] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
 
+            // UB effect of Arabian, the Madrasa
+            "[+1 Faith] <with [2] to [3] neighboring [Landform.Rainforest] tiles> <for [Class.Nation.Arabia]> <hidden from users>",
+			"[+2 Faith] <with [4] to [5] neighboring [Landform.Rainforest] tiles> <for [Class.Nation.Arabia]> <hidden from users>",
+			"[+3 Faith] <with [6] to [7] neighboring [Landform.Rainforest] tiles> <for [Class.Nation.Arabia]> <hidden from users>",
+            "[+1 Faith] <with [2] to [3] neighboring [Class.District] tiles> <for [Class.Nation.Arabia]> <hidden from users>",
+			"[+2 Faith] <with [4] to [5] neighboring [Class.District] tiles> <for [Class.Nation.Arabia]> <hidden from users>",
+			"[+3 Faith] <with [6] to [7] neighboring [Class.District] tiles> <for [Class.Nation.Arabia]> <hidden from users>",
+            "[+1 Faith] for each adjacent [Mountain] <for [Class.Nation.Arabia]> <hidden from users>",
+            "[+2 Faith] for each adjacent [Landform.Reef] <for [Class.Nation.Arabia]> <hidden from users>",
+            "[+2 Faith] for each adjacent [Landform.GeothermalFissure] <for [Class.Nation.Arabia]> <hidden from users>",
+            // "[+2 Faith] for each adjacent [NaturalWonder.Pamukkale] <for [Class.Nation.Arabia]> <hidden from users>",
+            // "[+2 Faith] for each adjacent [NaturalWonder.GreatBarrierReef] <for [Class.Nation.Arabia]> <hidden from users>",
+
             // Effect of Galileo Galilei
             "Gain [250] [Science] (modified by game speed) <with [1] to [1] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",
             "Gain [500] [Science] (modified by game speed) <with [2] to [2] neighboring [Mountain] tiles> <upon constructing [Building.Scientist.GalileoGalilei]> <hidden from users>",

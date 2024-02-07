@@ -175,6 +175,46 @@
         ]
     },
     {
+        "name": "Building.Madrasa1",
+        "replaces": "Building.University",
+        "uniqueTo": "Nation.Arabia.Saladin(Vizier)",
+        "cost": 250,
+        "science": 5,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Library",
+        "specialistSlots": {"Specialist.Scientist": 1},
+        "uniques": [
+            "Comment [Campus district provides bonus [Faith] equal to the adjacency [Science] bonus]",
+            "Only available <after adopting [Civic.Theology]>",
+            "Provides [2] [Resource.Housing]",
+            "Provides [1] [Resource.Unit.Scientist]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
+        "name": "Building.Madrasa2",
+        "replaces": "Building.University",
+        "uniqueTo": "Nation.Arabia.Saladin(Sultan)",
+        "cost": 250,
+        "science": 5,
+        "maintenance": 2,
+        "hurryCostModifier": -33,
+        "requiredBuilding": "Building.Library",
+        "specialistSlots": {"Specialist.Scientist": 1},
+        "uniques": [
+            "Comment [Campus district provides bonus [Faith] equal to the adjacency [Science] bonus]",
+            "Only available <after adopting [Civic.Theology]>",
+            "Provides [2] [Resource.Housing]",
+            "Provides [1] [Resource.Unit.Scientist]",
+            "Unsellable <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.DistrictBuilding.Campus"
+        ]
+    },
+    {
         "name": "Building.ResearchLab",
         "cost": 440,
         "science": 3,
@@ -308,7 +348,8 @@
             "Hidden when religion is disabled",
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -334,7 +375,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -352,7 +394,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -369,7 +412,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -387,7 +431,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -403,7 +448,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -420,7 +466,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -436,7 +483,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     },
     {
@@ -453,7 +501,8 @@
             "Unsellable",
             "Hidden when religion is disabled",
             "Never destroyed when the city is captured",
-            "Class.DistrictBuilding.HolySite"
+            "Class.DistrictBuilding.HolySite",
+            "Class.WorshipBuilding"
         ]
     }
 

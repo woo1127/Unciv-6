@@ -448,5 +448,68 @@
 			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju",
 			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"
         ]
+    },
+    {
+        "name": "Nation.Arabia.Saladin(Vizier)",
+        "leaderName": "Saladin (Vizier)",
+        "adjective": ["Arabian"],
+        "innerColor": [21, 108, 48],
+        "outerColor": [247, 216, 1],
+        "preferredVictoryType": "Scientific",
+        "declaringWar": "It is a shame that we must resort to violence, it is not the custom of kings to kill kings.",
+        "attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+        "defeated": "This is not victory. 'Victory' is changing the hearts of your opponents; through gentleness, through kindness.",
+        "introduction": "By the grace of the one God, the powerful, the victorious, the everlasting of whose Kingdom there is no end, I greet you, my sincere friend.",
+        "startIntroPart1": "The marriage of science and religion is a delicate balancing act, but one that you have mastered, Saladin. Your quest for knowledge is noble, and your people have a deep respect for you. But you need not rush into the unknown. Given time, the answers to life's most puzzling questions will find their way back to Arabia.",
+        "tradeRequest": "May Allah bless you.",
+        "favoredReligion": "Islam",
+        "uniqueName": "Civ ability - The Last Prophet\nLeader bonus - Righteousness of the Faith",
+        "uniques": [
+            // Civ ability
+            "Free [Unit.Prophet] appears <upon founding a Religion>",
+            "[+1 Science] [in cities following our religion]",
+
+            // Leader bonus
+            "[Faith] cost of purchasing [Class.WorshipBuilding] buildings [-90]%",
+            "[+10]% [Science] [in this city] <upon constructing [Class.WorshipBuilding]>",
+            "[+10]% [Faith] [in this city] <upon constructing [Class.WorshipBuilding]>",
+            "[+10]% [Culture] [in this city] <upon constructing [Class.WorshipBuilding]>",
+            "Class.Nation.Arabia"
+        ],
+        "cities": [
+            "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"
+        ]
+    },
+    {
+        "name": "Nation.Arabia.Saladin(Sultan)",
+        "leaderName": "Saladin (Sultan)",
+        "adjective": ["Arabian"],
+        "innerColor": [104, 194, 45],
+        "outerColor": [19, 102, 45],
+        "preferredVictoryType": "Scientific",
+        "declaringWar": "It is a shame that we must resort to violence, it is not the custom of kings to kill kings.",
+        "attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+        "defeated": "This is not victory. 'Victory' is changing the hearts of your opponents; through gentleness, through kindness.",
+        "introduction": "By the grace of the one God, the powerful, the victorious, the everlasting of whose Kingdom there is no end, I greet you, my sincere friend.",
+        "startIntroPart1": "The marriage of science and religion is a delicate balancing act, but one that you have mastered, Saladin. Your quest for knowledge is noble, and your people have a deep respect for you. But you need not rush into the unknown. Given time, the answers to life's most puzzling questions will find their way back to Arabia.",
+        "tradeRequest": "May Allah bless you.",
+        "favoredReligion": "Islam",
+        "uniqueName": "Civ ability - The Last Prophet\nLeader bonus - The Victorious",
+        "uniques": [
+             // Civ ability
+            "Free [Unit.Prophet] appears <upon founding a Religion>",
+            "[+1 Science] [in cities following our religion]",
+
+            // Leader bonus
+            "[+100]% to Flank Attack bonuses",
+            "Class.Nation.Arabia"
+        ],
+        "cities": [
+            "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"
+        ]
     }
 ]

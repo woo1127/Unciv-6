@@ -553,6 +553,46 @@
         ]
     },
     {
+        "name": "Unit.Mamluk1",
+        "replaces": "Unit.Knight",
+        "uniqueTo": "Nation.Arabia.Saladin(Vizier)",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 352, // 50
+        "movement": 4,
+        "cost": 220,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Cuirassier",
+        "requiredTech": "Tech.Stirrups",
+        "obsoleteTech": "Tech.Composites",
+        "attackSound": "horse",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+            "Instantly consumes [10] [Resource.Iron]",
+            "Unbuildable <when below [10] [Resource.Iron]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
+        "name": "Unit.Mamluk2",
+        "replaces": "Unit.Knight",
+        "uniqueTo": "Nation.Arabia.Saladin(Sultan)",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 352, // 50
+        "movement": 4,
+        "cost": 220,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Cuirassier",
+        "requiredTech": "Tech.Stirrups",
+        "obsoleteTech": "Tech.Composites",
+        "attackSound": "horse",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+            "Instantly consumes [10] [Resource.Iron]",
+            "Unbuildable <when below [10] [Resource.Iron]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
         "name": "Unit.Cuirassier",
         "unitType": "UnitType.HeavyCavalry",
         "strength": 616, // 64  
