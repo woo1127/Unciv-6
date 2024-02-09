@@ -553,6 +553,26 @@
         ]
     },
     {
+        "name": "Unit.Tagma",
+        "replaces": "Unit.Knight",
+        "uniqueTo": "Nation.Byzantium.BasilII",
+        "unitType": "UnitType.HeavyCavalry",
+        "strength": 352, // 50
+        "movement": 4,
+        "cost": 220,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Cuirassier",
+        "obsoleteTech": "Tech.Composites",
+        "attackSound": "horse",
+        "uniques": [
+            "[+20]% Strength bonus for [Land] units within [1] tiles",
+            "Only available <after adopting [Civic.DivineRight]>",
+            "Instantly consumes [10] [Resource.Iron]",
+            "Unbuildable <when below [10] [Resource.Iron]>",
+            "Comment [Maintenance cost of 4]"
+        ]
+    },
+    {
         "name": "Unit.Mamluk1",
         "replaces": "Unit.Knight",
         "uniqueTo": "Nation.Arabia.Saladin(Vizier)",
@@ -979,6 +999,52 @@
         "obsoleteTech": "Tech.SquareRigging",
         "attackSound": "nonmetalhit",
         "uniques": [
+            "Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.Dromon1",
+        "replaces": "Unit.Quadrireme",
+        "uniqueTo": "Nation.Byzantium.BasilII",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 106, // 20
+        "rangedStrength": 129, // 25
+        "range": 2,
+        "movement": 3,
+        "cost": 120,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Frigate",
+        "requiredTech": "Tech.Shipbuilding",
+        // "obsoleteTech": "Tech.Steel",
+        "obsoleteTech": "Tech.SquareRigging",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "[+54]% Strength <vs [Naval] units>",
+            "[+54]% Strength <vs [Land] units>",
+            "Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
+            "Comment [Maintenance cost of 2]"
+        ]
+    },
+    {
+        "name": "Unit.Dromon2",
+        "replaces": "Unit.Quadrireme",
+        "uniqueTo": "Nation.Byzantium.Theodora",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 106, // 20
+        "rangedStrength": 129, // 25
+        "range": 2,
+        "movement": 3,
+        "cost": 120,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Frigate",
+        "requiredTech": "Tech.Shipbuilding",
+        // "obsoleteTech": "Tech.Steel",
+        "obsoleteTech": "Tech.SquareRigging",
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "[+54]% Strength <vs [Naval] units>",
+            "[+54]% Strength <vs [Land] units>",
             "Cannot enter ocean tiles <before discovering [Tech.Cartography]>",
             "Comment [Maintenance cost of 2]"
         ]

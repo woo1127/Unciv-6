@@ -11,9 +11,12 @@
     // ],
     "constants": {
         "maxXPfromBarbarians": 10,
-        "cityStrengthBase": 60,
-        "cityStrengthPerPop": 13.8,
-        "cityStrengthFromTechsFullMultiplier": 8,
+        "cityStrengthBase": 100,
+        "cityStrengthPerPop": 0,
+        "cityStrengthFromTechsMultipler": 0,
+        "cityStrengthFromTechsExponent": 1,
+        "cityStrengthFromTechsFullMultiplier": 0,
+        "cityStrengthFromGarrison": 1,
         "unitSupplyPerPopulation": 1,
         "unitUpgradeCost": {},
         "naturalWonderCountMultiplier": 0.2,
@@ -23,7 +26,7 @@
         "riverCountMultiplier": 0.08,
         "minRiverLength": 1,
         "maxRiverLength": 999,
-        "pantheonBase": 12,
+        "pantheonBase": 17,
         "pantheonGrowth": 0
     },
     "uniques":[

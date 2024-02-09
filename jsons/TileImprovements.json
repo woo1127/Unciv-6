@@ -1233,6 +1233,21 @@
             // UU of Brazil
             "[+1 Faith] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
 
+            // UU of Byzantium
+            "Provides [1] [Resource.Unit.Prophet] <for [Class.Nation.Byzantium]> <hidden from users>",
+
+            // UU of Theodora of Byzantium
+            "[+1 Faith] for each adjacent [Improvement.Farm] <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+2 Culture] for each adjacent [Natural Wonder] <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+1 Culture] for each adjacent [Landform.Mountain] <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+1 Culture] <with [2] to [3] neighboring [Class.District] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+2 Culture] <with [4] to [5] neighboring [Class.District] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+3 Culture] <with [6] to [7] neighboring [Class.District] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+1 Culture] <with [2] to [3] neighboring [Landform.Woods] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+2 Culture] <with [4] to [5] neighboring [Landform.Woods] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+3 Culture] <with [6] to [7] neighboring [Landform.Woods] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            // "[+1 Culture] for each adjacent [NaturalWonder.Pamukkale] <for [Nation.Byzantium.Theodora]> <hidden from users>",
+
             // Effect of Follower.WorkEthic
             "[+2 Production] for each adjacent [Natural Wonder] <after adopting [Follower.WorkEthic]> <hidden from users>",
             "[+1 Production] for each adjacent [Landform.Mountain] <after adopting [Follower.WorkEthic]> <hidden from users>",
@@ -1444,6 +1459,24 @@
         "name": "District.EntertainmentComplex",
         "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
         "uniques": [
+            "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "District.Hippodrome",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "[+1 Faith] for each adjacent [Improvement.Farm]",
+
             "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
             "Irremovable <hidden from users>",
             "Great Improvement <hidden from users>",

@@ -2,6 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         // correction of the original mechanism of the unciv game
+        "[-100]% Strength for cities <before discovering [Tech.Steel]>",
         "[-100]% Culture cost of adopting new Policies",
         "[-100]% to Flank Attack bonuses <before adopting [Civic.MilitaryTradition]>",
         "[-100]% maintenance costs",

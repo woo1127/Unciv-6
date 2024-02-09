@@ -14,7 +14,8 @@
         "uniques": [
             "Indicates the capital city",
             "Provides [2] [Resource.Housing]",
-            "Can only be built [in capital]"
+            "Can only be built [in capital]",
+            "[+15]% Strength for cities"
         ]
     },
     {
@@ -42,10 +43,10 @@
         "name": "Building.AncientWalls",
         "cost": 80,
         "hurryCostModifier": -33,
-        "cityStrength": 50,
-        "cityHealth": 50,
+        "cityHealth": 100,
         "requiredTech": "Tech.Masonry",
         "uniques": [
+            "[+15]% Strength for cities",
             "Provides [2] [Resource.Housing] <if [Gov.Monarchy] is constructed>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
@@ -75,9 +76,9 @@
         "hurryCostModifier": -33,
         "requiredTech": "Tech.Castles",
         "requiredBuilding": "Building.AncientWalls",
-        "cityStrength": 150,
-        "cityHealth": 50,
+        "cityHealth": 100,
         "uniques": [
+            "[+15]% Strength for cities",
             "Provides [2] [Resource.Housing] <if [Gov.Monarchy] is constructed>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
@@ -91,9 +92,9 @@
         "hurryCostModifier": -33,
         "requiredTech": "Tech.SiegeTactics",
         "requiredBuilding": "Building.MedievalWalls",
-        "cityStrength": 250,
-        "cityHealth": 50,
+        "cityHealth": 100,
         "uniques": [
+            "[+15]% Strength for cities",
             "Provides [2] [Resource.Housing] <if [Gov.Monarchy] is constructed>",
             "Cannot be purchased",
             "Destroyed when the city is captured",
@@ -1498,6 +1499,54 @@
             "Only available <after adopting [Civic.GamesAndRecreation]>",
             "Only available <in cities without a [Building.District.WaterPark]>",
             "Creates a [District.EntertainmentComplex] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.District.Hippodrome1",
+        "replaces": "Building.District.EntertainmentComplex",
+        "uniqueTo": "Nation.Byzantium.BasilII",
+        "cost": 27,
+        "happiness": 3,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Free [Unit.Knight] appears",
+            "Instantly provides [20] [Resource.Iron]",
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Only available <in cities without a [Building.District.WaterPark]>",
+            "Creates a [District.Hippodrome] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.EntertainmentComplex"
+        ]
+    },
+    {
+        "name": "Building.District.Hippodrome2",
+        "replaces": "Building.District.EntertainmentComplex",
+        "uniqueTo": "Nation.Byzantium.Theodora",
+        "cost": 27,
+        "happiness": 3,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Free [Unit.Knight] appears",
+            "Instantly provides [20] [Resource.Iron]",
+            "Only available <after adopting [Civic.GamesAndRecreation]>",
+            "Only available <in cities without a [Building.District.WaterPark]>",
+            "Creates a [District.Hippodrome] improvement on a specific tile",
             "Cost increases by [27] per owned city",
 
             "Unsellable <hidden from users>",

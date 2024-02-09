@@ -511,5 +511,67 @@
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"
         ]
+    },
+    {
+        "name": "Nation.Byzantium.BasilII",
+        "leaderName": "Basil II",
+        "adjective": ["Byzantine"],
+        "innerColor": [233, 225, 157],
+        "outerColor": [55, 0, 101],
+        "preferredVictoryType": "Religious",
+        "declaringWar": "You deserve nothing less than war, but in my abundant mercy, I will make it brief and decisive.",
+        "attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
+        "defeated": "Has God withdrawn his favor from me, that Rome must fall? Oh, what a calamity!", 
+        "introduction": "You stand before Basil, Autocrat and Emperor of the Romans, scourge of my foes. Behold Rome!",
+        "startIntroPart1": "Your enemies will fear you, King Basil II, for you were forged in the fire. Let your cunning and ambitions sharpen your blade. Protect your pride and stand against your foes, both within your walls and beyond.",
+        "tradeRequest": "Together, let us prosper with God's grace.",
+        "favoredReligion": "Eastern Orthodoxy",
+        "uniqueName": "Civ ability - Taxis\nLeader bonus - Porphyrogénnētos",
+        "uniques": [
+            // Civ ability
+            "[+15]% Strength <in [in cities following our religion] cities>",
+            "[+20]% Natural religion spread [in all cities] <upon declaring war with a major Civilization>",
+            "Comment [+1 [Resource.Unit.Prophet] from Holy Sites.]",
+
+            // Leader bonus
+            "[+15] Strength <for [UnitType.HeavyCavalry] units> <vs cities>",
+            "[+15] Strength <for [UnitType.LightCavalry] units> <vs cities>",
+            "Class.Nation.Byzantium"
+        ],
+        "cities": [
+            "Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
+			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
+			"Koloneia","Tyana","Attalea","Sebasteia","Theodosiopolis","Mesembria","Arcadriopolis","Mount Athos","Dorystolon","Zara"
+        ]
+    },
+    {
+        "name": "Nation.Byzantium.Theodora",
+        "leaderName": "Theodora",
+        "adjective": ["Byzantine"],
+        "innerColor": [246, 216, 0],
+        "outerColor": [109, 0, 205],
+        "preferredVictoryType": "Religious",
+        "declaringWar": "My people demand a better life. You stand in the way of that becoming.",
+        "attacked": "Nobody puts the empress in a corner.",
+        "defeated": "The throne is a glorious sepulchre.", 
+        "introduction": "I am Theodora, who came from nothing to the throne on naught but dreams.",
+        "startIntroPart1": "Empress Theodora, you come from nothing to rule the remnants of Rome! With your wit and beauty you captivated the people of Constantinople, and placed your hand upon the great wheel of power. In a time of strife and division, let all be guided by your counsel and set your shining seal upon the land.",
+        "tradeRequest": "Lovely. Predictable, but lovely.",
+        "favoredReligion": "Eastern Orthodoxy",
+        "uniqueName": "Civ ability - Taxis\nLeader bonus - Metanoia",
+        "uniques": [
+            // Civ ability
+            "[+15]% Strength <in [in cities following our religion] cities>",
+            "[+20]% Natural religion spread [in all cities] <upon declaring war with a major Civilization>",
+            "Comment [+1 [Resource.Unit.Prophet] from Holy Sites.]",           
+
+            // Leader bonus
+            
+        ],
+        "cities": [
+            "Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
+			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
+			"Koloneia","Tyana","Attalea","Sebasteia","Theodosiopolis","Mesembria","Arcadriopolis","Mount Athos","Dorystolon","Zara"
+        ]
     }
 ]
