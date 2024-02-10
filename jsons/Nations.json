@@ -568,7 +568,7 @@
             // Leader bonus
             "Comment [[Improvement.Farm] provide a +1 [Faith] adjacency to Hippodromes and Holy Sites.]",
             "Class.Nation.Byzantium"
-        ],,
+        ],
         "cities": [
             "Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
 			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
