@@ -2510,294 +2510,294 @@ BuildingIcons/Building.Zoo
   index: -1
 BuildingIcons/City center
   rotate: false
-  xy: 428, 346
+  xy: 212, 287
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.CityCenter
   rotate: false
-  xy: 428, 346
+  xy: 212, 287
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.ArchaeologicalDig
   rotate: false
-  xy: 1616, 518
+  xy: 860, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Camp
   rotate: false
-  xy: 1616, 410
+  xy: 536, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Chateau
   rotate: false
-  xy: 1724, 518
+  xy: 320, 238
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Chemamull
   rotate: false
-  xy: 1724, 410
+  xy: 212, 179
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Farm
   rotate: false
-  xy: 1832, 518
+  xy: 428, 238
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.FishingBoats
   rotate: false
-  xy: 1832, 410
+  xy: 644, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Fort
   rotate: false
-  xy: 1940, 518
+  xy: 752, 409
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.RomanFort
   rotate: false
-  xy: 1940, 518
+  xy: 752, 409
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.GeothermalPlant
   rotate: false
-  xy: 1940, 410
+  xy: 968, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.GolfCourse
   rotate: false
-  xy: 860, 410
+  xy: 1076, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.GreatWall1
   rotate: false
-  xy: 536, 328
+  xy: 1184, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.GreatWall2
   rotate: false
-  xy: 536, 328
+  xy: 1184, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.GreatWall3
   rotate: false
-  xy: 536, 328
+  xy: 1184, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.GreatWall4
   rotate: false
-  xy: 536, 328
+  xy: 1184, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Hacienda
   rotate: false
-  xy: 320, 238
+  xy: 1292, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.IceHockeyRink
   rotate: false
-  xy: 212, 179
+  xy: 1508, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Kampung
   rotate: false
-  xy: 428, 238
+  xy: 1508, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Kurgan
   rotate: false
-  xy: 644, 328
+  xy: 1400, 409
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Lumbermill
   rotate: false
-  xy: 752, 409
+  xy: 860, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Mine
   rotate: false
-  xy: 968, 410
+  xy: 536, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Mission
   rotate: false
-  xy: 1076, 410
+  xy: 320, 130
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.NubianPyramid
   rotate: false
-  xy: 1184, 409
+  xy: 212, 71
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.OffshoreWindFarm
   rotate: false
-  xy: 860, 302
+  xy: 4, 50
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Open-AirMuseum
   rotate: false
-  xy: 536, 220
+  xy: 428, 130
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.OutbackStation
   rotate: false
-  xy: 320, 130
+  xy: 644, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Pa
   rotate: false
-  xy: 212, 71
+  xy: 752, 301
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Pairidaeza
   rotate: false
-  xy: 4, 50
+  xy: 968, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Pasture
   rotate: false
-  xy: 428, 130
+  xy: 1076, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Plantation
   rotate: false
-  xy: 644, 220
+  xy: 1184, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Polder
   rotate: false
-  xy: 752, 301
+  xy: 1292, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Quarry
   rotate: false
-  xy: 968, 302
+  xy: 1508, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.SeasideResort
   rotate: false
-  xy: 1076, 302
+  xy: 1400, 301
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.Seastead
   rotate: false
-  xy: 1292, 409
+  xy: 860, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.SkiResort
   rotate: false
-  xy: 1400, 409
+  xy: 752, 193
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.SolarFarm
   rotate: false
-  xy: 1508, 409
+  xy: 536, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.TerraceFarm
   rotate: false
-  xy: 1616, 302
+  xy: 320, 22
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.TradeRoute(Domestic)
   rotate: false
-  xy: 1724, 302
+  xy: 428, 22
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.TradeRoute(International)
   rotate: false
-  xy: 1724, 302
+  xy: 428, 22
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.TradeRouteCapacity
   rotate: false
-  xy: 1724, 302
+  xy: 428, 22
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Improvement.WindFarm
   rotate: false
-  xy: 1832, 302
+  xy: 644, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2816,16 +2816,9 @@ NationIcons/Australia
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Byzantium
-  rotate: false
-  xy: 320, 346
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 NationIcons/Canada
   rotate: false
-  xy: 212, 287
+  xy: 320, 346
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2846,77 +2839,77 @@ NationIcons/Nation.England.Victoria(AgeOfSteam)
   index: -1
 NationIcons/Ethiopia
   rotate: false
-  xy: 644, 436
+  xy: 428, 346
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/France
   rotate: false
-  xy: 752, 517
+  xy: 644, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gaul
   rotate: false
-  xy: 968, 518
+  xy: 752, 517
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Georgia
   rotate: false
-  xy: 1076, 518
+  xy: 968, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Germany
   rotate: false
-  xy: 1184, 518
+  xy: 1076, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gran Colombia
   rotate: false
-  xy: 1292, 518
+  xy: 1184, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Greece
   rotate: false
-  xy: 1400, 518
+  xy: 1292, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Hungary
   rotate: false
-  xy: 1508, 517
+  xy: 1400, 517
   size: 100, 101
   orig: 100, 101
   offset: 0, 0
   index: -1
 NationIcons/Inca
   rotate: false
-  xy: 1940, 302
+  xy: 968, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/India
   rotate: false
-  xy: 1184, 301
+  xy: 1076, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Indonesia
   rotate: false
-  xy: 860, 194
+  xy: 1184, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2930,154 +2923,168 @@ NationIcons/Japan
   index: -1
 NationIcons/Kongo
   rotate: false
-  xy: 752, 193
+  xy: 1292, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Macedon
   rotate: false
-  xy: 536, 112
+  xy: 1508, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mali
   rotate: false
-  xy: 320, 22
+  xy: 1400, 193
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mongolia
   rotate: false
-  xy: 428, 22
+  xy: 860, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Arabia.Saladin(Sultan)
   rotate: false
-  xy: 644, 112
+  xy: 752, 85
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Arabia.Saladin(Vizier)
   rotate: false
-  xy: 644, 112
+  xy: 752, 85
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Brazil.PedroII
   rotate: false
-  xy: 968, 194
+  xy: 536, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Byzantium.BasilII
+  rotate: false
+  xy: 644, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nation.Byzantium.Theodora
+  rotate: false
+  xy: 644, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.China.KublaiKhan
   rotate: false
-  xy: 1076, 194
+  xy: 968, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.China.QinShiHuang(MandateOfHeaven)
   rotate: false
-  xy: 1076, 194
+  xy: 968, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.China.QinShiHuang(Unifier)
   rotate: false
-  xy: 1076, 194
+  xy: 968, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.China.Yongle
   rotate: false
-  xy: 1076, 194
+  xy: 968, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Egypt.Cleopatra(Egyptian)
   rotate: false
-  xy: 1292, 301
+  xy: 1076, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Egypt.Cleopatra(Ptolemaic)
   rotate: false
-  xy: 1292, 301
+  xy: 1076, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Egypt.RamsesII
   rotate: false
-  xy: 1292, 301
+  xy: 1076, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Korea.Sejong
   rotate: false
-  xy: 1400, 301
+  xy: 1184, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nation.Korea.Seondeok
   rotate: false
-  xy: 1400, 301
+  xy: 1184, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Norway
   rotate: false
-  xy: 1508, 301
+  xy: 1292, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nubia
   rotate: false
-  xy: 1616, 194
+  xy: 1508, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Persia
   rotate: false
-  xy: 1724, 194
+  xy: 1400, 85
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Phoenicia
   rotate: false
-  xy: 1832, 194
+  xy: 1616, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Poland
   rotate: false
-  xy: 1940, 194
+  xy: 1616, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Rome
   rotate: false
-  xy: 1508, 85
+  xy: 1940, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3112,49 +3119,49 @@ ReligionIcons/Teotl
   index: -1
 ResourceIcons/Resource.Aluminum
   rotate: false
-  xy: 1184, 193
+  xy: 1616, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Bananas
   rotate: false
-  xy: 860, 86
+  xy: 1616, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Cattle
   rotate: false
-  xy: 752, 85
+  xy: 1616, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Coal
   rotate: false
-  xy: 536, 4
+  xy: 1724, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Copper
   rotate: false
-  xy: 644, 4
+  xy: 1724, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Crabs
   rotate: false
-  xy: 968, 86
+  xy: 1724, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Deer
   rotate: false
-  xy: 1076, 86
+  xy: 1724, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3168,7 +3175,7 @@ ResourceIcons/Resource.DiplomacyPolicySlot
   index: -1
 ResourceIcons/Resource.District
   rotate: false
-  xy: 1292, 193
+  xy: 1724, 86
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3182,28 +3189,28 @@ ResourceIcons/Resource.EconomicPolicySlot
   index: -1
 ResourceIcons/Resource.Fish
   rotate: false
-  xy: 1400, 193
+  xy: 1832, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Horses
   rotate: false
-  xy: 1508, 193
+  xy: 1832, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Iron
   rotate: false
-  xy: 1616, 86
+  xy: 1832, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Maize
   rotate: false
-  xy: 1724, 86
+  xy: 1832, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3224,7 +3231,7 @@ ResourceIcons/Resource.Niter
   index: -1
 ResourceIcons/Resource.Oil
   rotate: false
-  xy: 1940, 86
+  xy: 1940, 518
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3238,21 +3245,21 @@ ResourceIcons/Resource.Power
   index: -1
 ResourceIcons/Resource.Sheep
   rotate: false
-  xy: 1184, 85
+  xy: 1940, 410
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Uranium
   rotate: false
-  xy: 1292, 85
+  xy: 1940, 302
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Resource.Wheat
   rotate: false
-  xy: 1400, 85
+  xy: 1940, 194
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

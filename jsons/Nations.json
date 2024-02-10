@@ -574,5 +574,34 @@
 			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
 			"Koloneia","Tyana","Attalea","Sebasteia","Theodosiopolis","Mesembria","Arcadriopolis","Mount Athos","Dorystolon","Zara"
         ]
+    },
+    {
+        "name": "Nation.Cree.Poundmaker",
+        "leaderName": "Poundmaker",
+        "adjective": ["Cree"],
+        "innerColor": [97, 191, 34],
+        "outerColor": [1, 42, 108],
+        "declaringWar": "I do not care to inflict the terrors of war upon you—but justice requires it.",
+        "attacked": "You could have found another way. Now, your regrets will be measured in blood.",
+        "defeated": "Had I wanted war, I would not be here now. You did not catch me. I gave myself up.",
+        "introduction": "I am Poundmaker, and I represent the Cree. May there always be peace between us.",
+        "startIntroPart1": "Poundmaker, you bear the fate of the Cree without complaint. None doubt the skill of your warriors, but they rely upon your wisdom—striking your enemies does no good if you cannot protect your homes. As the world changes in unexpected ways, your alliances will bind you to a lasting future. Those who stand alone die alone.",
+        "tradeRequest": "My people send you gifts—buffalo robes and pimihkan. With these you will last through winter.",
+        "uniqueName": "Civ ability - Nihithaw\nLeader bonus - Favorable Terms",
+        "uniques": [
+            // Civ ability
+            "Provides [1] [Resource.TradeRouteCapacity] <upon discovering [Tech.Pottery]>",
+            "Free [Unit.Trader] appears <upon discovering [Tech.Pottery]>",
+
+            // Leader bonus
+            "[+1 Gold] from every [Improvement.Pasture] <in cities with a [Building.TradingPost]>",
+            "[+1 Gold] from every [Improvement.Camp] <in cities with a [Building.TradingPost]>",
+            "Class.Nation.Cree"
+        ],
+        "cities": [
+            "Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
+			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
+			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"
+        ]
     }
 ]

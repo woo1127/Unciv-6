@@ -177,6 +177,27 @@
 
     // Nation Uniques ########################################################################################################
     {
+        "name": "Improvement.Mekewap",
+        "uniqueTo": "Nation.Cree.Poundmaker",
+        "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert", "Snow"],
+        "production": 1,
+        "uniques": [
+            "[+1 Production] <after adopting [Civic.CivilService]>",
+            "[+2 Gold] for each adjacent [Luxury resource] <after discovering [Tech.Cartography]>",
+            "Comment [+1 [Food] for every two adjacent Bonus Resources before adopting [Civic.Conservation]]",
+            "[+1 Food] <with [2] to [3] neighboring [Bonus resource] tiles> <before adopting [Civic.Conservation]> <hidden from users>",
+            "[+2 Food] <with [4] to [5] neighboring [Bonus resource] tiles> <before adopting [Civic.Conservation]> <hidden from users>",
+            "[+3 Food] <with [6] to [7] neighboring [Bonus resource] tiles> <before adopting [Civic.Conservation]> <hidden from users>",
+            "[+1 Food] for each adjacent [Bonus resource] <after adopting [Civic.Conservation]>",
+            "Provides [2] [Resource.Housing]",
+            "Provides [2] [Resource.Housing] <after adopting [Civic.CivilService]>",
+            "Only available <in tiles adjacent to [Luxury resource]> <in tiles adjacent to [Bonus resource]>",
+            "Only available <in tiles not adjacent to [Improvement.Mekewap]>",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Class.Improvement"
+        ]
+    },  
+    {
         "name": "Improvement.GreatWall1",
         "uniqueTo": "Nation.China.QinShiHuang(MandateOfHeaven)",
         "terrainsCanBeBuiltOn": ["Land"],
@@ -347,25 +368,34 @@
         "name": "Remove Landform.Woods",
         "techRequired": "Tech.Mining",
         "turnsToBuild": 4,
-        "uniques": [],
+        "uniques": [
+            "Class.Improvement"
+        ],
         "civilopediaText": [{"text": "Grant a one time production bonus"}]
     },
     {
         "name": "Remove Landform.Rainforest",
         "techRequired": "Tech.BronzeWorking",
         "turnsToBuild": 6,
-        "uniques": []
+        "uniques": [
+            "Class.Improvement"
+        ]
     },
     {
         "name": "Remove Landform.NuclearFallout",
         "turnsToBuild": 4,
-        "uniques": ["Can be built outside your borders"]
+        "uniques": [
+            "Can be built outside your borders",
+            "Class.Improvement"
+        ]
     },
     {
         "name": "Remove Landform.Marsh",
         "techRequired": "Tech.Irrigation",
         "turnsToBuild": 6,
-        "uniques": []
+        "uniques": [
+            "Class.Improvement"
+        ]
     },
     {
         "name": "Remove Road",

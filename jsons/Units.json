@@ -1,17 +1,17 @@
 [
     // Civilian
-    {
-		"name": "Worker",
-		"unitType": "UnitType.Civilian",
-		"movement": 2,
-		"cost": 50,
-        "hurryCostModifier": -15,
-		"uniques": [
-            "Can build [Land] improvements on tiles", 
-            "Automation is a primary action",
-            "Class.Unit.Builder"
-        ]
-	},
+    // {
+	// 	"name": "Worker",
+	// 	"unitType": "UnitType.Civilian",
+	// 	"movement": 2,
+	// 	"cost": 50,
+    //     "hurryCostModifier": -15,
+	// 	"uniques": [
+    //         "Can build [Land] improvements on tiles", 
+    //         "Automation is a primary action",
+    //         "Class.Unit.Builder"
+    //     ]
+	// },
     {
         "name": "Builder",
         "unitType": "UnitType.Civilian",
@@ -19,7 +19,7 @@
         "cost": 50,
         "hurryCostModifier": -15,
         "uniques": [
-            "Can build [Land] improvements on tiles",
+            // "Can build [Land] improvements on tiles",
             "Can instantly construct a [Class.Improvement] improvement <[3] times> <after which this unit is consumed> <when below [1] [Resource.BuilderChargeAuxiliary]>",
             "Can instantly construct a [Class.Improvement] improvement <[4] times> <after which this unit is consumed> <when above [0] [Resource.BuilderChargeAuxiliary]> <when below [2] [Resource.BuilderChargeAuxiliary]> <hidden from users>",
             "Can instantly construct a [Class.Improvement] improvement <[5] times> <after which this unit is consumed> <when above [1] [Resource.BuilderChargeAuxiliary]> <when below [3] [Resource.BuilderChargeAuxiliary]> <hidden from users>",
@@ -33,8 +33,7 @@
         "movement": 2,
         "cost": 80,
         "uniques": [
-            // Not working for unit
-            // "Cost increases by [30] per owned city",
+            "Cost increases by [30] per owned city",
             "Founds a new city <by consuming this unit> <in tiles without [Natural Wonder]> <in tiles without [Mountain]> <in tiles without [Landform.VolcanicSoil]>",
 			"Requires at least [2] population",
             "[+1] Sight",
@@ -119,13 +118,28 @@
     // Scout
     {
         "name": "Unit.Scout",
-        "unitType": "UnitType.Scout",
+        "unitType": "UnitType.Recon",
         "strength": 71, // 10
         "movement": 3,
         "cost": 30,
         "hurryCostModifier": -33,
         "attackSound": "nonmetalhit",
         "uniques": [
+            "This Unit gains [10] XP <upon discovering a Natural Wonder>"
+        ]
+    },
+    {
+        "name": "Unit.Okihtcitaw",
+        "replaces": "Unit.Scout",
+        "uniqueTo": "Nation.Cree.Poundmaker",
+        "unitType": "UnitType.Recon",
+        "strength": 100, // 20
+        "movement": 3,
+        "cost": 40,
+        "hurryCostModifier": -33,
+        "attackSound": "nonmetalhit",
+        "uniques": [
+            "This Unit gains [20] XP",
             "This Unit gains [10] XP <upon discovering a Natural Wonder>"
         ]
     },

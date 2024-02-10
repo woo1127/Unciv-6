@@ -3922,7 +3922,7 @@
         "cost": 0,
         "requiredResource": "Resource.MilitaryPolicySlot",
         "uniques": [
-            "Comment [+50% Production Production toward Ancient and Classical era melee, ranged units and anti-cavalry units.]",
+            "Comment [+50% [Production] toward Ancient and Classical era melee, ranged units and anti-cavalry units.]",
             "[+50]% Production when constructing [{Era.Ancient} {UnitType.Melee}] units [in all cities] <hidden from users>",
             "[+50]% Production when constructing [{Era.Ancient} {UnitType.Ranged}] units [in all cities] <hidden from users>",
             "[+50]% Production when constructing [{Era.Ancient} {UnitType.AntiCavalry}] units [in all cities] <hidden from users>",

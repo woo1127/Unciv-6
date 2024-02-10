@@ -13,7 +13,7 @@
         ]
     },
     {
-        "name": "UnitType.Scout",
+        "name": "UnitType.Recon",
         "movementType": "Land",
         "uniques": [
             "Heal this unit by [50] HP <for [All] units> <upon being promoted> <hidden from users>"
