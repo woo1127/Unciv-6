@@ -534,8 +534,8 @@
             "Comment [+1 [Resource.Unit.Prophet] from Holy Sites.]",
 
             // Leader bonus
-            "[+15] Strength <for [UnitType.HeavyCavalry] units> <vs cities>",
-            "[+15] Strength <for [UnitType.LightCavalry] units> <vs cities>",
+            "[+15]% Strength <for [UnitType.HeavyCavalry] units> <vs cities>",
+            "[+15]% Strength <for [UnitType.LightCavalry] units> <vs cities>",
             "Class.Nation.Byzantium"
         ],
         "cities": [
@@ -566,8 +566,9 @@
             "Comment [+1 [Resource.Unit.Prophet] from Holy Sites.]",           
 
             // Leader bonus
-            
-        ],
+            "Comment [[Improvement.Farm] provide a +1 [Faith] adjacency to Hippodromes and Holy Sites.]",
+            "Class.Nation.Byzantium"
+        ],,
         "cities": [
             "Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
 			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
