@@ -130,7 +130,7 @@
             "[+1 Food] from [Class.District.WaterPark] tiles [in this city]",
             "[+3 Gold] from [Class.District.Harbor] tiles [in this city]",
             "[+1 Production] from [Class.District.IndustrialZone] tiles [in this city]",
-            "[+2 Gold] from [Class.District.GovernmentPlaze] tiles [in this city]",
+            "[+2 Gold] from [Class.District.GovernmentPlaza] tiles [in this city]",
             // "[+1 Culture] from [Class.District.DiplomaticQuarter] tiles [in this city]",
 
             "Only available <after adopting [Civic.ForeignTrade]>",
@@ -1640,6 +1640,48 @@
         ]
     },
     {
+        "name": "Building.District.Hansa1",
+        "replaces": "Building.District.IndustrialZone",
+        "uniqueTo": "Nation.Germany.FrederickBarbarossa",
+        "cost": 27,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Apprenticeship",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Hansa] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Production] from every [Specialist.Engineer] <in this city> <hidden from users>",
+            
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
+        "name": "Building.District.Hansa2",
+        "replaces": "Building.District.IndustrialZone",
+        "uniqueTo": "Nation.Germany.LugwigII",
+        "cost": 27,
+        "maintenance": 1,
+        "hurryCostModifier": -33,
+        "requiredTech": "Tech.Apprenticeship",
+        "requiredResource": "Resource.District",
+        "uniques": [
+            "Creates a [District.Hansa] improvement on a specific tile",
+            "Cost increases by [27] per owned city",
+            "[+2 Production] from every [Specialist.Engineer] <in this city> <hidden from users>",
+            
+            "Unsellable <hidden from users>",
+            "Cannot be purchased <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Class.Building.District",
+            "Class.DistrictBuilding.IndustrialZone"
+        ]
+    },
+    {
         "name": "Building.District.Neighborhood",
         "cost": 54,
         "hurryCostModifier": -33,
@@ -1648,6 +1690,7 @@
             "Cost increases by [27] per owned city",
             
             "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
+            "Only available <after adopting [Civic.Urbanization]>",
 
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
@@ -1721,6 +1764,7 @@
 
             "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
 
+            "Only available <after adopting [Civic.StateWorkforce]>",
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -4598,6 +4642,9 @@
             "Provides [1] [Resource.District] <in cities with at least [25] [Population]>",
             "Provides [1] [Resource.District] <in cities with at least [28] [Population]>",
             "Provides [1] [Resource.District] <in cities with at least [31] [Population]>",
+
+            // UA of Germany
+            "Provides [1] [Resource.District] <for [Class.Nation.Germany]>",
 
             // "[-50]% growth [in this city] <in cities with at least [1] [Population]> <when below [5] [Resource.Housing]> <when above [3] [Resource.Housing]>",
             // "[-50]% growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.Housing]> <when above [4] [Resource.Housing]>",

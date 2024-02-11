@@ -1083,6 +1083,28 @@
         ]
     },
     {
+        "name": "Unit.DeZevenProvinciën",
+        "replaces": "Unit.Frigate",
+        "uniqueTo": "Nation.Netherlands.Wilhelmina",
+        "unitType": "UnitType.NavalRanged",
+        "strength": 352, // 50
+        "rangedStrength": 525, // 60
+        "range": 2,
+        "movement": 4,
+        "cost": 280,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.Battleship",
+        "requiredTech": "Tech.SquareRigging",
+        "obsoleteTech": "Tech.Lasers",
+        "attackSound": "shipCannonVolley",
+        "uniques": [
+            "[+36]% Strength <vs cities>",
+            "Instantly consumes [10] [Resource.Niter]",
+            "Unbuildable <when below [10] [Resource.Niter]>",
+            "Comment [Maintenance cost of 5]"
+        ]
+    },
+    {
         "name": "Unit.Battleship",
         "unitType": "UnitType.NavalRanged",
         "strength": 525, // 60
@@ -1203,6 +1225,46 @@
         "uniques": [
             "Instantly consumes [1] [Resource.Oil]",
             "Unbuildable <when below [1] [Resource.Oil]>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.U-Boat1",
+        "replaces": "Unit.Submarine",
+        "uniqueTo": "Nation.Germany.FrederickBarbarossa",
+        "unitType": "UnitType.NavalRaider",
+        "strength": 641, // 65
+        "rangedStrength": 957, // 75
+        "range": 2,
+        "movement": 3,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.NuclearSubmarine",
+        "requiredTech": "Tech.Electricity",
+        "attackSound": "torpedo",
+        "uniques": [
+            "[+1] Sight",
+            "[+54]% Strength <in [Ocean] tiles>",
+            "Comment [Maintenance cost of 6]"
+        ]
+    },
+    {
+        "name": "Unit.U-Boat2",
+        "replaces": "Unit.Submarine",
+        "uniqueTo": "Nation.Germany.LugwigII",
+        "unitType": "UnitType.NavalRaider",
+        "strength": 641, // 65
+        "rangedStrength": 957, // 75
+        "range": 2,
+        "movement": 3,
+        "cost": 430,
+        "hurryCostModifier": -33,
+        "upgradesTo": "Unit.NuclearSubmarine",
+        "requiredTech": "Tech.Electricity",
+        "attackSound": "torpedo",
+        "uniques": [
+            "[+1] Sight",
+            "[+54]% Strength <in [Ocean] tiles>",
             "Comment [Maintenance cost of 6]"
         ]
     },

@@ -603,5 +603,110 @@
 			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
 			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"
         ]
+    },
+    {
+        "name": "Nation.Netherlands.Wilhelmina",
+        "leaderName": "Wilhelmina",
+        "adjective": ["Dutch"],
+        "innerColor": [0, 75, 195],
+        "outerColor": [255, 135, 29],
+        "startBias": ["River", "Coast"],
+        "preferredVictoryType": "Cultural",
+        "declaringWar": "The Netherlands does not fear you. When we defeat you, we will be stronger than ever.",
+        "attacked": "Your treacherous aggression shall not succeed. The Netherlands will endure!",
+        "defeated": "With God's help, may the Netherlands one day reclaim its territory.",
+        "introduction": "I am Wilhelmina, Queen of the Netherlands. It is my great pleasure to finally meet you.",
+        "startIntroPart1": "Queen Wilhelmina, you will defend the Netherlands to the last. Turn coastland to farmland with Dutch ingenuity. Your citizens will farm with great efficiency, knowing that they are under the protection of your mighty warships. Above all, trade with everyone you meet. A good deal can turn a foe into a friend—and if not, the money will fund your opposition.",
+        "tradeRequest": "We have heard no better offer.",
+        "favoredReligion": "Protestantism",
+        "uniqueName": "Civ ability - Grote Rivieren\nLeader bonus - ",
+        "uniques": [
+            // Civ ability
+            // "+50% [Production] towards the Dam district and Flood Barrier building."
+            "Comment [Building a Harbor triggers a Culture Bomb, claiming surrounding tiles.]",
+            "[+2 Science] from every [District.Campus] <with [1] to [6] neighboring [River] tiles>",
+            "[+2 Culture] from every [District.TheaterSquare] <with [1] to [6] neighboring [River] tiles>",
+            "[+2 Production] from every [District.IndustrialZone] <with [1] to [6] neighboring [River] tiles>",
+            
+            // Leader bonus
+            "[+2 Culture] from every [Building.TradingPost]",
+            "Class.Nation.Netherlands"
+        ],
+        "cities": [
+            "Amsterdam","Rotterdam","Utrecht","Groningen","Breda","Nijimegen","Den Haag","Haarlem","Arnhem","Zutphen",
+			"Maastricht","Tilburg","Eindhoven","Dordrecht","Leiden","Hertogenbosch","Almere","Alkmaar","Brielle","Vlissingen",
+			"Apeldoorn","Nova Enschede","Sao Bernardo do Amersfoort","Zwolle","Venlo","Uden","Grave","Delft","Gouda","Nieuwstadt",
+			"Weesp","Coevorden","Kerkrade"
+        ]
+    },
+    {
+        "name": "Nation.Germany.FrederickBarbarossa",
+        "leaderName": "Frederick Barbarossa",
+        "adjective": ["German"],
+        "innerColor": [25, 25, 25],
+        "outerColor": [174, 174, 174],
+        "startBias": ["River"],
+        "declaringWar": "Let it be known: you are an enemy of Germany and must be destroyed. May God have mercy on you, for I will not.",
+        "attacked": "I have defeated enemies ten times as powerful as you. You will be just one more for the historians.",
+        "defeated": "We were the august and glorious… but no, never mind that. You are victorious. May your reign be more peaceful than mine ever was.",
+        "introduction": "Greetings. I am the Holy Roman Emperor Frederick, King of Germany, Italy, Burgundy, and many others. I trust that you will rule your lands as I do: through might.",
+        "startIntroPart1": "Heroic Frederick, king of the Germans, your task is to forge the independent states that surround you into an empire. You are blessed to be a great military leader - use those skills to bring these cities under your sway so they may develop into commercial and industrial powerhouses. Surely then the bards will sing of mighty Frederick with the red beard, the great Holy Roman Emperor.",
+        "favoredReligion": "Catholicism",
+        "uniqueName": "Civ ability -  Free Imperial Cities\nLeader bonus - Holy Roman Emperor",
+        "uniques": [
+            // Civ ability
+            "Comment [Each city can build one more specialty District than the Citizen Population limit would normally allow.]",
+
+            // Leader bonus
+            "Comment [Gains an additional [Resource.MilitaryPolicySlot] in all Governments.]",
+            "[+36]% Strength <vs [City-states]>",
+            "Class.Nation.Germany"
+        ],
+        "cities": [
+            "Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Münchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"
+        ]
+    },
+    {
+        "name": "Nation.Germany.LugwigII",
+        "leaderName": "Lugwig II",
+        "adjective": ["German"],
+        "innerColor": [249, 249, 249],
+        "outerColor": [98, 138, 206],
+        "startBias": ["River"],
+        "declaringWar": "Have at you, then! We shall write new legends of this day!",
+        "attacked": "Villain! You are as despicable as that Count Telramund! As that Fafnir!",
+        "defeated": "Perhaps we may meet on the way between the Wood and the World.",
+        "introduction": "I am Ludwig of Bavaria, King of these lands and the embodiment of the Swan-Knight of legend.",
+        "startIntroPart1": "King Ludwig, they call you mad, but your madness is the madness of dreams, of poetry and fairy stories. You imagined that the world could be otherwise, that we could build an enchanted kingdom where all seemed tedious and mundane. Oh Swan King, the world has need of your castles and knights, your dragon-haunted mountains and mystical grottoes. Come again, and give us new dreams.",
+        "tradeRequest": "I have sent to you one hundred swans- I have sent to you fifty sw- Excuse me, I have not tied them down well. I have sent you a swan.",
+        "favoredReligion": "Catholicism",
+        "uniqueName": "Civ ability -  Free Imperial Cities\nLeader bonus - Swan King",
+        "uniques": [
+            // Civ ability
+            "Comment [Each city can build one more specialty District than the Citizen Population limit would normally allow.]",
+
+            // Leader bonus
+            "Comment [Wonders receive a +2 [Culture] bonus from each adjacent District.]",
+            "[+2 Culture] from every [Class.WonderDistrict] <with [1] to [1] neighboring [Class.District] tiles>",
+            "[+4 Culture] from every [Class.WonderDistrict] <with [2] to [2] neighboring [Class.District] tiles>",
+            "[+6 Culture] from every [Class.WonderDistrict] <with [3] to [3] neighboring [Class.District] tiles>",
+            "[+8 Culture] from every [Class.WonderDistrict] <with [4] to [4] neighboring [Class.District] tiles>",
+            "[+10 Culture] from every [Class.WonderDistrict] <with [5] to [5] neighboring [Class.District] tiles>",
+            "[+12 Culture] from every [Class.WonderDistrict] <with [6] to [6] neighboring [Class.District] tiles>",
+            "Class.Nation.Germany"
+        ],
+        "cities": [
+            "Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Münchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"
+        ]
     }
 ]

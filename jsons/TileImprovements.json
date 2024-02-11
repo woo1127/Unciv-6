@@ -177,6 +177,24 @@
 
     // Nation Uniques ########################################################################################################
     {
+        "name": "Improvement.Polder",
+        "uniqueTo": "Nation.Netherlands.Wilhelmina",
+        "terrainsCanBeBuiltOn": ["Coast", "Lakes"],
+        "food": 1,
+        "production": 1,
+        "uniques": [
+            "[+1 Food] for each adjacent [Improvement.Polder] <before discovering [Tech.ReplaceableParts]>",
+            "[+2 Food] for each adjacent [Improvement.Polder] <after discovering [Tech.ReplaceableParts]>",
+            "[+1 Production] for each adjacent [Improvement.Polder] <after discovering [Tech.ReplaceableParts]>",
+            "[+4 Gold] <after adopting [Civic.CivilEngineering]>",
+            "Provides [1] [Resource.Housing]",
+            "Only available <with [3] to [6] neighboring [Land] tiles>",
+            "Only available <after adopting [Civic.Guilds]>",
+            "Pillaging this improvement yields approximately [+20 Faith] <hidden from users>",
+            "Class.Improvement"
+        ]
+    },
+    {
         "name": "Improvement.Mekewap",
         "uniqueTo": "Nation.Cree.Poundmaker",
         "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert", "Snow"],
@@ -1159,7 +1177,7 @@
 
             "Provides [1] [Resource.Unit.Scientist] <in cities with a [Building.Library]> <after adopting [Pantheon.DivineSpark]> <hidden from users>",
 
-            // UU of Brazil
+            // UA of Brazil
             "[+1 Science] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
 
             // UB effect of Arabian, the Madrasa
@@ -1260,13 +1278,13 @@
             "[+1 Faith] for each adjacent [Desert] <after adopting [Pantheon.DesertFolklore]> <hidden from users>",
             "[+1 Faith] for each adjacent [Landform.Rainforest] <after adopting [Pantheon.SacredPath]> <hidden from users>",
 
-            // UU of Brazil
+            // UA of Brazil
             "[+1 Faith] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
 
-            // UU of Byzantium
+            // UA of Byzantium
             "Provides [1] [Resource.Unit.Prophet] <for [Class.Nation.Byzantium]> <hidden from users>",
 
-            // UU of Theodora of Byzantium
+            // UA of Theodora of Byzantium
             "[+1 Faith] for each adjacent [Improvement.Farm] <for [Nation.Byzantium.Theodora]> <hidden from users>",
             "[+2 Culture] for each adjacent [Natural Wonder] <for [Nation.Byzantium.Theodora]> <hidden from users>",
             "[+1 Culture] for each adjacent [Landform.Mountain] <for [Nation.Byzantium.Theodora]> <hidden from users>",
@@ -1359,7 +1377,7 @@
 			"[+2 Culture] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
 			"[+3 Culture] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
 
-            // UU of Brazil
+            // UA of Brazil
             "[+1 Culture] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
             
             "Provides [1] [Resource.Unit.Writer] <in cities with a [Building.Amphitheater]> <after adopting [Pantheon.DivineSpark]> <hidden from users>",
@@ -1398,7 +1416,7 @@
 			"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
 			"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
 
-            // UU of Brazil
+            // UA of Brazil
             "[+1 Gold] for each adjacent [Landform.Rainforest] <for [Class.Nation.Brazil]> <hidden from users>",
 
             "Provides [1] [Resource.TradeRouteCapacity] <in cities without a [Building.District.Harbor]> <hidden from users>",
@@ -1434,6 +1452,9 @@
             "[+1 Gold] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
 			"[+2 Gold] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
 			"[+3 Gold] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+
+            // UA of Netherlands
+            "Constructing it will take over the tiles around it and assign them to your closest city <for [Class.Nation.Netherlands]> <hidden from users>",
 
             "Pillaging this improvement yields approximately [+20 Gold] <hidden from users>",
             "Irremovable <hidden from users>",
@@ -1586,7 +1607,6 @@
             // "[+2 Production] for each adjacent [District.Aqueduct] <hidden from users>",
             // "[+2 Production] for each adjacent [District.Dam] <hidden from users>",
             // "[+2 Production] for each adjacent [District.Canal] <hidden from users>",
-
             "[+1 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
             
             // Building.CoalPowerPlant grants bonus Production equal to the district's current adjacency bonus.
@@ -1601,6 +1621,7 @@
             "[+6 Production] <with [6] to [7] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
             "[+2 Production] for each adjacent [Improvement.Quarry] <hidden from users>",
             "[+2 Production] for each adjacent [Class.StrategicResource] <hidden from users>",
+            "[+2 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
             
             "Pillaging this improvement yields approximately [+20 Science] <hidden from users>",
             "Irremovable <hidden from users>",
@@ -1615,8 +1636,47 @@
         ],
         "civilopediaText": [
             {"text": "+1 [Resource.Unit.Engineer] per turn"},
-            {"text": "+1 [Production] from each Strategic resource and [Improvement.Quarry]"},
+            {"text": "+1 [Production] from each adjacent Strategic resource and [Improvement.Quarry]"},
             {"text": "+1 [Production] from every 2 adjacent district tile, [Improvement.Mine] or [Improvement.LumberMill]"},
+            {"text": "+2 [Production] for each Engineer specialists"}
+        ]
+    },
+    {
+        "name": "District.Hansa",
+        "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
+        "uniques": [
+            "Provides [1] [Resource.Unit.Engineer] <hidden from users>",
+            "[+1 Production] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
+            "[+2 Production] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
+            "[+3 Production] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+            "[+1 Production] for each adjacent [resource] <hidden from users>",
+            "[+2 Production] for each adjacent [Class.District.CommercialHub] <hidden from users>",
+            "[+1 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
+
+            // Building.CoalPowerPlant grants bonus Production equal to the district's current adjacency bonus.
+            "[+2 Production] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
+            "[+4 Production] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
+            "[+6 Production] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+            "[+2 Production] for each adjacent [resource] <hidden from users>",
+            "[+4 Production] for each adjacent [Class.District.CommercialHub] <hidden from users>",
+            "[+2 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
+
+            "Pillaging this improvement yields approximately [+20 Science] <hidden from users>",
+            "Irremovable <hidden from users>",
+            "Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+			"Tile provides yield without assigned population <hidden from users>",
+            "Ensures a minimum tile yield of [+0 Production, +0 Food, +0 Gold, +0 Science, +0 Culture, +0 Faith, +0 Happiness] <hidden from users>",
+            "Only available <in tiles without [Strategic resource]> <hidden from users>",
+			"Only available <in tiles without [Luxury resource]> <hidden from users>",
+            "Class.District",
+            "Class.District.IndustrialZone"
+        ],
+        "civilopediaText": [
+            {"text": "+1 [Resource.Unit.Engineer] per turn"},
+            {"text": "+1 [Production] from each adjacent resource"},
+            {"text": "+2 [Production] from each adjacent Commercial Hub"},
+            {"text": "+1 [Production] from every 2 adjacent district tile"},
             {"text": "+2 [Production] for each Engineer specialists"}
         ]
     },

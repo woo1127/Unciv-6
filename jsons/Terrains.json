@@ -322,7 +322,7 @@
 		"movementCost": 1,
 		"defenceBonus": -0.13,
 		// "overrideStats": true,
-		"occursOn": ["Grassland","Plains"],
+		"occursOn": ["Grassland"],
 		"uniques": [
 			"[-2 Food] <in [Class.District] tiles> <in tiles without [City center]>",
 			"[-2 Food] <in [Class.WonderDistrict] tiles> <in tiles without [City center]>",
