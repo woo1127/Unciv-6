@@ -235,7 +235,7 @@
 
 
     {
-        "name": "CityStateType.Cultural",
+        "name": "Cultural",
         "color": [139, 96, 255],
         "friendBonusUnique": [
             "[+2 Culture] [in capital]",
@@ -247,7 +247,7 @@
         ]
     },
     {
-        "name": "CityStateType.Industrial",
+        "name": "Industrial",
         "color": [139, 96, 255],
         "friendBonusUnique": [
             "[+2 Production] [in capital]",
@@ -259,7 +259,7 @@
         ]
     },
     {
-        "name": "CityStateType.Militaristic",
+        "name": "Militaristic",
         "color": [255, 0, 0],
         "friendBonusUnique": [
             "[+2 Production] [in capital]",
@@ -271,7 +271,7 @@
         ]
     },
     {
-        "name": "CityStateType.Religious",
+        "name": "Religious",
         "color": [255, 255, 255],
         "friendBonusUnique": [
             "[+2 Faith] [in capital]",
@@ -283,7 +283,7 @@
         ]
     },
     {
-        "name": "CityStateType.Scientific",
+        "name": "Scientific",
         "color": [0, 0, 255],
         "friendBonusUnique": [
             "[+2 Science] [in capital]",
@@ -295,7 +295,7 @@
         ]
     },
     {
-        "name": "CityStateType.Trade",
+        "name": "Trade",
         "color": [255, 216, 0],
         "friendBonusUnique": [
             "[+4 Gold] [in capital]",
@@ -311,7 +311,7 @@
         ]
     },
     {
-        "name": "CityStateType.Maritime",
+        "name": "Maritime",
         "friendBonusUnique": [
             "[+2 Food] [in capital]",            
             "[+2 Food] from every [District.Harbor]"
