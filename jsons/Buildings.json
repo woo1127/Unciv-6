@@ -1195,6 +1195,8 @@
             "[+50]% Production when constructing [Settler] units [in this city]",
             "Only available <in cities without a [Building.AudienceChamber]>",
             "Only available <in cities without a [Building.Warload'sThrone]>",
+            "Only available <in cities with a [Class.Building.Tier1Government]>",
+            "Only available <in cities with a [Building.District.GovernmentPlaza]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1213,6 +1215,8 @@
             "Provides [8] [Resource.Housing]",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.Warload'sThrone]>",
+            "Only available <in cities with a [Class.Building.Tier1Government]>",
+            "Only available <in cities with a [Building.District.GovernmentPlaza]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1230,6 +1234,8 @@
             "[+20]% [Production] [in all cities] <upon conquering a city> <for [5] turns>",
             "Only available <in cities without a [Building.AncestralHall]>",
             "Only available <in cities without a [Building.AudienceChamber]>",
+            "Only available <in cities with a [Class.Building.Tier1Government]>",
+            "Only available <in cities with a [Building.District.GovernmentPlaza]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1247,6 +1253,8 @@
             "May buy [{Military} {Land}] units with [Faith] [in all cities]",
             "Receive triple Gold from Barbarian encampments and pillaging Cities",
             // "Only available <in cities without a [Building.Queen'sBibliotheque]>",
+            "Only available <in cities with a [Class.Building.Tier2Government]>",
+            "Only available <in cities with a [Building.District.GovernmentPlaza]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1262,6 +1270,8 @@
         "uniques": [
             "Provides [1] [Resource.GovernorTitle]",
             "Heals [20] damage if it kills a unit",
+            "Only available <in cities with a [Class.Building.Tier3Government]>",
+            "Only available <in cities with a [Building.District.GovernmentPlaza]> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1710,6 +1720,7 @@
             
             "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
 
+            "Only available <in cities with a [Building.District.Neighborhood]> <hidden from users>",
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1728,6 +1739,7 @@
             
             "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
 
+            "Only available <in cities with a [Building.District.Neighborhood2]> <hidden from users>",
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1746,6 +1758,7 @@
             
             "Provides [4] [Resource.Housing] <in cities with a [Governor.LiangIIB]> <hidden from users>",
 
+            "Only available <in cities with a [Building.District.Neighborhood3]> <hidden from users>",
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -3221,7 +3234,7 @@
             "Provides [5] [Resource.Influence]",
             // "Provides [2] [Resource.DiplomaticFavor]",
 
-            // "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
+            "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
             "May buy [Military] units with [Faith] [in all cities]",
             "Comment [[Faith] cost of purchasing items in cities [-15]%, minus 1% for every 15 turns until maximum 75 turns]",
             "[Faith] cost of purchasing items in cities [-15]% <hidden from users>",
@@ -3242,6 +3255,39 @@
             "Class.Building.Tier2Government"
         ]
     },
+    {
+        "name": "Gov.Communism",
+        "cost": 0,
+        "uniques": [
+            "Provides [3] [Resource.MilitaryPolicySlot]",
+            "Provides [3] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [1] [Resource.WildPolicySlot]",
+            "Provides [5] [Resource.Influence]",
+            // "Provides [3] [Resource.DiplomaticFavor]",
+
+            "[3] free [Unit.Envoy] units appear <when above [200] [Resource.Influence]>",
+            "[+1 Production] per [3] population [in all cities]",
+            "[+10]% [Science] [in all cities]",
+            "Comment [+10% [Production] in all cities [-15]%, +1% for every 15 turns until maximum 75 turns]",
+            "[+10]% [Production] [in all cities] <hidden from users>",
+            "[+11]% [Production] [in all cities] <after [15] turns> <hidden from users>",
+            "[+12]% [Production] [in all cities] <after [30] turns> <hidden from users>",
+            "[+13]% [Production] [in all cities] <after [45] turns> <hidden from users>",
+            "[+14]% [Production] [in all cities] <after [60] turns> <hidden from users>",
+            "[+15]% [Production] [in all cities] <after [75] turns> <hidden from users>",
+
+            "Only available <after adopting [Civic.ClassStruggle]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier3Government"
+        ]
+    }
 
     // Governors #############################################################################################################################
     {

@@ -1262,16 +1262,18 @@
         "terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Landform.Hill","Landform.Woods","Landform.Rainforest","Landform.Marsh","Landform.FloodPlain"],
         "uniques": [
             "Provides [1] [Resource.Unit.Prophet] <hidden from users>",
-            "[+2 Faith] for each adjacent [Natural Wonder] <hidden from users>",
-            "[+1 Faith] for each adjacent [Landform.Mountain] <hidden from users>",
             "[+1 Faith] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
             "[+2 Faith] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
             "[+3 Faith] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
             "[+1 Faith] <with [2] to [3] neighboring [Landform.Woods] tiles> <hidden from users>",
             "[+2 Faith] <with [4] to [5] neighboring [Landform.Woods] tiles> <hidden from users>",
             "[+3 Faith] <with [6] to [7] neighboring [Landform.Woods] tiles> <hidden from users>",
+            "[+1 Faith] for each adjacent [Mountain] <hidden from users>",
+            "[+2 Faith] for each adjacent [Natural Wonder] <hidden from users>",
             // "[+1 Faith] for each adjacent [NaturalWonder.Pamukkale] <hidden from users>",
-            
+
+
+            // Effect of Pantheons
             "Provides [1] [Resource.Unit.Prophet] <after adopting [Pantheon.DivineSpark]> <hidden from users>",
             "Constructing it will take over the tiles around it and assign them to your closest city <after adopting [Follower.WarriorMonks]> <hidden from users>",
             "[+1 Faith] for each adjacent [Tundra] <after adopting [Pantheon.DanceOfTheAurora]> <hidden from users>",
@@ -1287,7 +1289,7 @@
             // UA of Theodora of Byzantium
             "[+1 Faith] for each adjacent [Improvement.Farm] <for [Nation.Byzantium.Theodora]> <hidden from users>",
             "[+2 Culture] for each adjacent [Natural Wonder] <for [Nation.Byzantium.Theodora]> <hidden from users>",
-            "[+1 Culture] for each adjacent [Landform.Mountain] <for [Nation.Byzantium.Theodora]> <hidden from users>",
+            "[+1 Culture] for each adjacent [Mountain] <for [Nation.Byzantium.Theodora]> <hidden from users>",
             "[+1 Culture] <with [2] to [3] neighboring [Class.District] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
             "[+2 Culture] <with [4] to [5] neighboring [Class.District] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
             "[+3 Culture] <with [6] to [7] neighboring [Class.District] tiles> <for [Nation.Byzantium.Theodora]> <hidden from users>",
@@ -1298,7 +1300,7 @@
 
             // Effect of Follower.WorkEthic
             "[+2 Production] for each adjacent [Natural Wonder] <after adopting [Follower.WorkEthic]> <hidden from users>",
-            "[+1 Production] for each adjacent [Landform.Mountain] <after adopting [Follower.WorkEthic]> <hidden from users>",
+            "[+1 Production] for each adjacent [Mountain] <after adopting [Follower.WorkEthic]> <hidden from users>",
             "[+1 Production] <with [2] to [3] neighboring [Landform.Woods] tiles> <after adopting [Follower.WorkEthic]> <hidden from users>",
             "[+2 Production] <with [4] to [5] neighboring [Landform.Woods] tiles> <after adopting [Follower.WorkEthic]> <hidden from users>",
             "[+3 Production] <with [6] to [7] neighboring [Landform.Woods] tiles> <after adopting [Follower.WorkEthic]> <hidden from users>",
@@ -1312,7 +1314,7 @@
 
             // Effect of Great Scientist Hildegard of Bingen
             "[+2 Science] for each adjacent [Natural Wonder] <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
-            "[+1 Science] for each adjacent [Landform.Mountain] <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
+            "[+1 Science] for each adjacent [Mountain] <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
             "[+1 Science] <with [2] to [3] neighboring [Class.District] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
             "[+2 Science] <with [4] to [5] neighboring [Class.District] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
             "[+3 Science] <with [6] to [7] neighboring [Class.District] tiles> <in cities with a [Building.Scientist.HildegardOfBingen]> <hidden from users>",
@@ -1334,8 +1336,8 @@
         ],
         "civilopediaText": [
             {"text": "+1 [Resource.Unit.Prophet] per turn"},
-            {"text": "+2 [Faith] from each adjacent Natural Wonder"},
             {"text": "+1 [Faith] from each adjacent Mountain tile"},
+            {"text": "+2 [Faith] from each adjacent Natural Wonder"},
             {"text": "+1 [Faith] from every 2 adjacent Woods and district tiles."},
             {"text": "+2 [Faith] for each Priest specialists"}
         ]
@@ -1610,18 +1612,18 @@
             "[+1 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
             
             // Building.CoalPowerPlant grants bonus Production equal to the district's current adjacency bonus.
-            "[+2 Production] <with [2] to [3] neighboring [Class.District] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+4 Production] <with [4] to [5] neighboring [Class.District] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+6 Production] <with [6] to [7] neighboring [Class.District] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+2 Production] <with [2] to [3] neighboring [Improvement.Mine] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+4 Production] <with [4] to [5] neighboring [Improvement.Mine] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+6 Production] <with [6] to [7] neighboring [Improvement.Mine] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+2 Production] <with [2] to [3] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+4 Production] <with [4] to [5] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+6 Production] <with [6] to [7] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
-            "[+2 Production] for each adjacent [Improvement.Quarry] <hidden from users>",
-            "[+2 Production] for each adjacent [Class.StrategicResource] <hidden from users>",
-            "[+2 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
+            "[+1 Production] <with [2] to [3] neighboring [Class.District] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+2 Production] <with [4] to [5] neighboring [Class.District] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+3 Production] <with [6] to [7] neighboring [Class.District] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+1 Production] <with [2] to [3] neighboring [Improvement.Mine] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+2 Production] <with [4] to [5] neighboring [Improvement.Mine] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+3 Production] <with [6] to [7] neighboring [Improvement.Mine] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+1 Production] <with [2] to [3] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+2 Production] <with [4] to [5] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+3 Production] <with [6] to [7] neighboring [Improvement.LumberMill] tiles> <in cities with a [Building.CoalPowerPlant]> <hidden from users>",
+            "[+1 Production] for each adjacent [Improvement.Quarry] <hidden from users>",
+            "[+1 Production] for each adjacent [Class.StrategicResource] <hidden from users>",
+            "[+1 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
             
             "Pillaging this improvement yields approximately [+20 Science] <hidden from users>",
             "Irremovable <hidden from users>",
@@ -1654,12 +1656,12 @@
             "[+1 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
 
             // Building.CoalPowerPlant grants bonus Production equal to the district's current adjacency bonus.
-            "[+2 Production] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
-            "[+4 Production] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
-            "[+6 Production] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
-            "[+2 Production] for each adjacent [resource] <hidden from users>",
-            "[+4 Production] for each adjacent [Class.District.CommercialHub] <hidden from users>",
-            "[+2 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
+            "[+1 Production] <with [2] to [3] neighboring [Class.District] tiles> <hidden from users>",
+            "[+2 Production] <with [4] to [5] neighboring [Class.District] tiles> <hidden from users>",
+            "[+3 Production] <with [6] to [7] neighboring [Class.District] tiles> <hidden from users>",
+            "[+1 Production] for each adjacent [resource] <hidden from users>",
+            "[+2 Production] for each adjacent [Class.District.CommercialHub] <hidden from users>",
+            "[+1 Production] for each adjacent [Mountain] <if [Wonder.MachuPicchu] is constructed> <hidden from users>",
 
             "Pillaging this improvement yields approximately [+20 Science] <hidden from users>",
             "Irremovable <hidden from users>",
