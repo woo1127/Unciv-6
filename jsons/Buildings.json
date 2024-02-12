@@ -1414,6 +1414,9 @@
             "Cost increases by [27] per owned city",
             "[+2 Production, +1 Gold] from every [Specialist.Commander] <in this city> <hidden from users>",
 
+            // Effect of the "Corporate Libertarianism" government
+            "[+10]% [Production] [in this city] <if [Gov.CorporateLibertarianism] is constructed> <hidden from users>",
+
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
@@ -1450,6 +1453,9 @@
             "Creates a [District.CommercialHub] improvement on a specific tile",
             "Cost increases by [27] per owned city",
             "[+4 Gold] from every [Specialist.Merchant] <in this city> <hidden from users>",
+
+            // Effect of the "Corporate Libertarianism" government
+            "[+10]% [Production] [in this city] <if [Gov.CorporateLibertarianism] is constructed> <hidden from users>",
 
             "Unsellable <hidden from users>",
             "Cannot be purchased <hidden from users>",
@@ -3066,6 +3072,9 @@
             "Provides [1] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.Influence]",
 
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
             "Only available <after adopting [Civic.Code]>",
             "Only available <in cities without a [Class.Building.Government]>",
             "Only available <in cities without a [Building.HideGov]> <hidden from users>",
@@ -3090,7 +3099,6 @@
 
             "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
             "[+1 Production, +1 Food, +1 Gold, +1 Faith, +1 Science, +1 Culture] from every [Building.Palace]",
-
             "Comment [Bonus to wonder [Production] (10%, plus 1% for every 15 turns until maximum 90 turns).]",
             "[+10]% Production when constructing [All] wonders [in all cities] <hidden from users>",
             "[+11]% Production when constructing [All] wonders [in all cities] <after [15] turns> <hidden from users>",
@@ -3099,6 +3107,9 @@
             "[+14]% Production when constructing [All] wonders [in all cities] <after [60] turns> <hidden from users>",
             "[+15]% Production when constructing [All] wonders [in all cities] <after [75] turns> <hidden from users>",
             "[+16]% Production when constructing [All] wonders [in all cities] <after [90] turns> <hidden from users>",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
 
             "Only available <after adopting [Civic.PoliticalPhilosophy]>",
             "Only available <in cities without a [Class.Building.Government]>",
@@ -3123,6 +3134,9 @@
 
             "[+1 Happiness] [in all cities] <in cities with a [Class.Building.District]>",
             "Free [Unit.Envoy] appears <when above [100] [Resource.Influence]>",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
 
             "Only available <after adopting [Civic.PoliticalPhilosophy]>",
             "Only available <in cities without a [Class.Building.Government]>",
@@ -3154,6 +3168,9 @@
             "[+23]% XP gained from combat <after [15] turns> <hidden from users>",
             "[+24]% XP gained from combat <after [20] turns> <hidden from users>",
             "[+25]% XP gained from combat <after [25] turns> <hidden from users>",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
 
             "Only available <after adopting [Civic.PoliticalPhilosophy]>",
             "Only available <in cities without a [Class.Building.Government]>",
@@ -3187,6 +3204,9 @@
             "[Gold] cost of purchasing items in cities [-19]% <after [60] turns> <hidden from users>",
             "[Gold] cost of purchasing items in cities [-20]% <after [75] turns> <hidden from users>",
 
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
             "Only available <after adopting [Civic.Exploration]>",
             "Only available <in cities without a [Class.Building.Government]>",
             "Only available <in cities without a [Building.HideGov]> <hidden from users>",
@@ -3212,6 +3232,9 @@
             "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
             "[+50]% Production when constructing [Class.Building.Wall] buildings [in all cities]",
 
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
             "Only available <after adopting [Civic.DivineRight]>",
             "Only available <in cities without a [Class.Building.Government]>",
             "Only available <in cities without a [Building.HideGov]> <hidden from users>",
@@ -3231,7 +3254,7 @@
             "Provides [2] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomacyPolicySlot]",
             "Provides [1] [Resource.WildPolicySlot]",
-            "Provides [5] [Resource.Influence]",
+            "Provides [7] [Resource.Influence]",
             // "Provides [2] [Resource.DiplomaticFavor]",
 
             "[2] free [Unit.Envoy] units appear <when above [150] [Resource.Influence]>",
@@ -3243,6 +3266,9 @@
             "[Faith] cost of purchasing items in cities [-18]% <after [45] turns> <hidden from users>",
             "[Faith] cost of purchasing items in cities [-19]% <after [60] turns> <hidden from users>",
             "[Faith] cost of purchasing items in cities [-20]% <after [75] turns> <hidden from users>",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
 
             "Only available <after adopting [Civic.ReformedChurch]>",
             "Only available <in cities without a [Class.Building.Government]>",
@@ -3263,7 +3289,7 @@
             "Provides [3] [Resource.EconomicPolicySlot]",
             "Provides [1] [Resource.DiplomacyPolicySlot]",
             "Provides [1] [Resource.WildPolicySlot]",
-            "Provides [5] [Resource.Influence]",
+            "Provides [7] [Resource.Influence]",
             // "Provides [3] [Resource.DiplomaticFavor]",
 
             "[3] free [Unit.Envoy] units appear <when above [200] [Resource.Influence]>",
@@ -3277,6 +3303,9 @@
             "[+14]% [Production] [in all cities] <after [60] turns> <hidden from users>",
             "[+15]% [Production] [in all cities] <after [75] turns> <hidden from users>",
 
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
             "Only available <after adopting [Civic.ClassStruggle]>",
             "Only available <in cities without a [Class.Building.Government]>",
             "Only available <in cities without a [Building.HideGov]> <hidden from users>",
@@ -3287,7 +3316,165 @@
             "Class.Building.Government",
             "Class.Building.Tier3Government"
         ]
-    }
+    },
+    // too hard to implement
+    // {
+    //     "name": "Gov.Democracy",
+    //     "cost": 0,
+    //     "uniques": [
+    //         "Provides [1] [Resource.MilitaryPolicySlot]",
+    //         "Provides [3] [Resource.EconomicPolicySlot]",
+    //         "Provides [2] [Resource.DiplomacyPolicySlot]",
+    //         "Provides [2] [Resource.WildPolicySlot]",
+    //         "Provides [7] [Resource.Influence]",
+    //         // "Provides [3] [Resource.DiplomaticFavor]",
+
+    //         "[3] free [Unit.Envoy] units appear <when above [200] [Resource.Influence]>",
+
+    //          "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+    //          "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
+    //         "Only available <after adopting [Civic.Suffrage]>",
+    //         "Only available <in cities without a [Class.Building.Government]>",
+    //         "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+    //         "Can only be built [in capital] <hidden from users>",
+    //         "Destroyed when the city is captured <hidden from users>",
+    //         "Triggers a global alert upon completion <hidden from users>",
+    //         "Class.Building.Government",
+    //         "Class.Building.Tier3Government"
+    //     ]
+    // }
+    {
+        "name": "Gov.Fascism",
+        "cost": 0,
+        "uniques": [
+            "Provides [4] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [2] [Resource.WildPolicySlot]",
+            "Provides [7] [Resource.Influence]",
+            // "Provides [3] [Resource.DiplomaticFavor]",
+
+            "[3] free [Unit.Envoy] units appear <when above [200] [Resource.Influence]>",
+            "[+25]% Strength",
+            "Comment [+20% [Production] when constructing Military units in all cities, +1% for every 7 turns until maximum 35 turns]",
+            "[+20]% Production when constructing [Military] units [in all cities] <hidden from users>",
+            "[+21]% Production when constructing [Military] units [in all cities] <after [7] turns> <hidden from users>",
+            "[+22]% Production when constructing [Military] units [in all cities] <after [14] turns> <hidden from users>",
+            "[+23]% Production when constructing [Military] units [in all cities] <after [21] turns> <hidden from users>",
+            "[+24]% Production when constructing [Military] units [in all cities] <after [28] turns> <hidden from users>",
+            "[+25]% Production when constructing [Military] units [in all cities] <after [35] turns> <hidden from users>",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
+            "Only available <after adopting [Civic.Totalitarianism]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier3Government"
+        ]
+    },
+    {
+        "name": "Gov.DigitalDemocracy",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [3] [Resource.DiplomacyPolicySlot]",
+            "Provides [5] [Resource.WildPolicySlot]",
+            "Provides [9] [Resource.Influence]",
+            // "Provides [4] [Resource.DiplomaticFavor]",
+
+            "[4] free [Unit.Envoy] units appear <when above [250] [Resource.Influence]>",
+            "[+2 Happiness] [in all cities]",
+            "[+2 Culture] from every [Class.District]",
+            "[+15]% Strength",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
+            "Only available <after adopting [Civic.DistributedSovereignty]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier4Government"
+        ]
+    },
+    {
+        "name": "Gov.SyntheticTechnocracy",
+        "cost": 0,
+        "uniques": [
+            "Provides [1] [Resource.MilitaryPolicySlot]",
+            "Provides [3] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [5] [Resource.WildPolicySlot]",
+            "Provides [9] [Resource.Influence]",
+            // "Provides [4] [Resource.DiplomaticFavor]",
+
+            "[4] free [Unit.Envoy] units appear <when above [250] [Resource.Influence]>",
+            "Comment [+3 [Resource.Power] in all cities]",
+            "Comment [+30% [Production] towards all city projects]",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
+            "Only available <after adopting [Civic.OptimizationImperative]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier4Government"
+        ]
+    },
+    {
+        "name": "Gov.CorporateLibertarianism",
+        "cost": 0,
+        "uniuqes": [
+            "Provides [3] [Resource.MilitaryPolicySlot]",
+            "Provides [1] [Resource.EconomicPolicySlot]",
+            "Provides [1] [Resource.DiplomacyPolicySlot]",
+            "Provides [5] [Resource.WildPolicySlot]",
+            "Provides [9] [Resource.Influence]",
+            // "Provides [4] [Resource.DiplomaticFavor]",
+
+            "[4] free [Unit.Envoy] units appear <when above [250] [Resource.Influence]>",
+            "[+10]% [Science] [in all cities]",
+            "Comment [Commercial Hubs and Encampments provide cities with +10% [Production]]",
+            "Provides [1] [Resource.Horse] <when above [0] [Resource.Horse]>",
+            "Provides [1] [Resource.Iron] <when above [0] [Resource.Iron]>",
+            "Provides [1] [Resource.Niter] <when above [0] [Resource.Niter]>",
+            "Provides [1] [Resource.Coal] <when above [0] [Resource.Coal]>",
+            "Provides [1] [Resource.Oil] <when above [0] [Resource.Oil]>",
+            "Provides [1] [Resource.Aluminum] <when above [0] [Resource.Aluminum]>",
+            "Provides [1] [Resource.Uranium] <when above [0] [Resource.Uranium]>",
+
+            "Provides [1] [Resource.EconomicPolicySlot] <for [Nation.China.KublaiKhan]> <hidden from users>",
+            "Provides [1] [Resource.MilitaryPolicySlot] <for [Nation.Germany.FrederickBarbarossa]> <hidden from users>",
+
+            "Only available <after adopting [Civic.VenturePolitics]>",
+            "Only available <in cities without a [Class.Building.Government]>",
+            "Only available <in cities without a [Building.HideGov]> <hidden from users>",
+
+            "Can only be built [in capital] <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Triggers a global alert upon completion <hidden from users>",
+            "Class.Building.Government",
+            "Class.Building.Tier4Government"
+        ]
+    },
 
     // Governors #############################################################################################################################
     {
@@ -4691,6 +4878,9 @@
 
             // UA of Germany
             "Provides [1] [Resource.District] <for [Class.Nation.Germany]>",
+
+            // Effect of Government Synthetic Technocracy
+            "Provides [3] [Resource.Power] <if [Gov.SyntheticTechnocracy] is constructed>",
 
             // "[-50]% growth [in this city] <in cities with at least [1] [Population]> <when below [5] [Resource.Housing]> <when above [3] [Resource.Housing]>",
             // "[-50]% growth [in this city] <in cities with at least [2] [Population]> <when below [6] [Resource.Housing]> <when above [4] [Resource.Housing]>",

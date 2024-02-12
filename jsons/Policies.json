@@ -568,8 +568,11 @@
                     "Comment [Consumes 1640 [Culture] (modified by game speed)]",
                     "Only available <when above [1640] [Culture] (modified by game speed)> <hidden from users>",
                     "Gain [-1640] [Culture] (modified by game speed) <hidden from users>",
+
                     "Remove [Building.HidePolicy] [in capital] <hidden from users>",
-                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
                 ]
             },
             {
@@ -714,8 +717,11 @@
                     "Comment [Consumes 3000 [Culture] (modified by game speed)]",
                     "Only available <when above [3000] [Culture] (modified by game speed)> <hidden from users>",
                     "Gain [-3000] [Culture] (modified by game speed) <hidden from users>",
+
                     "Remove [Building.HidePolicy] [in capital] <hidden from users>",
-                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
                 ]
             },
             {
@@ -727,8 +733,11 @@
                     "Comment [Consumes 3000 [Culture] (modified by game speed)]",
                     "Only available <when above [3000] [Culture] (modified by game speed)> <hidden from users>",
                     "Gain [-3000] [Culture] (modified by game speed) <hidden from users>",
+
                     "Remove [Building.HidePolicy] [in capital] <hidden from users>",
-                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
                 ]
             },
             {
@@ -740,8 +749,11 @@
                     "Comment [Consumes 3000 [Culture] (modified by game speed)]",
                     "Only available <when above [3000] [Culture] (modified by game speed)> <hidden from users>",
                     "Gain [-3000] [Culture] (modified by game speed) <hidden from users>",
+
                     "Remove [Building.HidePolicy] [in capital] <hidden from users>",
-                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>"
+                    "Gain a free [Building.HidePolicy] [in capital] <upon turn end> <hidden from users>",
+                    "Remove [Building.HideGov] [in capital] <hidden from users>",
+                    "Gain a free [Building.HideGov] [in capital] <upon turn end> <hidden from users>"
                 ]
             },
             {

@@ -136,7 +136,7 @@
             "Gain [1650] [Culture] (modified by game speed) <upon constructing [Class.WonderEra.Future]>",
 
             // Leader bonus
-            // Gains an additional Economic Policy Economic policy slot in all Governments. 
+            "Comment [Gains an additional Economic policy slot in all Governments].",
             "Gain [26] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Ancient]>",
             "Gain [80] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Classical]>",
             "Gain [166] [Science] (modified by game speed) <upon declaring friendship> <during the [Era.Medieval]>",
