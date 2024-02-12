@@ -33,7 +33,8 @@
         "type": "Pantheon",
         "uniques": [
             "[+1 Faith] from every [Natural Wonder]",
-            "[+1 Faith] from every [Mountain]"
+            "[+1 Faith] from every [Landform.Rainforest]",
+            "[+1 Faith] from every [Landform.Woods]"
         ]
     },
     {
