@@ -439,6 +439,7 @@
 		"uniques": [
 			"Occurs in groups of [4] to [4] tiles"
 		],
+		"turnsInto": "Grassland",
 		"movementCost": 2,
 		"unbuildable": true,
 		"weight": 10
@@ -457,6 +458,7 @@
 			"Occurs on latitudes from [30] to [80] percent of distance equator to pole",
 			"Occurs in groups of [2] to [2] tiles"
 		],
+		"turnsInto": "Grassland",
 		"unbuildable": true,
 		"weight": 10
 	},
@@ -520,7 +522,7 @@
 			"Must be adjacent to [3] to [6] [Desert] tiles", 
 			"Occurs on latitudes from [10] to [60] percent of distance equator to pole",
 			"Occurs in groups of [3] to [3] tiles", 
-			"[+1 Production, +3 Science] <starting from the [Atomic era]>"
+			"[+1 Production, +3 Science] <starting from the [Era.Atomic]>"
 		],
 		"turnsInto": "Desert",
 		"unbuildable": true,
@@ -534,6 +536,7 @@
 			"Must be adjacent to [3] to [6] [Tundra] tiles",
 			"Occurs in groups of [2] to [2] tiles", 
 		],
+		"turnsInto": "Tundra",
 		"unbuildable": true,
 		"weight": 10
 	},
