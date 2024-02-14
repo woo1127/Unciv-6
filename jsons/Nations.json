@@ -158,7 +158,6 @@
             "Gain [1650] [Culture] (modified by game speed) <upon declaring friendship> <during the [Era.Future]>",
             "Class.Nation.China"
 
-            // all governments have 1 more economic policy slot
         ],
         "uniqueText": "• Completing a Wonder grants a [Science] and [Culture] bonus based on the Wonder's era.\n\n• Grants 10% more [Science] and [Culture] bonus than usual\n\n• Eurekas and Inspirations provide an extra 20% of the [Science] and [Culture] cost for researching technologies and civics.\n\n• Grant a [Science] and [Culture] when declaring friendship with other civilization",
         "cities": ["咸阳", "长安", "渭城", "嘉陵", "蜀郡", "陈仓", "巴郡", "汉中", "雍城", "洛阳", "朝歌", "平阳", "凤陵渡", "武功", "泗水", "蓝田", "永嘉", "扶风", "上党", "阳城", "姑幕", "南郡", "巫县", "江陵", "郑君", "湖湘", "江夏", "襄阳", "会稽", "临淄"]
@@ -689,6 +688,9 @@
         "uniques": [
             // Civ ability
             "Comment [Each city can build one more specialty District than the Citizen Population limit would normally allow.]",
+
+			// Test Case - Not the UA of Germany
+			"[+45]% [Science] [in all cities] <while researching [Tech.Pottery]>",
 
             // Leader bonus
             "Comment [Wonders receive a +2 [Culture] bonus from each adjacent District.]",

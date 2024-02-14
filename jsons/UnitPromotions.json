@@ -761,5 +761,17 @@
             "[+54]% Strength",
             "[+10]% Spread Religion Strength"
         ]
+    },
+    {
+        "name": "Promotion.Rejuvenation",
+        "uniques": [
+            "All healing effects doubled"
+        ]
+    },
+    {
+        "name": "Promotion.WaterOfLife",
+        "uniques": [
+            "[+10] HP when healing"
+        ]
     }
 ]

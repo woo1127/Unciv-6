@@ -9,7 +9,6 @@
         "[-100]% unhappiness from the number of cities",
         "[-100]% [Gold] from Trade Routes",
         "[-100]% City-State Influence degradation",
-        "[-1 Gold] from every [River]",
         "[-1 Science] per [3] population [in all cities]",
         "[-20]% [Science] [in all cities] <during a Golden Age>",
         "[-20]% [Culture] [in all cities] <during a Golden Age>",
@@ -21,6 +20,11 @@
         "Gain [0] Influence with a [military units] gift to a City-State",
         "Gain [10] Influence with a [Unit.Envoy] gift to a City-State",
         "When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <after adopting [Pantheon.InitiationRites]>",
+
+        // Natural Wonders Effect
+        "[+5 Science] from every [Ocean] <with [1] to [3] neighboring [Bermuda Triangle] tiles>",
+        "[+2 Faith, +1 Gold] from every [Land] <with [1] to [1] neighboring [Delicate Arch] tiles>",
+        "[+1 Food, +1 Culture] from every [Land] <with [1] to [2] neighboring [Eyjafjallajökull] tiles>",
 
         // Eurekas (Some not work)
         // "Gain [20] [Science] <upon founding a city> <before discovering [Tech.Sailing]>",

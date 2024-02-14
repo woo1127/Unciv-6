@@ -5023,18 +5023,18 @@
         ],
         "replacementTextForUniques": " "
     },
-    {
-        "name": "Building.CultureAmountCheck",
-        "cost": 0,
-        "uniques": ["Will not be displayed in Civilopedia"],
-        "replacementTextForUniques": "A helper program to check the amount of [Culture] currently your civilization has."
-    },
-    {
-        "name": "Building.ScienceAmountCheck",
-        "cost": 0,
-        "uniques": ["Will not be displayed in Civilopedia"],
-        "replacementTextForUniques": "A helper program to check the amount of [Science] currently your civilization has."
-    },
+    // {
+    //     "name": "Building.CultureAmountCheck",
+    //     "cost": 0,
+    //     "uniques": ["Will not be displayed in Civilopedia"],
+    //     "replacementTextForUniques": "A helper program to check the amount of [Culture] currently your civilization has."
+    // },
+    // {
+    //     "name": "Building.ScienceAmountCheck",
+    //     "cost": 0,
+    //     "uniques": ["Will not be displayed in Civilopedia"],
+    //     "replacementTextForUniques": "A helper program to check the amount of [Science] currently your civilization has."
+    // },
     {
         "name":"Building.HidePolicy",
         "cost": 0,
